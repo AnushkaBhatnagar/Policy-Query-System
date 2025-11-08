@@ -47,15 +47,25 @@ def init_google_sheets():
     """Initialize Google Sheets client."""
     global sheets_client, SHEETS_ENABLED
     try:
+        # Try environment variable first (for Render deployment)
+        google_creds = os.environ.get('GOOGLE_CREDENTIALS')
+        if google_creds:
+            credentials_dict = json.loads(google_creds)
+            sheets_client = gspread.service_account_from_dict(credentials_dict)
+            logger.info("✓ Google Sheets logging enabled (from environment variable)")
+            return True
+        
+        # Fall back to credentials.json file (for local development)
         credentials_path = Path(__file__).parent / 'credentials.json'
         if credentials_path.exists():
             sheets_client = gspread.service_account(filename=str(credentials_path))
-            logger.info("✓ Google Sheets logging enabled")
+            logger.info("✓ Google Sheets logging enabled (from credentials file)")
             return True
-        else:
-            logger.warning("credentials.json not found - Google Sheets logging disabled")
-            SHEETS_ENABLED = False
-            return False
+        
+        logger.warning("No Google credentials found - Google Sheets logging disabled")
+        SHEETS_ENABLED = False
+        return False
+        
     except Exception as e:
         logger.error(f"Failed to initialize Google Sheets: {e}")
         SHEETS_ENABLED = False
