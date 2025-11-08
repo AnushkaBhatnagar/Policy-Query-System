@@ -16,6 +16,7 @@ from flask import Flask, render_template, request, jsonify, send_from_directory
 from anthropic import Anthropic
 import logging
 from dotenv import load_dotenv
+import gspread
 
 # Load environment variables from .env file
 load_dotenv()
@@ -36,6 +37,55 @@ cache_misses = 0
 
 # Conversation storage
 CONVERSATIONS = {}  # session_id: [messages]
+
+# Google Sheets logging
+SHEET_ID = "1Mh1wGgpNmTcQV_sZLMQCBPn6o32zmmXPwV3ihdT3U2E"
+SHEETS_ENABLED = True
+sheets_client = None
+
+def init_google_sheets():
+    """Initialize Google Sheets client."""
+    global sheets_client, SHEETS_ENABLED
+    try:
+        credentials_path = Path(__file__).parent / 'credentials.json'
+        if credentials_path.exists():
+            sheets_client = gspread.service_account(filename=str(credentials_path))
+            logger.info("✓ Google Sheets logging enabled")
+            return True
+        else:
+            logger.warning("credentials.json not found - Google Sheets logging disabled")
+            SHEETS_ENABLED = False
+            return False
+    except Exception as e:
+        logger.error(f"Failed to initialize Google Sheets: {e}")
+        SHEETS_ENABLED = False
+        return False
+
+def log_to_sheets(session_id, query, response, tool_uses, iterations, cached):
+    """Log query and response to Google Sheets."""
+    if not SHEETS_ENABLED or not sheets_client:
+        return
+    
+    try:
+        sheet = sheets_client.open_by_key(SHEET_ID).sheet1
+        
+        # Format tool uses as comma-separated names
+        tool_names = ', '.join([t['name'] for t in tool_uses]) if tool_uses else 'None'
+        
+        # Append row to sheet
+        sheet.append_row([
+            datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            session_id,
+            query,
+            response[:5000],  # Limit response length for sheets
+            tool_names,
+            iterations,
+            'Yes' if cached else 'No'
+        ])
+        
+        logger.info("✓ Logged to Google Sheets")
+    except Exception as e:
+        logger.error(f"Failed to log to Google Sheets: {e}")
 
 app = Flask(__name__, static_folder='static', static_url_path='')
 
@@ -360,6 +410,10 @@ def query():
                 add_to_conversation(session_id, "user", user_query)
                 add_to_conversation(session_id, "assistant", cached['response'])
                 
+                # Log to Google Sheets
+                log_to_sheets(session_id, user_query, cached['response'], 
+                            cached['tool_uses'], cached['iterations'], True)
+                
                 return jsonify({
                     "response": cached['response'],
                     "tool_uses": cached['tool_uses'],
@@ -497,6 +551,9 @@ OUTPUT:
             if len(get_conversation_history(session_id)) == 2:  # user + assistant
                 cache_response(user_query, final_response, tool_uses, iteration)
             
+            # Log to Google Sheets
+            log_to_sheets(session_id, user_query, final_response, tool_uses, iteration, False)
+            
             return jsonify({
                 "response": final_response,
                 "tool_uses": tool_uses,
@@ -612,6 +669,13 @@ if __name__ == '__main__':
     else:
         print("✗ MCP server failed to initialize")
         print("  Check that documents/ folder exists with policy files")
+    
+    # Initialize Google Sheets logging
+    print("Initializing Google Sheets logging...")
+    if init_google_sheets():
+        print("✓ Google Sheets logging ready")
+    else:
+        print("✗ Google Sheets logging disabled")
     
     print(f"Open your browser to: http://localhost:5000")
     print("Press Ctrl+C to stop the server")
