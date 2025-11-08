@@ -1,0 +1,696 @@
+[JURISDICTION:GSAS]
+[AUTHORITY:Graduate School of Arts and Sciences]
+[PRECEDENCE:3-University]
+[APPLIES_TO:All PhD programs in Arts and Sciences]
+
+GSAS
+
+[RULE:GSAS:AUTHORITY-001]
+The Graduate School of Arts and Sciences confers the degree for all Columbia PhD programs. The School of Science and Engineering (SEAS) is a Professional School which administers their own PhD programs, including admissions, degree requirements, financial aid, and student affairs.
+[/RULE]
+[CONFLICT-NOTE:GSAS confers degree, but SEAS administers for engineering programs]
+[SEE-ALSO:PhD_SEAS:GSAS-SEAS-001]
+
+Arts and Sciences Programs
+
+The Graduate School of Arts and Sciences administers the programs listed below and confers PhD degrees upon students who have met stated degree requirements.
+
+Anthropology
+Art History and Archaeology
+Astronomy
+Biological Sciences
+Chemical Physics
+Chemistry
+Classical Studies
+Classics
+Earth and Environmental Sciences
+East Asian Languages and Cultures
+Ecology, Evolution, and Environmental Biology
+Economics
+English and Comparative Literature
+French and Romance Philology
+Germanic Languages
+History
+Italian
+Latin American and Iberian Cultures
+Mathematics
+
+[SECTION:PROSPECTUS]
+Dissertation Prospectus
+
+[RULE:GSAS:PROSPECTUS-001]
+The dissertation prospectus is specific to each discipline, but in its broadest outline it is a document that explains in detail the thesis project, the critical and theoretical instruments used to approach it, the existing scholarship on the subject, and the original contribution that the proposed project entails. The aim of the prospectus is to persuade a panel of scholars in the student's field of the plausibility of the proposed research, rather than to anticipate its potential conclusions.
+[/RULE]
+[SEE-ALSO:PhD_SEAS:PROPOSAL-001]
+
+[RULE:GSAS:PROSPECTUS-CONTENT-001]
+The prospectus should include a tentative plan for the project's development in the form of a research schedule and a section-by-section account (if applicable). The prospectus is prepared in consultation with the advisor(s) who, in turn, determines when the document is ready to proceed to its defense.
+[/RULE]
+
+Students are responsible for ascertaining with their department/program whether there are additional requirements for the prospectus.
+
+[RULE:GSAS:PROSPECTUS-COMMITTEE-001]
+Doctoral dissertation prospectuses shall be approved in writing by a committee of at least three faculty: at least two must be Columbia faculty named on the list of approved dissertation advisors from the student's home department/program; a third can be from within the department, from another department at Columbia, or from outside the university (with GSAS permission). A dissertation advisor from the list of approved dissertation advisors from the student's home department/program must be named at the time of the prospectus defense.
+[/RULE]
+[REQUIREMENT:minimum 3 faculty]
+[REQUIREMENT:2 must be approved advisors from home dept]
+[EXCEPTION:3rd can be outside with permission]
+
+[RULE:GSAS:PROSPECTUS-SUBMIT-001]
+After the defense, the completed Dissertation Prospectus Committee Report, signed and approved by the committee members, must be submitted by the department to the Dissertation Office (gsas-dissertations@columbia.edu).
+[/RULE]
+
+[RULE:GSAS:PROSPECTUS-DEADLINE-001]
+Students must defend the prospectus by May 31 of their fourth year. Students who do not meet this deadline will lose good academic standing, be placed on probation, and not have their stipend disbursed for the ensuing fall semester. In exceptional circumstances, with a written rationale from the DGS and advisor and the approval of GSAS, students may receive a final opportunity to defend their prospectus before September 30 of the fifth year. Students who do so by September 30 of the fifth year will receive the full Dissertation Fellowship retroactively. Students who do not pass their prospectus by September 30 of their fifth year will lose PhD candidacy. For students who are off-cycle (those whose fifth year of matriculation begins in January), the corresponding deadlines described above will be December 15 and February 28.
+[/RULE]
+[TIMING:by May 31 of year 4]
+[CONSEQUENCE:loss of good standing, probation, no stipend]
+[EXCEPTION:final chance by Sept 30 of year 5]
+[CONSEQUENCE:loss of candidacy if not passed by Sept 30 year 5]
+[CONFLICT-CHECK:PhD_SEAS has different timeline - 8th semester]
+[SEE-ALSO:PhD_SEAS:PROPOSAL-001]
+
+[RULE:GSAS:PROSPECTUS-TIMING-001]
+In programs in which the defense of the dissertation prospectus is not one of the requirements for the MPhil degree, students are expected to defend their dissertation prospectus within six months after completion of the last requirement for the MPhil degree (not the MPhil degree conferral date). Students should consult with their director of graduate studies to determine whether their department or program has an earlier deadline. A student must defend the prospectus within four years from initial registration: "The Graduate School considers progress to be minimally satisfactory when progress is such that a student completes the MA degree within two years from initial registration, the MPhil degree and the prospectus defense within four years from initial registration, and the PhD within nine years from initial registration."
+[/RULE]
+[TIMING:within 6 months after MPhil last requirement]
+[TIMING:within 4 years from initial registration]
+[STANDARD:MA within 2 years, MPhil+prospectus within 4 years, PhD within 9 years]
+
+[RULE:GSAS:PROSPECTUS-TRAVEL-001]
+Any student traveling internationally to conduct dissertation research must comply with the pre-departure requirements of the University's International Travel Planning Policy. Requirements can include travel approval by the Dean, and in some instances, Dean and Provost. For more information about these requirements, visit Planning Columbia-Related International Travel.
+[/RULE]
+
+[SECTION:ADVISOR]
+Faculty Advising of the Dissertation
+
+Students should consult with a faculty advisor or the director of graduate studies (DGS) regarding departmental procedures for securing a dissertation advisor. The responsibility for finding a willing advisor rests with the student. Securing an advisor is one of the criteria for good academic standing.
+
+I. Dissertation Advisors
+
+[RULE:GSAS:ADVISOR-DEF-001]
+Dissertation Advisors are faculty members nominated by PhD programs and approved by the dean of the Graduate School of Arts and Sciences to guide dissertation research. Advisors must be involved on a continuing basis in doctoral instruction and research at Columbia. Faculty may supervise dissertations in their own department and in any other department in which they have been designated as approved dissertation advisors. Please see a list of the responsibilities and expectations for dissertation Advisors.
+[/RULE]
+[REQUIREMENT:ongoing involvement in doctoral instruction]
+
+[RULE:GSAS:COADVISOR-001]
+Students may arrange to have two Columbia faculty members co-advise the dissertation, as long as both faculty members agree to the arrangement. The department should mark the Third examiner is a dissertation co-advisor checkbox on the Application for the Dissertation Defense prior to submitting to the Dissertation Office (gsas-dissertations@columbia.edu) for review. Departmental policy determines whether non-tenured faculty on the tenure track must co-advise a dissertation with a tenured faculty member. Emeriti professors may not supervise new dissertations but may be nominated to participate in defense committees as Readers (see below). Please consult the Approved Dissertation Advisors page for a list of Advisors by program.
+[/RULE]
+[EXCEPTION:non-tenured may need tenured co-advisor]
+[RESTRICTION:emeriti cannot supervise new dissertations]
+[SEE-ALSO:PhD_SEAS:ADVISOR-001]
+
+[RULE:GSAS:NO-COTUTELLE-001]
+Columbia does not permit co-tutelles, an arrangement whereby a student receives doctoral degrees from two institutions simultaneously. Columbia faculty may serve on dissertation committees for students in other institutions; they may also serve as co-advisors of the dissertation if the internal rules of the other university allow it. In such instances, the single degree would be issued by the other institution.
+[/RULE]
+
+Advisor Eligibility and Nomination
+
+[RULE:GSAS:ADVISOR-NOMINATION-001]
+Nominations for new Advisors are initiated by departments or programs. Full-time tenured and non-tenured faculty who hold an appointment at Columbia are nominated by the chair or DGS of the department or program in which the nominee holds a full-time appointment or where the department or program wishes to grant dissertation Advisor status. The nomination procedures for each faculty category are listed below:
+[/RULE]
+
+[RULE:GSAS:ADVISOR-TENURE-001]
+Tenured or tenure-track faculty advisors: The department or program chair or DGS nominates tenured or tenure-track faculty by providing the curriculum vitae of the individual to the Office of the Dean (gsas-dean@columbia.edu). If the nomination is approved, GSAS will produce a formal Advisor appointment letter for the nominee.
+[/RULE]
+
+[RULE:GSAS:ADVISOR-NONTENURE-001]
+Non-tenure-track faculty advisors: The department or program chair or DGS may nominate non-tenure-track faculty by providing a letter of nomination and the curriculum vitae of the individual to the Office of the Dean (gsas-dean@columbia.edu). If the nomination is approved, GSAS will produce a formal Advisor appointment letter for the nominee. The nomination letter for non-tenure track faculty should contain the following:
+A statement about whether approval is requested on a continuing basis or for a given dissertation, in which case the student's name should be noted.
+Indication of the substantive field(s) in which the faculty member will be expected to supervise dissertations
+Evidence that the proposed Advisor has the requisite scholarly qualifications and the sustained research production to guide dissertation research in these field(s)
+Evidence that the nominee is involved on a continuing basis in graduate education and research
+[/RULE]
+
+[RULE:GSAS:ADVISOR-ADJUNCT-001]
+Adjunct faculty advisors: Adjunct faculty are eligible to serve as Co-Advisors, provided that a full-time Columbia faculty member serves as the primary Advisor. This co-advisorship provision reflects the GSAS Executive Committee's conviction that Columbia University dissertations should be advised or co-advised by approved full-time faculty members. Adjunct faculty are nominated as Advisors using the process outlined above for non-tenure-track faculty.
+[/RULE]
+[REQUIREMENT:full-time Columbia faculty as primary advisor]
+
+II. Dissertation Readers
+
+[RULE:GSAS:READER-DEF-001]
+Dissertation Readers are faculty members who have been approved as dissertation Advisors, and who are nominated ad-hoc by PhD programs and approved by the dean of the Graduate School of Arts and Sciences to participate in a given dissertation defense. All members of a dissertation defense committee must be approved dissertation Advisors or Readers. Faculty from outside Columbia may be nominated to serve as Readers in dissertation defenses through the process described below.
+[/RULE]
+
+[RULE:GSAS:READER-OUTSIDE-001]
+Readers from outside the department or program: At least one (but preferably two) of the five members of the defense committee must be an outside Reader, defined as:
+a faculty member, clinician, or practitioner who holds a position at another university or research institution
+a full-time faculty member at Columbia University outside the student's own department or program
+a research scientist at Columbia University outside the student's own department or program
+an adjunct professor at Columbia University outside the student's own department or program
+a full-time faculty member whose appointment is at Barnard College, Jewish Theological Seminary, Teachers College, or Union Theological Seminary
+a full-time faculty member in the student's interdisciplinary program whose field is outside of the student's dissertation field.
+[/RULE]
+[REQUIREMENT:at least 1, preferably 2 outside readers]
+
+[RULE:GSAS:READER-NOMINATION-001]
+Readers for a given dissertation defense committee are nominated by the department or program chair in consultation with the Advisor or DGS. When submitting the Application for Dissertation Defense to the Dissertation Office (gsas-dissertations@columbia.edu), the department or program provides the dissertation officer with evidence of the outside Reader's qualifications—usually a curriculum vitae—for review and approval by the Dean's Office. This requirement applies only to Readers from outside Columbia/Barnard.
+[/RULE]
+
+[RULE:GSAS:READER-APPROVAL-001]
+Final approval of the members of a dissertation defense committee rests with the dean of the Graduate School of Arts and Sciences. When proposing defense committee members who: have not been previously approved to serve on a defense committee; who do not have a Columbia affiliation; who do not serve at Columbia in an adjunct capacity, and/or who do not hold a PhD degree, programs must submit to GSAS a copy of their curriculum vitae together with the Application for Dissertation Defense.
+[/RULE]
+
+III. Removal of Advisor Designation, Departing Advisors, and Emeriti Faculty
+
+[RULE:GSAS:ADVISOR-REMOVAL-001]
+Programs may decide to remove a faculty member from their list of approved dissertation Advisors. Such decisions should be communicated to the Office of the Dean, along with the date when the removal should become effective. An Advisor who leaves the university may continue to advise dissertations that were in course at the time of his or her departure and may continue to serve as Reader on committees that were previously arranged.
+[/RULE]
+
+[RULE:GSAS:ADVISOR-EMERITI-001]
+Emeriti faculty may also continue to advise dissertations that were in course at the time of their retirement, and may continue to serve as Readers on committees that were previously arranged.
+[/RULE]
+
+[SECTION:PROGRESS-MEETINGS]
+Dissertation Progress Meetings
+
+[RULE:GSAS:PROGRESS-MEETING-001]
+Beginning in the semester following the defense of their prospectus, students will meet once each semester with their advisor and at least one other faculty member, in order to receive timely feedback on their dissertation work and regular support throughout the dissertation-writing process.
+[/RULE]
+[TIMING:each semester after prospectus defense]
+[REQUIREMENT:advisor + at least 1 other faculty]
+
+[RULE:GSAS:PROGRESS-COMMITTEE-001]
+Students should consult with their advisor or DGS after the prospectus defense to identify the other faculty who will constitute, along with the advisor, a committee that will meet regularly with them to provide feedback on their work. The reader(s) other than the advisor may be from within the department or from another department, as recommended by the dissertation topic. Dissertation Progress Meetings should be scheduled each semester until the semester before the distribution of the defense to the larger thesis defense committee. Students or faculty who are not physically on campus in a given semester may use their preferred video-conferencing platform to participate.
+[/RULE]
+[TIMING:until semester before defense distribution]
+[EXCEPTION:video conferencing allowed]
+
+If you have any questions or concerns about Dissertation Progress Meetings, please write to the GSAS Office of Student Affairs at gsas-studentaffairs@columbia.edu.
+
+Process & Timeline
+
+Beginning of the semester: GSAS sends a message to students in the dissertation-writing phase encouraging them to schedule a Dissertation Progress Meeting by the end of that term. DGSs may send their own email in support.
+
+Week 10 of the semester: Departments will check-in with students using a simple form (devised by a student working group).
+
+Example form:
+
+*I have met with my advisor/committee this semester and received feedback. I am clear on the next steps for my research and writing.
+
+*I have met with my advisor/committee this semester. However, I am unclear about the next steps for my research and writing. I plan on arranging another meeting with them, but I would also appreciate a follow-up with the DGS.
+
+*I have not been able to schedule a meeting with my committee this semester. I plan to schedule one, but I would also appreciate a follow-up with the DGS.
+
+*I have scheduled my meeting this semester but it has not happened yet.
+
+[TEXT BOX for any comments]
+
+Week 11 of the semester: GSAS will follow up with students who have not responded to the questionnaire.
+
+Frequently Asked Questions
+
+How many committee members may participate in my dissertation progress meeting?
+Your sponsor and at least one other member from your committee should meet with you to provide feedback on your dissertation work and general progress.
+
+Do all faculty participating need to be physically present in the meeting?
+Faculty may use video conferencing software (Zoom, Google Meet, etc.) to participate remotely. They may also provide written feedback if not able to connect into the meeting.
+
+What if my advisor is on sabbatical?
+Even while on sabbatical, faculty advisors have an obligation to supervise students whose dissertations they sponsor; faculty who are not on campus may participate remotely, as noted above.
+
+What if I am away from campus, conducting research?
+You may participate remotely via video conferencing software.
+
+What if I am conducting research, and have not yet written anything to submit for review?
+You may submit a summary of your research work for faculty feedback. The general principle is to have regular contact with your sponsor and other members of your committee.
+
+What if in a given semester I am in an entirely inaccessible place?
+Please communicate with your sponsor as soon as you return to connectivity. Also, please let your sponsor know your expected date of return before you leave.
+
+[SECTION:DEFENSE-APPLICATION]
+Application for the Dissertation Defense
+
+[RULE:GSAS:DEFENSE-APP-001]
+The Application for the Dissertation Defense form should be submitted to GSAS by the department or program office when the five proposed examiners, defense date and location have been finalized. This form must be reviewed and approved by GSAS before the defense may take place. The department or program office should send us the completed form ideally four—but no fewer than two—weeks before a defense takes place. Any forms received within two weeks of a defense will be rejected, and the defense will have to be rescheduled.
+[/RULE]
+[TIMING:ideally 4 weeks, minimum 2 weeks before defense]
+[CONSEQUENCE:rejection if <2 weeks]
+[SEE-ALSO:PhD_SEAS:DEFENSE-SEMINAR-001]
+
+[SECTION:DEFENSE-PROCESS]
+Distribution, Defense, and Deposit of the Dissertation
+
+All of the steps below can take place at any time during the year. If you are aiming to receive your degree at a specific degree conferral (October, February, or May), you must follow a set of Dissertation Dates and Deadlines for that conferral. These steps are intended to be a general guideline for the distribution, defense, and deposit, but it is your responsibility to review the more detailed policies, such as those on copyrighted material and "fair use", found in the Dissertation Office page.
+
+Note for Teachers College PhD students: Only steps 6 through 10 below apply to TC PhD students. Please contact the TC Office of Doctoral Studies for more information about the procedures leading up to the dissertation defense.
+
+Get in touch with your department or program's office. Your program's graduate coordinator or DAAF should be your first stop when preparing to distribute and defend. They are knowledgeable about GSAS policies, and can advise you on any program requirements that go beyond GSAS rules.
+
+[RULE:GSAS:DEFENSE-COMMITTEE-SELECT-001]
+Discuss with your advisor to determine your five-person examining committee. Guidelines for the nomination and appointment of the defense committee are available here. Any questions about committee composition should be directed either to your chair, DGS, DAAF, or to the Dissertation Office. GSAS policy states that students should not be put in the position of approaching faculty members about serving on their committee. This is the responsibility of the advisor and/or department.
+[/RULE]
+[REQUIREMENT:5-person committee]
+[PROCESS:advisor/department responsibility, not student]
+
+[RULE:GSAS:DEFENSE-SUBMIT-001]
+Only departmental or program administrators may submit the five names of your proposed committee to GSAS for approval. The Application for Dissertation Defense form is signed by your department or program's chair or director of graduate studies, and is submitted by your program's office to the GSAS Dissertation Office. The form is available online here.
+[/RULE]
+
+Your department or program schedules the defense.
+
+[RULE:GSAS:DEFENSE-DISTRIBUTION-001]
+Distribute final copies of your dissertation to your five examiners after your committee is approved. You must be registered for the semester in which your distribution takes place. This is your final semester of registration, even if your defense and deposit take place in a subsequent semester. Click here for more detailed information about final registration requirements. International students with questions about their registration and remaining in visa compliance should contact the International Students and Scholars Office (ISSO). Note: The term in which distribution occurs is the last semester in which a student is permitted to register, even if the defense takes place in a subsequent term. Full-time doctoral students who are supported on faculty grants through twelve-month research appointments in the sciences and related fields should pay particular attention to the special conditions that are noted on the Registration and Application for PhD Defense page.
+[/RULE]
+[REQUIREMENT:must be registered for distribution semester]
+[NOTE:distribution semester = last registration]
+[SEE-ALSO:PhD_SEAS:DEFENSE-REG-001,ISSO:ENROLLMENT-001]
+
+[RULE:GSAS:DEFENSE-TIMING-001]
+Defend your dissertation. GSAS expects that the defense will take place within two months after distribution. During the actual examination, there should be no one present other than the five examiners and the doctoral candidate.
+[/RULE]
+[TIMING:within 2 months of distribution]
+[RESTRICTION:only examiners and candidate present]
+
+[RULE:GSAS:DEFENSE-REVISIONS-001]
+Complete any required revisions. Students who receive a vote of "approved pending revisions" are given a maximum of six months to complete these revisions and deposit their dissertation. For more detailed information, please consult this page.
+[/RULE]
+[TIMING:maximum 6 months for revisions]
+
+[RULE:GSAS:DEFENSE-APPROVAL-001]
+Obtain approval to deposit your dissertation, and determine if any part of your dissertation includes coauthored material. Approval to deposit is done using the Approval Card, given to you upon passing your defense. After your revisions are approved, the card must be signed by your advisor, as well as your department chair or program director. These signatures allow you to deposit your dissertation.
+[/RULE]
+
+[RULE:GSAS:COPYRIGHT-001]
+Under copyright law, you automatically hold a copyright on your work. This is why we have you include a copyright page in your dissertation. Copyright registration provides important practical and legal benefits beyond those you already enjoy as the creator of an original work. Columbia's Copyright Advisory Office provides extensive information about copyright issues; of particular interest is this page, which explains your rights as the author of a dissertation or of any other original work.
+
+If you are the sole author of your dissertation, you may proceed with single-author copyright registration through ProQuest/UMI. This service costs $75, and can be paid via credit card directly to ProQuest through the upload system.
+
+If your dissertation includes coauthored text or materials, you must register directly with the US Copyright Office via a Standard Application.
+[/RULE]
+
+Deposit your dissertation with GSAS. This is the final step to earning the PhD or DMA degree. Complete information regarding the deposit is available through the Deposit Gateway. You should also review the FAQs about the electronic deposit system.
+
+Register to Participate in Graduation Ceremonies. DMA and PhD graduates of Arts and Sciences programs from the October, February, and May degree conferrals may participate in GSAS Doctoral Convocation, which, along with University Commencement, is held in May. We look forward to celebrating your accomplishment with you, but you are not required to attend the graduation ceremonies to receive your degree.
+
+For questions about the deposit process, please contact the Dissertations Office at gsas-dissertations@columbia.edu.
+
+[SECTION:DEFENSE-REGISTRATION]
+Defending Your Dissertation
+
+Registration and Application for the Defense
+
+[RULE:GSAS:DEFENSE-REG-001]
+Doctoral students must be registered during the term in which they distribute the defense copies of the dissertation (as approved for defense by the sponsor) to the five approved defense committee members (see Distributing Dissertation Copies). Students who are defending while on teaching or research appointments, or who are also completing pre-dissertation degree requirements, must register for Extended Residence; other students should register for Matriculation and Facilities. These rules apply to the fall and spring semesters.
+[/RULE]
+[REQUIREMENT:must be registered for distribution term]
+[CONDITION:ER if on appointment or completing requirements]
+[CONDITION:M&F otherwise]
+[TIMING:fall and spring semesters]
+[SEE-ALSO:PhD_SEAS:DEFENSE-REG-001,PhD_SEAS:ER-001,PhD_SEAS:MF-001]
+
+[RULE:GSAS:DEFENSE-LAST-REG-001]
+Note: The term in which distribution occurs is the last semester in which a student is permitted to register, even if the defense takes place in a subsequent term.
+[/RULE]
+[CONFLICT-CHECK:important for international students per ISSO]
+
+Distribution deadlines can be found here.
+
+Dates for the fall and spring terms can be found on the Registrar's Academic Calendar.
+
+Dates for the summer term can be found on the School of Continuing Education website.
+
+Students covered under the Columbia Student Health Insurance Plan are strongly advised to review the information regarding the plan's coverage periods and important dates. Students with specific questions regarding their insurance coverage should contact the Columbia Health Insurance Office at studentinsurance@columbia.edu.
+
+Students with active Columbia Residential leases should review the policy regarding dissertation defenses and housing eligibility.
+
+PhD Students Supported on Faculty Grants Through 12-month Research Appointments (Sciences and Related Fields)
+
+[RULE:GSAS:GRANT-STUDENTS-001]
+The intent of this policy is to manage carefully the retention of funding of such students between distribution and deposit of their dissertations.
+
+Students must be registered to distribute the dissertation to the examination committee.
+
+Students retain their student status and funding until the end of the semester in which they distribute their dissertation, should that be necessary to defend and complete required revisions in order to deposit. Students should be given a reasonable time after the defense to deposit the thesis as determined by the thesis defense committee and advisor and as approved by the DGS/Chair of the student's department and by the Office of the Dean. Once the thesis is deposited, funding may be terminated unless there is a mutually agreed upon arrangement to continue support until the end of the semester. Students should understand the implications of the timing of their dissertation defense on their eligibility for enrollment in the Columbia Student Health Insurance Plan as well as their eligibility to hold a Columbia Residential lease.
+[/RULE]
+[APPLIES_TO:students on 12-month research appointments]
+[TIMING:status and funding until end of distribution semester]
+
+[RULE:GSAS:GRANT-STUDENTS-002]
+For students who distribute and defend in the same semester, changes in student status and funding between the defense date and either the anticipated deposit date or the end of the semester in which the defense occurs (whichever is earlier) must be approved by the DGS/Chair of the student's department and by the Office of the Dean. Students who are supported by individual grants or other external awards also retain their student status until the end of the semester in which they distribute their dissertation but should consult their funding agency regarding policies specific to their awards.
+[/RULE]
+[REQUIREMENT:approval needed for status/funding changes]
+
+[RULE:GSAS:GRANT-STUDENTS-003]
+Students who distribute but who do not defend in the same semester may register for the last time in the following semester. Such students retain their student status and funding as described above. Any change in student status or funding between the defense date and either the anticipated deposit date or the end of the semester in which the defense occurs (whichever is earlier) must be approved by the DGS/Chair of the student's department and by the Office of the Dean.
+[/RULE]
+
+[RULE:GSAS:GRANT-STUDENTS-004]
+Students who distribute and defend in the same semester may not register again. Students who are not registered may not serve as student officers.
+[/RULE]
+[RESTRICTION:cannot register after distribute+defend same semester]
+
+[RULE:GSAS:GRANT-STUDENTS-005]
+Students should be mindful that the degree conferrals in October, February, and May terminate student status and therefore eligibility for funding as a student officer.
+[/RULE]
+
+[RULE:GSAS:DEFENSE-INTL-REG-001]
+International students must be registered during the term in which they distribute the defense copies of the dissertation, as stated in the previous section. International students in F-1 or J-1 status must consult with the International Students and Scholars Office to make sure they remain in visa compliance for the dissertation defense.
+[/RULE]
+[APPLIES_TO:international students]
+[REQUIREMENT:consult ISSO for visa compliance]
+[SEE-ALSO:ISSO:ENROLLMENT-001,PhD_SEAS:DEFENSE-INTL-001]
+
+For All Students
+
+[RULE:GSAS:DEFENSE-FORMS-001]
+Doctoral program offices should ideally submit the Application for the Dissertation Defense four—but no fewer than two—weeks before the scheduled defense date. The application must be typed; handwritten applications will not be accepted. Applications received less than two weeks before the proposed defense date will require that the defense be rescheduled.
+[/RULE]
+[TIMING:ideally 4 weeks, minimum 2 weeks]
+[CONSEQUENCE:rescheduled if <2 weeks]
+
+[SECTION:COMMITTEE-COMPOSITION]
+Nomination and Appointment of the Defense Committee
+
+The following rules pertain only to the final dissertation defense committee.
+
+[RULE:GSAS:COMMITTEE-SELECT-001]
+The responsibility for selecting and recommending the final defense committee members rests with the advisor, department or program chair, and the director of graduate studies. Students may not select their own defense committees; furthermore, students should not be placed in the position of having to ask particular faculty members to serve on their defense committees.
+[/RULE]
+[PROCESS:advisor/dept responsibility, not student]
+
+[RULE:GSAS:COMMITTEE-FIVE-001]
+The doctoral defense will be conducted by a final defense committee that is composed of exactly five members. Three of the members of the final defense committee (Dissertation Defense Moderator, Dissertation Advisor, and Third Examiner) must be inside examiners (holding a formal appointment or approved as a dissertation advisor in the doctoral candidate's home department or program).
+[/RULE]
+[REQUIREMENT:exactly 5 members]
+[REQUIREMENT:3 must be inside examiners]
+
+[RULE:GSAS:COMMITTEE-MODERATOR-001]
+*An Assistant Professor may serve as Dissertation Defense Moderator as long as they have previously participated on a student's dissertation defense committee.
+[/RULE]
+[EXCEPTION:Assistant Professor as moderator if prior experience]
+
+A complete list of approved dissertation advisors is available here. 
+
+[RULE:GSAS:COMMITTEE-OUTSIDE-001]
+At least one (but preferably two) of the five must be an outside examiner, defined as:
+a faculty member, clinician, or practitioner who holds a position at another university or research institution
+a full-time faculty member at Columbia University outside the student's own department or program
+a research scientist at Columbia University outside the student's own department or program
+an adjunct professor at Columbia University outside the student's own department or program
+a full-time faculty member whose appointment is at Barnard College, Jewish Theological Seminary, Teachers College, or Union Theological Seminary
+OR
+a full-time faculty member in the student's interdisciplinary program whose field is outside of the student's dissertation field
+[/RULE]
+[REQUIREMENT:at least 1, preferably 2 outside examiners]
+
+[RULE:GSAS:COMMITTEE-OUTSIDE-EXPLAIN-001]
+In cases where the "outside" member satisfies criterion 6 above, the department/program must include with the defense application a brief explanation to clarify how the fifth examiner's primary field differs from the focus of the student's dissertation.
+[/RULE]
+
+[RULE:GSAS:COMMITTEE-NOMINATION-001]
+Examiners from the list above are nominated by the department or program chair in consultation with the advisor or DGS. When submitting the Dissertation Defense Application, the department/program provides the dissertation officer with evidence of the examiner's qualifications, usually a curriculum vitae, for approval by the Dean's Office.
+[/RULE]
+
+[RULE:GSAS:COMMITTEE-APPROVAL-001]
+Final approval of the members of a final defense committee rests with the dean of the Graduate School of Arts and Sciences.
+
+When proposing defense committee members who have not been previously approved to serve on a defense committee and who
+do not have a Columbia affiliation, and/or
+do not serve at Columbia in an adjunct capacity, and/or
+do not hold a PhD
+PhD programs must submit to GSAS a copy of their curriculum vitae together with the Application for Dissertation Defense.
+[/RULE]
+
+[SECTION:SCHEDULING]
+Scheduling the Defense
+
+[RULE:GSAS:SCHEDULE-001]
+No defense shall be scheduled until the dissertation sponsor and department/program chair have signified that, in their judgment, the dissertation warrants a defense by signing the defense application. A determination by the sponsor that a dissertation warrants a defense does not necessarily indicate a passing vote at the dissertation defense.
+[/RULE]
+[REQUIREMENT:sponsor and chair signatures]
+
+[RULE:GSAS:SCHEDULE-002]
+Defenses are scheduled by the administrative office of the PhD candidate's department or program.
+
+GSAS requires that the Application for Dissertation Defense be submitted to the Dissertation Office at least two weeks prior to the scheduled defense date. For programs in the Arts and Sciences and in Teachers College, the Dissertation Office sends official notifications of defense time, date, and place via email, to students, examiners and departments. Other schools, divisions, and departments/programs arrange their own notifications.
+[/RULE]
+[TIMING:at least 2 weeks before defense]
+
+[RULE:GSAS:SCHEDULE-VOTING-001]
+After obtaining the defense time, date, and place, the GSAS Dissertation Office prints the Voting Sheet and sends it, along with copyright, formatting, and deposit information to the candidate's department/program (see Formatting Guidelines and Electronic Deposit Gateway). At the conclusion of the defense, committee members indicate their votes on and sign the Voting Sheet, which becomes a formal record of the defense for the Graduate School. The department/program must return the signed Voting Sheet to the Dissertation Office. The Voting Sheet should not be given to the student. The candidate receives the remaining deposit materials at the end of the defense.
+[/RULE]
+[RESTRICTION:Voting Sheet not given to student]
+
+[SECTION:DISTRIBUTION]
+Distributing Dissertation Copies
+
+[RULE:GSAS:DISTRIBUTION-001]
+GSAS strongly advises that students distribute final copies of the dissertation to defense committee members at least four weeks before the anticipated defense date, to allow adequate time for committee members to review the dissertation thoroughly. GSAS expects that the defense will take place within two months after distribution. Students who wish to defend and deposit in time for a particular degree conferral date (February, May, October) should keep this timing in mind when planning their final distribution.
+[/RULE]
+[TIMING:advised 4 weeks before defense]
+[TIMING:defense within 2 months of distribution]
+
+[RULE:GSAS:DISTRIBUTION-APPROVAL-001]
+The department/program approves the dissertation for distribution by submitting an Application for Dissertation Defense to GSAS at least two weeks prior to the planned defense date. Per GSAS policy, students must be continuously registered up to and including the semester in which they distribute. Please review the registration requirements for distribution.
+[/RULE]
+[REQUIREMENT:continuous registration through distribution]
+[SEE-ALSO:ISSO:ENROLLMENT-001]
+
+[RULE:GSAS:DISTRIBUTION-FORMAT-001]
+The final dissertation should be distributed to the examiners either in digital format or printed on paper, depending on the preference of the individual examiners. The dissertation must be complete, including bibliography, footnotes, abstract, and table of contents, and should conform to the norms of the student's field. The Dissertation Office does not examine distribution copies for compliance with formatting.
+[/RULE]
+
+[SECTION:DEFENSE-CONDUCT]
+Defense and Evaluation
+
+[RULE:GSAS:DEFENSE-EXAM-001]
+The Graduate School of Arts and Sciences requires that all doctoral dissertations undergo a formal examination in which the student has the opportunity to discuss and defend the dissertation with respect to its sources, findings, interpretations, and conclusions before a committee of faculty knowledgeable in the student's field of research. All faculty members of the defense committee are expected to be present at the defense.
+[/RULE]
+[REQUIREMENT:all faculty expected to be present]
+
+[RULE:GSAS:DEFENSE-CLOSED-001]
+Only the candidate and the approved members of the dissertation defense committee may be present during the defense. Columbia University policy does not allow spectators or other individuals to attend a defense. Audio or video recording during the defense is strictly prohibited. No exceptions to this rule are permitted unless recommended through the amended Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act.
+[/RULE]
+[RESTRICTION:closed defense - no spectators]
+[RESTRICTION:no recording]
+[EXCEPTION:ADA accommodations]
+[CONFLICT-NOTE:PhD_SEAS requires public seminar before defense]
+
+Participation in Doctoral Dissertation Defenses
+
+[RULE:GSAS:DEFENSE-REMOTE-001]
+The dissertation defense is a milestone ideally reached with all five members of a student's dissertation committee present. When a committee member can only participate from afar, an accommodation may be made by employing audio or video conferencing during the defense. A maximum of two members of the dissertation defense committee may participate remotely, but the dissertation defense moderator and the advisor must be present at the defense.
+[/RULE]
+[LIMITATION:maximum 2 remote participants]
+[REQUIREMENT:moderator and advisor must be present]
+
+[RULE:GSAS:DEFENSE-REMOTE-PROCESS-001]
+The dissertation defense moderator will register the need for remote participation on the GSAS Application for the Dissertation Defense, and will sign the voting sheet on the absent member's behalf after the defense. Committee members who must participate remotely are requested to submit comments, questions, and a provisional vote in advance so that the defense exercise may proceed in the event technical difficulties are encountered during the proceedings.
+[/RULE]
+
+As students, faculty, and staff return to campus, the default expectation for defense exercises will return to in-person. Current university policies seek to minimize visits to campus and require an approval process, which may have an impact on the ability of external participants to attend an in-person defense.
+
+Committee Member Absence in Exceptional Circumstances
+
+[RULE:GSAS:DEFENSE-ABSENCE-001]
+The dissertation defense committee may convene when one member is prevented from participating by extreme circumstances at the time of the defense. Such a last-minute absence will count toward the total of two members allowed to participate remotely. If possible, the absent member should, before the defense, submit a report containing comments, questions, and a provisional vote on the dissertation's approval. The dissertation defense moderator will convey these questions to the candidate at the defense and rule on the quality the responses made. If circumstances prevent the submission of a report before the defense, the absent member's report should be sent as soon as possible after the defense to the dissertation defense committee chair and to the dean of the Graduate School. The committee vote will not be considered final until the report is reviewed and the dissertation defense moderator determines whether any further action is warranted.
+[/RULE]
+[LIMITATION:absence counts toward 2 remote max]
+
+[SECTION:EXAM-PROCEDURES]
+Examination Procedures
+
+[RULE:GSAS:EXAM-DURATION-001]
+The examination normally lasts two hours. The candidate is generally asked to begin by summarizing the pertinent background and findings. Such summaries should be limited to no more than fifteen minutes. The dissertation defense moderator is responsible for allotting time, normally allowing each faculty member twenty minutes in which to examine the candidate.
+[/RULE]
+[DURATION:2 hours]
+[TIMING:candidate summary max 15 minutes]
+[TIMING:each faculty 20 minutes]
+
+[RULE:GSAS:EXAM-PROCESS-001]
+Examiners will have a lists of points they wish to discuss. These points are either substantial or editorial. Unless it is necessary to show that a very poorly written dissertation must be entirely rewritten, examiners should not take up these editorial comments one by one. Examiners should give their sheets of notes on these matters to the candidate, leaving time to examine matters of substance.
+
+When all examiners have finished their questioning, the dissertation defense moderator asks the candidate to step outside the examination room, and wait for an invitation to return.
+
+During the discussion period, the committee makes its decision on the defense and votes on the outcome. Upon the candidate's return to the room, the dissertation defense moderator will inform the candidate of the committee's determination, and provide further instructions.
+[/RULE]
+
+[RULE:GSAS:VOTING-PROCESS-001]
+The dissertation defense moderator must reflect the vote of each member of the committee by clicking on the appropriate vote column of the Final Examination for the Doctoral Degree, and by typing their name into the field titled Signature of Defense Chair. After the vote has been recorded, the dissertation defense moderator will need to save the Voting Sheet as a PDF and email it to the person in the department who typically collects these forms. The dissertation defense moderator should immediately email the Voting Sheet to the department so that the vote may be delivered to and recorded by GSAS as soon as possible. The department is responsible for emailing the Voting Sheet to the Dissertation Office (gsas-dissertations@columbia.edu) on the same day as the defense, or in the case of a late-afternoon defense, no later than the following business day. Under no circumstance should the voting sheet be given to the student.
+[/RULE]
+[TIMING:same day or next business day]
+[RESTRICTION:not given to student]
+
+[RULE:GSAS:VOTING-REMOTE-001]
+In in-person defenses, a maximum of two members of the dissertation defense committee may participate remotely; the dissertation defense moderator and the advisor must be present at the defense. The committee chair will register the need for remote participation on the GSAS Application for the Dissertation Defense, and will sign the voting sheet on the absent member's behalf after the defense.
+[/RULE]
+
+[RULE:GSAS:VOTING-ABSENT-001]
+Examiners who, due to an unforeseen emergency, were not able to attend the defense or participate via audio or video conference must provide questions, comments, and their provisional vote to the dissertation defense moderator of the examining committee, either before the defense takes place or as soon as possible after the defense. The chair must then sign the absent examiner's name in the appropriate column, followed by the dissertation defense moderator's initials.
+[/RULE]
+
+[SECTION:VOTE-OUTCOMES]
+The Vote
+
+[RULE:GSAS:VOTE-MAJORITY-001]
+All dissertation defense outcomes are determined by a minimum of three votes in one category (Approved as Submitted, Approved Pending Revisions, Referred, or Fail). Members of the defense committee should consider themselves independent examiners, and should not feel pressured—or be pressured—to join the majority opinion of the committee. While respecting disciplinary differences, the PhD degree should only be awarded to research that represents an original contribution to the field, no matter the field. If a dissertation receives two votes in the Referred and/or Fail categories, the Voting Sheet and dissertation must be submitted to the Dean of the Graduate School of Arts and Sciences for review. In such instances, the candidate should be informed that the committee's vote was not conclusive, and to await further communication from the Office of the Dean. For more information, please review the defense vote policies.
+[/RULE]
+[REQUIREMENT:minimum 3 votes in one category]
+[CONSEQUENCE:Dean review if 2+ Referred/Fail votes]
+
+Approved as Submitted
+
+[RULE:GSAS:VOTE-APPROVED-001]
+The committee may ask that minor revisions or corrections be made before the dissertation is deposited. The committee should convey an account of those minor revisions to the candidate at the defense. These minor revisions should be completed to the satisfaction of the advisor within one month after the defense. If for exceptional reasons more time is needed, the candidate may apply for an additional one-month extension by submitting a letter to gsas-dean@columbia.edu with the request.
+[/RULE]
+[TIMING:minor revisions within 1 month]
+[EXCEPTION:can request 1 additional month]
+
+Approved Pending Revisions
+
+[RULE:GSAS:VOTE-PENDING-001]
+The committee may ask that revisions be made before the dissertation is deposited. The dissertation defense moderator of the defense committee will ensure that a written description of those revisions be provided to the candidate typically by the advisor—at the defense or shortly thereafter. Care should be taken to distinguish between revisions requested and recommendations given for future thought or research beyond the dissertation. These revisions should be completed to the satisfaction of the advisor within six months after the date of the defense. Any member of the committee may ask to review a copy of the revised version of the dissertation.
+[/RULE]
+[TIMING:revisions within 6 months]
+
+Referred
+
+[RULE:GSAS:VOTE-REFERRED-001]
+The committee believes that substantial work must be undertaken on the dissertation by the candidate before it can reach a recommendation to award the degree. A detailed written description of the reservations about the examined dissertation as well as of the revisions required should be provided to the candidate by the advisor at the defense or shortly afterward. At the time of the defense, a subcommittee composed of at least three unanimously agreed upon members of the original committee (and including the advisor) will be formed. The specified revisions should be completed to the satisfaction of the subcommittee within one year after the date of the defense. A statement from the candidate indicating the specific changes made in response to the committee's request for revision must accompany the revised version, and both be sent to the advisor. The advisor will share the statement and the revised version with the members of the defense subcommittee, each of whom must communicate explicitly to the advisor their appraisal of the revisions undertaken. A majority of the subcommittee must approve the revised version for the candidate to be recommended for the degree. The dissertation will then be recommended for award of the degree.
+[/RULE]
+[TIMING:revisions within 1 year]
+[REQUIREMENT:subcommittee of 3+ including advisor]
+[REQUIREMENT:majority approval of subcommittee]
+
+Fail
+
+[RULE:GSAS:VOTE-FAIL-001]
+The committee believes that the dissertation is not acceptable, and the candidate will not be recommended for the degree. No candidate may have a second defense unless the Dean of GSAS concludes, upon evidence provided either by the candidate or by a member of the committee, that procedural irregularities occurred during the defense.
+[/RULE]
+[EXCEPTION:second defense only if procedural irregularities]
+
+Distinction
+
+[RULE:GSAS:DISTINCTION-001]
+Dissertations defended after the 2012 Commencement ceremony will only be eligible for departmental distinction, should a department institute such recognition.
+[/RULE]
+
+[SECTION:TRAVEL-REIMBURSEMENT]
+Travel to the Defense
+
+[RULE:GSAS:TRAVEL-FUND-001]
+The Graduate School of Arts and Sciences has a small budget line to cover travel expenses for former faculty of this university who still retain sponsorial ties to PhD candidates at Columbia and for faculty from universities other than Columbia who serve on doctoral defense committees. This fund is only available for committees of students in Arts and Sciences departments.
+[/RULE]
+[APPLIES_TO:Arts and Sciences departments only]
+
+[RULE:GSAS:TRAVEL-LIMIT-001]
+Departments seeking payments for travel funds must request approval well before the defense committee is proposed. The funds available to the school for this purpose are severely limited; there is a cap of $300 on reimbursement. Departments normally contribute toward the expense. The school cannot normally pay for someone to come from abroad, and it cannot pay honoraria. Payment of travel expenses is limited to cases of real necessity and will not be authorized merely because a faculty member elsewhere is an expert on the topic of the dissertation.
+[/RULE]
+[LIMITATION:$300 cap]
+[RESTRICTION:cannot pay international travel normally]
+[RESTRICTION:no honoraria]
+
+Although every reasonable effort is made to accommodate both the student and the department at the critical juncture of the dissertation defense, department/program and student are urged to schedule the defense at a time when other professional business may already bring outside examiners or former university faculty to the New York area.
+
+[RULE:GSAS:TRAVEL-APPROVAL-001]
+All requests for reimbursement of travel expenses should be submitted by the department chair or dissertation sponsor in writing to the Dissertation Office. The request should include a statement of the reasons why this particular faculty member must serve on this particular defense, as well as the expected travel costs of economy air or train fare to be incurred. No disbursement for travel expenses will be made unless approval has been granted in advance of the projected dissertation defense.
+[/RULE]
+[REQUIREMENT:advance written approval]
+
+The cost of lodging or meals for such faculty is not reimbursed. For general information on travel and lodging, see the Columbia University Travel Portal.
+
+[SECTION:GOOD-STANDING]
+Good Standing in a PhD Degree Program
+
+[RULE:GSAS:GOOD-STANDING-001]
+Students in a PhD program in the Graduate School must maintain good academic standing in the degree program, good administrative standing in the Graduate School, and continued good progress toward the degree each semester.
+[/RULE]
+
+Academic Standing
+
+[RULE:GSAS:ACADEMIC-STANDING-001]
+Good academic standing for PhD students includes but is not limited to:
+Maintaining a cumulative grade point average (GPA) of at least 3.0*
+Holding no more than one mark of Incomplete at any given time
+Registering continuously
+Making consistent academic progress as designated by the department and GSAS
+Completing degree requirements while maintaining superior quality of work as determined by the department
+Acquiring an advisor
+Maintaining consistent contact with the departmental director of graduate studies, advisor, and GSAS
+Fulfilling pedagogical requirements and responsibilities as designated by the department and GSAS
+Fulfilling the dissertation prospectus requirement (in the cases in which it applies)
+Holding Dissertation Progress Meetings regularly with the dissertation advisor and at least one other member of the dissertation committee (beginning in the semester after the prospectus defense)
+Meeting other criteria specified by the department
+[/RULE]
+[REQUIREMENT:GPA 3.0 minimum]
+[LIMITATION:max 1 incomplete at a time]
+[REQUIREMENT:continuous registration]
+[REQUIREMENT:secure advisor]
+[REQUIREMENT:prospectus fulfillment]
+[REQUIREMENT:regular progress meetings]
+
+Departments should communicate explicitly to their students their additional criteria for good academic standing; candidates should be familiar with them. Any questions should be directed to the DGS.
+
+[RULE:GSAS:GPA-CALC-001]
+* The cumulative grade point average used to determine good standing is calculated beginning with the first semester of enrollment in that degree program, including the summer term, if applicable. No coursework previous to that date — including previous work done for another degree at Columbia — will be factored into the student's current GPA. The cumulative GPA is derived from all courses in which a student has registered and received a grade, except when the student takes a course again after receiving an F. In such cases, the F received for the original iteration does not count toward the GPA.
+[/RULE]
+
+Administrative Standing
+
+[RULE:GSAS:ADMIN-STANDING-001]
+Students are expected to remain in compliance with all applicable administrative policies and procedures of the Graduate School and the university, including those of the Columbia Libraries, Columbia Residential, and the Center for Student Success and Intervention (CSSI), Student Financial Services, Office of the University Registrar, Rules of University Conduct, Public Safety, and CUIT, as well as the regulations described in University Policies.
+[/RULE]
+
+[SECTION:PROGRESS-TIME]
+Progress and Time to the PhD Degree
+
+University Standards
+
+[RULE:GSAS:FEDERAL-PROGRESS-001]
+The Graduate School of Arts and Sciences adheres to federal regulations requiring that students receiving federal assistance make satisfactory academic progress in accordance with the standards set by the university.
+[/RULE]
+
+Graduate School Standards
+
+MPhil
+
+[RULE:GSAS:MPHIL-TIME-001]
+To maintain satisfactory academic progress, all work for the MPhil degree—including the dissertation prospectus, if relevant—must be completed within four academic years (eight semesters) of registration, not including official leaves of absence or periods of parental accommodation. In programs in which the defense of the dissertation proposal is not one of the requirements for the MPhil degree, students are expected to defend their dissertation proposal within six months after completion of the MPhil degree, but always within four years from initial registration. Students should consult with their director of graduate studies to determine whether their department or program has an earlier deadline.
+[/RULE]
+[TIMING:within 4 years = 8 semesters]
+[EXCEPTION:LOA and parental accommodation not counted]
+[TIMING:proposal within 6 months after MPhil]
+[SEE-ALSO:PhD_SEAS:MPHIL-001]
+
+[RULE:GSAS:MPHIL-ADVANCED-001]
+If the student holds an appropriate master's degree from Columbia or another institution and received two Residence Units of advanced standing, all MPhil degree requirements—including the dissertation prospectus, if relevant—must be completed within three academic years (six semesters) of registration.
+[/RULE]
+[TIMING:3 years = 6 semesters with advanced standing]
+
+[RULE:GSAS:PROSPECTUS-DEADLINE-REPEAT-001]
+Students must defend the prospectus by May 31 of their fourth year. Students who do not meet this deadline will lose good academic standing, be placed on probation, and not have their stipend disbursed for the ensuing fall semester.
+
+In exceptional circumstances, with a written rationale from the DGS and sponsor and the approval of GSAS, students may receive a final opportunity to defend their prospectus before September 30 of the fifth year. Students who do so by September 30 of the fifth year will receive the full Dissertation Fellowship retroactively. Students who do not pass their prospectus by September 30 of their fifth year will lose PhD candidacy.
+
+For students who are off-cycle (those whose fifth year of matriculation begins in January), the corresponding deadlines described above will be December 15 and February 28.
+[/RULE]
+[TIMING:May 31 year 4]
+[CONSEQUENCE:loss of standing, probation, no stipend]
+[EXCEPTION:Sept 30 year 5 final chance]
+[CONSEQUENCE:loss of candidacy if not passed by Sept 30 year 5]
+[CONFLICT-CHECK:duplicates GSAS:PROSPECTUS-DEADLINE-001]
+
+PhD
+
+[RULE:GSAS:PHD-TIME-001]
+Students who entered a PhD program in the Arts and Sciences in Fall 2011 or later are allowed nine years of continuous registration (not including official leaves of absence) to satisfy all requirements for the doctoral degree, during which time they are required to maintain full-time status. After their seventh year of registration in a PhD program, GSAS students in the Arts and Sciences are not eligible for housing or for funding from GSAS or the Arts and Sciences.
+[/RULE]
+[TIMING:9 years maximum]
+[EXCEPTION:LOA not counted]
+[LIMITATION:no housing or GSAS/A&S funding after year 7]
+
+Appeals to Complete Beyond the Ninth Year
+
+[RULE:GSAS:APPEAL-NINTH-001]
+Students who wish to appeal to the dean for time beyond the ninth year should review the policy here.
+[/RULE]
+
+Failure to Maintain Good Standing
+
+[RULE:GSAS:FAILURE-STANDING-001]
+Consequences for failing to maintain good academic standing, good administrative standing, or good academic progress may include academic or administrative warning, probation, suspension, or dismissal. Departments and programs advise their students who
+[/RULE]
+
+[END:JURISDICTION:GSAS]

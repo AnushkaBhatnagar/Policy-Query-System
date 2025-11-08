@@ -1,0 +1,463 @@
+[JURISDICTION:PhD_SEAS]
+[AUTHORITY:SEAS - School of Engineering and Applied Science]
+[PRECEDENCE:2-School]
+[APPLIES_TO:PhD, MS/PhD, and DES students in Computer Science Department]
+
+Doctoral Program Requirements
+
+The primary focus of the doctoral program is research, with the philosophy that students learn best by doing—beginning as apprentices and becoming junior colleagues working with faculty on scholarly research projects. The faculty in the department conduct research in all areas of computer science. The doctoral degree requires a dissertation based on the candidate's original research, which is supervised by a faculty member, and all students in the doctoral program are actively engaged in research throughout the program.
+
+[RULE:PhD_SEAS:PROGRAM-TYPE-001]
+The PhD is the Computer Science Department's primary doctoral program. PhD students are expected to be full-time on-campus during every fall and spring academic semester from initial enrollment until the dissertation has been distributed to their defense committee, except during leaves of absence approved by the university. PhD students spend at least half of their time on research under the direction of their faculty adviser from their first day in the program and devote themselves full time to research after coursework and other preliminaries have been completed. PhD students are expected to participate in departmental and laboratory activities full time throughout the program, except for summer internships elsewhere, and the department does not consider admission of part-time PhD students. The policy on outside activities by PhD students is here.
+[/RULE]
+[REQUIREMENT:full-time on-campus every fall/spring]
+[EXCEPTION:approved leaves of absence]
+[EXCEPTION:summer internships]
+[REQUIREMENT:half-time research minimum until coursework complete]
+[REQUIREMENT:full-time research after coursework]
+
+[RULE:PhD_SEAS:APPLIES-ALL-001]
+Unless otherwise stated, all doctoral program requirements apply equally to PhD, MS/PhD (until MS completed, when student becomes PhD) and DES students.
+[/RULE]
+[APPLIES_TO:PhD, MS/PhD, DES]
+
+COURSES:
+
+ALGORITHMS PREREQUISITE
+
+[RULE:PhD_SEAS:ALGO-PREREQ-001]
+Analysis of Algorithms is the core of Computer Science, which unites the many disparate subfields. All doctoral students are expected to complete an acceptable lecture course (graduate or upper-level undergraduate) in Analysis of Algorithms, with grade B+ or higher, prior to entering the program. New doctoral students admitted without a prior Analysis of Algorithms course are required to complete CSOR W4231 during their first or second semester in the program. Further details about course requirements are posted here.
+[/RULE]
+[REQUIREMENT:grade B+ or higher]
+[TIMING:prior to program OR first/second semester]
+
+BREADTH REQUIREMENT
+
+[RULE:PhD_SEAS:BREADTH-001]
+A total of ten distinct courses are required. All ten courses should be completed by the end of the fifth semester, at the pace of two courses per semester. An undergraduate Analysis of Algorithms course that satisfies the prerequisite does not satisfy the breadth requirement, only graduate lecture courses can be counted towards the breadth requirement. B+ ("PhD pass") is the minimum acceptable grade for doctoral students in all courses. A grade of B or lower is considered failure and does not count towards the course requirement. The same course may be repeated until the minimum B+ grade is obtained or a different course substituted. The average grade across all courses applied to the course requirement must be A- or higher. Further details about course requirements are posted here.
+[/RULE]
+[REQUIREMENT:10 distinct courses]
+[TIMING:by end of fifth semester]
+[PACE:2 courses per semester]
+[REQUIREMENT:graduate lecture courses only]
+[GRADE:minimum B+ for each course]
+[GRADE:average A- or higher]
+[CONSEQUENCE:B or lower = failure]
+
+DISTRIBUTION COURSES
+
+[RULE:PhD_SEAS:DISTRIBUTION-001]
+Doctoral students must complete at least four graduate lecture courses from the approved distribution course lists, including at least one from each of the Artificial Intelligence and Applications, Systems and Theory lists, and the fourth from any of these three approved lists. The currently approved distribution courses are as follows:
+[/RULE]
+[REQUIREMENT:4 courses from approved lists]
+[REQUIREMENT:1 from AI & Applications]
+[REQUIREMENT:1 from Systems]
+[REQUIREMENT:1 from Theory]
+[REQUIREMENT:4th from any of the three]
+
+Further details about doctoral course requirements are posted here.
+
+ELECTIVE COURSES
+
+[RULE:PhD_SEAS:ELECTIVES-001]
+In addition to the four distribution courses, doctoral students must complete six elective graduate lecture courses approved by the student's advisor. Additional courses from the approved lists, beyond the four needed to satisfy the distribution requirement, may be taken as electives. Most other graduate lecture courses offered by the Computer Science Department (or offered by Computer Science jointly with other departments) may be taken as electives, including topics courses. At most two of the six electives may be graduate lecture courses offered by other departments besides Computer Science.
+
+Only graduate lecture courses are acceptable; project courses and fieldwork courses do not count. Some 4000 level courses, particularly in A&S, may be designated undergraduate – these also do not count. Make sure all six courses are lecture courses designated graduate level by the offering department. Further details about course requirements, including exclusions, are posted here.
+[/RULE]
+[REQUIREMENT:6 elective courses]
+[REQUIREMENT:advisor approval]
+[LIMITATION:max 2 from other departments]
+[RESTRICTION:no project/fieldwork courses]
+[RESTRICTION:must be graduate-level]
+
+RESEARCH:
+
+ADVISOR
+
+[RULE:PhD_SEAS:ADVISOR-001]
+All DES students and most MS/PhD and PhD students arrange a research advisor during the admissions process prior to enrollment, and work closely with him or her on directed research from their first day in the program. Some doctoral students have two or more co-advisors. All DES research advisors and most MS/PhD and PhD research advisors are tenured or tenure-track faculty members in the Computer Science Department. But in rare cases an MS/PhD or PhD student's research may be advised by a research scientist or an affiliated faculty member from another department, in which case the student must also have a departmental advisor who is a tenured or tenure-track faculty member in Computer Science. The departmental advisor is responsible for tracking the student's progress through doctoral program milestones, but is not responsible for the student's research or funding. Both research and departmental advisors are expected to represent their students at the Semi-Annual Review of all doctoral students held near the end of the fall and spring semesters. Further details on the department's advising policy and Semi-Annual Review are posted here.
+[/RULE]
+[TIMING:typically arranged before enrollment]
+[REQUIREMENT:co-advisors allowed]
+[EXCEPTION:research scientist/affiliated = need departmental advisor]
+[PROCESS:Semi-Annual Review]
+
+DIRECTED RESEARCH
+
+[RULE:PhD_SEAS:RESEARCH-001]
+The primary focus of our doctoral program is research, with the philosophy that students learn best by doing – beginning as apprentices and becoming junior colleagues working with faculty on scholarly research projects. All doctoral students are required to conduct productive research under the direction of their advisor throughout the program. For MS/PhD and PhD students, this should be half-time until completion of the coursework, teaching and candidacy exam requirements, and thereafter full-time until distribution of the dissertation. MS/PhD and PhD students are expected to participate in departmental and laboratory activities throughout all fall and spring semesters of the program. The policy on outside activities by MS/PhD and PhD students is here.
+[/RULE]
+[REQUIREMENT:productive research throughout]
+[REQUIREMENT:half-time until coursework/teaching/candidacy complete]
+[REQUIREMENT:full-time thereafter until distribution]
+[APPLIES_TO:MS/PhD and PhD]
+
+[RULE:PhD_SEAS:RESEARCH-MANDATORY-001]
+The directed research requirement is never waived, regardless of funding source, including employer-supported DES students. Insufficient or inadequate research progress is deemed unsatisfactory progress: the doctoral student is normally placed on probation and can be immediately dismissed from the program. However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty.
+[/RULE]
+[APPLIES_TO:all students including DES]
+[CONSEQUENCE:probation or dismissal]
+[EXCEPTION:one semester grace on faculty appeal]
+
+CANDIDACY EXAM
+
+[RULE:PhD_SEAS:CANDIDACY-001]
+The candidacy exam is an oral exam based on a syllabus prepared jointly by the student and his/her candidacy committee. Admission to candidacy (i.e., passing the exam) certifies that the student has demonstrated a depth of scholarship in the literature and the methods of the student's chosen area of research, and has demonstrated a facility with the scholarly skills of critical evaluation and verbal expression. The candidacy exam should be completed by the end of the sixth semester or earlier, typically the semester after completing all courses, and must be completed prior to the thesis proposal. More detailed information, including the permitted composition of the candidacy committee, is here.
+[/RULE]
+[TIMING:by end of sixth semester or earlier]
+[TIMING:typically semester after courses complete]
+[REQUIREMENT:must be before thesis proposal]
+[CONFLICT-CHECK:vs GSAS prospectus timing]
+
+[RULE:PhD_SEAS:CANDIDACY-REG-001]
+Doctoral students are required to register at least two weeks in advance for their Candidacy Exam using the department's Doctoral Program Milestones Registration Form. Schedule two hours. Contact the PhD Program Administrator with any questions about the registration form.
+[/RULE]
+[TIMING:2 weeks advance registration]
+[DURATION:2 hours]
+
+THESIS PROPOSAL
+
+[RULE:PhD_SEAS:PROPOSAL-001]
+In the thesis proposal, the student lays out his or her intended course of research for the dissertation. If the student passes the written and oral components of the proposal, the thesis proposal committee signs a form to recommend that the candidate proceed. The proposal should be completed by the end of the eighth semester. The university's permitted composition of the dissertation prospectus committee and other requirements for the proposal are specified here. Additional department-specific requirements are here.
+[/RULE]
+[TIMING:by end of eighth semester]
+[SEE-ALSO:GSAS:PROSPECTUS-001]
+
+[RULE:PhD_SEAS:PROPOSAL-REG-001]
+Doctoral students are required to register at least two weeks in advance for their Thesis Proposal using the department's Doctoral Program Milestones Registration Form. Schedule two hours. Contact the PhD Program Administrator with any questions about the registration form.
+[/RULE]
+[TIMING:2 weeks advance registration]
+[DURATION:2 hours]
+
+DISSERTATION AND DEFENSE
+
+[RULE:PhD_SEAS:DEFENSE-001]
+The doctoral dissertation and defense is typically completed during the fifth or sixth year in the program. Some very highly motivated students, particularly in theoretical areas, may finish in less time. Students cannot schedule their defense until after they have completed the en-course MPhil degree.
+[/RULE]
+[TIMING:typically year 5 or 6]
+[REQUIREMENT:MPhil must be completed first]
+[SEE-ALSO:GSAS:DEFENSE-001]
+
+[RULE:PhD_SEAS:DEFENSE-INFO-001]
+Various forms and instructions for filling out the forms, composition of the dissertation committee, handling of remote participants in the defense, revision and deposit of the dissertation, and many other topics, are available from the GSAS Dissertation Office. Dissertation formatting requirements, including a latex template, are here. It is important for both the student and the advisor(s) to review the university's detailed requirements here about forming the dissertation committee, distributing the dissertation, and scheduling the defense.
+[/RULE]
+[SEE-ALSO:GSAS:DEFENSE-FORMS-001]
+
+[RULE:PhD_SEAS:DEFENSE-SEMINAR-001]
+Defenses are typically accompanied by a public seminar. The Computer Science department always holds that public seminar immediately before the defense. When a student schedules their "defense", they should schedule enough time, at least two hours, for both that public seminar and the official (closed) defense. The department's Doctoral Program Milestones Registration Form must be submitted by the student to the department's PhD Program Administrator at least six weeks in advance of the anticipated defense date.
+[/RULE]
+[REQUIREMENT:public seminar before defense]
+[TIMING:6 weeks advance registration]
+[DURATION:at least 2 hours total]
+
+OTHER REQUIREMENTS:
+
+TEACHING
+
+[RULE:PhD_SEAS:TEACHING-001]
+All doctoral students are required to fulfill two "teaching units", ideally approximately the total workload of half-time for one semester, but the actual workload may vary widely. Both teaching units must be for courses approved by the department's Academic Committee as Computer Science courses, where the Computer Science department is responsible for staffing (assigning Instruction Assistants), and occur during a regular academic semester while the student is enrolled in the doctoral program. Most students complete their teaching units during their second or third year, but there are no timing restrictions on which semesters students can do their teaching units. When students complete their teaching units is determined by their advisor. More detailed information is here.
+[/RULE]
+[REQUIREMENT:2 teaching units]
+[REQUIREMENT:CS department courses only]
+[TIMING:typically year 2 or 3]
+[TIMING:no strict timing restrictions]
+[AUTHORITY:advisor determines timing]
+
+COMMUNITY SERVICE
+
+[RULE:PhD_SEAS:SERVICE-001]
+The Department of Computer Science takes pride in maintaining a well-developed sense of community, and sees as an essential part of its doctoral program the preparation of its students for this important aspect of their future careers. It strongly encourages students to contribute a year of service to the department's professional, operational, or social needs, preferably during their second and/or third year in the program. A list of community service positions normally held by doctoral students is available in mice. The department confers several annual awards recognizing excellence in doctoral student service and teaching; further information and past awardees are here. The "phd reps" represent doctoral student concerns to the faculty, report on faculty meetings to doctoral students, and find volunteers for the community service program. More information about the current phd reps and what they do is here.
+[/RULE]
+[REQUIREMENT:encouraged, not mandatory]
+[TIMING:preferably year 2 or 3]
+
+MPHIL FOR PHD STUDENTS
+
+[RULE:PhD_SEAS:MPHIL-001]
+The en-course degree of Master of Philosophy (MPhil) is conferred upon a PhD student who has satisfactorily fulfilled all milestones except the proposal and dissertation. This includes all courses, teaching, and candidacy exam. The MPhil also requires completion of six Residency Units (RUs) and sixty graduate points beyond the undergraduate degree. Two RUs and thirty points of advanced standing are granted for completing the masters degree. See the university requirements for the MPhil.
+[/RULE]
+[REQUIREMENT:all milestones except proposal and dissertation]
+[REQUIREMENT:6 RUs and 60 points beyond undergrad]
+[CREDIT:2 RUs and 30 points for prior MS]
+[SEE-ALSO:GSAS:MPHIL-001]
+
+M.S. Leading to Ph.D.
+
+[RULE:PhD_SEAS:MSPHD-001]
+This policy applies only to students who enter the PhD program without a Masters degree recognized by Columbia. Every MS/PhD track student (registration status ETCOMS) must apply for MS graduation in order to receive the MS degree from Columbia University and be awarded advanced standing (two RUs) towards the PhD.
+[/RULE]
+[APPLIES_TO:students without prior Columbia-recognized MS]
+[CREDIT:2 RUs advanced standing]
+
+[RULE:PhD_SEAS:MSPHD-APPROVAL-001]
+The faculty will approve the MS degree application following successful completion of six (6) breadth requirement areas completed in the Computer Science Department at Columbia, including all four (4) distribution areas and any two (2) COMS elective areas [departmental requirement]. The student must also satisfactorily complete at least 30 points and at least six graduate lecture courses at Columbia while enrolled for MS/PhD, not including imports or comp exams. Courses taken while an undergraduate at Columbia or Barnard are applicable only if they are eligible for advanced standing [SEAS requirement].
+[/RULE]
+[REQUIREMENT:6 breadth areas at Columbia]
+[REQUIREMENT:4 distribution areas]
+[REQUIREMENT:2 COMS elective areas]
+[REQUIREMENT:30 points minimum]
+[REQUIREMENT:6 graduate lecture courses]
+[RESTRICTION:no imports or comp exams count]
+
+Milestones Towards Completing the Doctorate
+
+This is intended to be an informal document, not policy. In the case of any discrepancy between this chart and the written policy, the written policy shall apply.
+
+[RULE:PhD_SEAS:MILESTONE-TIMING-001]
+Note: All timing requirements ("N") are counted as semesters formally enrolled in the department's doctoral program, whether enrolled as PhD, MS/PhD or DES unless otherwise noted, referring to the end of the "Nth" semester. Semesters of formally approved "leave of absence" are not counted.
+[/RULE]
+[TIMING:counted as semesters enrolled]
+[EXCEPTION:LOA not counted]
+
+PhD Course Imports
+
+[RULE:PhD_SEAS:IMPORT-001]
+To qualify for Course Import review the course must meet the following minimum requirements:
+
+The non-Columbia course being imported was completed within the past 5 years (there are some exceptions, see import policy here)
+The non-Columbia course appears on the students' transcript and the student received a grade of B+ or better (or the student provides documentation demonstrating equivalence to a B+ grade at Columbia)
+The non-Columbia course is a full-length course granting degree credit towards a graduate degree (masters and/or doctoral) in Computer Science at the offering institution
+In the case of importing a course taken during the student's enrollment in the doctoral program, as opposed to before enrolling, there must be no equivalent course regularly offered at Columbia
+[/RULE]
+[TIMING:within past 5 years]
+[GRADE:B+ or better]
+[REQUIREMENT:full-length graduate CS course]
+[CONDITION:if during enrollment, no Columbia equivalent]
+
+PhD Algorithms Prerequisite
+
+[RULE:PhD_SEAS:ALGO-IMPORT-001]
+To qualify for PhD Prerequisite review the following minimum requirements must be met:
+
+The non-Columbia course was offered by a department named "Computer Science" (or the student provides documentation that the department with another name is the institution's Computer Science department)
+The non-Columbia course appears on the students' transcript and the student received a grade of B+ or better (or the student provides documentation demonstrating equivalence to a B+ grade at Columbia)
+The non-Columbia course is a full-length course granting degree credit towards an undergraduate or graduate degree in Computer Science at the offering institution (if undergraduate, the course must be an upper-division course enrolling only juniors and seniors, and possibly graduate students as well, not sophomores or first-year students)
+[/RULE]
+[REQUIREMENT:CS department course]
+[GRADE:B+ or better]
+[REQUIREMENT:upper-division if undergraduate]
+
+Registration
+
+This section is designed solely as a guide. For the official requirements, see the registration procedures in the GSAS and SEAS bulletins.
+
+GSAS and SEAS often change their requirements and do not inform departments, so the information we have available to post may lag behind.
+
+Registration can be done online only through Vergil or SSOL (Student Services Online). Registration instructions can be found on the Registrar's website. Note any information recorded in mice, e.g., your plans to take certain courses, does not automatically populate any university databases, you have to do that yourself.
+
+QUESTIONS ABOUT DOCTORAL REGISTRATION? CONTACT:
+
+MS/PhD, PhD and DES students contact the Doctoral Program Administrator at phd-advising@cs.columbia.edu.
+
+GSAS VS. SEAS REGISTRATION
+
+[RULE:PhD_SEAS:GSAS-SEAS-001]
+The PhD is awarded by the Graduate School of Arts and Sciences (GSAS). PhD students who have already completed a Master's degree should register as GSAS students, and should normally register following GSAS registration policies (listed below). It is important to understand that SEAS rules override GSAS rules for PhD students whose home department is in SEAS, which includes the CS department.
+[/RULE]
+[OVERRIDE:SEAS rules override GSAS rules for SEAS departments]
+[APPLIES_TO:CS department = SEAS department]
+[CONFLICT-RESOLUTION:SEAS precedence]
+
+[RULE:PhD_SEAS:MSPHD-REGISTER-001]
+Students who have not yet completed their MS degree are categorized as MS/PhD students and should register as SEAS (School of Engineering & Applied Sciences) students. MS/PhD students should register following SEAS registration policies (listed below) until they have completed the requirements of the MS degree. At that point, they will 'graduate' to GSAS.
+[/RULE]
+[APPLIES_TO:MS/PhD students]
+[TRANSITION:to GSAS after MS completion]
+
+[RULE:PhD_SEAS:DES-REGISTER-001]
+DES students remain in SEAS throughout the program.
+[/RULE]
+[APPLIES_TO:DES students only]
+
+[RULE:PhD_SEAS:CONTINUOUS-REG-001]
+Both GSAS and SEAS require "continuous registration" every fall and spring semester unless a formal leave of absence is granted. Doctoral students are not required to register for the summer term.
+[/RULE]
+[REQUIREMENT:continuous fall/spring registration]
+[EXCEPTION:formal LOA]
+[OPTIONAL:summer registration]
+[SEE-ALSO:ISSO:ENROLLMENT-001,GSAS:CONTINUOUS-001]
+
+GSAS ADVANCED STANDING
+
+[RULE:PhD_SEAS:ADVANCED-STANDING-001]
+GSAS requires all PhD students to complete 60 total points of graduate coursework and 6 Residence Units for the degree. Upon completing the MS degree in SEAS (or at another institution prior to enrolling at Columbia), GSAS will award students with 30 points and 2 Residence Units of advanced standing toward the PhD. Note: The standard 1 RU per semester accumulation (PhD_SEAS:GSAS-RU-001) does not apply during Master's coursework; RU accumulation begins only after completing the Master's degree, starting with the 2 RUs of advanced standing. Students only need to complete 30 additional points of graduate coursework and 4 Residence Units upon entering GSAS.
+[/RULE]
+[REQUIREMENT:60 points and 6 RUs total]
+[CREDIT:30 points and 2 RUs for prior MS]
+[REMAINING:30 points and 4 RUs after MS]
+[SEE-ALSO:GSAS:ADVANCED-STANDING-001]
+
+SEAS REGISTRATION FOR MS/PHD STUDENTS
+
+[RULE:PhD_SEAS:REG-001]
+MS/PhD students should register for exactly 15 points every fall and spring semester. This maintains full-time status and will enable you to complete the 30-point requirement for the MS degree in one academic year. Courses graded P/F or taken for R credit (audit) do not count towards the degree, so please keep this in mind when registering. If you want to register for more than 15 points in a semester, please discuss first with your faculty advisor and then, if your advisor agrees, the Doctoral Program Administrator.
+[/RULE]
+[REQUIREMENT:exactly 15 points per semester]
+[APPLIES_TO:MS/PhD students]
+[TIMING:fall and spring semesters]
+[RESTRICTION:no P/F or R credit courses]
+[EXCEPTION:>15 points requires advisor approval]
+[CONFLICT-NOTE:specific to SEAS, differs from GSAS RU system]
+[SEE-ALSO:ISSO:ENROLLMENT-001]
+
+[RULE:PhD_SEAS:REG-COURSES-001]
+Step 1: Register for the lecture courses that you need to take that semester. MS/PhD students should complete two 3-point graduate lecture courses (6 points) per semester so they can complete the MS degree requirements in three semesters. Imports from other institutions, courses applied to a previous Columbia degree (BS or BA), comp exams, and research courses (9911) do not count towards the minimum six 3-point graduate lecture courses required for the MS degree. Satisfactory progress requires two (2) courses per semester until the breadth requirement has been completed.
+[/RULE]
+[REQUIREMENT:2 courses per semester]
+[TIMING:to complete in 3 semesters]
+[RESTRICTION:imports/prior courses/comp exams/9911 don't count toward 6 course minimum]
+
+[RULE:PhD_SEAS:REG-9911-001]
+Step 2: Register for your advisor's section of COMS E9911: Graduate Research II. The number of points of COMS E9911 that you register for depends on how many points of coursework you register for. Your points of coursework + points of COMS E9911 should total 15 points. So if you have registered for 6 points of lecture coursework, you should register for 9 points of COMS E9911. If you register for 4.5 points in lecture courses, you should register for 10.5 points of COMS E9911. If you aren't taking any lecture courses, register for the full (maximum) 15 points of COMS E9911. You must select the letter grade option for COMS E9911, otherwise the points will not count towards your degree.
+[/RULE]
+[REQUIREMENT:coursework + E9911 = 15 points]
+[REQUIREMENT:letter grade option for E9911]
+[APPLIES_TO:MS/PhD students]
+
+*The call number for your advisor's section of COMS E9911 may change each semester, and can be confirmed on our department's course listing. If you can't find the correct call number, contact the Doctoral Program Administrator.
+
+[RULE:PhD_SEAS:REG-NO-9910-001]
+Do not register for COMS E9910: Graduate Research I or any of the other project courses, such as W4901, E6900, E6901, E6902; those are only for undergraduates and MS students and cannot be applied to a doctoral degree.
+[/RULE]
+[RESTRICTION:no E9910 or project courses]
+
+SEAS REGISTRATION FOR DES STUDENTS
+
+[RULE:PhD_SEAS:DES-REG-001]
+DES students need to register for at least three (3) points every fall and spring semester to maintain continuous registration.
+[/RULE]
+[REQUIREMENT:minimum 3 points per semester]
+[APPLIES_TO:DES students]
+[TIMING:fall and spring]
+
+[RULE:PhD_SEAS:DES-REG-COURSES-001]
+Step 1: Register for the lecture courses that you need to take that semester. Courses graded P/F or taken for R credit (audit) do not count towards the degree, so please keep this in mind when registering. Satisfactory progress requires two (2) courses per semester until the breadth requirement has been completed.
+[/RULE]
+[REQUIREMENT:2 courses per semester]
+[RESTRICTION:no P/F or R credit]
+
+[RULE:PhD_SEAS:DES-REG-9911-001]
+Step 2: After completion of all coursework, or for any other semesters where you will not be taking courses, but have not yet embarked on your thesis research, register for three (3) points of your advisor's section of COMS E9911: Graduate Research II. You must select the letter grade option for COMS E9911.
+
+You must complete at least thirty (30) points, with letter grades, in a combination of lecture courses and E9911 beyond the MS (or 60 points beyond the bachelor's degree).
+[/RULE]
+[REQUIREMENT:3 points E9911 when not taking courses]
+[REQUIREMENT:30 points total beyond MS]
+[REQUIREMENT:letter grades]
+
+[RULE:PhD_SEAS:DES-REG-9800-001]
+Step 3: When you start working on your thesis, you should instead register each semester for three (3) points your advisor's section of COMS E9800: Directed Research in Computer Science. You must complete 12 points in COMS E9800. These 12 points do not count towards the 30 points residence requirement.
+[/RULE]
+[REQUIREMENT:3 points E9800 per semester during thesis]
+[REQUIREMENT:12 points E9800 total]
+[NOTE:E9800 points don't count toward 30-point requirement]
+
+Further information is available from SEAS.
+
+*The call number for your advisor's section of COMS E9911 and E9800 may change each semester.
+
+[RULE:PhD_SEAS:DES-NO-PROJECT-001]
+Do not register for COMS E9910: Graduate Research I or any of the other project courses, such as W4901, E6900, E6901, E6902; those are only for undergraduates and MS students.
+[/RULE]
+
+GSAS REGISTRATION PRIOR TO COMPLETION OF SIX (6) RESIDENCE UNITS
+
+[RULE:PhD_SEAS:GSAS-RU-001]
+PhD students in GSAS should register for one residence unit (RU) every consecutive fall and spring semester until they have accumulated six total RUs (including the two RUs obtained through advanced standing). The Residence Unit will give you full-time status. Make sure to keep track of exactly how many RUs you have completed as over-payment of RU tuition will not be refunded. You can see how many RUs you have completed in Vergil or SSOL. The call number for the RU is 99991.
+[/RULE]
+[REQUIREMENT:1 RU per semester]
+[APPLIES_TO:PhD students in GSAS]
+[TOTAL:6 RUs including 2 from advanced standing]
+[WARNING:no refund for over-payment]
+[CONFLICT-NOTE:differs from SEAS point system]
+[SEE-ALSO:GSAS:RU-001]
+
+Step 1: Register for the RU using call #99991 in SSOL.
+
+[RULE:PhD_SEAS:GSAS-COURSES-001]
+Step 2: Register for the lecture courses that you need to take that semester. Courses graded P/F or taken for R credit (audit) do not count towards the degree, so please keep this in mind when registering. Satisfactory progress requires two (2) courses per semester until the breadth requirement has been completed.
+[/RULE]
+[REQUIREMENT:2 courses per semester]
+
+[RULE:PhD_SEAS:GSAS-9911-001]
+In addition to the four RUs, you will need to complete 30 points beyond the MS degree. These can be spread out over multiple semesters, and you may get all 30 points from taking courses. But if you are on your third or fourth RU and it does not look like you will have all 30 points by the time you complete the fourth RU, you should obtain the remaining points from taking COMS E9911: Graduate Research II.
+
+In that case, as Step 3: register for your advisor's section of COMS E9911: Graduate Research II. The number of points of COMS E9911 that you will register for will be dependent on how many points of coursework you have registered for. Your points of coursework + points of COMS E9911 should come to no more than 15 points total in a given semester. So if you have registered for 6 points of lecture coursework, you can register for up to 9 points of COMS E9911. You must select the letter grade option for COMS E9911. If you aren't taking any lecture courses, you can register for the maximum 15 points of COMS E9911.
+[/RULE]
+[REQUIREMENT:30 points beyond MS]
+[LIMITATION:no more than 15 points total per semester]
+[REQUIREMENT:letter grade for E9911]
+
+*The call number for your advisor's section of COMS E9911 may change each semester, and can be confirmed on our department's course listing. If you can't find the correct call number, contact the Doctoral Program Administrator.
+
+[RULE:PhD_SEAS:GSAS-NO-PROJECT-001]
+Do not register for COMS E9910: Graduate Research I or any of the other project courses, such as W4901, E6900, E6901, E6902; those are only for undergraduates and MS students.
+[/RULE]
+
+GSAS REGISTRATION AFTER COMPLETION OF SIX (6) RESIDENCE UNITS
+
+[RULE:PhD_SEAS:GSAS-POST-RU-001]
+After you have completed your six residence units in GSAS, you should stop registering for RUs. How you register after that depends on several factors. There are two options, Extended Residence (ER) and Matriculation and Facilities (M&F).
+[/RULE]
+[APPLIES_TO:after 6 RUs completed]
+
+[RULE:PhD_SEAS:ER-001]
+Extended Residence: Most students should register for ER after completing six (6) RUs. ER (or RU) registration is required for international students on a student visa to maintain full-time status and for any students to take courses, including COMS E9911, or to complete any degree requirements except the dissertation, defense and deposit. The GSAS rules for registering ER are posted here. Note those rules imply that students could register for M&F instead under various circumstances, e.g., while working on their thesis proposal, but M&F is disallowed by SEAS in most cases, see below.
+[/RULE]
+[REQUIREMENT:ER for international students]
+[REQUIREMENT:ER to take courses or complete requirements]
+[EXCEPTION:dissertation, defense, deposit]
+[CONFLICT-NOTE:GSAS allows M&F in some cases, SEAS restricts]
+[SEE-ALSO:GSAS:ER-001]
+
+Students who are unsure whether they should register for RU or ER should contact the Doctoral Program Administrator.
+
+[RULE:PhD_SEAS:ER-COURSES-001]
+You should register for any classes you are taking in addition to the ER unit. If you are done with RUs but have not yet completed 30 points beyond the MS, you should also register for COMS E9911 every semester for 1 to 15 points until you have completed 30 points beyond the MS degree.
+[/RULE]
+
+Students who are unsure whether they need to register for COMS E9911 or for how many points should contact the Doctoral Program Administrator.
+
+[RULE:PhD_SEAS:MF-001]
+Matriculation and Facilities: M&F registration maintains the "continuous registration" required by GSAS and is considerably less expensive than ER. While registered M&F, students may not take any courses, including COMS E9911, and must have already completed all degree requirements other than distribution, defense and deposit of the dissertation. M&F is not available to international students on a student visa, students funded by a TA or RA appointment, and students participating in internally or externally sponsored research. Students working solely on writing/revising their dissertation and/or preparing for distribution, defense and deposit, may register M&F during their last two semesters. The SEAS rules for registering M&F are available here. (Note SEAS rules contradict and override the GSAS rules posted here.) The SEAS rules disallow any stipend or compensation of any sort from any university source for students registered M&F.
+[/RULE]
+[RESTRICTION:cannot take courses including E9911]
+[REQUIREMENT:all requirements except distribution/defense/deposit complete]
+[EXCLUSION:international students on visa]
+[EXCLUSION:TA/RA funded students]
+[EXCLUSION:sponsored research participants]
+[TIMING:last 2 semesters only]
+[OVERRIDE:SEAS rules override GSAS rules]
+[RESTRICTION:no university compensation while M&F]
+[CONFLICT-RESOLUTION:SEAS precedence over GSAS]
+[SEE-ALSO:GSAS:MF-001]
+
+[RULE:PhD_SEAS:MF-APPROVAL-001]
+Faculty advisors of students who want to register for M&F should contact the Doctoral Program Administrator to check their student's academic eligibility. However, the Doctoral Program Administrator cannot handle the financial aspects, so the next step for academically eligible students is for the faculty advisor to contact the department's DFA to make financial arrangements.
+[/RULE]
+[PROCESS:academic eligibility check first]
+[PROCESS:then financial arrangements]
+
+GSAS REGISTRATION FOR THE DISSERTATION DISTRIBUTION, DEFENSE, AND DEPOSIT
+
+[RULE:PhD_SEAS:DEFENSE-REG-001]
+It is not necessary for US citizens or permanent residents to register during the semester of the thesis defense or deposit. However, all students must be registered during the semester in which the dissertation is distributed to the defense committee. For example, if you distribute in the fall, but defend in the spring, you only need to be registered for the fall semester.
+[/RULE]
+[REQUIREMENT:must register for distribution semester]
+[EXCEPTION:US citizens/permanent residents need not register for defense/deposit]
+[SEE-ALSO:GSAS:DEFENSE-REG-001,ISSO:ENROLLMENT-001]
+
+[RULE:PhD_SEAS:DEFENSE-INTL-001]
+International students should contact the International Students and Scholars Office (ISSO) to confirm whether they need to be registered for the defense and deposit, if these activities take place in a later semester than the distribution.
+[/RULE]
+[APPLIES_TO:international students]
+[REQUIREMENT:confirm with ISSO]
+[SEE-ALSO:ISSO:ENROLLMENT-001]
+
+[RULE:PhD_SEAS:SUMMER-DEFENSE-001]
+Important note: While in most cases summer registration is optional, the thesis distribution registration rule includes the summer semester: you must be registered for the summer term if your dissertation is distributed during the summer.
+[/RULE]
+[EXCEPTION:summer registration required if summer distribution]
+[CONFLICT-NOTE:summer normally optional per PhD_SEAS:CONTINUOUS-REG-001]
+
+[END:JURISDICTION:PhD_SEAS]

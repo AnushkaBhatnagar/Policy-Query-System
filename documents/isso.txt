@@ -1,0 +1,791 @@
+[JURISDICTION:ISSO]
+[AUTHORITY:Federal Immigration Law - F-1/J-1 Status]
+[PRECEDENCE:1-Federal]
+[APPLIES_TO:All F-1 and J-1 international students]
+
+Guidelines to Maintaining Status (Students)
+
+You have come to Columbia to pursue academic objectives and that's where your focus belongs. By being aware of and complying with the following regulations, you will avoid problems that can interfere with your program of study.
+
+How to Maintain Your Lawful F/J Student Status
+
+[RULE:ISSO:ARRIVAL-001]
+1 Report your first arrival at Columbia with the SEVIS Report form. Please follow the instructions at Reporting Your Arrival in the first week. This will activate your SEVIS record. It's mandatory!
+[/RULE]
+[TIMING:within first week]
+[CONSEQUENCE:SEVIS record not activated]
+
+[RULE:ISSO:ENROLLMENT-001]
+2 Register for full-time enrollment every fall and spring semester. If the summer term is a required part of your academic program, you must register full-time. If not, it is considered a vacation period and is optional. Use the scheduled registration dates on the Registrar's webpage. Full-time enrollment may differ from school to school, but generally it is:
+12 points for Columbia schools and programs that use the credit point system for registration (except for Law and Social Work), OR
+one residence unit for schools/programs using the RU system
+[/RULE]
+[CONFLICT-POTENTIAL:varies by school]
+[SEE-ALSO:PhD_SEAS:REG-001,GSAS:REG-001]
+
+If you're not sure if you're enrolled full-time, check your enrollment status at Student Services Online (SSOL) or check with your school.
+
+[RULE:ISSO:ONLINE-001]
+Online classes: You can count only ONE online class toward your minimum number of credits required for your full-time enrollment. For example, you can take one online 3-credit course toward the 12-credit minimum. If you want to take an additional online class for a 15-point course load, it is permitted because it's beyond the minimum required for full-time status. If you only need one course to complete your program of study in your final term, the course cannot be online or distance learning.
+[/RULE]
+[RESTRICTION:final-term]
+
+[RULE:ISSO:RCL-001]
+3 Reduced Course Load (RCL): Exceptions to full-time enrollment. There are limited exceptions that may allow you to be registered for a "Reduced Course Load" (RCL).
+[/RULE]
+
+[EXCEPTION:ISSO:RCL-FINAL]
+Final Term of a Degree Program. You are allowed to be less than full-time in the final term of your degree program if you do not need a full-time course load to complete degree requirements-- unless your academic program has a minimum registration requirement each term for all its students. This does not require permission or further action.
+[/EXCEPTION]
+[CONFLICT-CHECK:academic program requirements]
+
+[RULE:ISSO:RCL-002]
+Other eligible exceptions based on academic or medical reasons require you to receive authorization from us before dropping below full-time, withdrawing from classes, or taking a leave of absence. Follow these instructions to Request a Reduced Course Load.
+[/RULE]
+[REQUIREMENT:pre-authorization]
+
+[RULE:ISSO:WORK-001]
+4 Do not work without authorization. The only type of employment that does not require an application and written authorization is on-campus employment, up to 20 hours/week. Working without authorization is considered a serious violation of your immigration status. Learn more about employment options.
+[/RULE]
+[CONSEQUENCE:status violation]
+[SEE-ALSO:ISSO:ONCAMPUS-001]
+
+[RULE:ISSO:ADDRESS-001]
+5 Update your U.S address every time you move (within 10 days)
+[/RULE]
+[TIMING:within 10 days]
+[AUTHORITY:Federal requirement]
+
+[RULE:ISSO:COE-001]
+6 Keep your I-20 / DS-2019 up-to-date
+
+While in the U.S., you must keep your I-20 / DS-2019 up-to-date by informing us of any pertinent changes. Here are the changes you need to report:
+[/RULE]
+
+[RULE:ISSO:EXTENSION-001]
+Apply for an extension before the end date if you need more time to complete your degree.
+[/RULE]
+[TIMING:before end date]
+[SEE-ALSO:PhD_SEAS:EXTENSION-001,GSAS:EXTENSION-001]
+
+[RULE:ISSO:EARLY-COMPLETE-001]
+Inform us if you are finishing earlier than the end date on your I-20 or DS-2019. We need to change the date, and you need to be informed of deadlines associated with the new completion date.
+[/RULE]
+
+[RULE:ISSO:TRAVEL-SIG-001]
+Be sure you have a travel signature on your most recent I-20 or DS-2019 that will be less than 12 months old on the date you return from a trip abroad.
+[/RULE]
+[TIMING:12 months validity]
+[CONFLICT-NOTE:differs during OPT - see ISSO:OPT-TRAVEL-001]
+
+[RULE:ISSO:TRANSFER-001]
+Request a transfer of your SEVIS record to another school if you are going to continue your studies elsewhere.
+[/RULE]
+
+[RULE:ISSO:NEW-PROGRAM-001]
+Inform us if you are beginning a new program at Columbia. You will need a new COE (I-20/DS-2019) for it.
+[/RULE]
+[SEE-ALSO:PhD_SEAS:NEW-PROGRAM-001]
+
+[RULE:ISSO:LEAVE-EARLY-001]
+Inform us if you are leaving Columbia program before completing your program.
+[/RULE]
+
+[RULE:ISSO:STATUS-CHANGE-001]
+Inform us if you are changing to another nonimmigrant status or if you become a permanent resident ("green card" holder).
+[/RULE]
+
+[RULE:ISSO:PASSPORT-001]
+7 Keep your passport unexpired for at least six months into the future
+[/RULE]
+[TIMING:6 months validity required]
+
+[RULE:ISSO:TRAVEL-DOCS-001]
+8 Be sure to have the correct documents with you when you travel. It is important that your travel documents are up-to-date to avoid any problems at your departure airport when you're returning to the U.S. and at a U.S. port of entry when you arrive. Check our Documents Needed to Travel page well in advance of a planned trip. It is also important to access your electronic I-94 arrival record every time you enter the US. to check that your admission was recorded correctly as F or J until "D/S" (duration of status).
+[/RULE]
+
+[RULE:ISSO:OPT-REPORT-001]
+9 F-1 only: Be sure you follow OPT reporting requirements in a timely manner. You risk losing your status if you don't report Post-completion OPT and STEM OPT updates as described on our OPT Reporting webpage. The ISSO will send you reminder emails, so be sure to pay attention to them.
+[/RULE]
+[APPLIES_TO:F-1 only]
+[CONSEQUENCE:status loss risk]
+
+[RULE:ISSO:GRACE-001]
+10 Leave the U.S. before your grace period expires
+
+Once you have completed your studies and any authorized post-graduation employment under F-1 or J-1 status, you have an additional grace period that allows you to remain in the U.S. to prepare for departure.
+
+F-1 status: 60 days
+J-1 status: 30 days
+[/RULE]
+[TIMING:post-completion grace period]
+[AUTHORITY:Federal regulation]
+
+[RULE:ISSO:TAX-001]
+11 Comply with your U.S. Tax-filing Requirement. IRS Form 8843 is required for F and J students and their dependents even if you had no U.S. income. ISSO provides you free access to Sprintax, a nonresident tax preparation system to complete the 8843 if you had no US income and a nonresident federal tax return in addition to the 8843 if you do have income to report.
+[/RULE]
+[AUTHORITY:IRS requirement]
+
+[RULE:ISSO:BENEFITS-001]
+12 Don't apply for or accept governmental Public Benefits. When applying for a nonimmigrant or immigrant visa, applicants have to document that they have the financial resources to support themselves and any family members with them. Accepting taxpayer-funded public benefits can jeopardize your status and future visa applications. Refer to the USCIS Public Charge Webpage for additional information.
+[/RULE]
+[CONSEQUENCE:visa jeopardy]
+
+[SECTION:RCL-DETAILS]
+Requesting a Reduced Course Load (RCL)
+
+[RULE:ISSO:RCL-REQUIREMENT-001]
+All F-1/J-1 students are required to enroll full-time every semester, with very limited exceptions. A reduced course load (RCL) is permission to be registered below full-time during a semester.
+[/RULE]
+
+Final Term Exception
+
+[EXCEPTION:ISSO:RCL-FINAL-002]
+You are allowed to be less than full-time in the final term of your degree program if you do not need a full-time course load to complete your degree requirements. You do not need to request permission for an RCL and no further action is required.
+[/EXCEPTION]
+[REQUIREMENT:no permission needed]
+
+Eligibility to request permission for an RCL
+
+[RULE:ISSO:RCL-ELIGIBLE-001]
+You need to request and be granted permission from us for an RCL prior to dropping below full-time enrollment if one of the exceptions below applies to you.
+[/RULE]
+[REQUIREMENT:pre-authorization required]
+
+[RULE:ISSO:RCL-ACADEMIC-001]
+1) Academic difficulties during your degree program
+
+This exception may be used one time only and you must resume a full course of study at the next available semester.
+
+initial difficulty with the English language (first semester)
+initial difficulty with reading requirements (first semester)
+unfamiliarity with U.S. teaching methods (first semester)
+improper course level placement. This means not having the prerequisites or preparation for a course and is not limited to the first semester
+[/RULE]
+[LIMITATION:one time only]
+[TIMING:must resume full-time next semester]
+
+[RULE:ISSO:RCL-MEDICAL-001]
+2) Temporary illness or medical/mental health difficulties
+
+You may apply for an RCL on the basis of a temporary health situation for one semester. If additional time is needed, a new application with new documentation is required for any subsequent semester. You are limited by regulation to a total of 12 months of approved RCL time during your degree program.
+[/RULE]
+[LIMITATION:12 months total maximum]
+[REQUIREMENT:new application each semester]
+
+How to Request an RCL
+
+Gather your documents
+
+Log in to Compass with your UNI and password to submit your application
+
+Please click the appropriate link below:
+
+Not sure of your campus? Check our campus school list.
+
+Need help using Compass? Learn more on our Compass User Guide.
+
+We will contact you
+
+Allow up to 5 business days for us to review your application. We will notify you by email when your request has been processed.
+
+Contact your school (after approval)
+
+Once you are approved, check with your school to determine how you may drop your course(s) if it is past the add/drop period.
+
+[SECTION:LOA]
+Leave of Absence, Suspension, or Withdrawal
+
+[RULE:ISSO:LOA-CONSULT-001]
+If you are considering a leave of absence (LOA) or withdrawing, please speak with us in advance to see how it will affect your immigration status and employment eligibility when you return.
+[/RULE]
+[REQUIREMENT:advance consultation]
+
+[RULE:ISSO:SUSPENSION-001]
+If you have been suspended from your academic program, please speak with us about the effect on your immigration status.
+[/RULE]
+
+Before You Apply
+
+What happens to your F-1/J-1 SEVIS record
+
+[RULE:ISSO:LOA-TERMINATION-001]
+Your current F-1 or J-1 SEVIS record will be terminated after the official notification, and you will have to leave the U.S. in 15 days.
+[/RULE]
+[TIMING:15 days to depart]
+[CONSEQUENCE:SEVIS termination]
+[CONFLICT-CHECK:vs academic semester timing]
+
+[RULE:ISSO:LOA-COE-INVALID-001]
+Your current I-20 or DS-2019 form will no longer be valid and may not be used for future travel to the U.S. but should be kept for your records.
+[/RULE]
+
+[RULE:ISSO:LOA-NEW-COE-001]
+When to apply for a new I-20/DS-2019. You'll need to apply for a new I-20 or DS-2019 form 2-3 months in advance of returning to resume your full-time studies. This will be created in a new SEVIS record and you will need to pay a new SEVIS fee.
+[/RULE]
+[TIMING:2-3 months advance notice]
+[REQUIREMENT:new SEVIS fee]
+
+[RULE:ISSO:LOA-OPT-IMPACT-001]
+Eligibility for Practical Training (F-1 students)
+
+An F-1 student returning from a leave must be enrolled for two consecutive full-time semesters before being eligible for Practical Training authorization.
+[/RULE]
+[APPLIES_TO:F-1 only]
+[REQUIREMENT:2 consecutive full-time semesters]
+[TIMING:post-return eligibility reset]
+
+Impact on Student Health Insurance coverage
+
+Medical leaves and non-medical withdrawals are treated differently for maintaining insurance coverage. Learn more from Columbia Health.
+
+[RULE:ISSO:LOA-PROCESS-001]
+If a leave of absence, suspension, or withdrawal is necessary, complete the following steps:
+
+Have the absence approved by your school, department, or academic advisor
+
+A LOA, suspension or withdrawal must originate or be approved by your school.
+
+Notify us for proper and timely advice
+
+We need to know the terms and conditions. If you received your approval of the LOA from your school through an email, letter, or form, please forward it to us.
+
+Leave the U.S.
+
+Leave within 15 days of your leave being approved.
+[/RULE]
+[TIMING:15 days departure deadline]
+[SEE-ALSO:PhD_SEAS:LOA-001,GSAS:LOA-001]
+
+Returning From a Leave
+
+To request a new I-20/DS-2019 to return to Columbia after a leave, complete the following steps:
+
+Gather your documents and information
+
+Login to Compass with your UNI and password to submit your application
+
+Please click on the appropriate link below:
+
+We will contact you
+
+Allow up to 2 weeks for us to review your application.
+
+F-1: If your request is approved, we will email your new digital initial I-20 form for you to print with additional instructions.
+
+J-1: We will notify you by email when your new initial DS-2019 is ready to be shipped.
+
+Pay a new SEVIS fee
+
+Only do this after you receive the new I-20/DS-2019 because you need the new SEVIS number.
+
+5. Apply for a new F-1/J-1 entry visa if applicable
+
+Apply for a new visa if your current visa has expired.
+
+[RULE:ISSO:LOA-RETURN-REPORT-001]
+6. Submit the Online SEVIS Report form within 7 days after your arrival
+
+Submit this form within 7 days after your arrival. Enter the U.S. no more than 30 days in advance of your start date.
+
+Although this is not your first time at Columbia, reporting this arrival is necessary to activate your new SEVIS record.
+[/RULE]
+[TIMING:within 7 days of arrival]
+[TIMING:no more than 30 days before start date]
+
+Can I come back to the U.S. during my leave?
+
+[RULE:ISSO:LOA-VISIT-001]
+Yes, you may make short, temporary visits but not in F or J status. You would have to come in B-2 visitor status or with a visa waiver (ESTA) if you qualify.
+[/RULE]
+
+Can I use F-1 Optional Practical Training or J-1 Academic Training to work while I'm on a leave?
+
+[RULE:ISSO:LOA-NO-OPT-001]
+No. Optional Practical Training (OPT) or Academic Training (AT) are directly linked to your student status. If you have not yet graduated, you need to be enrolled full-time to be eligible for part-time work on or off-campus. If the purpose of your leave is to pursue employment in the United States you would need to be able to change to a different visa status that supports employment. Speak with one of our advisers before you finalize your plans.
+[/RULE]
+
+Do I need to get a new entry visa when I return from a leave?
+
+[RULE:ISSO:LOA-VISA-001]
+If you have an unexpired F-1 or J-1 visa, you may continue to use it with your newly-issued I-20/DS-2019.
+[/RULE]
+
+Can I use F-1 OPT as soon as I return?
+
+[RULE:ISSO:LOA-OPT-RESET-001]
+No. The OPT clock is reset. Once you resume your studies with a new SEVIS record and a new I-20, you will not be eligible for practical training until you have completed one academic year (2 semesters) in F-1 status. Be aware that if you only have one semester left to complete your program, you will not be eligible for post-completion OPT.
+[/RULE]
+[REQUIREMENT:1 academic year = 2 semesters]
+[CONSEQUENCE:OPT ineligibility if <2 semesters remain]
+
+What if my leave of absence is due to health issues and I need to continue medical treatment in the U.S.?
+
+Please contact us for additional guidance.
+
+[SECTION:POST-GRAD-WORK]
+Staying in the U.S. to Work in F or J Status
+
+As a graduating student in F or J status you may be eligible for 12 months or more of authorization to work in the U.S in your field of study after the completion of your program. Learn how to apply and how to comply with the terms of your status.
+
+Apply for OPT or AT
+
+Learn how to apply in your final term for employment authorization in your field of study to begin after graduation:
+
+​F-1: Optional Practical Training ​​​​​​
+J-1: Academic Training
+
+Comply with F-1 OPT/STEM OPT Requirements
+
+[RULE:ISSO:OPT-REPORTING-001]
+Reporting: Be mindful of your OPT reporting requirements.
+[/RULE]
+
+[RULE:ISSO:OPT-TRAVEL-001]
+Travel: Review Travel During OPT for documents you need if you leave and return to the US during OPT. Apply online for a new travel signature, if needed. F-1 OPT I-20 travel signatures are valid for 6 months, not 12, during OPT
+[/RULE]
+[TIMING:6 months validity during OPT]
+[CONFLICT-NOTE:differs from regular 12-month validity in ISSO:TRAVEL-SIG-001]
+
+Comply with J-1 AT Requirements
+
+Evaluation: Submit an Academic Training Evaluation form upon completion of the training.
+
+[RULE:ISSO:AT-TRAVEL-001]
+Travel: Review Documents Needed for Travel if you leave and return to the US during Academic Training. Apply online for a new travel signature. If needed. The Travel Signature on your DS-2019 is valid for 12 months or until the end date of your DS-2019, whichever is sooner.
+[/RULE]
+[TIMING:12 months or end date]
+
+[SECTION:EXTENSION]
+Extending Your Current Program (F and J Students)
+
+[RULE:ISSO:EXTENSION-GENERAL-001]
+F-1 and J-1 student regulations require you to be full-time every term and to make normal progress toward your degree, so it's unusual to need more time. However, there may be extraordinary circumstances. Read on to see if you qualify and how to proceed.
+[/RULE]
+
+Before You Apply
+
+You changed majors or programs or added a dual degree
+There was a significant change of your thesis/dissertation topic or you had research problems
+You need to make up for time you lost when you were authorized a reduced course load (RCL) for academic or health reasons
+You need to compensate for time missed during a leave of absence
+
+[RULE:ISSO:EXTENSION-TIMING-001]
+When to Apply
+
+Apply for your extension at least two weeks before your I-20 or DS-2019 expires. Your Certificate of Eligibility (I-20 or DS-2019) cannot be extended after the program end date.
+[/RULE]
+[TIMING:at least 2 weeks before expiration]
+[RESTRICTION:cannot extend after end date]
+
+How to Apply to Extend Your Current Program
+
+Get your Academic Adviser's recommendation
+
+The letter (or printed email) must:
+be from your academic adviser or dean (or someone in a similar academic position who is aware of your situation)
+detail the specific reason(s) for requiring more time
+include your expected completion date
+
+Special procedures
+
+2. Gather your documents
+
+3. Log in to Compass with your UNI and password to submit your application
+
+4. We will contact you
+
+Allow up to 10 business days for us to review and process your application.
+
+F-1: If your request is approved, we will email your new digital Extension I-20 form for you to print with additional instructions.
+
+J-1: We will notify you by email when your new extended DS-2019 is ready to be shipped. Per Department of State J Regulations, digital DS-2019 forms are not permitted to be emailed.
+
+5. Review, sign and date your new I-20 / DS-2019
+
+Use it when you travel. The travel signature on page 2 of your I-20 or page 1 of a DS-2019 is valid for 12 months or until your program end date, whichever is earlier. Keep all previously issued I-20s/DS-2019s. You may need them in the future.
+
+[SECTION:NEW-PROGRAM]
+Extending to Begin a New Program (F & J Students)
+
+[RULE:ISSO:NEW-PROGRAM-002]
+If you are moving from one program to another at Columbia University, you must apply for a new Certificate of Eligibility (COE) for the new program. Obtaining a new I-20 (F-1) or DS-2019 (J-1) will update your SEVIS record and extend your F or J "duration of status", which is the time you are permitted to stay in the United States as a student.
+[/RULE]
+[SEE-ALSO:PhD_SEAS:NEW-PROGRAM-001]
+
+Eligibility
+
+To receive a new COE you must be:
+
+Before You Apply
+
+When to Apply
+
+Earliest Date to Apply for F-1 and J-1 Students: As soon as you are accepted to your new full-time program at Columbia.
+
+[RULE:ISSO:NEW-PROGRAM-DEADLINE-001]
+Latest date to apply
+F-1: No later than 50 days after your current program completion (to allow time for 60-day deadline)
+J-1 Students: Before your current DS-2019 expires.
+[/RULE]
+[TIMING:F-1 = 50 days post-completion]
+[TIMING:J-1 = before expiration]
+
+How to Apply
+
+Gather your documents and information
+
+Log in to Compass with your UNI and password to submit your application
+
+We will contact you
+
+Allow up to 10 business days for us to review and process your application.
+
+F-1: If your request is approved, we will email your new digital Form I-20 for a new program for you to print with additional instructions.
+
+J-1: We will notify you by email when your new extended DS-2019 is ready to be shipped. Per Department of State J Regulations, digital DS-2019 forms are not permitted to be emailed.
+
+Review, sign, and date your new I-20/DS-2019
+
+F-1 Students: Your new I-20 start date will be the first date of the new program.
+J-1 Students: Your new DS-2019 will begin the day after the current DS-2019 expires.
+
+Use your new COE to travel, but keep all previous forms. The travel signature is valid for 12 months or until the end of your I-20/DS-2019, whichever is earlier.
+
+Travel while you are in between programs
+
+Re-Entering the U.S.
+
+[RULE:ISSO:NEW-PROGRAM-REENTRY-001]
+As long as you have the new I-20/DS-2019 for the new program, you can re-enter the U.S. at any time. This is because:
+- you will keep the same SEVIS number and are considered a continuing student
+- you are considered legally present in the U.S. in F/J status between the two programs
+[/RULE]
+
+Visa Validity
+
+[RULE:ISSO:NEW-PROGRAM-VISA-001]
+You may continue to use an unexpired F/J entry visa.
+
+If your visa has expired, the new I-20/DS-2019 establishes the continued validity of your F/J status while you remain in the U.S., but the first time you travel outside the U.S. (except to Canada or Mexico), you will need to apply for a new F/J visa at a U.S. embassy or consulate.
+
+You do not need to pay another SEVIS fee because it is the same SEVIS record. Have your SEVIS fee receipt with you when you need to apply for a new visa.
+[/RULE]
+[REQUIREMENT:no new SEVIS fee for continuing students]
+
+[SECTION:ONCAMPUS-WORK]
+On-Campus Work (F and J Students)
+
+[RULE:ISSO:ONCAMPUS-001]
+On-campus employment is permitted "incident to your status" as an F-1 or J-1 student. This means you are eligible as soon as you have obtained F-1 or J-1 status and does not require an application. J-1 students, however, must submit a request for authorization of on-campus employment. On-campus work is done for, and paid by, Columbia University, with an exception for work for a commercial firm on the campus if it provides direct services to all Columbia students. On-campus employment authorization ends on the Program End Date found on the I-20 or DS-2019.
+[/RULE]
+[EXCEPTION:J-1 requires authorization request]
+[TIMING:ends on program end date]
+
+Information for both F and J students
+
+Limitation on number of hours you may work
+
+[RULE:ISSO:ONCAMPUS-HOURS-001]
+You may work on-campus up to 20 hours per week during the academic year (fall and spring semester) when classes are in session, and unlimited hours during any recess periods, such as winter break or summer vacation.
+
+If your program requires you to be enrolled during the summer term, it is not considered a vacation period and you would be restricted to part-time hours.
+[/RULE]
+[LIMITATION:20 hours/week during academic year]
+[EXCEPTION:unlimited during recess]
+[CONDITION:required summer term = part-time only]
+
+On-Campus employment is not deducted from other types of work
+
+[RULE:ISSO:ONCAMPUS-NO-DEDUCT-001]
+The time you spend working on-campus is not deducted from the amount of time you are allowed for other types of work, such as F-1 Optional Practical Training or J-1 Academic Training, and does not need to be related to your field of study.
+[/RULE]
+
+[RULE:ISSO:ONCAMPUS-NO-WORKSTUDY-001]
+You are not eligible for jobs classified as "Work-Study"
+
+This is because Work-Study jobs are subsidized by federal financial aid for domestic students.
+[/RULE]
+
+Where to look for on-campus jobs
+
+There is no one central place where all on-campus jobs are listed. Some places to look are:
+
+Lionshare for students served by Center for Career Education (CCE)
+CCE how to get a job on-campus
+Other Career Centers
+Bulletin boards in campus buildings
+Libraries (employment office in 519 Butler)
+
+For J-1 Students only
+
+[RULE:ISSO:J1-ONCAMPUS-AUTH-001]
+Mandatory request for ISSO authorization
+
+J-1 exchange visitor regulations require sponsor authorization of on-campus employment. If your Form DS-2019 was issued by Columbia University, make this request to the ISSO /ISSO-CUIMC by clicking on the appropriate link below.
+[/RULE]
+[APPLIES_TO:J-1 only]
+[REQUIREMENT:sponsor authorization]
+
+After You Find an On-Campus Job
+
+Apply for a Social Security Number (if you don't have one)
+
+You must apply in person to the Social Security Administration, a federal agency, for a Social Security Number (SSN). Learn exactly what you need to do for an SSN application.
+
+Follow instructions for getting on payroll
+
+Visit the New Student Employees page on the Human Resources website.
+
+The office that hires you will give you instructions for completing an I-9 Employment Verification Authorization Form, tax withholding forms (federal IRS W-4 and NY state/city IT-2104), and possibly IRS Form 8233 if you are from a country eligible for a tax treaty benefit.
+
+W-4 special instructions for "nonresident aliens"
+
+Tax Treaty exemption eligibility questions? While the relevant Human Resources office is working remotely due to of COVID-19, please call the HR Service Center at 212-851-2888 or submit this ServiceNow Form.
+
+W-2: By January 31st of the following tax year, you will be sent a W-2 form, also known as the Wage and Tax Statement. The W-2 reports your annual wages and the amount of taxes withheld from your paycheck. At Columbia, Payroll in the Finance Division is responsible for the W-2. Access an electronic copy of your W-2 here.
+
+[SECTION:CPT]
+F-1 CPT (Curricular Practical Training)
+
+Curricular Practical Training is authorization for the off-campus employment
+
+Degree Program Criteria
+
+[RULE:ISSO:CPT-PROGRAM-001]
+Per F-1 regulations, your program must meet one of the following criteria:
+[/RULE]
+
+F-1 Student Eligibility
+
+[RULE:ISSO:CPT-ELIGIBILITY-001]
+You must:
+[/RULE]
+
+Before You Apply
+
+CPT can be used only during the academic program.
+
+CPT Hours for Elective Courses
+
+[RULE:ISSO:CPT-HOURS-001]
+Part-Time is 20 hours or fewer per week. You are limited to part-time hours during the fall and/or spring term. You are also limited to part-time during the summer if:
+your program has a required summer term OR
+summer is your final term
+
+Full-Time is more than 20 hours per week. You may be full-time during the summer vacation period only if you will be continuing in the fall.
+[/RULE]
+[LIMITATION:part-time during required/final summer]
+[EXCEPTION:full-time during summer vacation if continuing]
+
+Review the table below for a visual:
+
+CPT Dates
+
+[RULE:ISSO:CPT-DATES-001]
+CPT is always authorized for dates that are within the semester, whether it is granted for an internship or practicum degree requirement or for an elective internship or practicum course.
+
+In the final term, CPT must end with the official last day of the Spring or Fall semester. Final summer term CPT end dates may vary, consult your academic advisor and the ISSO.
+[/RULE]
+[RESTRICTION:final term end date]
+
+CPT Location
+
+[RULE:ISSO:CPT-LOCATION-001]
+You are expected to be attending in-person classes during the required terms in the academic year. If your employer is located elsewhere in the U.S., you may engage in CPT only if it is remote.
+[/RULE]
+[REQUIREMENT:in-person class attendance]
+[EXCEPTION:remote CPT allowed]
+
+[RULE:ISSO:CPT-APPLICATION-001]
+When to Submit an Application
+
+Apply at least 10 business days before your requested start date. CPT cannot be authorized retroactively, so plan ahead!
+[/RULE]
+[TIMING:10 business days minimum]
+[RESTRICTION:no retroactive authorization]
+
+[RULE:ISSO:CPT-OPT-IMPACT-001]
+Effect of CPT on OPT duration
+
+Time authorized for CPT is not deducted from the amount of OPT you are allowed after graduation.
+
+If you have been authorized for 12 months or more of full-time CPT, you are no longer eligible for OPT. This is a rare occurrence at Columbia because most students are not eligible for full-time CPT for 12 months.
+[/RULE]
+[CONSEQUENCE:12+ months full-time CPT = OPT ineligibility]
+
+Changing Employers or Extending CPT Time
+
+If eligible, you will need to submit a new application if you change employers or need to extend the time. If there are any changes to your already approved CPT request, indicate the changes in your new application, (e.g. providing a new end date if shortening or extending within the same semester.)
+
+[SECTION:OPT-INTRO]
+What is OPT?
+
+[RULE:ISSO:OPT-DEF-001]
+OPT (Optional Practical Training) is a benefit of F-1 student status that allows you to work off-campus in your field of study to gain practical experience.
+[/RULE]
+[APPLIES_TO:F-1 only]
+
+Before You Apply
+
+When you can use OPT
+
+[RULE:ISSO:OPT-WHEN-001]
+You may use OPT during and/or after your degree program if it is longer than one academic year (2 semesters). OPT during your program is referred to as Pre-Completion OPT.
+[/RULE]
+[REQUIREMENT:program longer than 1 academic year]
+
+[RULE:ISSO:OPT-TWOPART-001]
+Obtaining OPT employment authorization is a two-part application
+
+Part 1. Submit an online application to the ISSO to obtain a new I-20 with the OPT recommendation printed on it.
+
+Part 2. Submit your OPT application with fee to USCIS (Citizenship and Immigration Services). It may take USCIS three months (or maybe more) to process your EAD (Employment Authorization Document), so you need to plan ahead--and apply as soon as possible. See "When to Apply" below.
+[/RULE]
+[TIMING:3+ months USCIS processing]
+
+[RULE:ISSO:OPT-APPLY-TIMING-001]
+When to apply
+
+By regulation, the earliest you may apply for pre-completion OPT is 90 days before your requested OPT start date. We recommend requesting a start date a few weeks earlier than the actual date you want to begin employment because of the unpredictable processing time of the EAD by USCIS. An earlier submission and an earlier approved start date builds in more time for any delay.
+
+We encourage you to apply to the ISSO as early as possible for the OPT I-20 because you need it for the OPT application you will submit to USCIS.
+[/RULE]
+[TIMING:earliest = 90 days before start]
+
+[RULE:ISSO:OPT-IN-US-001]
+You must be in the U.S. at the time you submit your OPT application to USCIS
+
+F-1 regulations require you to be in the U.S. in F-1 status at the time you apply for OPT. Your most recent I-94 admission record is among the required documentation.
+[/RULE]
+[REQUIREMENT:physical presence in US]
+
+[RULE:ISSO:OPT-DURATION-001]
+You have a maximum amount of OPT time for each degree level
+
+You get 12 months of OPT for each higher degree level you complete (Bachelor's, Master's, and PhD Degree).
+
+If you're a student in certain STEM fields (Science, Technology, Engineering, and Math), you may be eligible for an extension of OPT for an additional 24 months.
+[/RULE]
+[DURATION:12 months per degree level]
+[EXCEPTION:STEM = +24 months]
+
+[RULE:ISSO:OPT-PRECOMP-DEDUCT-001]
+OPT time used during your program is deducted from post-graduation OPT
+
+Pre-Completion OPT is deducted from the 12 month total at graduation.
+[/RULE]
+
+[RULE:ISSO:OPT-ONCAMPUS-001]
+On-Campus Employment. You are allowed to work on-campus through the program end date listed on your I-20. Any employment following the completion of the degree, including work for and paid by Columbia University, must meet OPT employment guidelines.
+[/RULE]
+[TIMING:through program end date]
+[RESTRICTION:post-completion = must meet OPT guidelines]
+
+[RULE:ISSO:OPT-ONCAMPUS-NO-DEDUCT-002]
+On-campus employment does not get deducted from OPT after graduation
+
+If you find on-campus employment, you don't need to apply for OPT. Your F1 status allows you to work on-campus, regardless of whether it's related to your field of study, and is not deducted from the time you're allowed to work under OPT. Review our information on On-Campus Employment.
+[/RULE]
+
+[RULE:ISSO:OPT-NO-OFFER-001]
+You do not need an offer of employment to apply
+
+You do not need a job offer to apply for OPT but if you don't work you forfeit the authorized OPT time.
+[/RULE]
+
+Time Limits (Part-time and full-time)
+
+[RULE:ISSO:OPT-PRECOMP-HOURS-001]
+Part-Time is 20 hours or fewer per week. You are limited to part-time hours during the fall and/or spring term. You are also limited to part-time during the summer if:
+your program has a required summer term OR
+summer is your final term
+
+Full-Time is more than 20 hours per week. You may be full-time during the summer vacation period only if you will be continuing in the fall and summer is not a required term.
+[/RULE]
+
+Remote Work
+
+[RULE:ISSO:OPT-REMOTE-001]
+OPT is work authorization in the U.S. for a U.S. based employer. That being said, we have seen U.S. employers allow or require for F-1 OPT students to work remotely. If traveling internationally while working remotely, entry into the US is always up to Customs and Border Protection. As such, ensure you consider that the longer you are outside the U.S., the more scrutinized your entry may potentially be.
+[/RULE]
+[CAUTION:extended absence scrutiny]
+
+[SECTION:OPT-POST]
+F-1 OPT (Optional Practical Training) After Your Degree Program
+
+Many students decide to remain in the U.S. after graduation to apply their skills and knowledge and gain practical experience and training. OPT (Optional Practical Training) is commonly used by students in F-1 status to achieve this objective.
+
+What is OPT?
+
+[RULE:ISSO:OPT-POST-DEF-001]
+OPT (Optional Practical Training) is a benefit and extension of F-1 student status that permits you to remain in the U.S. after you complete your academic program with permission to work in your field of study.
+
+Post-Completion OPT extends your F-1 status although you are no longer an enrolled student, and also extends the F-2 status of any dependents who are with you.
+[/RULE]
+
+Eligibility
+
+Before You Apply
+
+[RULE:ISSO:OPT-POST-IN-US-001]
+You must be in the U.S. at the time you submit your OPT application to USCIS
+
+F-1 regulations require you to be in the U.S. in F-1 status at the time you apply for OPT. Your most recent I-94 arrival record is among the required documentation.
+[/RULE]
+
+Types of employment allowed
+
+[RULE:ISSO:OPT-POST-EMPLOYMENT-001]
+Employment on Post-completion OPT is paid or unpaid work in your field of study for at least 20 hours per week.
+[/RULE]
+[REQUIREMENT:minimum 20 hours/week]
+[REQUIREMENT:field of study related]
+
+Learn about types of employment allowed:
+
+Type	Description
+Paid employment	You must work at least 20 hours per week when on post-completion OPT.
+Unpaid employment	Unpaid work must be at least 20 hours per week and the work cannot violate any labor laws. Learn more about this on our unpaid internships and volunteering webpage Be prepared to provide evidence from the employer that you worked at least 20 hours per week during the period of employment.
+Please note: STEM OPT extension requires paid employment.
+Remote employment	OPT is work authorization in the U.S. for a U.S. based employer. That being said, we have seen U.S. employers allow or require for F-1 OPT students to work remotely. If traveling internationally while working remotely, entry into the US is always up to Customs and Border Protection. As such, ensure you consider that the longer you are outside the U.S., the more scrutinized your entry may potentially be.
+Multiple employers	You may work for more than one employer, concurrently or one at a time. All employment must be related to your degree program.
+Short-term multiple employers	Musicians and other performing artists should maintain a list of all "gigs", the dates and duration. If requested by DHS, you must be prepared to provide evidence showing a list of all gigs.
+Employment through an agency or consulting firm	Also known as employment, temp, or staffing agencies. You are required to average at least 20 hours/week at the location where you are placed.
+Self-employed business owner	You must be able to prove that you have the proper business license and that the business is related to your degree program. You may need to consult an attorney.
+Independent contractor/ free-lance	If requested by DHS, be prepared to provide evidence showing the duration of the contract periods and the name and address of the contracting company.
+
+[RULE:ISSO:OPT-POST-NO-OFFER-001]
+You can apply for OPT without a job offer
+
+A job offer is not required in advance of submitting an application which allows you more time to job hunt. However, you need to begin OPT employment within 90 days of the start date on your EAD.
+[/RULE]
+[TIMING:employment must begin within 90 days]
+
+[RULE:ISSO:OPT-POST-UNEMPLOYMENT-001]
+You are allowed a total of 90 days without employment on OPT
+
+The "clock" to count unemployment days begins on the start date of OPT on your EAD card
+
+✓	Employment must begin within 90 days from the start date on your EAD. If USCIS processes your OPT application after your requested start date, it may adjust the start date to the date your OPT was approved. The end date, however, will not be extended beyond 14 months from your I-20 completion date.
+✓	The 90 days of unemployment is an aggregate of all days without employment, including weekends and time between jobs. (This does not include vacations or sick days taken while employed.)
+✓	SEVIS keeps track of your unemployment days, based on the information you submit via OPT Reporting.
+
+Be careful! If you accrue more than 90 days of unemployment, or if you forget to report and update your OPT to the ISSO, your F-1 SEVIS record may automatically terminate. A terminated SEVIS record cancels OPT authorization and requires you to leave the United States.
+[/RULE]
+[LIMITATION:90 days total unemployment]
+[CONSEQUENCE:SEVIS termination if exceeded]
+[TIMING:14 months max from completion date]
+
+[RULE:ISSO:OPT-POST-MAXIMUM-001]
+You have a maximum amount of OPT time. Your maximum amount of Post-Completion OPT is 12 months. If you had OPT previously authorized at the same degree level it will be deducted from the 12 month total. This includes:
+✓	Any OPT authorized during your current program (Pre-Completion OPT)
+✓	Any OPT authorized for another program at the same degree level
+
+Use your previously-issued EAD cards to calculate the number of days to be deducted. Plan ahead for your application timeline. The earliest you can apply is 90 days before your program end date on your I-20. For more detail on the application timeline, go to Application Process Step 1. Keep records of all your employment. We recommend that you maintain evidence — for each job — of the position held, the job title, contact information for your supervisor or manager, a description of the work, and proof of the duration. If possible, obtain a signed letter from your hiring official, supervisor, or manager stating how your degree is related to the work performed. These records and letters are not part of your applications. It is useful to have them available in your personal files in case questions ever arise during OPT or in a future employment-based application. Do not travel if you plan to re-enter the US after your program end date. You must be in the US when submitting your I-765 application to USCIS and you cannot travel after the program end date until you have submitted your application to USCIS. Please review our travel information.
+[/RULE]
+[DURATION:12 months maximum]
+[TIMING:earliest application = 90 days before end date]
+[RESTRICTION:no travel after end date until application submitted]
+
+[END:JURISDICTION:ISSO]

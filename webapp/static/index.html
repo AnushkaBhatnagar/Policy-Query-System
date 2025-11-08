@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Query System</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .conversation-container {
+            max-height: 500px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .conversation-container.active {
+            display: block;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            padding: 12px 16px;
+            border-radius: 12px;
+            max-width: 75%;
+            clear: both;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.user {
+            background: #667eea;
+            color: white;
+            margin-left: auto;
+            float: right;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.assistant {
+            background: white;
+            border: 1px solid #e0e0e0;
+            margin-right: auto;
+            float: left;
+            border-bottom-left-radius: 4px;
+        }
+
+        .message.assistant h1,
+        .message.assistant h2,
+        .message.assistant h3 {
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .message.assistant h1 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+
+        .message.assistant h2 {
+            font-size: 1.3em;
+            color: #667eea;
+        }
+
+        .message.assistant h3 {
+            font-size: 1.1em;
+        }
+
+        .message.assistant p {
+            margin-bottom: 10px;
+        }
+
+        .message.assistant strong {
+            color: #667eea;
+            font-weight: 700;
+        }
+
+        .message.assistant ul,
+        .message.assistant ol {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+
+        .message.assistant li {
+            margin: 4px 0;
+        }
+
+        .message.assistant code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #c7254e;
+        }
+
+        .message.assistant pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 12px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        .message.assistant pre code {
+            background: none;
+            color: inherit;
+            padding: 0;
+        }
+
+        .query-section {
+            margin-bottom: 20px;
+        }
+
+        .query-input {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            resize: vertical;
+            min-height: 80px;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        .query-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            flex: 1;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: #f5f5f5;
+            color: #666;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .examples {
+            margin-top: 20px;
+        }
+
+        .examples h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .example-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .chip {
+            background: #f0f0f0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+
+        .chip:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .meta-info {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 12px;
+            color: #999;
+            text-align: right;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #c33;
+            margin-top: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .example-chips {
+                flex-direction: column;
+            }
+
+            .message {
+                max-width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Policy Query System</h1>
+            <p>Ask questions about Columbia University graduate student policies</p>
+        </div>
+
+        <div class="card">
+            <div class="conversation-container" id="conversationContainer">
+                <!-- Messages will be appended here -->
+            </div>
+
+            <div class="query-section">
+                <textarea 
+                    id="queryInput" 
+                    class="query-input" 
+                    placeholder="Ask a policy question or describe your situation..."
+                ></textarea>
+                
+                <div class="button-group">
+                    <button id="submitBtn" class="btn btn-primary">Send</button>
+                    <button id="clearBtn" class="btn btn-secondary">New Conversation</button>
+                </div>
+
+                <div class="examples">
+                    <h3>Example Questions:</h3>
+                    <div class="example-chips">
+                        <span class="chip">What are the defense registration requirements?</span>
+                        <span class="chip">When must I defend my prospectus?</span>
+                        <span class="chip">Can I defend while on OPT?</span>
+                        <span class="chip">Taking LOA for internship, giving up housing</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Processing your query...</p>
+            </div>
+
+            <div id="errorSection" class="error" style="display: none;"></div>
+        </div>
+
+        <div class="footer">
+            <p>Policy data from GSAS, ISSO, and PhD SEAS documents</p>
+            <p style="margin-top: 5px;">Powered by Claude AI & MCP Policy Server</p>
+        </div>
+    </div>
+
+    <script>
+        const queryInput = document.getElementById('queryInput');
+        const submitBtn = document.getElementById('submitBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const loading = document.getElementById('loading');
+        const conversationContainer = document.getElementById('conversationContainer');
+        const errorSection = document.getElementById('errorSection');
+        const exampleChips = document.querySelectorAll('.chip');
+
+        let sessionId = null;  // Track conversation session
+
+        // Example query click handlers
+        exampleChips.forEach(chip => {
+            chip.addEventListener('click', () => {
+                queryInput.value = chip.textContent;
+                queryInput.focus();
+            });
+        });
+
+        // Clear/New Conversation button handler
+        clearBtn.addEventListener('click', async () => {
+            if (sessionId) {
+                try {
+                    await fetch('/api/conversation/clear', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({ session_id: sessionId })
+                    });
+                } catch (error) {
+                    console.error('Error clearing conversation:', error);
+                }
+            }
+            
+            // Clear UI
+            conversationContainer.innerHTML = '';
+            conversationContainer.classList.remove('active');
+            sessionId = null;
+            errorSection.style.display = 'none';
+            queryInput.value = '';
+            queryInput.focus();
+        });
+
+        // Submit button handler
+        submitBtn.addEventListener('click', async () => {
+            await submitQuery();
+        });
+
+        // Enter key handler (Ctrl+Enter to submit)
+        queryInput.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.key === 'Enter') {
+                submitQuery();
+            }
+        });
+
+        function displayMessage(role, content, metadata = null) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role}`;
+            
+            if (role === 'user') {
+                messageDiv.textContent = content;
+            } else {
+                // Render assistant messages with markdown
+                messageDiv.innerHTML = marked.parse(content);
+                
+                // Add metadata if provided
+                if (metadata) {
+                    const metaDiv = document.createElement('div');
+                    metaDiv.className = 'meta-info';
+                    metaDiv.textContent = `Tools: ${metadata.tool_uses || 0} | Iterations: ${metadata.iterations || 1}`;
+                    messageDiv.appendChild(metaDiv);
+                }
+            }
+            
+            conversationContainer.appendChild(messageDiv);
+            conversationContainer.classList.add('active');
+            
+            // Scroll to bottom
+            conversationContainer.scrollTop = conversationContainer.scrollHeight;
+            
+            // Clear floats
+            const clearDiv = document.createElement('div');
+            clearDiv.style.clear = 'both';
+            conversationContainer.appendChild(clearDiv);
+        }
+
+        async function submitQuery() {
+            const query = queryInput.value.trim();
+            
+            if (!query) {
+                alert('Please enter a question');
+                return;
+            }
+
+            // Display user message immediately
+            displayMessage('user', query);
+            queryInput.value = '';
+            
+            // Hide previous errors
+            errorSection.style.display = 'none';
+            
+            // Show loading
+            loading.classList.add('active');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Processing...';
+
+            try {
+                const response = await fetch('/api/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ 
+                        query,
+                        session_id: sessionId  // Send session ID
+                    })
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to process query');
+                }
+
+                // Update session ID
+                sessionId = data.session_id;
+                
+                // Display assistant response
+                displayMessage('assistant', data.response, {
+                    tool_uses: data.tool_uses?.length,
+                    iterations: data.iterations
+                });
+
+            } catch (error) {
+                errorSection.textContent = `Error: ${error.message}`;
+                errorSection.style.display = 'block';
+                displayMessage('assistant', `Error: ${error.message}`);
+            } finally {
+                loading.classList.remove('active');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Send';
+                queryInput.focus();
+            }
+        }
+
+        // Check API health on load
+        fetch('/api/health')
+            .then(r => r.json())
+            .then(data => {
+                if (data.claude_api !== 'configured') {
+                    errorSection.textContent = 'Warning: Claude API key not configured. Please set ANTHROPIC_API_KEY environment variable.';
+                    errorSection.style.display = 'block';
+                }
+            })
+            .catch(err => {
+                console.error('Health check failed:', err);
+            });
+    </script>
+</body>
+</html>

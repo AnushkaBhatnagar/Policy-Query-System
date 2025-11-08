@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "generated": "2025-10-29",
+    "total_documents": 3,
+    "total_rules_parsed": 209,
+    "total_conflicts": 16
+  },
+  "precedence_framework": {
+    "hierarchy": {
+      "1": {
+        "jurisdiction": "ISSO",
+        "name": "Federal",
+        "description": "Immigration law - always takes precedence",
+        "scope": "All F-1 and J-1 international students"
+      },
+      "2": {
+        "jurisdiction": "PhD_SEAS",
+        "name": "School",
+        "description": "SEAS school policies override GSAS for SEAS departments",
+        "scope": "PhD students in SEAS departments (e.g., Computer Science)"
+      },
+      "3": {
+        "jurisdiction": "GSAS",
+        "name": "University",
+        "description": "Graduate school policies - default for non-SEAS departments",
+        "scope": "All PhD programs in Arts and Sciences"
+      }
+    },
+    "explicit_overrides": [
+      {
+        "rule_id": "PhD_SEAS:GSAS-SEAS-001",
+        "statement": "SEAS rules override GSAS rules for PhD students whose home department is in SEAS",
+        "precedence": 2
+      },
+      {
+        "rule_id": "PhD_SEAS:MF-001",
+        "statement": "SEAS rules contradict and override the GSAS rules for M&F registration",
+        "precedence": 2
+      }
+    ]
+  },
+  "conflicts": [
+    {
+      "id": "C001",
+      "type": "authority",
+      "severity": "medium",
+      "rules": [
+        {
+          "rule_id": "GSAS:AUTHORITY-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        },
+        {
+          "rule_id": "PhD_SEAS:GSAS-SEAS-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        }
+      ],
+      "description": "GSAS confers degree, but SEAS administers for engineering programs",
+      "resolution_logic": "For SEAS departments: SEAS administers. For A&S departments: GSAS administers. GSAS always confers final degree."
+    },
+    {
+      "id": "C002",
+      "type": "timing",
+      "severity": "high",
+      "rules": [
+        {
+          "rule_id": "GSAS:PROSPECTUS-DEADLINE-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        },
+        {
+          "rule_id": "PhD_SEAS:PROPOSAL-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        }
+      ],
+      "description": "Different prospectus/proposal deadlines: May 31 year 4 (GSAS) vs 8th semester (PhD_SEAS)",
+      "resolution_logic": "For SEAS students: 8th semester deadline applies. For A&S students: May 31 year 4 applies."
+    },
+    {
+      "id": "C003",
+      "type": "registration",
+      "severity": "critical",
+      "rules": [
+        {
+          "rule_id": "GSAS:DEFENSE-LAST-REG-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        },
+        {
+          "rule_id": "ISSO:ENROLLMENT-001",
+          "jurisdiction": "ISSO",
+          "precedence": 1
+        }
+      ],
+      "description": "Distribution semester is last registration vs full-time enrollment requirement for international students",
+      "resolution_logic": "ISSO rules take precedence. International students must maintain full-time status per federal law."
+    },
+    {
+      "id": "C004",
+      "type": "defense_format",
+      "severity": "high",
+      "rules": [
+        {
+          "rule_id": "GSAS:DEFENSE-CLOSED-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        },
+        {
+          "rule_id": "PhD_SEAS:DEFENSE-SEMINAR-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        }
+      ],
+      "description": "GSAS requires closed defense. PhD_SEAS requires public seminar before defense.",
+      "resolution_logic": "For SEAS students: Public seminar immediately before closed defense. Both requirements apply sequentially."
+    },
+    {
+      "id": "C005",
+      "type": "duplicate",
+      "severity": "low",
+      "rules": [
+        {
+          "rule_id": "GSAS:PROSPECTUS-DEADLINE-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        },
+        {
+          "rule_id": "GSAS:PROSPECTUS-DEADLINE-REPEAT-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        }
+      ],
+      "description": "Duplicate rule about prospectus deadline",
+      "resolution_logic": "Same rule repeated. Use either."
+    },
+    {
+      "id": "C006",
+      "type": "eligibility",
+      "severity": "medium",
+      "rules": [
+        {
+          "rule_id": "ISSO:RCL-001",
+          "jurisdiction": "ISSO",
+          "precedence": 1
+        }
+      ],
+      "description": "Reduced course load final term exception vs academic program minimum registration requirements",
+      "resolution_logic": "If academic program requires minimum registration every term, that overrides RCL exception. Check program-specific rules."
+    },
+    {
+      "id": "C007",
+      "type": "timing",
+      "severity": "medium",
+      "rules": [
+        {
+          "rule_id": "ISSO:TRAVEL-SIG-001",
+          "jurisdiction": "ISSO",
+          "precedence": 1
+        },
+        {
+          "rule_id": "ISSO:OPT-TRAVEL-001",
+          "jurisdiction": "ISSO",
+          "precedence": 1
+        }
+      ],
+      "description": "Travel signature validity: 12 months normally, but only 6 months during OPT",
+      "resolution_logic": "During OPT: 6-month validity. Otherwise: 12-month validity."
+    },
+    {
+      "id": "C008",
+      "type": "timing",
+      "severity": "critical",
+      "rules": [
+        {
+          "rule_id": "ISSO:LOA-TERMINATION-001",
+          "jurisdiction": "ISSO",
+          "precedence": 1
+        }
+      ],
+      "description": "Must leave US in 15 days after LOA approval vs academic semester schedules",
+      "resolution_logic": "Federal law takes precedence. Student must leave within 15 days regardless of semester timing."
+    },
+    {
+      "id": "C009",
+      "type": "timing",
+      "severity": "high",
+      "rules": [
+        {
+          "rule_id": "PhD_SEAS:CANDIDACY-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        },
+        {
+          "rule_id": "GSAS:PROSPECTUS-DEADLINE-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        }
+      ],
+      "description": "Candidacy exam (6th semester) vs prospectus timing (4th year)",
+      "resolution_logic": "For SEAS: Candidacy by 6th semester, then proposal by 8th semester. Different milestone names for same progression."
+    },
+    {
+      "id": "C010",
+      "type": "registration",
+      "severity": "high",
+      "rules": [
+        {
+          "rule_id": "PhD_SEAS:REG-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        },
+        {
+          "rule_id": "ISSO:ENROLLMENT-001",
+          "jurisdiction": "ISSO",
+          "precedence": 1
+        }
+      ],
+      "description": "SEAS requires exactly 15 points. ISSO requires 12 points minimum or 1 RU for full-time.",
+      "resolution_logic": "15 points satisfies both requirements (15 > 12). No actual conflict."
+    },
+    {
+      "id": "C011",
+      "type": "registration",
+      "severity": "medium",
+      "rules": [
+        {
+          "rule_id": "PhD_SEAS:GSAS-RU-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        }
+      ],
+      "description": "RU system (GSAS) vs point system (SEAS) for registration",
+      "resolution_logic": "MS/PhD students use point system. After completing MS, switch to RU system. Different stages use different systems."
+    },
+    {
+      "id": "C012",
+      "type": "registration",
+      "severity": "medium",
+      "rules": [
+        {
+          "rule_id": "PhD_SEAS:ER-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        },
+        {
+          "rule_id": "GSAS:ER-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        }
+      ],
+      "description": "Extended Residence eligibility: GSAS allows M&F in some cases, SEAS restricts",
+      "resolution_logic": "For SEAS students: SEAS rules apply - M&F restricted. For A&S students: GSAS rules apply - M&F more flexible."
+    },
+    {
+      "id": "C013",
+      "type": "registration",
+      "severity": "high",
+      "rules": [
+        {
+          "rule_id": "PhD_SEAS:MF-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        },
+        {
+          "rule_id": "GSAS:MF-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        }
+      ],
+      "description": "M&F registration rules: SEAS explicitly overrides GSAS",
+      "resolution_logic": "For SEAS students: SEAS M&F rules apply. More restrictive than GSAS (no TA/RA, no courses, last 2 semesters only)."
+    },
+    {
+      "id": "C014",
+      "type": "timing",
+      "severity": "medium",
+      "rules": [
+        {
+          "rule_id": "PhD_SEAS:SUMMER-DEFENSE-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        },
+        {
+          "rule_id": "PhD_SEAS:CONTINUOUS-REG-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        }
+      ],
+      "description": "Summer registration normally optional, but required if distributing dissertation in summer",
+      "resolution_logic": "Exception to general rule. If distributing in summer: must register. Otherwise: summer optional."
+    },
+    {
+      "id": "C015",
+      "type": "registration",
+      "severity": "critical",
+      "rules": [
+        {
+          "rule_id": "GSAS:DEFENSE-REG-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        },
+        {
+          "rule_id": "PhD_SEAS:DEFENSE-REG-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        },
+        {
+          "rule_id": "ISSO:ENROLLMENT-001",
+          "jurisdiction": "ISSO",
+          "precedence": 1
+        }
+      ],
+      "description": "Defense registration requirements: US citizens vs international students",
+      "resolution_logic": "All students: Must register for distribution semester. International students: Consult ISSO for defense/deposit semesters (may need to remain registered per visa requirements)."
+    },
+    {
+      "id": "C016",
+      "type": "reference",
+      "severity": "low",
+      "rules": [
+        {
+          "rule_id": "GSAS:DEFENSE-APP-001",
+          "jurisdiction": "GSAS",
+          "precedence": 3
+        },
+        {
+          "rule_id": "PhD_SEAS:DEFENSE-SEMINAR-001",
+          "jurisdiction": "PhD_SEAS",
+          "precedence": 2
+        }
+      ],
+      "description": "Defense application timing: GSAS requires 2-4 weeks notice. PhD_SEAS requires 6 weeks for public seminar.",
+      "resolution_logic": "For SEAS students: Follow 6-week requirement (more restrictive). For A&S students: 2-4 weeks sufficient."
+    }
+  ],
+  "conflict_statistics": {
+    "by_severity": {
+      "critical": 4,
+      "high": 5,
+      "medium": 6,
+      "low": 1
+    },
+    "by_type": {
+      "registration": 6,
+      "timing": 5,
+      "defense_format": 1,
+      "authority": 1,
+      "eligibility": 1,
+      "duplicate": 1,
+      "reference": 1
+    },
+    "by_jurisdiction": {
+      "GSAS": 5,
+      "ISSO": 4,
+      "PhD_SEAS": 7
+    }
+  }
+}
