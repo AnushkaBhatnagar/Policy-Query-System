@@ -42,6 +42,41 @@
             opacity: 0.9;
         }
 
+        /* Mode Toggle */
+        .mode-toggle {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .mode-btn {
+            padding: 10px 30px;
+            border: none;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .mode-btn:first-child {
+            border-radius: 25px 0 0 25px;
+        }
+
+        .mode-btn:last-child {
+            border-radius: 0 25px 25px 0;
+        }
+
+        .mode-btn.active {
+            background: white;
+            color: #012169;
+        }
+
+        .mode-btn:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
         .card {
             background: white;
             border-radius: 12px;
@@ -50,6 +85,7 @@
             margin-bottom: 20px;
         }
 
+        /* Normal Mode Styles */
         .conversation-container {
             max-height: 500px;
             overflow-y: auto;
@@ -255,6 +291,262 @@
             color: white;
         }
 
+        /* Batch Mode Styles */
+        .batch-section {
+            display: none;
+        }
+
+        .batch-section.active {
+            display: block;
+        }
+
+        .batch-queries-container {
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+
+        .batch-query-item {
+            margin-bottom: 15px;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .batch-query-item label {
+            display: block;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .query-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .batch-input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        .batch-input:focus {
+            outline: none;
+            border-color: #012169;
+        }
+
+        .remove-query {
+            padding: 8px 12px;
+            background: #fee;
+            color: #c33;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .remove-query:hover {
+            background: #fdd;
+            transform: scale(1.1);
+        }
+
+        .batch-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .btn-add {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .btn-add:hover {
+            background: #45a049;
+        }
+
+        /* Batch Results */
+        .batch-results {
+            margin-top: 30px;
+            display: none;
+        }
+
+        .batch-results.active {
+            display: block;
+        }
+
+        .batch-results h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #012169;
+        }
+
+        .result-item {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .result-header {
+            padding: 15px;
+            background: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+            transition: background 0.2s;
+        }
+
+        .result-header:hover {
+            background: #f5f5f5;
+        }
+
+        .result-query {
+            font-weight: 600;
+            color: #012169;
+            flex: 1;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            min-width: 0;
+        }
+
+        .result-meta {
+            font-size: 12px;
+            color: #999;
+            flex-shrink: 0;
+            white-space: nowrap;
+            text-align: right;
+        }
+
+        .result-toggle {
+            font-size: 20px;
+            color: #012169;
+            transition: transform 0.3s;
+            flex-shrink: 0;
+            margin-left: 5px;
+        }
+
+        .result-toggle.open {
+            transform: rotate(180deg);
+        }
+
+        .result-content {
+            padding: 15px;
+            border-top: 1px solid #e0e0e0;
+            display: none;
+        }
+
+        .result-content.open {
+            display: block;
+        }
+
+        .result-response {
+            margin-bottom: 10px;
+            word-break: break-word;
+            overflow-wrap: break-word;
+        }
+
+        /* Markdown styling for batch results */
+        .result-response h1,
+        .result-response h2,
+        .result-response h3 {
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .result-response h1 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #012169;
+            padding-bottom: 5px;
+        }
+
+        .result-response h2 {
+            font-size: 1.3em;
+            color: #012169;
+        }
+
+        .result-response h3 {
+            font-size: 1.1em;
+        }
+
+        .result-response p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .result-response strong {
+            color: #012169;
+            font-weight: 700;
+        }
+
+        .result-response ul,
+        .result-response ol {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+
+        .result-response li {
+            margin: 4px 0;
+        }
+
+        .result-response code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #c7254e;
+        }
+
+        .result-response pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 12px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        .result-response pre code {
+            background: none;
+            color: inherit;
+            padding: 0;
+        }
+
+        .result-response a {
+            color: #012169;
+            text-decoration: underline;
+        }
+
+        .result-response blockquote {
+            border-left: 4px solid #012169;
+            padding-left: 15px;
+            margin: 10px 0;
+            color: #666;
+        }
+
         .loading {
             display: none;
             text-align: center;
@@ -300,6 +592,15 @@
             margin-top: 15px;
         }
 
+        .success-badge {
+            background: #4CAF50;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            margin-left: 5px;
+        }
+
         .footer {
             text-align: center;
             color: white;
@@ -317,7 +618,8 @@
                 padding: 20px;
             }
 
-            .button-group {
+            .button-group,
+            .batch-actions {
                 flex-direction: column;
             }
 
@@ -327,6 +629,14 @@
 
             .message {
                 max-width: 85%;
+            }
+
+            .query-row {
+                flex-direction: column;
+            }
+
+            .remove-query {
+                align-self: flex-end;
             }
         }
     </style>
@@ -338,37 +648,64 @@
             <p>Ask questions about Columbia University graduate student policies</p>
         </div>
 
-        <div class="card">
-            <div class="conversation-container" id="conversationContainer">
-                <!-- Messages will be appended here -->
-            </div>
+        <!-- Mode Toggle -->
+        <div class="mode-toggle">
+            <button class="mode-btn active" data-mode="normal">Normal Mode</button>
+            <button class="mode-btn" data-mode="batch">Batch Test Mode</button>
+        </div>
 
-            <div class="query-section">
-                <textarea 
-                    id="queryInput" 
-                    class="query-input" 
-                    placeholder="Ask a policy question or describe your situation..."
-                ></textarea>
-                
-                <div class="button-group">
-                    <button id="submitBtn" class="btn btn-primary">Send</button>
-                    <button id="clearBtn" class="btn btn-secondary">New Conversation</button>
+        <div class="card">
+            <!-- Normal Mode Section -->
+            <div id="normalMode" class="normal-section">
+                <div class="conversation-container" id="conversationContainer">
+                    <!-- Messages will be appended here -->
                 </div>
 
-                <div class="examples">
-                    <h3>Example Questions:</h3>
-                    <div class="example-chips">
-                        <span class="chip">What are the defense registration requirements?</span>
-                        <span class="chip">When must I defend my prospectus?</span>
-                        <span class="chip">Can I defend while on OPT?</span>
-                        <span class="chip">Taking LOA for internship, giving up housing</span>
+                <div class="query-section">
+                    <textarea 
+                        id="queryInput" 
+                        class="query-input" 
+                        placeholder="Ask a policy question or describe your situation..."
+                    ></textarea>
+                    
+                    <div class="button-group">
+                        <button id="submitBtn" class="btn btn-primary">Send</button>
+                        <button id="clearBtn" class="btn btn-secondary">New Conversation</button>
                     </div>
+
+                    <div class="examples">
+                        <h3>Example Questions:</h3>
+                        <div class="example-chips">
+                            <span class="chip">What are the defense registration requirements?</span>
+                            <span class="chip">When must I defend my prospectus?</span>
+                            <span class="chip">Can I defend while on OPT?</span>
+                            <span class="chip">Taking LOA for internship, giving up housing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Batch Mode Section -->
+            <div id="batchMode" class="batch-section">
+                <div class="batch-queries-container" id="batchQueriesContainer">
+                    <!-- Batch query inputs will be added here -->
+                </div>
+
+                <div class="batch-actions">
+                    <button id="addQueryBtn" class="btn btn-add">+ Add Query</button>
+                    <button id="processAllBtn" class="btn btn-primary">Process All Queries</button>
+                    <button id="clearAllBtn" class="btn btn-secondary">Clear All</button>
+                </div>
+
+                <div class="batch-results" id="batchResults">
+                    <h3>Results</h3>
+                    <div id="batchResultsContainer"></div>
                 </div>
             </div>
 
             <div id="loading" class="loading">
                 <div class="spinner"></div>
-                <p>Processing your query...</p>
+                <p id="loadingText">Processing your query...</p>
             </div>
 
             <div id="errorSection" class="error" style="display: none;"></div>
@@ -381,17 +718,228 @@
     </div>
 
     <script>
+        // Normal Mode Elements
         const queryInput = document.getElementById('queryInput');
         const submitBtn = document.getElementById('submitBtn');
         const clearBtn = document.getElementById('clearBtn');
         const loading = document.getElementById('loading');
+        const loadingText = document.getElementById('loadingText');
         const conversationContainer = document.getElementById('conversationContainer');
         const errorSection = document.getElementById('errorSection');
         const exampleChips = document.querySelectorAll('.chip');
 
-        let sessionId = null;  // Track conversation session
+        // Batch Mode Elements
+        const batchQueriesContainer = document.getElementById('batchQueriesContainer');
+        const addQueryBtn = document.getElementById('addQueryBtn');
+        const processAllBtn = document.getElementById('processAllBtn');
+        const clearAllBtn = document.getElementById('clearAllBtn');
+        const batchResults = document.getElementById('batchResults');
+        const batchResultsContainer = document.getElementById('batchResultsContainer');
 
-        // Example query click handlers
+        // Mode Elements
+        const normalMode = document.getElementById('normalMode');
+        const batchMode = document.getElementById('batchMode');
+        const modeButtons = document.querySelectorAll('.mode-btn');
+
+        let sessionId = null;
+        let batchQueryCount = 0;
+        const MAX_QUERIES = 50;
+
+        // Mode Toggle
+        modeButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const mode = btn.dataset.mode;
+                
+                // Update button states
+                modeButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Toggle sections
+                if (mode === 'normal') {
+                    normalMode.style.display = 'block';
+                    batchMode.classList.remove('active');
+                } else {
+                    normalMode.style.display = 'none';
+                    batchMode.classList.add('active');
+                    
+                    // Initialize batch mode if empty
+                    if (batchQueriesContainer.children.length === 0) {
+                        for (let i = 0; i < 5; i++) {
+                            addBatchQuery();
+                        }
+                    }
+                }
+                
+                // Clear any errors
+                errorSection.style.display = 'none';
+            });
+        });
+
+        // Batch Mode Functions
+        function addBatchQuery() {
+            if (batchQueryCount >= MAX_QUERIES) {
+                alert(`Maximum ${MAX_QUERIES} queries allowed`);
+                return;
+            }
+
+            batchQueryCount++;
+            const queryItem = document.createElement('div');
+            queryItem.className = 'batch-query-item';
+            queryItem.dataset.queryId = batchQueryCount;
+            
+            queryItem.innerHTML = `
+                <label>Query ${batchQueryCount}:</label>
+                <div class="query-row">
+                    <input type="text" class="batch-input" 
+                           placeholder="Enter your policy question...">
+                    <button class="remove-query" onclick="removeBatchQuery(${batchQueryCount})">×</button>
+                </div>
+            `;
+            
+            batchQueriesContainer.appendChild(queryItem);
+        }
+
+        function removeBatchQuery(queryId) {
+            const queryItem = document.querySelector(`[data-query-id="${queryId}"]`);
+            if (queryItem) {
+                queryItem.remove();
+                renumberQueries();
+            }
+        }
+
+        function renumberQueries() {
+            const items = batchQueriesContainer.querySelectorAll('.batch-query-item');
+            items.forEach((item, index) => {
+                item.querySelector('label').textContent = `Query ${index + 1}:`;
+            });
+            batchQueryCount = items.length;
+        }
+
+        function getBatchQueries() {
+            const inputs = batchQueriesContainer.querySelectorAll('.batch-input');
+            const queries = [];
+            inputs.forEach(input => {
+                const query = input.value.trim();
+                if (query) {
+                    queries.push(query);
+                }
+            });
+            return queries;
+        }
+
+        function displayBatchResult(index, query, result) {
+            const resultItem = document.createElement('div');
+            resultItem.className = 'result-item';
+            
+            const tools = result.tool_uses?.map(t => t.name).join(', ') || 'None';
+            const cached = result.cached ? 'Cached' : 'New';
+            
+            resultItem.innerHTML = `
+                <div class="result-header" onclick="toggleResult(${index})">
+                    <div class="result-query">
+                        <span class="success-badge">✓</span>
+                        Query ${index + 1}: ${query}
+                    </div>
+                    <span class="result-toggle" id="toggle-${index}">▼</span>
+                </div>
+                <div class="result-content" id="content-${index}">
+                    <div class="result-response">${marked.parse(result.response)}</div>
+                    <div class="meta-info">
+                        Tools: ${tools} | Iterations: ${result.iterations || 1} | Cached: ${result.cached ? 'Yes' : 'No'}
+                    </div>
+                </div>
+            `;
+            
+            batchResultsContainer.appendChild(resultItem);
+        }
+
+        function toggleResult(index) {
+            const content = document.getElementById(`content-${index}`);
+            const toggle = document.getElementById(`toggle-${index}`);
+            
+            if (content.classList.contains('open')) {
+                content.classList.remove('open');
+                toggle.classList.remove('open');
+            } else {
+                content.classList.add('open');
+                toggle.classList.add('open');
+            }
+        }
+
+        // Batch Mode Event Listeners
+        addQueryBtn.addEventListener('click', addBatchQuery);
+
+        clearAllBtn.addEventListener('click', () => {
+            batchQueriesContainer.innerHTML = '';
+            batchResultsContainer.innerHTML = '';
+            batchResults.classList.remove('active');
+            batchQueryCount = 0;
+            
+            // Add default queries
+            for (let i = 0; i < 5; i++) {
+                addBatchQuery();
+            }
+        });
+
+        processAllBtn.addEventListener('click', async () => {
+            const queries = getBatchQueries();
+            
+            if (queries.length === 0) {
+                alert('Please enter at least one query');
+                return;
+            }
+
+            // Clear previous results
+            batchResultsContainer.innerHTML = '';
+            batchResults.classList.add('active');
+            
+            // Show loading
+            loading.classList.add('active');
+            loadingText.textContent = `Processing ${queries.length} queries...`;
+            processAllBtn.disabled = true;
+            errorSection.style.display = 'none';
+
+            try {
+                const response = await fetch('/api/batch', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ queries })
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to process queries');
+                }
+
+                // Display results
+                data.results.forEach((result, index) => {
+                    displayBatchResult(index, queries[index], result);
+                });
+
+                // Show summary
+                const summary = document.createElement('div');
+                summary.className = 'meta-info';
+                summary.style.textAlign = 'center';
+                summary.style.marginTop = '20px';
+                summary.innerHTML = `
+                    <strong>Batch Complete:</strong> ${data.successful}/${data.total_queries} successful | 
+                    Total time: ${data.total_time_seconds?.toFixed(1)}s
+                `;
+                batchResultsContainer.appendChild(summary);
+
+            } catch (error) {
+                errorSection.textContent = `Error: ${error.message}`;
+                errorSection.style.display = 'block';
+            } finally {
+                loading.classList.remove('active');
+                processAllBtn.disabled = false;
+            }
+        });
+
+        // Normal Mode Functions (existing)
         exampleChips.forEach(chip => {
             chip.addEventListener('click', () => {
                 queryInput.value = chip.textContent;
@@ -399,7 +947,6 @@
             });
         });
 
-        // Clear/New Conversation button handler
         clearBtn.addEventListener('click', async () => {
             if (sessionId) {
                 try {
@@ -413,7 +960,6 @@
                 }
             }
             
-            // Clear UI
             conversationContainer.innerHTML = '';
             conversationContainer.classList.remove('active');
             sessionId = null;
@@ -422,12 +968,10 @@
             queryInput.focus();
         });
 
-        // Submit button handler
         submitBtn.addEventListener('click', async () => {
             await submitQuery();
         });
 
-        // Enter key handler (Ctrl+Enter to submit)
         queryInput.addEventListener('keydown', (e) => {
             if (e.ctrlKey && e.key === 'Enter') {
                 submitQuery();
@@ -441,10 +985,8 @@
             if (role === 'user') {
                 messageDiv.textContent = content;
             } else {
-                // Render assistant messages with markdown
                 messageDiv.innerHTML = marked.parse(content);
                 
-                // Add metadata if provided
                 if (metadata) {
                     const metaDiv = document.createElement('div');
                     metaDiv.className = 'meta-info';
@@ -455,11 +997,8 @@
             
             conversationContainer.appendChild(messageDiv);
             conversationContainer.classList.add('active');
-            
-            // Scroll to bottom
             conversationContainer.scrollTop = conversationContainer.scrollHeight;
             
-            // Clear floats
             const clearDiv = document.createElement('div');
             clearDiv.style.clear = 'both';
             conversationContainer.appendChild(clearDiv);
@@ -473,15 +1012,12 @@
                 return;
             }
 
-            // Display user message immediately
             displayMessage('user', query);
             queryInput.value = '';
-            
-            // Hide previous errors
             errorSection.style.display = 'none';
             
-            // Show loading
             loading.classList.add('active');
+            loadingText.textContent = 'Processing your query...';
             submitBtn.disabled = true;
             submitBtn.textContent = 'Processing...';
 
@@ -493,7 +1029,7 @@
                     },
                     body: JSON.stringify({ 
                         query,
-                        session_id: sessionId  // Send session ID
+                        session_id: sessionId
                     })
                 });
 
@@ -503,10 +1039,8 @@
                     throw new Error(data.error || 'Failed to process query');
                 }
 
-                // Update session ID
                 sessionId = data.session_id;
                 
-                // Display assistant response
                 displayMessage('assistant', data.response, {
                     tool_uses: data.tool_uses?.length,
                     iterations: data.iterations

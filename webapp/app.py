@@ -589,6 +589,207 @@ OUTPUT:
         return jsonify({"error": str(e)}), 500
 
 
+@app.route('/api/batch', methods=['POST'])
+def batch_query():
+    """Handle batch queries - process multiple independent queries."""
+    if not client:
+        return jsonify({
+            "error": "Anthropic API key not configured. Set ANTHROPIC_API_KEY environment variable."
+        }), 500
+    
+    try:
+        data = request.json
+        queries = data.get('queries', [])
+        
+        if not queries:
+            return jsonify({"error": "No queries provided"}), 400
+        
+        if len(queries) > 50:
+            return jsonify({"error": "Maximum 50 queries allowed per batch"}), 400
+        
+        logger.info(f"Processing batch of {len(queries)} queries")
+        
+        start_time = datetime.now()
+        results = []
+        successful = 0
+        failed = 0
+        
+        # Process each query independently
+        for idx, user_query in enumerate(queries):
+            logger.info(f"Processing batch query {idx + 1}/{len(queries)}: {user_query[:50]}...")
+            
+            try:
+                # Check cache first
+                cached = get_cached_response(user_query)
+                if cached:
+                    # Log cached response to Google Sheets
+                    log_to_sheets('batch', user_query, cached['response'], 
+                                cached['tool_uses'], cached['iterations'], True)
+                    
+                    results.append({
+                        "query_index": idx + 1,
+                        "query": user_query,
+                        "response": cached['response'],
+                        "tool_uses": cached['tool_uses'],
+                        "iterations": cached['iterations'],
+                        "cached": True
+                    })
+                    successful += 1
+                    continue
+                
+                # Process new query (no conversation context for batch)
+                messages = [{"role": "user", "content": user_query}]
+                tool_uses = []
+                max_iterations = 15
+                iteration = 0
+                
+                while iteration < max_iterations:
+                    iteration += 1
+                    
+                    response = client.messages.create(
+                        model="claude-sonnet-4-5-20250929",
+                        max_tokens=2048,
+                        temperature=0,
+                        system="""You are a Columbia University policy advisor assistant.
+
+ADAPTIVE RESPONSE:
+
+For DIRECT QUESTIONS:
+- Direct answer
+- Use [1], [2], [3] citation format for rules (list at end)
+- Include contacts if available
+- Concise
+
+For SITUATIONS:
+- Identify affected areas
+- Search comprehensively
+- Structured response:
+  **Situation**
+  **Affected Areas** (enrollment, visa, housing, financial aid, ER, M&F, etc.)
+  **Requirements** [citations]
+  **Action Plan** (with contacts)
+  **Options**
+  **Warnings**
+  **Contacts**
+
+CRITICAL: Always check Extended Residence (ER) and Matriculation & Facilities (M&F) options in planning scenarios.
+
+RESEARCH:
+- Search ALL related areas (enrollment, visa, housing, financial aid, ER, M&F, etc.)
+- Check conflicts when multiple policies apply
+- Extract contacts - emailids, phone numbers, office locations
+- If information is missing or unclear: explicitly state "Documentation does not cover [topic]" or "Insufficient information available on [topic]"
+
+OUTPUT:
+- Use [1], [2] citation format (list all citations at end as "Citations: [1] RULE-ID, [2] RULE-ID")
+- Flag missing information clearly
+- Highlight ER/M&F when relevant
+- Be concise and avoid repetition
+- Under 1500 words
+- Verified reasoning only (no false starts)""",
+                        tools=MCP_TOOLS,
+                        messages=messages
+                    )
+                    
+                    if response.stop_reason == "tool_use":
+                        tool_use_blocks = []
+                        assistant_content = []
+                        
+                        for block in response.content:
+                            if block.type == "tool_use":
+                                tool_use_blocks.append(block)
+                                tool_uses.append({
+                                    "name": block.name,
+                                    "input": block.input
+                                })
+                            assistant_content.append(block)
+                        
+                        if tool_use_blocks:
+                            messages.append({
+                                "role": "assistant",
+                                "content": assistant_content
+                            })
+                            
+                            tool_results = []
+                            for tool_block in tool_use_blocks:
+                                tool_result = call_mcp_tool(
+                                    tool_block.name,
+                                    tool_block.input
+                                )
+                                
+                                tool_results.append({
+                                    "type": "tool_result",
+                                    "tool_use_id": tool_block.id,
+                                    "content": json.dumps(tool_result)
+                                })
+                            
+                            messages.append({
+                                "role": "user",
+                                "content": tool_results
+                            })
+                            continue
+                    
+                    # Extract final response
+                    final_response = ""
+                    for block in response.content:
+                        if hasattr(block, "text"):
+                            final_response += block.text
+                    
+                    # Cache the response
+                    cache_response(user_query, final_response, tool_uses, iteration)
+                    
+                    # Log to Google Sheets
+                    log_to_sheets('batch', user_query, final_response, tool_uses, iteration, False)
+                    
+                    results.append({
+                        "query_index": idx + 1,
+                        "query": user_query,
+                        "response": final_response,
+                        "tool_uses": tool_uses,
+                        "iterations": iteration,
+                        "cached": False
+                    })
+                    successful += 1
+                    break
+                
+                if iteration >= max_iterations:
+                    logger.error(f"Batch query {idx + 1} reached max iterations")
+                    results.append({
+                        "query_index": idx + 1,
+                        "query": user_query,
+                        "error": "Max iterations reached",
+                        "cached": False
+                    })
+                    failed += 1
+                    
+            except Exception as e:
+                logger.error(f"Error processing batch query {idx + 1}: {e}")
+                results.append({
+                    "query_index": idx + 1,
+                    "query": user_query,
+                    "error": str(e),
+                    "cached": False
+                })
+                failed += 1
+        
+        end_time = datetime.now()
+        total_time = (end_time - start_time).total_seconds()
+        
+        logger.info(f"✓ Batch complete: {successful}/{len(queries)} successful in {total_time:.1f}s")
+        
+        return jsonify({
+            "results": results,
+            "total_queries": len(queries),
+            "successful": successful,
+            "failed": failed,
+            "total_time_seconds": total_time
+        })
+        
+    except Exception as e:
+        logger.error(f"Error processing batch: {e}")
+        return jsonify({"error": str(e)}), 500
+
+
 @app.route('/api/health', methods=['GET'])
 def health():
     """Health check endpoint."""
