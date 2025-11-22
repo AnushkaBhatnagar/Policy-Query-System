@@ -136,18 +136,32 @@ class PolicySearch:
         return results[:max_results]
     
     def get_rule(self, rule_id: str) -> Optional[dict]:
-        """Get a specific rule by ID."""
-        return RULE_INDEX.get(rule_id)
+        """Get a specific rule by ID (case-insensitive)."""
+        # Try exact match first (fastest)
+        if rule_id in RULE_INDEX:
+            return RULE_INDEX[rule_id]
+        
+        # Fall back to case-insensitive search
+        rule_id_upper = rule_id.upper()
+        for stored_id, rule_data in RULE_INDEX.items():
+            if stored_id.upper() == rule_id_upper:
+                return rule_data
+        
+        return None
     
     def check_conflicts(self, rule_ids: list) -> list:
-        """Check if any of the given rules have conflicts."""
+        """Check if any of the given rules have conflicts (case-insensitive)."""
         conflicts_found = []
+        
+        # Normalize input rule IDs to uppercase for comparison
+        rule_ids_upper = [rid.upper() for rid in rule_ids]
         
         for conflict in self.conflicts.get('conflicts', []):
             conflict_rule_ids = [r['rule_id'] for r in conflict['rules']]
+            conflict_rule_ids_upper = [rid.upper() for rid in conflict_rule_ids]
             
-            # Check if any of the input rule_ids are in this conflict
-            if any(rid in conflict_rule_ids for rid in rule_ids):
+            # Check if any of the input rule_ids are in this conflict (case-insensitive)
+            if any(rid in conflict_rule_ids_upper for rid in rule_ids_upper):
                 conflicts_found.append(conflict)
         
         return conflicts_found
