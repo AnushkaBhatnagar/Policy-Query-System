@@ -63,8 +63,8 @@ class PolicySearch:
         results = []
         
         for rule_id, rule_data in RULE_INDEX.items():
-            # Filter by department if specified
-            if department and not rule_id.startswith(department):
+            # Filter by department if specified (case-insensitive)
+            if department and not rule_id.upper().startswith(department.upper()):
                 continue
             
             content_lower = rule_data['content'].lower()
@@ -89,6 +89,9 @@ class PolicySearch:
                 'prospectus': ['prospectus', 'proposal'],
                 'deadline': ['deadline', 'due'],
                 'international': ['international', 'f-1', 'j-1', 'visa'],
+                'algorithm': ['algorithm', 'algorithms', 'algo'],
+                'prerequisite': ['prerequisite', 'prereq', 'pre-requisite'],
+                'course': ['course', 'courses', 'class', 'classes'],
             }
             
             for category, terms in keywords.items():
@@ -96,6 +99,28 @@ class PolicySearch:
                     for term in terms:
                         if term in content_lower:
                             score += 3
+            
+            # Boost score if rule ID matches query keywords  
+            # Extract rule ID components (e.g., "ALGO-PREREQ" from "PhD_SEAS:ALGO-PREREQ-001")
+            rule_id_lower = rule_id.lower()
+            rule_components = rule_id.split(':')[-1].split('-')  # Get ["ALGO", "PREREQ", "001"]
+            
+            for component in rule_components:
+                component_lower = component.lower()
+                if len(component_lower) <= 3:  # Skip numbers and very short components
+                    continue
+                    
+                # Check if any query word is related to this component
+                for word in query_words:
+                    if len(word) <= 3:  # Skip very short query words
+                        continue
+                    
+                    # Exact match or substring match
+                    if component_lower in word or word in component_lower:
+                        score += 20  # Very strong boost for rule ID component matches
+                    # Partial match (e.g., "algo" matches "algorithm")
+                    elif component_lower[:4] == word[:4] and len(word) >= 4:
+                        score += 15
             
             if score > 0:
                 results.append({

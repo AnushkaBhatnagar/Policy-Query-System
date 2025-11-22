@@ -118,7 +118,7 @@ def init_mcp_server():
         import sys
         sys.path.insert(0, str(server_path.parent))
         
-        from server import PolicySearch, DOCUMENTS, CONFLICTS, load_documents
+        from server import PolicySearch, DOCUMENTS, CONFLICTS, load_documents, RULE_INDEX
         
         # Load documents
         load_documents()
@@ -132,6 +132,11 @@ def init_mcp_server():
         MCP_LOADED = True
         
         logger.info(f"✓ MCP Server initialized: {len(DOCUMENTS)} documents loaded")
+        logger.info(f"✓ Rule index built: {len(RULE_INDEX)} rules indexed")
+        if RULE_INDEX:
+            sample_rules = list(RULE_INDEX.keys())[:5]
+            logger.info(f"  Sample rule IDs: {sample_rules}")
+        
         return True
         
     except Exception as e:
@@ -227,9 +232,15 @@ def call_mcp_tool(tool_name: str, tool_input: dict) -> dict:
             department = tool_input.get("department")
             max_results = tool_input.get("max_results", 5)
             
+            logger.info(f"  🔍 Searching for: '{query}' (department: {department}, max: {max_results})")
+            
             results = search_engine.search(query, department, max_results)
             result_rule_ids = [r['rule_id'] for r in results]
             conflicts = search_engine.check_conflicts(result_rule_ids)
+            
+            logger.info(f"  ✅ Found {len(results)} results: {result_rule_ids[:3]}...")
+            if results:
+                logger.info(f"  📋 Top result: {results[0]['rule_id']} (score: {results[0]['score']})")
             
             return {
                 "query": query,
