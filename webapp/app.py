@@ -878,20 +878,24 @@ def analyze_transcript():
         import base64
         
         transcript_text = None
-        transcript_file = None
+        transcript_files = []
         
         # Check if file upload or text input
-        if 'file' in request.files:
-            file = request.files['file']
-            if file.filename == '':
-                return jsonify({"error": "No file selected"}), 400
+        if 'files' in request.files:
+            # Handle multiple files
+            files = request.files.getlist('files')
+            if not files or files[0].filename == '':
+                return jsonify({"error": "No files selected"}), 400
             
-            file_content = file.read()
-            transcript_file = {
-                'data': base64.b64encode(file_content).decode(),
-                'type': file.content_type or 'application/pdf'
-            }
-            logger.info(f"Analyzing file: {file.filename}")
+            for file in files:
+                file_content = file.read()
+                transcript_files.append({
+                    'data': base64.b64encode(file_content).decode(),
+                    'type': file.content_type or 'image/jpeg',
+                    'name': file.filename
+                })
+            
+            logger.info(f"Analyzing {len(transcript_files)} file(s): {', '.join([f['name'] for f in transcript_files])}")
             
         elif request.json and 'text' in request.json:
             transcript_text = request.json['text']
@@ -964,15 +968,20 @@ OUTPUT JSON FORMAT:
 CRITICAL: Always include the detailed next_steps message explaining the admin approval process and clarifying that Columbia equivalents don't automatically disqualify."""
         
         # Build message
-        if transcript_file:
-            content = [
-                {"type": "image", "source": {
-                    "type": "base64",
-                    "media_type": transcript_file['type'],
-                    "data": transcript_file['data']
-                }},
-                {"type": "text", "text": prompt}
-            ]
+        if transcript_files:
+            # Add all images to content
+            content = []
+            for file in transcript_files:
+                content.append({
+                    "type": "image",
+                    "source": {
+                        "type": "base64",
+                        "media_type": file['type'],
+                        "data": file['data']
+                    }
+                })
+            # Add prompt text after all images
+            content.append({"type": "text", "text": prompt})
         else:
             content = f"{prompt}\n\nTRANSCRIPT:\n{transcript_text}"
         
