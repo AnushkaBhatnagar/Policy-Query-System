@@ -1000,6 +1000,25 @@ CRITICAL: Always include the detailed next_steps message explaining the admin ap
         except:
             analysis = {"raw": result}
         
+        # Log to Google Sheets
+        try:
+            # Create query summary
+            if analysis.get('summary'):
+                query_summary = f"Transcript Analysis: {analysis['summary'].get('total', 0)} courses"
+            else:
+                query_summary = "Transcript Analysis"
+            
+            # Create response summary
+            if analysis.get('summary'):
+                response_summary = f"Eligible: {analysis['summary'].get('eligible', 0)}/{analysis['summary'].get('total', 0)} courses"
+            else:
+                response_summary = result[:500]  # Fallback to raw result
+            
+            log_to_sheets('transcript', query_summary, response_summary,
+                         [{'name': 'transcript_analyzer'}], 1, False)
+        except Exception as e:
+            logger.warning(f"Failed to log transcript analysis to sheets: {e}")
+        
         return jsonify(analysis)
         
     except Exception as e:
