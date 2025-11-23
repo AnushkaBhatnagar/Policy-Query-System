@@ -902,10 +902,17 @@ def analyze_transcript():
         # Analysis prompt with comprehensive import rules
         prompt = """Analyze for Columbia CS PhD course import eligibility.
 
-COMPLETE IMPORT RULES:
-1. Grade B+ or better (REQUIRED)
-2. Within past 5 years (REQUIRED)
-3. Graduate course OR upper-division undergraduate (REQUIRED)
+CRITICAL IMPORT RULES (ALL MUST BE MET):
+
+1. **CS GRADUATE DEGREE REQUIREMENT** (MOST IMPORTANT):
+   - Course MUST have been accepted for credit toward a COMPUTER SCIENCE graduate degree at the student's prior institution
+   - This is NOT the same as "any graduate course" - it must specifically count toward a CS graduate degree
+   - Example: A Math course is eligible ONLY IF it counted toward a CS MS/PhD at that school
+   - Example: A Statistics course from Stats dept is eligible ONLY IF it was accepted for the CS graduate program
+   - If student doesn't explicitly state this, mark as INELIGIBLE with reason: "Not confirmed to count toward CS graduate degree at prior institution"
+
+2. Grade B+ or better (REQUIRED)
+3. Within past 5 years (REQUIRED)
 4. Must be lecture course - NOT seminar/project/reading/fieldwork (REQUIRED)
 5. Listed as graduate course on official transcript (REQUIRED)
 6. Full-length course granting degree credit (REQUIRED)
