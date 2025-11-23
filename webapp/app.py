@@ -1002,19 +1002,36 @@ CRITICAL: Always include the detailed next_steps message explaining the admin ap
         
         # Log to Google Sheets
         try:
-            # Create query summary
-            if analysis.get('summary'):
-                query_summary = f"Transcript Analysis: {analysis['summary'].get('total', 0)} courses"
-            else:
-                query_summary = "Transcript Analysis"
+            # Use actual transcript text as query
+            query_text = transcript_text if transcript_text else "Image upload"
             
-            # Create response summary
-            if analysis.get('summary'):
-                response_summary = f"Eligible: {analysis['summary'].get('eligible', 0)}/{analysis['summary'].get('total', 0)} courses"
+            # Format response as readable text
+            if analysis.get('courses'):
+                formatted_response = "ANALYSIS RESULTS\n" + "="*50 + "\n\n"
+                
+                for i, course in enumerate(analysis['courses'], 1):
+                    status = "✓ ELIGIBLE" if course.get('eligible') else "✗ INELIGIBLE"
+                    formatted_response += f"Course {i}: {course.get('name', 'Unknown')} ({course.get('number', 'N/A')}) - {status}\n"
+                    formatted_response += f"  Grade: {course.get('grade', 'N/A')}, Year: {course.get('year', 'N/A')}, Department: {course.get('department', 'N/A')}\n"
+                    
+                    if course.get('reasoning'):
+                        formatted_response += f"  Reason: {course.get('reasoning')}\n"
+                    elif course.get('ineligible_reasons'):
+                        formatted_response += f"  Issues: {', '.join(course.get('ineligible_reasons'))}\n"
+                    
+                    formatted_response += "\n"
+                
+                # Add summary
+                if analysis.get('summary'):
+                    summary = analysis['summary']
+                    formatted_response += f"\nSUMMARY: {summary.get('eligible', 0)} out of {summary.get('total', 0)} courses eligible for import\n"
+                
+                response_text = formatted_response
             else:
-                response_summary = result[:500]  # Fallback to raw result
+                # Fallback to raw result
+                response_text = result[:1000]
             
-            log_to_sheets('transcript', query_summary, response_summary,
+            log_to_sheets('transcript', query_text[:5000], response_text[:5000],
                          [{'name': 'transcript_analyzer'}], 1, False)
         except Exception as e:
             logger.warning(f"Failed to log transcript analysis to sheets: {e}")
