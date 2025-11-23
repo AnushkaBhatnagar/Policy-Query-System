@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript Analyzer - Course Import Eligibility</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(90deg, #6ba5eb 0%, #1a3a7f 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .page-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 30px;
+        }
+        .input-section {
+            margin-bottom: 30px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: white;
+        }
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        input[type="file"] {
+            display: block;
+            margin-top: 8px;
+        }
+        button {
+            background: linear-gradient(135deg, #012169 0%, #013a7d 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-right: 10px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(1, 33, 105, 0.4);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 4px;
+            border: 1px solid #e0e0e0;
+        }
+        .course-card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 4px solid #003c71;
+        }
+        .course-card.eligible {
+            border-left-color: #28a745;
+        }
+        .course-card.ineligible {
+            border-left-color: #dc3545;
+        }
+        .course-name {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .course-detail {
+            color: #666;
+            font-size: 14px;
+            margin: 3px 0;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .badge.eligible {
+            background: #d4edda;
+            color: #155724;
+        }
+        .badge.ineligible {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .summary {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 4px;
+            border: 1px solid #f5c6cb;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #003c71;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 30px;
+            border: none;
+            background: #f0f0f0;
+            color: #666;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .tab:first-child {
+            border-radius: 25px 0 0 25px;
+        }
+
+        .tab:last-child {
+            border-radius: 0 25px 25px 0;
+        }
+
+        .tab.active {
+            background: #012169;
+            color: white;
+        }
+
+        .tab:hover:not(.active) {
+            background: #e0e0e0;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div style="text-align: right; margin-bottom: 10px;">
+                <a href="/" target="_blank" style="color: rgba(255,255,255,0.9); text-decoration: none; font-size: 14px; font-weight: 500; transition: opacity 0.2s; margin-right: 15px;">
+                    ← Back to Policy Query
+                </a>
+                <a href="https://www.cs.columbia.edu/education/phd/requirements/breadth/imports/" target="_blank" style="color: rgba(255,255,255,0.9); text-decoration: none; font-size: 14px; font-weight: 500; transition: opacity 0.2s;">
+                    📄 Official Import Policy
+                </a>
+            </div>
+            <h1 style="font-size: 2.5em; margin-bottom: 10px;">Transcript Analyzer</h1>
+            <p style="font-size: 1.1em; opacity: 0.9;">Columbia CS PhD Course Import Eligibility Checker</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('text')">Text Input</button>
+            <button class="tab" onclick="switchTab('file')">File Upload</button>
+        </div>
+
+        <div id="text-tab" class="tab-content active">
+            <div class="input-section">
+                <label>Enter Course Information (Use Template Below):</label>
+                <textarea id="transcriptText" placeholder="Fill in the template below...">UNIVERSITY: [Enter university name]
+DEGREE PROGRAM: [e.g., Master of Science in Computer Science]
+
+=== COURSE 1 ===
+Course Number: [e.g., CS 5800]
+Course Name: [e.g., Algorithms]
+Department: [e.g., Computer Science]
+Course Type: [Lecture / Seminar / Project / Other]
+Level: [Undergraduate / Graduate]
+Year Taken: [YYYY, e.g., 2021]
+Semester: [Fall / Spring / Summer]
+Grade: [e.g., A, B+, etc.]
+Listed as Graduate on Transcript?: [Yes / No]
+Taken: [Before Columbia PhD / During Columbia PhD]
+Importing Other Courses on Same Topic?: [Yes / No]
+
+=== COURSE 2 ===
+Course Number: 
+Course Name: 
+Department: 
+Course Type: 
+Level: 
+Year Taken: 
+Semester: 
+Grade: 
+Listed as Graduate on Transcript?: 
+Taken: 
+Importing Other Courses on Same Topic?:
+
+[Add more courses following the same format]</textarea>
+            </div>
+            <button onclick="analyzeText()">Analyze Courses</button>
+            <button onclick="clearForm()">Clear</button>
+        </div>
+
+        <div id="file-tab" class="tab-content">
+            <div class="input-section">
+                <label>Upload Transcript Image (JPG, PNG, GIF, WEBP):</label>
+                <input type="file" id="transcriptFile" accept="image/jpeg,image/png,image/gif,image/webp">
+                <p style="font-size: 12px; color: rgba(255,255,255,0.8); margin-top: 8px;">
+                    ⓘ Note: Only image files supported. For PDFs, convert to image first or use text input.
+                </p>
+            </div>
+            <button onclick="analyzeFile()">Analyze Image</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function switchTab(tab) {
+            // Update tab buttons
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.getElementById(tab + '-tab').classList.add('active');
+            
+            // Clear result
+            document.getElementById('result').innerHTML = '';
+        }
+
+        async function analyzeText() {
+            const text = document.getElementById('transcriptText').value.trim();
+            if (!text) {
+                alert('Please enter transcript text');
+                return;
+            }
+
+            showLoading();
+
+            try {
+                const response = await fetch('/api/transcript/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ text: text })
+                });
+
+                const data = await response.json();
+                displayResult(data);
+            } catch (error) {
+                showError('Error analyzing transcript: ' + error.message);
+            }
+        }
+
+        async function analyzeFile() {
+            const fileInput = document.getElementById('transcriptFile');
+            if (!fileInput.files[0]) {
+                alert('Please select a file');
+                return;
+            }
+
+            showLoading();
+
+            try {
+                const formData = new FormData();
+                formData.append('file', fileInput.files[0]);
+
+                const response = await fetch('/api/transcript/analyze', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                displayResult(data);
+            } catch (error) {
+                showError('Error analyzing file: ' + error.message);
+            }
+        }
+
+        function showLoading() {
+            document.getElementById('result').innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Analyzing transcript with Claude AI...</p>
+                </div>
+            `;
+        }
+
+        function showError(message) {
+            document.getElementById('result').innerHTML = `
+                <div class="error">
+                    <strong>Error:</strong> ${message}
+                </div>
+            `;
+        }
+
+        function displayResult(data) {
+            if (data.error) {
+                showError(data.error);
+                return;
+            }
+
+            if (data.raw) {
+                // Fallback: show raw analysis
+                document.getElementById('result').innerHTML = `
+                    <div class="result">
+                        <h3>Analysis Result</h3>
+                        <pre style="white-space: pre-wrap;">${data.raw}</pre>
+                    </div>
+                `;
+                return;
+            }
+
+            let html = '<div class="result">';
+            html += '<h3>📊 Analysis Results</h3>';
+
+            if (data.summary) {
+                html += `
+                    <div class="summary">
+                        <strong>Summary:</strong> 
+                        ${data.summary.total || 0} courses analyzed, 
+                        ${data.summary.eligible || 0} eligible for import
+                    </div>
+                `;
+            }
+
+            if (data.courses && data.courses.length > 0) {
+                data.courses.forEach(course => {
+                    const eligibleClass = course.eligible ? 'eligible' : 'ineligible';
+                    const badge = course.eligible ? 
+                        '<span class="badge eligible">✓ Eligible</span>' : 
+                        '<span class="badge ineligible">✗ Not Eligible</span>';
+
+                    html += `
+                        <div class="course-card ${eligibleClass}">
+                            <div class="course-name">${course.name || 'Unknown'} (${course.number || 'N/A'})</div>
+                            ${badge}
+                            <div class="course-detail"><strong>Grade:</strong> ${course.grade || 'N/A'}</div>
+                            <div class="course-detail"><strong>Semester:</strong> ${course.semester || 'N/A'} ${course.year || ''}</div>
+                            <div class="course-detail"><strong>Level:</strong> ${course.level || 'Unknown'}</div>
+                            ${course.program_context ? `<div class="course-detail"><strong>Context:</strong> ${course.program_context}</div>` : ''}
+                            ${course.reasoning ? `<div class="course-detail" style="margin-top: 8px; color: #555;"><strong>Reasoning:</strong> ${course.reasoning}</div>` : ''}
+                            ${course.ineligible_reasons && course.ineligible_reasons.length > 0 ? 
+                                `<div class="course-detail" style="color: #d9534f;"><strong>Issues:</strong> ${course.ineligible_reasons.join(', ')}</div>` : ''}
+                        </div>
+                    `;
+                });
+            } else {
+                html += '<p>No courses found in transcript.</p>';
+            }
+
+            if (data.next_steps) {
+                html += `
+                    <div style="margin-top: 20px; padding: 15px; background: #fff3cd; border-radius: 4px; border-left: 4px solid #ffc107;">
+                        <strong>⚠️ Important Next Steps:</strong>
+                        <p style="margin: 8px 0 0 0;">${data.next_steps}</p>
+                    </div>
+                `;
+            }
+
+            if (data.general_notes) {
+                html += `<p style="margin-top: 20px; padding: 15px; background: #e7f3ff; border-radius: 4px;"><strong>Note:</strong> ${data.general_notes}</p>`;
+            }
+
+            html += '</div>';
+            document.getElementById('result').innerHTML = html;
+        }
+
+        function clearForm() {
+            document.getElementById('transcriptText').value = '';
+            document.getElementById('result').innerHTML = '';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+NORTHEASTERN UNIVERSITY
+Official Transcript
+
+Student Name: John Smith
+Program: Master of Science in Computer Science
+Period: Fall 2021 - Spring 2023
+
+FALL 2021
+CS 5800 Algorithms                          Grade: A
+CS 5100 Artificial Intelligence             Grade: A-
+CS 5520 Mobile Application Development      Grade: B+
+
+SPRING 2022
+CS 5010 Programming Design Paradigm         Grade: A
+CS 6140 Machine Learning                    Grade: B+
+CS 5800 Database Management Systems         Grade: A-
+
+FALL 2022
+CS 7000 Graduate Seminar                    Grade: Pass
+CS 5600 Computer Systems                    Grade: A
+CS 5200 Database Management                 Grade: B+
+
+SPRING 2023
+CS 6650 Distributed Systems                 Grade: A
+CS 5800 Theory of Computation              Grade: B+
+
+Degree Conferred: Master of Science in Computer Science
+Date: May 2023

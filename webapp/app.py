@@ -868,6 +868,145 @@ def clear_conversation_endpoint():
     return jsonify({"error": "session_id required"}), 400
 
 
+@app.route('/api/transcript/analyze', methods=['POST'])
+def analyze_transcript():
+    """Analyze transcript for course import eligibility."""
+    if not client:
+        return jsonify({"error": "Anthropic API key not configured"}), 500
+    
+    try:
+        import base64
+        
+        transcript_text = None
+        transcript_file = None
+        
+        # Check if file upload or text input
+        if 'file' in request.files:
+            file = request.files['file']
+            if file.filename == '':
+                return jsonify({"error": "No file selected"}), 400
+            
+            file_content = file.read()
+            transcript_file = {
+                'data': base64.b64encode(file_content).decode(),
+                'type': file.content_type or 'application/pdf'
+            }
+            logger.info(f"Analyzing file: {file.filename}")
+            
+        elif request.json and 'text' in request.json:
+            transcript_text = request.json['text']
+            logger.info(f"Analyzing text ({len(transcript_text)} chars)")
+        else:
+            return jsonify({"error": "Provide 'file' or 'text'"}), 400
+        
+        # Analysis prompt with comprehensive import rules
+        prompt = """Analyze for Columbia CS PhD course import eligibility.
+
+COMPLETE IMPORT RULES:
+1. Grade B+ or better (REQUIRED)
+2. Within past 5 years (REQUIRED)
+3. Graduate course OR upper-division undergraduate (REQUIRED)
+4. Must be lecture course - NOT seminar/project/reading/fieldwork (REQUIRED)
+5. Listed as graduate course on official transcript (REQUIRED)
+6. Full-length course granting degree credit (REQUIRED)
+7. Cannot import multiple courses on same subject (REQUIRED)
+
+STUDENT-PROVIDED FIELDS TO CHECK:
+- Course Number, Name, Department
+- Course Type (Lecture/Seminar/Project/Other)
+- Level (Undergraduate/Graduate)
+- Year Taken (YYYY)
+- Semester
+- Grade
+- Listed as Graduate on Transcript? (Yes/No)
+- Taken: Before/During Columbia PhD
+- Importing Other Courses on Same Topic? (Yes/No)
+
+ELIGIBILITY DETERMINATION:
+For each course, check ALL rules above. Mark eligible ONLY if ALL required conditions met.
+
+CRITICAL: ALL COURSES (eligible or not) MUST include these warnings showing required next steps:
+- "⚠️ Requires advisor approval"
+- "⚠️ Requires faculty evaluation" 
+- "⚠️ Requires DGS final approval"
+
+OUTPUT JSON FORMAT:
+{
+  "courses": [{
+    "name": "...",
+    "number": "...",
+    "grade": "...",
+    "year": "YYYY",
+    "semester": "...",
+    "level": "graduate/undergraduate upper-division/undergraduate lower-division",
+    "course_type": "lecture/seminar/project/other",
+    "eligible": true/false,
+    "checks": {
+      "grade_ok": true/false,
+      "timing_ok": true/false,
+      "level_ok": true/false,
+      "course_type_ok": true/false,
+      "on_transcript": true/false,
+      "no_duplicates": true/false
+    },
+    "reasoning": "Detailed explanation",
+    "ineligible_reasons": ["reason1", "reason2"] or [],
+    "warnings": ["⚠️ Requires advisor approval", "⚠️ Requires faculty evaluation", "⚠️ Requires DGS final approval"]
+  }],
+  "summary": {
+    "total": N,
+    "eligible": N,
+    "ineligible": N
+  },
+  "next_steps": "⚠️ IMPORTANT: All eligible courses require: 1) Advisor approval, 2) Faculty evaluation, 3) DGS final approval. Note that Columbia having an equivalent course does not automatically disqualify import, but the faculty evaluation will assess content overlap and appropriateness for your program."
+}
+
+CRITICAL: Always include the detailed next_steps message explaining the admin approval process and clarifying that Columbia equivalents don't automatically disqualify."""
+        
+        # Build message
+        if transcript_file:
+            content = [
+                {"type": "image", "source": {
+                    "type": "base64",
+                    "media_type": transcript_file['type'],
+                    "data": transcript_file['data']
+                }},
+                {"type": "text", "text": prompt}
+            ]
+        else:
+            content = f"{prompt}\n\nTRANSCRIPT:\n{transcript_text}"
+        
+        # Call Claude
+        response = client.messages.create(
+            model="claude-sonnet-4-5-20250929",
+            max_tokens=4096,
+            temperature=0,
+            messages=[{"role": "user", "content": content}]
+        )
+        
+        result = ""
+        for block in response.content:
+            if hasattr(block, "text"):
+                result += block.text
+        
+        # Parse JSON
+        try:
+            json_start = result.find('{')
+            json_end = result.rfind('}') + 1
+            if json_start >= 0 and json_end > json_start:
+                analysis = json.loads(result[json_start:json_end])
+            else:
+                analysis = {"raw": result}
+        except:
+            analysis = {"raw": result}
+        
+        return jsonify(analysis)
+        
+    except Exception as e:
+        logger.error(f"Transcript analysis error: {e}")
+        return jsonify({"error": str(e)}), 500
+
+
 if __name__ == '__main__':
     # Check for API key
     if not os.environ.get("ANTHROPIC_API_KEY"):

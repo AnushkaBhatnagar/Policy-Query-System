@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "policy-docs": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\anush\\Downloads\\newconstraints\\mcp-server\\build\\index.js"
+      ],
+      "disabled": false
+    }
+  }
+}
