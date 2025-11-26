@@ -182,7 +182,7 @@ def load_documents():
                 DOCUMENTS[doc_name] = f.read()
     
     # Load conflicts
-    conflicts_path = Path(__file__).parent.parent / "conflicts.json"
+    conflicts_path = Path(__file__).parent.parent / "data" / "conflicts.json"
     if conflicts_path.exists():
         with open(conflicts_path, 'r', encoding='utf-8') as f:
             CONFLICTS = json.load(f)
