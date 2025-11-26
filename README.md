@@ -147,7 +147,7 @@ GOOGLE_CREDENTIALS=optional_for_logging
 Process multiple queries
 
 **POST /api/transcript/analyze**
-Analyze course transcripts (uses Claude Vision)
+Analyze course transcripts for import eligibility. Uses Claude Vision to process transcript images or text, checking against Columbia's import requirements (grade B+, within 5 years, graduate-level, lecture courses only). Returns detailed eligibility analysis with reasoning.
 
 ## Project Structure
 
