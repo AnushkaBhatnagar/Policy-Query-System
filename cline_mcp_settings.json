@@ -3,7 +3,7 @@
     "policy-docs": {
       "command": "node",
       "args": [
-        "C:\\Users\\anush\\Downloads\\newconstraints\\mcp-server\\build\\index.js"
+        "C:\\Users\\anush\\Downloads\\constraints\\newconstraints\\mcp-server\\build\\index.js"
       ],
       "disabled": false
     }
