@@ -39,7 +39,7 @@ cache_misses = 0
 CONVERSATIONS = {}  # session_id: [messages]
 
 # Google Sheets logging
-SHEET_ID = "1Mh1wGgpNmTcQV_sZLMQCBPn6o32zmmXPwV3ihdT3U2E"
+SHEET_ID = os.environ.get("GOOGLE_SHEET_ID", "")
 SHEETS_ENABLED = True
 sheets_client = None
 
