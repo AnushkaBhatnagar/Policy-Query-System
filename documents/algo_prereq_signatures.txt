@@ -1,0 +1,45 @@
+[JURISDICTION:PhD_SEAS]
+[AUTHORITY:CS Department PhD Program]
+
+ALGORITHMS PREREQUISITE FORM REQUIREMENTS
+
+[RULE:PhD_SEAS:ALGO-PREREQ-SIGNATURES-001]
+The algorithms prerequisite form requires TWO signatures from TWO different people:
+1. The student's advisor (research advisor OR departmental advisor)
+2. The instructor responsible for evaluating the algorithms course:
+   - If the student took CSOR W4231 at Columbia: the CSOR W4231 instructor
+   - If the student is importing an algorithms course from another institution: the CS faculty member responsible for evaluating the imported course (typically the faculty member who teaches algorithms at Columbia or has expertise in algorithms)
+
+Both signatures are REQUIRED. The advisor and the algorithms course evaluator MUST be two different people. A single signature from one person, regardless of their role, is NOT sufficient.
+
+[REQUIREMENT:two signatures required]
+[REQUIREMENT:advisor signature required]
+[REQUIREMENT:algorithms evaluator signature required]
+[REQUIREMENT:must be different people]
+[RESTRICTION:one signature insufficient]
+[APPLIES_TO:all algorithms prerequisite submissions]
+[/RULE]
+
+[RULE:PhD_SEAS:ALGO-PREREQ-FORM-TIMING-001]
+The prerequisite form with BOTH required signatures must be submitted by no later than two weeks (14 days) after the first day of classes of the student's first semester enrolled in the doctoral program.
+[TIMING:14 days after first day of classes]
+[REQUIREMENT:both signatures must be present at time of submission]
+[CONSEQUENCE:incomplete form will be rejected]
+[/RULE]
+
+[RULE:PhD_SEAS:ALGO-PREREQ-SIGNATURE-ROLES-001]
+CRITICAL: When evaluating whether an algorithms prerequisite form has been properly signed:
+- Verify BOTH signatures are present
+- Verify the ROLES of both signers (not just names)
+- Confirm one signer is the student's advisor
+- Confirm the other signer is the algorithms course evaluator
+- Confirm these are two different individuals
+
+DO NOT assume a person's role based solely on their name. If the documentation does not explicitly state the role of each signer, the form cannot be verified as complete. Request clarification on the role of each signer.
+[VERIFICATION:both signatures required]
+[VERIFICATION:both roles must be explicitly identified]
+[RESTRICTION:cannot assume roles from names alone]
+[PROCESS:request clarification if roles ambiguous]
+[/RULE]
+
+[END:JURISDICTION:PhD_SEAS]

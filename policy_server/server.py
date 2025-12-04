@@ -174,7 +174,7 @@ def load_documents():
     docs_dir = Path(__file__).parent.parent / "documents"
     
     # Load policy documents
-    for doc_file in ["gsas.txt", "isso.txt", "phd_seas.txt"]:
+    for doc_file in ["gsas.txt", "isso.txt", "phd_seas.txt", "algo_prereq_signatures.txt"]:
         doc_path = docs_dir / doc_file
         if doc_path.exists():
             with open(doc_path, 'r', encoding='utf-8') as f:
