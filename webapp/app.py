@@ -881,6 +881,105 @@ def clear_conversation_endpoint():
     return jsonify({"error": "session_id required"}), 400
 
 
+@app.route('/api/syllabus/compare', methods=['POST'])
+def compare_syllabi():
+    """Compare two syllabi to determine course import eligibility."""
+    if not client:
+        return jsonify({"error": "Anthropic API key not configured"}), 500
+    
+    try:
+        import base64
+        
+        # Check for file uploads
+        if 'external' not in request.files or 'columbia' not in request.files:
+            return jsonify({"error": "Both external and columbia syllabus images are required"}), 400
+        
+        external_file = request.files['external']
+        columbia_file = request.files['columbia']
+        
+        if external_file.filename == '' or columbia_file.filename == '':
+            return jsonify({"error": "Both files must be selected"}), 400
+        
+        # Read and encode both files
+        external_content = base64.b64encode(external_file.read()).decode()
+        columbia_content = base64.b64encode(columbia_file.read()).decode()
+        
+        external_type = external_file.content_type or 'image/jpeg'
+        columbia_type = columbia_file.content_type or 'image/jpeg'
+        
+        logger.info(f"Comparing syllabi: {external_file.filename} vs {columbia_file.filename}")
+        
+        # Build the comparison prompt
+        prompt = """You are a senior CS faculty member reviewing a course import request.
+
+A PhD student wants to import the EXTERNAL course (first image) instead of taking the COLUMBIA course (second image).
+
+Perform a rigorous analysis comparing these two courses. In your analysis, consider:
+
+1. Content coverage - what percentage of Columbia's topics does the external course cover? What's missing? What extra topics does it have?
+
+2. Course structure - how do the assignments, projects, exams compare? Does the external course provide equivalent academic rigor?
+
+Based on your analysis, provide your recommendation: should this course be accepted as equivalent, conditionally accepted (with what conditions), or rejected?
+
+Write your analysis as you would for a faculty committee - clear, thorough, and professional."""
+        
+        # Call Claude with both images
+        response = client.messages.create(
+            model="claude-sonnet-4-5-20250929",
+            max_tokens=4096,
+            temperature=0,
+            messages=[{
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "source": {
+                            "type": "base64",
+                            "media_type": external_type,
+                            "data": external_content
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "source": {
+                            "type": "base64",
+                            "media_type": columbia_type,
+                            "data": columbia_content
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": prompt
+                    }
+                ]
+            }]
+        )
+        
+        # Extract the analysis text
+        analysis = ""
+        for block in response.content:
+            if hasattr(block, "text"):
+                analysis += block.text
+        
+        logger.info(f"Syllabus comparison completed ({len(analysis)} chars)")
+        
+        # Log to Google Sheets
+        try:
+            log_to_sheets('syllabus_compare', 
+                         f"External: {external_file.filename}, Columbia: {columbia_file.filename}",
+                         analysis[:5000],
+                         [{'name': 'syllabus_compare'}], 1, False)
+        except Exception as e:
+            logger.warning(f"Failed to log syllabus comparison to sheets: {e}")
+        
+        return jsonify({"analysis": analysis})
+        
+    except Exception as e:
+        logger.error(f"Syllabus comparison error: {e}")
+        return jsonify({"error": str(e)}), 500
+
+
 @app.route('/api/transcript/analyze', methods=['POST'])
 def analyze_transcript():
     """Analyze transcript for course import eligibility."""

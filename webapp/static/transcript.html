@@ -221,6 +221,7 @@
         <div class="tabs">
             <button class="tab active" onclick="switchTab('text')">Text Input</button>
             <button class="tab" onclick="switchTab('file')">File Upload</button>
+            <button class="tab" onclick="switchTab('syllabus')">Syllabus Compare</button>
         </div>
 
         <div id="text-tab" class="tab-content active">
@@ -274,11 +275,40 @@ Importing Other Courses on Same Topic?:
             <button onclick="analyzeFile()">Analyze Images</button>
         </div>
 
+        <div id="syllabus-tab" class="tab-content">
+            <div class="input-section">
+                <p style="color: rgba(255,255,255,0.9); margin-bottom: 20px; font-size: 14px;">
+                    Upload syllabi from both courses to compare content coverage and structure. Claude will analyze whether the external course is equivalent to the Columbia course.
+                </p>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <label>External Course Syllabus:</label>
+                        <input type="file" id="externalSyllabus" accept="image/jpeg,image/png,image/gif,image/webp">
+                        <p style="font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 5px;">
+                            The course you want to import
+                        </p>
+                        <div id="externalFileName" style="margin-top: 8px; color: white; font-size: 13px;"></div>
+                    </div>
+                    
+                    <div>
+                        <label>Columbia Course Syllabus:</label>
+                        <input type="file" id="columbiaSyllabus" accept="image/jpeg,image/png,image/gif,image/webp">
+                        <p style="font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 5px;">
+                            The equivalent Columbia course
+                        </p>
+                        <div id="columbiaFileName" style="margin-top: 8px; color: white; font-size: 13px;"></div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="compareSyllabi()">Compare Syllabi</button>
+        </div>
+
         <div id="result"></div>
     </div>
 
     <script>
-        // Show selected files
+        // Show selected files for transcript upload
         document.getElementById('transcriptFile').addEventListener('change', function(e) {
             const fileList = document.getElementById('fileList');
             const files = e.target.files;
@@ -292,6 +322,25 @@ Importing Other Courses on Same Topic?:
                 fileList.innerHTML = html;
             } else {
                 fileList.innerHTML = '';
+            }
+        });
+
+        // Show selected files for syllabus comparison
+        document.getElementById('externalSyllabus').addEventListener('change', function(e) {
+            const fileName = document.getElementById('externalFileName');
+            if (e.target.files[0]) {
+                fileName.innerHTML = `✓ ${e.target.files[0].name}`;
+            } else {
+                fileName.innerHTML = '';
+            }
+        });
+
+        document.getElementById('columbiaSyllabus').addEventListener('change', function(e) {
+            const fileName = document.getElementById('columbiaFileName');
+            if (e.target.files[0]) {
+                fileName.innerHTML = `✓ ${e.target.files[0].name}`;
+            } else {
+                fileName.innerHTML = '';
             }
         });
 
@@ -453,6 +502,69 @@ Importing Other Courses on Same Topic?:
         function clearForm() {
             document.getElementById('transcriptText').value = '';
             document.getElementById('result').innerHTML = '';
+        }
+
+        async function compareSyllabi() {
+            const externalFile = document.getElementById('externalSyllabus').files[0];
+            const columbiaFile = document.getElementById('columbiaSyllabus').files[0];
+
+            if (!externalFile || !columbiaFile) {
+                alert('Please select both syllabus files');
+                return;
+            }
+
+            showSyllabusLoading();
+
+            try {
+                const formData = new FormData();
+                formData.append('external', externalFile);
+                formData.append('columbia', columbiaFile);
+
+                const response = await fetch('/api/syllabus/compare', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                displaySyllabusResult(data);
+            } catch (error) {
+                showError('Error comparing syllabi: ' + error.message);
+            }
+        }
+
+        function showSyllabusLoading() {
+            document.getElementById('result').innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Comparing syllabi with Claude AI...</p>
+                    <p style="font-size: 12px; opacity: 0.8; margin-top: 10px;">This may take a minute as Claude performs a thorough analysis.</p>
+                </div>
+            `;
+        }
+
+        function displaySyllabusResult(data) {
+            if (data.error) {
+                showError(data.error);
+                return;
+            }
+
+            // Convert markdown-style formatting to HTML
+            let analysisHtml = data.analysis
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\n\n/g, '</p><p>')
+                .replace(/\n/g, '<br>');
+
+            document.getElementById('result').innerHTML = `
+                <div class="result">
+                    <h3>📋 Syllabus Comparison Analysis</h3>
+                    <div style="background: white; padding: 20px; border-radius: 8px; margin-top: 15px; line-height: 1.8;">
+                        <p>${analysisHtml}</p>
+                    </div>
+                    <div style="margin-top: 20px; padding: 15px; background: #e7f3ff; border-radius: 4px;">
+                        <strong>ℹ️ Note:</strong> This analysis is provided as guidance. Final import decisions require advisor approval, faculty evaluation, and DGS approval.
+                    </div>
+                </div>
+            `;
         }
     </script>
 </body>
