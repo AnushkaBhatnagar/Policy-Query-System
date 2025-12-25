@@ -165,11 +165,12 @@
         .tabs {
             display: flex;
             justify-content: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            gap: 15px;
         }
 
         .tab {
-            padding: 10px 30px;
+            padding: 12px 40px;
             border: none;
             background: #f0f0f0;
             color: #666;
@@ -177,14 +178,7 @@
             cursor: pointer;
             transition: all 0.3s;
             font-weight: 600;
-        }
-
-        .tab:first-child {
-            border-radius: 25px 0 0 25px;
-        }
-
-        .tab:last-child {
-            border-radius: 0 25px 25px 0;
+            border-radius: 8px;
         }
 
         .tab.active {
@@ -195,10 +189,48 @@
         .tab:hover:not(.active) {
             background: #e0e0e0;
         }
-        .tab-content {
+
+        .feature-content {
             display: none;
         }
-        .tab-content.active {
+
+        .feature-content.active {
+            display: block;
+        }
+
+        .input-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            gap: 10px;
+        }
+
+        .input-tab {
+            padding: 10px 30px;
+            border: none;
+            background: #f0f0f0;
+            color: #666;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            border-radius: 6px;
+        }
+
+        .input-tab.active {
+            background: #012169;
+            color: white;
+        }
+
+        .input-tab:hover:not(.active) {
+            background: #e0e0e0;
+        }
+
+        .input-tab-content {
+            display: none;
+        }
+
+        .input-tab-content.active {
             display: block;
         }
     </style>
@@ -214,20 +246,26 @@
                     📄 Official Import Policy
                 </a>
             </div>
-            <h1 style="font-size: 2.5em; margin-bottom: 10px;">Transcript Analyzer</h1>
-            <p style="font-size: 1.1em; opacity: 0.9;">Columbia CS PhD Course Import Eligibility Checker</p>
+            <h1 style="font-size: 2.5em; margin-bottom: 10px;">Course Import Tools</h1>
+            <p style="font-size: 1.1em; opacity: 0.9;">Columbia CS PhD Course Import Eligibility</p>
         </div>
 
         <div class="tabs">
-            <button class="tab active" onclick="switchTab('text')">Text Input</button>
-            <button class="tab" onclick="switchTab('file')">File Upload</button>
-            <button class="tab" onclick="switchTab('syllabus')">Syllabus Compare</button>
+            <button class="tab active" onclick="switchFeature('analyzer')">Transcript Analyzer</button>
+            <button class="tab" onclick="switchFeature('syllabus')">Syllabus Comparison</button>
         </div>
 
-        <div id="text-tab" class="tab-content active">
-            <div class="input-section">
-                <label>Enter Course Information (Use Template Below):</label>
-                <textarea id="transcriptText" placeholder="Fill in the template below...">UNIVERSITY: [Enter university name]
+        <!-- FEATURE 1: TRANSCRIPT ANALYZER -->
+        <div id="analyzer-feature" class="feature-content active">
+            <div class="input-tabs">
+                <button class="input-tab active" onclick="switchInputMethod('text')">Text Input</button>
+                <button class="input-tab" onclick="switchInputMethod('file')">File Upload</button>
+            </div>
+
+            <div id="text-tab" class="input-tab-content active">
+                <div class="input-section">
+                    <label>Enter Course Information (Use Template Below):</label>
+                    <textarea id="transcriptText" placeholder="Fill in the template below...">UNIVERSITY: [Enter university name]
 DEGREE PROGRAM: [e.g., Master of Science in Computer Science]
 
 === COURSE 1 ===
@@ -258,24 +296,26 @@ Taken:
 Importing Other Courses on Same Topic?:
 
 [Add more courses following the same format]</textarea>
+                </div>
+                <button onclick="analyzeText()">Analyze Courses</button>
+                <button onclick="clearForm()">Clear</button>
             </div>
-            <button onclick="analyzeText()">Analyze Courses</button>
-            <button onclick="clearForm()">Clear</button>
+
+            <div id="file-tab" class="input-tab-content">
+                <div class="input-section">
+                    <label>Upload Transcript Images (JPG, PNG, GIF, WEBP):</label>
+                    <input type="file" id="transcriptFile" accept="image/jpeg,image/png,image/gif,image/webp" multiple>
+                    <p style="font-size: 12px; color: rgba(255,255,255,0.8); margin-top: 8px;">
+                        ⓘ Select multiple images if your transcript spans multiple pages. All images will be analyzed together.
+                    </p>
+                    <div id="fileList" style="margin-top: 10px; color: white; font-size: 14px;"></div>
+                </div>
+                <button onclick="analyzeFile()">Analyze Images</button>
+            </div>
         </div>
 
-        <div id="file-tab" class="tab-content">
-            <div class="input-section">
-                <label>Upload Transcript Images (JPG, PNG, GIF, WEBP):</label>
-                <input type="file" id="transcriptFile" accept="image/jpeg,image/png,image/gif,image/webp" multiple>
-                <p style="font-size: 12px; color: rgba(255,255,255,0.8); margin-top: 8px;">
-                    ⓘ Select multiple images if your transcript spans multiple pages. All images will be analyzed together.
-                </p>
-                <div id="fileList" style="margin-top: 10px; color: white; font-size: 14px;"></div>
-            </div>
-            <button onclick="analyzeFile()">Analyze Images</button>
-        </div>
-
-        <div id="syllabus-tab" class="tab-content">
+        <!-- FEATURE 2: SYLLABUS COMPARISON -->
+        <div id="syllabus-feature" class="feature-content">
             <div class="input-section">
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: 20px; font-size: 14px;">
                     Upload syllabi from both courses to compare content coverage and structure. Claude will analyze whether the external course is equivalent to the Columbia course.
@@ -344,16 +384,29 @@ Importing Other Courses on Same Topic?:
             }
         });
 
-        function switchTab(tab) {
-            // Update tab buttons
+        function switchFeature(feature) {
+            // Update feature buttons
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
             event.target.classList.add('active');
             
-            // Update tab content
-            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-            document.getElementById(tab + '-tab').classList.add('active');
+            // Update feature content
+            document.querySelectorAll('.feature-content').forEach(c => c.classList.remove('active'));
+            document.getElementById(feature + '-feature').classList.add('active');
             
             // Clear result
+            document.getElementById('result').innerHTML = '';
+        }
+
+        function switchInputMethod(method) {
+            // Update input tab buttons
+            document.querySelectorAll('.input-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Update input tab content
+            document.querySelectorAll('.input-tab-content').forEach(c => c.classList.remove('active'));
+            document.getElementById(method + '-tab').classList.add('active');
+            
+            // Clear result when switching input method
             document.getElementById('result').innerHTML = '';
         }
 
