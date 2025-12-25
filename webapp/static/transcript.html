@@ -323,21 +323,21 @@ Importing Other Courses on Same Topic?:
                 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
                     <div>
-                        <label>External Course Syllabus:</label>
-                        <input type="file" id="externalSyllabus" accept="image/jpeg,image/png,image/gif,image/webp">
+                        <label>External Course Syllabus (Images):</label>
+                        <input type="file" id="externalSyllabus" accept="image/jpeg,image/png,image/gif,image/webp" multiple>
                         <p style="font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 5px;">
-                            The course you want to import
+                            The course you want to import (multiple pages allowed)
                         </p>
-                        <div id="externalFileName" style="margin-top: 8px; color: white; font-size: 13px;"></div>
+                        <div id="externalFileList" style="margin-top: 8px; color: white; font-size: 13px;"></div>
                     </div>
                     
                     <div>
-                        <label>Columbia Course Syllabus:</label>
-                        <input type="file" id="columbiaSyllabus" accept="image/jpeg,image/png,image/gif,image/webp">
+                        <label>Columbia Course Syllabus (Images):</label>
+                        <input type="file" id="columbiaSyllabus" accept="image/jpeg,image/png,image/gif,image/webp" multiple>
                         <p style="font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 5px;">
-                            The equivalent Columbia course
+                            The equivalent Columbia course (multiple pages allowed)
                         </p>
-                        <div id="columbiaFileName" style="margin-top: 8px; color: white; font-size: 13px;"></div>
+                        <div id="columbiaFileList" style="margin-top: 8px; color: white; font-size: 13px;"></div>
                     </div>
                 </div>
             </div>
@@ -367,20 +367,34 @@ Importing Other Courses on Same Topic?:
 
         // Show selected files for syllabus comparison
         document.getElementById('externalSyllabus').addEventListener('change', function(e) {
-            const fileName = document.getElementById('externalFileName');
-            if (e.target.files[0]) {
-                fileName.innerHTML = `✓ ${e.target.files[0].name}`;
+            const fileList = document.getElementById('externalFileList');
+            const files = e.target.files;
+            
+            if (files.length > 0) {
+                let html = `<strong>${files.length} file(s) selected:</strong><ul style="margin: 5px 0; padding-left: 20px;">`;
+                for (let i = 0; i < files.length; i++) {
+                    html += `<li>${files[i].name}</li>`;
+                }
+                html += '</ul>';
+                fileList.innerHTML = html;
             } else {
-                fileName.innerHTML = '';
+                fileList.innerHTML = '';
             }
         });
 
         document.getElementById('columbiaSyllabus').addEventListener('change', function(e) {
-            const fileName = document.getElementById('columbiaFileName');
-            if (e.target.files[0]) {
-                fileName.innerHTML = `✓ ${e.target.files[0].name}`;
+            const fileList = document.getElementById('columbiaFileList');
+            const files = e.target.files;
+            
+            if (files.length > 0) {
+                let html = `<strong>${files.length} file(s) selected:</strong><ul style="margin: 5px 0; padding-left: 20px;">`;
+                for (let i = 0; i < files.length; i++) {
+                    html += `<li>${files[i].name}</li>`;
+                }
+                html += '</ul>';
+                fileList.innerHTML = html;
             } else {
-                fileName.innerHTML = '';
+                fileList.innerHTML = '';
             }
         });
 
@@ -558,11 +572,11 @@ Importing Other Courses on Same Topic?:
         }
 
         async function compareSyllabi() {
-            const externalFile = document.getElementById('externalSyllabus').files[0];
-            const columbiaFile = document.getElementById('columbiaSyllabus').files[0];
+            const externalFiles = document.getElementById('externalSyllabus').files;
+            const columbiaFiles = document.getElementById('columbiaSyllabus').files;
 
-            if (!externalFile || !columbiaFile) {
-                alert('Please select both syllabus files');
+            if (externalFiles.length === 0 || columbiaFiles.length === 0) {
+                alert('Please select syllabus files for both courses');
                 return;
             }
 
@@ -570,8 +584,16 @@ Importing Other Courses on Same Topic?:
 
             try {
                 const formData = new FormData();
-                formData.append('external', externalFile);
-                formData.append('columbia', columbiaFile);
+                
+                // Add all external syllabus files
+                for (let i = 0; i < externalFiles.length; i++) {
+                    formData.append('external', externalFiles[i]);
+                }
+                
+                // Add all columbia syllabus files
+                for (let i = 0; i < columbiaFiles.length; i++) {
+                    formData.append('columbia', columbiaFiles[i]);
+                }
 
                 const response = await fetch('/api/syllabus/compare', {
                     method: 'POST',

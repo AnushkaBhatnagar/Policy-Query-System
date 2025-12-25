@@ -894,20 +894,31 @@ def compare_syllabi():
         if 'external' not in request.files or 'columbia' not in request.files:
             return jsonify({"error": "Both external and columbia syllabus images are required"}), 400
         
-        external_file = request.files['external']
-        columbia_file = request.files['columbia']
+        external_files = request.files.getlist('external')
+        columbia_files = request.files.getlist('columbia')
         
-        if external_file.filename == '' or columbia_file.filename == '':
+        if not external_files or not columbia_files or external_files[0].filename == '' or columbia_files[0].filename == '':
             return jsonify({"error": "Both files must be selected"}), 400
         
-        # Read and encode both files
-        external_content = base64.b64encode(external_file.read()).decode()
-        columbia_content = base64.b64encode(columbia_file.read()).decode()
+        # Read and encode all files
+        external_data = []
+        for file in external_files:
+            external_data.append({
+                'data': base64.b64encode(file.read()).decode(),
+                'type': file.content_type or 'image/jpeg',
+                'name': file.filename
+            })
         
-        external_type = external_file.content_type or 'image/jpeg'
-        columbia_type = columbia_file.content_type or 'image/jpeg'
+        columbia_data = []
+        for file in columbia_files:
+            columbia_data.append({
+                'data': base64.b64encode(file.read()).decode(),
+                'type': file.content_type or 'image/jpeg',
+                'name': file.filename
+            })
         
-        logger.info(f"Comparing syllabi: {external_file.filename} vs {columbia_file.filename}")
+        file_names = f"External: {', '.join([f['name'] for f in external_data])}, Columbia: {', '.join([f['name'] for f in columbia_data])}"
+        logger.info(f"Comparing syllabi: {file_names}")
         
         # Build the comparison prompt
         prompt = """You are a senior CS faculty member reviewing a course import request.
@@ -924,35 +935,45 @@ Based on your analysis, provide your recommendation: should this course be accep
 
 Write your analysis as you would for a faculty committee - clear, thorough, and professional."""
         
-        # Call Claude with both images
+        # Build content with all images
+        content = []
+        
+        # Add external syllabus images
+        for file in external_data:
+            content.append({
+                "type": "image",
+                "source": {
+                    "type": "base64",
+                    "media_type": file['type'],
+                    "data": file['data']
+                }
+            })
+        
+        # Add columbia syllabus images
+        for file in columbia_data:
+            content.append({
+                "type": "image",
+                "source": {
+                    "type": "base64",
+                    "media_type": file['type'],
+                    "data": file['data']
+                }
+            })
+        
+        # Add prompt text last
+        content.append({
+            "type": "text",
+            "text": prompt
+        })
+        
+        # Call Claude with all images
         response = client.messages.create(
             model="claude-sonnet-4-5-20250929",
             max_tokens=4096,
             temperature=0,
             messages=[{
                 "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": external_type,
-                            "data": external_content
-                        }
-                    },
-                    {
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": columbia_type,
-                            "data": columbia_content
-                        }
-                    },
-                    {
-                        "type": "text",
-                        "text": prompt
-                    }
-                ]
+                "content": content
             }]
         )
         
@@ -967,7 +988,7 @@ Write your analysis as you would for a faculty committee - clear, thorough, and 
         # Log to Google Sheets
         try:
             log_to_sheets('syllabus_compare', 
-                         f"External: {external_file.filename}, Columbia: {columbia_file.filename}",
+                         file_names,
                          analysis[:5000],
                          [{'name': 'syllabus_compare'}], 1, False)
         except Exception as e:
