@@ -921,19 +921,20 @@ def compare_syllabi():
         logger.info(f"Comparing syllabi: {file_names}")
         
         # Build the comparison prompt
-        prompt = """You are a senior CS faculty member reviewing a course import request.
+        prompt = """You are a senior CS faculty member evaluating a course for import.
 
-A PhD student wants to import the EXTERNAL course (first image) instead of taking the COLUMBIA course (second image).
+Analyze these two syllabi BRIEFLY (max 300 words):
 
-Perform a rigorous analysis comparing these two courses. In your analysis, consider:
+EXTERNAL COURSE: First images
+COLUMBIA COURSE: Second images  
 
-1. Content coverage - what percentage of Columbia's topics does the external course cover? What's missing? What extra topics does it have?
+Provide ONLY:
+1. **RECOMMENDATION** - ACCEPT / CONDITIONAL ACCEPT / REJECT
+2. **Key Matches** (2-3 bullet points of what aligns well)
+3. **Key Gaps** (2-3 bullet points of what's missing)
+4. **Reason** (2-3 sentences explaining the recommendation)
 
-2. Course structure - how do the assignments, projects, exams compare? Does the external course provide equivalent academic rigor?
-
-Based on your analysis, provide your recommendation: should this course be accepted as equivalent, conditionally accepted (with what conditions), or rejected?
-
-Write your analysis as you would for a faculty committee - clear, thorough, and professional."""
+Be concise and direct. No lengthy analysis."""
         
         # Build content with all images
         content = []
