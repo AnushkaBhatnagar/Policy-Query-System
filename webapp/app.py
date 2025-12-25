@@ -923,18 +923,23 @@ def compare_syllabi():
         # Build the comparison prompt
         prompt = """You are a senior CS faculty member evaluating a course for import.
 
-Analyze these two syllabi BRIEFLY (max 300 words):
+Analyze these two syllabi (max 400 words):
 
 EXTERNAL COURSE: First images
 COLUMBIA COURSE: Second images  
 
-Provide ONLY:
-1. **RECOMMENDATION** - ACCEPT / CONDITIONAL ACCEPT / REJECT
-2. **Key Matches** (2-3 bullet points of what aligns well)
-3. **Key Gaps** (2-3 bullet points of what's missing)
-4. **Reason** (2-3 sentences explaining the recommendation)
+Return ONLY valid JSON (no markdown, no extra text):
+{
+  "recommendation": "ACCEPT|CONDITIONAL ACCEPT|REJECT",
+  "key_matches": ["match1", "match2", "match3"],
+  "key_gaps": ["gap1", "gap2", "gap3"],
+  "strengths": "Brief paragraph (2-3 sentences) about course strengths and alignment",
+  "concerns": "Brief paragraph (2-3 sentences) about gaps or concerns",
+  "summary": "Detailed 2-3 paragraph assessment (max 400 words total) covering: course equivalence, content overlap, academic rigor, and recommendation rationale",
+  "next_steps": "Clear action items for student"
+}
 
-Be concise and direct. No lengthy analysis."""
+CRITICAL: Return ONLY the JSON object, no markdown formatting, no extra text."""
         
         # Build content with all images
         content = []
