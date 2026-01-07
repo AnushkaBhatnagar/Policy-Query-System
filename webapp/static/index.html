@@ -601,6 +601,84 @@
             margin-left: 5px;
         }
 
+        .citations-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f0f5fa;
+            border-radius: 8px;
+            border-left: 4px solid #012169;
+        }
+
+        .citations-section h3 {
+            margin-top: 0;
+            color: #012169;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .citation-item {
+            margin: 12px 0;
+            background: white;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+
+        .citation-header {
+            padding: 10px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            background: #f9f9f9;
+            transition: background 0.2s;
+            font-weight: 600;
+            color: #012169;
+        }
+
+        .citation-header:hover {
+            background: #f0f5fa;
+        }
+
+        .citation-toggle {
+            font-size: 16px;
+            transition: transform 0.3s;
+            flex-shrink: 0;
+        }
+
+        .citation-toggle.expanded {
+            transform: rotate(180deg);
+        }
+
+        .citation-body {
+            padding: 12px;
+            border-top: 1px solid #ddd;
+            display: none;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .citation-body.expanded {
+            display: block;
+        }
+
+        .citation-loading {
+            padding: 8px;
+            color: #666;
+            font-style: italic;
+            font-size: 13px;
+        }
+
+        .citation-error {
+            padding: 8px;
+            color: #c33;
+            font-size: 13px;
+        }
+
         .footer {
             text-align: center;
             color: white;
@@ -983,6 +1061,88 @@
             }
         });
 
+        function extractCitationIds(text) {
+            // Extract citations like "[1] RULE-ID" or "Citations: [1] RULE-ID, [2] RULE-ID"
+            const citationPattern = /\[(\d+)\]\s+([A-Z_]+:[A-Z_\-\d]+)/g;
+            const citations = new Map(); // Map to avoid duplicates
+            
+            let match;
+            while ((match = citationPattern.exec(text)) !== null) {
+                const index = match[1];
+                const ruleId = match[2];
+                citations.set(index, ruleId);
+            }
+            
+            return citations;
+        }
+
+        async function createCitationsSection(text) {
+            const citations = extractCitationIds(text);
+            
+            if (citations.size === 0) {
+                return null;
+            }
+            
+            const citationsDiv = document.createElement('div');
+            citationsDiv.className = 'citations-section';
+            citationsDiv.innerHTML = '<h3>📖 Full Rule Text</h3>';
+            
+            const citationsContainer = document.createElement('div');
+            
+            // Create citation items for each unique rule
+            for (const [index, ruleId] of citations) {
+                const citationItem = document.createElement('div');
+                citationItem.className = 'citation-item';
+                citationItem.innerHTML = `
+                    <div class="citation-header" onclick="toggleCitation(this)">
+                        <span>[${index}] ${ruleId}</span>
+                        <span class="citation-toggle">▶</span>
+                    </div>
+                    <div class="citation-body">
+                        <div class="citation-loading">Loading rule text...</div>
+                    </div>
+                `;
+                
+                citationsContainer.appendChild(citationItem);
+                
+                // Fetch rule text in background
+                const body = citationItem.querySelector('.citation-body');
+                try {
+                    const response = await fetch(`/api/rule/${ruleId}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        body.innerHTML = `<div><strong>Document:</strong> ${data.document}</div><div style="margin-top: 8px;"><strong>Rule Text:</strong></div><div style="margin-top: 8px;">${escapeHtml(data.content)}</div>`;
+                    } else {
+                        body.innerHTML = '<div class="citation-error">Rule not found</div>';
+                    }
+                } catch (error) {
+                    body.innerHTML = `<div class="citation-error">Error loading rule: ${error.message}</div>`;
+                }
+            }
+            
+            citationsDiv.appendChild(citationsContainer);
+            return citationsDiv;
+        }
+
+        function toggleCitation(header) {
+            const body = header.nextElementSibling;
+            const toggle = header.querySelector('.citation-toggle');
+            
+            body.classList.toggle('expanded');
+            toggle.classList.toggle('expanded');
+        }
+
+        function escapeHtml(text) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return text.replace(/[&<>"']/g, m => map[m]);
+        }
+
         function displayMessage(role, content, metadata = null) {
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${role}`;
@@ -991,6 +1151,15 @@
                 messageDiv.textContent = content;
             } else {
                 messageDiv.innerHTML = marked.parse(content);
+                
+                // Add citation section for assistant messages
+                if (role === 'assistant') {
+                    createCitationsSection(content).then(citationsDiv => {
+                        if (citationsDiv) {
+                            messageDiv.appendChild(citationsDiv);
+                        }
+                    });
+                }
                 
                 if (metadata) {
                     const metaDiv = document.createElement('div');

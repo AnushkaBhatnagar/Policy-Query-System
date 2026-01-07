@@ -814,6 +814,25 @@ OUTPUT:
         return jsonify({"error": str(e)}), 500
 
 
+@app.route('/api/rule/<rule_id>', methods=['GET'])
+def get_rule_endpoint(rule_id: str):
+    """Get full rule details by ID."""
+    if not SEARCH_ENGINE:
+        return jsonify({"error": "Search engine not initialized"}), 500
+    
+    # Get the rule
+    rule = SEARCH_ENGINE.get_rule(rule_id)
+    
+    if not rule:
+        return jsonify({"error": f"Rule {rule_id} not found"}), 404
+    
+    return jsonify({
+        "rule_id": rule['id'],
+        "content": rule['content'],
+        "document": rule['document']
+    })
+
+
 @app.route('/api/health', methods=['GET'])
 def health():
     """Health check endpoint."""
