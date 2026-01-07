@@ -26,16 +26,17 @@ class PolicySearch:
     def build_rule_index(self):
         """Build index of all rules for fast lookup."""
         for doc_name, content in self.documents.items():
-            # Extract all rules with their IDs
-            rule_pattern = r'\[RULE:([^\]]+)\](.*?)(?=\[RULE:|$)'
+            # Extract all rules with their IDs - only content between [RULE:...] and [/RULE]
+            rule_pattern = r'\[RULE:([^\]]+)\](.*?)\[/RULE\]'
             matches = re.finditer(rule_pattern, content, re.DOTALL)
             
             for match in matches:
                 rule_id = match.group(1)
                 rule_content = match.group(2).strip()
                 
-                # Clean content - remove metadata tags
-                clean_content = re.sub(r'\[/?[A-Z-]+[^\]]*\]', '', rule_content)
+                # Clean content - remove metadata tags like [TIMING:...], [REQUIREMENT:...], etc.
+                # but preserve the actual rule text
+                clean_content = re.sub(r'\[/?[A-Z_-]+[^\]]*\]', '', rule_content)
                 clean_content = clean_content.strip()
                 
                 RULE_INDEX[rule_id] = {
