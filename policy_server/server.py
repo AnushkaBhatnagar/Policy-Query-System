@@ -26,9 +26,8 @@ class PolicySearch:
     def build_rule_index(self):
         """Build index of all rules for fast lookup."""
         for doc_name, content in self.documents.items():
-            # Extract all rules with their IDs - handle both rules with [/RULE] closing tags
-            # and rules without closing tags (capture until next [RULE:, start of file, or EOF)
-            rule_pattern = r'\[RULE:([^\]]+)\](.*?)(?:\[/RULE\]|\n\[RULE:|$)'
+            # Extract all rules with their IDs - capture content between [RULE:...] and [/RULE]
+            rule_pattern = r'\[RULE:([^\]]+)\](.*?)\[/RULE\]'
             matches = re.finditer(rule_pattern, content, re.DOTALL)
             
             for match in matches:
