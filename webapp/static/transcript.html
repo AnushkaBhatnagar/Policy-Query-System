@@ -233,6 +233,82 @@
         .input-tab-content.active {
             display: block;
         }
+
+        .feedback-form {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .feedback-form h3 {
+            margin-top: 0;
+            color: #012169;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .feedback-form p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .feedback-form-group {
+            margin-bottom: 20px;
+        }
+
+        .feedback-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #333;
+            font-size: 16px;
+            color: white !important;
+        }
+
+        .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 60px;
+            color: #333;
+        }
+
+        .rating-options {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .rating-options label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+            font-weight: normal;
+            font-size: 14px;
+            color: rgba(255,255,255,0.9) !important;
+            margin-bottom: 0;
+        }
+
+        .rating-options input[type="radio"] {
+            cursor: pointer;
+        }
+
+        .feedback-form-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .feedback-form-buttons button {
+            flex: 1;
+        }
     </style>
 </head>
 <body>
@@ -345,9 +421,55 @@ Importing Other Courses on Same Topic?:
         </div>
 
         <div id="result"></div>
+
+        <!-- Feedback Form -->
+        <div id="feedbackSection" class="feedback-form" style="display: none;">
+            <h3>Feedback</h3>
+            <p>Help us improve this tool by sharing your feedback</p>
+            
+            <div class="feedback-form-group">
+                <label>On a Scale of 1-5, How Helpful Was the Response?</label>
+                <div class="rating-options">
+                    <label>
+                        <input type="radio" name="feedback-rating" value="1"> Very Unhelpful (1)
+                    </label>
+                    <label>
+                        <input type="radio" name="feedback-rating" value="2"> Somewhat Unhelpful (2)
+                    </label>
+                    <label>
+                        <input type="radio" name="feedback-rating" value="3"> Neutral (3)
+                    </label>
+                    <label>
+                        <input type="radio" name="feedback-rating" value="4"> Helpful (4)
+                    </label>
+                    <label>
+                        <input type="radio" name="feedback-rating" value="5"> Very Helpful (5)
+                    </label>
+                </div>
+                <textarea 
+                    id="feedbackHelpfulness"
+                    placeholder="Please explain why..."
+                ></textarea>
+            </div>
+
+            <div class="feedback-form-group">
+                <label>What Could Improve This Tool? (optional)</label>
+                <textarea 
+                    id="feedbackImprovement"
+                    placeholder="Share your suggestions..."
+                ></textarea>
+            </div>
+
+            <div class="feedback-form-buttons">
+                <button id="submitFeedbackBtn" onclick="submitFeedback()">Submit Feedback</button>
+            </div>
+        </div>
     </div>
 
     <script>
+        // Feedback form variables
+        let currentFeedbackData = null;
+        let currentTool = null;
         // Show selected files for transcript upload
         document.getElementById('transcriptFile').addEventListener('change', function(e) {
             const fileList = document.getElementById('fileList');
@@ -564,6 +686,14 @@ Importing Other Courses on Same Topic?:
 
             html += '</div>';
             document.getElementById('result').innerHTML = html;
+            
+            // Show feedback form and store data
+            currentTool = 'transcript_analyzer';
+            currentFeedbackData = {
+                analysis_text: html.substring(0, 1000) // Store shortened analysis for reference
+            };
+            document.getElementById('feedbackSection').style.display = 'block';
+            document.getElementById('feedbackSection').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
 
         function clearForm() {
@@ -644,6 +774,99 @@ Importing Other Courses on Same Topic?:
                     </div>
                 </div>
             `;
+            
+            // Show feedback form and store data
+            currentTool = 'syllabus_comparison';
+            currentFeedbackData = {
+                analysis_text: analysisHtml.substring(0, 1000) // Store shortened analysis for reference
+            };
+            document.getElementById('feedbackSection').style.display = 'block';
+            document.getElementById('feedbackSection').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // Feedback submission function
+        async function submitFeedback() {
+            const rating = document.querySelector('input[name="feedback-rating"]:checked')?.value;
+            const helpfulness = document.getElementById('feedbackHelpfulness').value.trim();
+            const improvement = document.getElementById('feedbackImprovement').value.trim();
+            
+            if (!rating) {
+                alert('Please select a rating');
+                return;
+            }
+            
+            if (!helpfulness) {
+                alert('Please provide an explanation for your rating');
+                return;
+            }
+            
+            if (!currentTool) {
+                alert('No tool data available for feedback');
+                return;
+            }
+            
+            // Disable button during submission
+            document.getElementById('submitFeedbackBtn').disabled = true;
+            document.getElementById('submitFeedbackBtn').textContent = 'Submitting...';
+            
+            try {
+                const feedbackPayload = {
+                    query: 'Tool: ' + currentTool,
+                    response: currentFeedbackData.analysis_text,
+                    tool_uses: currentTool,
+                    iterations: 1,
+                    cached: 'No',
+                    session_id: 'transcript-' + Date.now(),
+                    rating: parseInt(rating),
+                    helpfulness_explanation: helpfulness,
+                    improvement_suggestion: improvement
+                };
+                
+                const response = await fetch('/api/feedback', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(feedbackPayload)
+                });
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to submit feedback');
+                }
+                
+                // Clear form and hide
+                clearFeedbackForm();
+                
+                // Show success message
+                const successMsg = document.createElement('div');
+                successMsg.style.cssText = 'background: #e8f5e9; color: #2e7d32; padding: 12px; border-radius: 6px; margin-top: 10px; border-left: 4px solid #2e7d32;';
+                successMsg.textContent = '✓ Thank you for your feedback! It helps us improve.';
+                document.getElementById('feedbackSection').parentNode.insertBefore(successMsg, document.getElementById('feedbackSection').nextSibling);
+                
+                // Remove success message after 5 seconds
+                setTimeout(() => {
+                    successMsg.remove();
+                }, 5000);
+                
+            } catch (error) {
+                alert('Error submitting feedback: ' + error.message);
+                console.error('Feedback submission error:', error);
+            } finally {
+                document.getElementById('submitFeedbackBtn').disabled = false;
+                document.getElementById('submitFeedbackBtn').textContent = 'Submit Feedback';
+            }
+        }
+
+        function clearFeedbackForm() {
+            // Reset form fields
+            document.querySelectorAll('input[name="feedback-rating"]').forEach(r => r.checked = false);
+            document.getElementById('feedbackHelpfulness').value = '';
+            document.getElementById('feedbackImprovement').value = '';
+            
+            // Hide feedback form
+            document.getElementById('feedbackSection').style.display = 'none';
         }
     </script>
 </body>
