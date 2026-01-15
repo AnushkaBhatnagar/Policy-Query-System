@@ -17,6 +17,7 @@ from anthropic import Anthropic
 import logging
 from dotenv import load_dotenv
 import gspread
+from duckduckgo_search import DDGS
 
 # Load environment variables from .env file
 load_dotenv()
@@ -34,6 +35,9 @@ MAX_CACHE_SIZE = 1000  # Maximum number of cached queries
 QUERY_CACHE = {}
 cache_hits = 0
 cache_misses = 0
+
+# URL cache storage (for citation URLs)
+URL_CACHE = {}  # rule_id: url
 
 # Conversation storage
 CONVERSATIONS = {}  # session_id: [messages]
@@ -149,6 +153,54 @@ def log_feedback_to_sheets(feedback_data):
     except Exception as e:
         logger.error(f"Failed to log feedback to Google Sheets: {e}")
         # Don't raise exception - let the response go through even if sheets logging fails
+
+
+def search_url_for_text(rule_text: str, rule_id: str = None) -> str:
+    """Search for URL where rule text appears online using DuckDuckGo."""
+    # Check cache first
+    if rule_id and rule_id in URL_CACHE:
+        logger.info(f"  ✓ URL cache hit for {rule_id}")
+        return URL_CACHE[rule_id]
+    
+    try:
+        # Take first 100-150 chars of rule text for more specific search
+        search_phrase = rule_text[:150].strip()
+        
+        logger.info(f"  🔍 Searching web for: '{search_phrase[:80]}...'")
+        
+        # Use DuckDuckGo to search
+        ddgs = DDGS()
+        results = ddgs.text(search_phrase, max_results=5)
+        
+        if not results:
+            logger.info(f"  ✗ No results found for rule text")
+            return None
+        
+        # Prioritize Columbia.edu results
+        columbia_url = None
+        fallback_url = None
+        
+        for result in results:
+            url = result.get('href', '')
+            if 'columbia.edu' in url.lower():
+                columbia_url = url
+                logger.info(f"  ✓ Found Columbia URL: {url[:80]}...")
+                break
+            elif not fallback_url:
+                fallback_url = url
+        
+        selected_url = columbia_url or fallback_url
+        
+        if selected_url and rule_id:
+            # Cache the URL
+            URL_CACHE[rule_id] = selected_url
+            logger.info(f"  ✓ Cached URL for {rule_id}")
+        
+        return selected_url
+        
+    except Exception as e:
+        logger.error(f"Error searching for URL: {e}")
+        return None
 
 app = Flask(__name__, static_folder='static', static_url_path='')
 
@@ -869,7 +921,7 @@ OUTPUT:
 
 @app.route('/api/rule/<rule_id>', methods=['GET'])
 def get_rule_endpoint(rule_id: str):
-    """Get full rule details by ID."""
+    """Get full rule details by ID with web search for URL."""
     if not SEARCH_ENGINE:
         return jsonify({"error": "Search engine not initialized"}), 500
     
@@ -879,10 +931,14 @@ def get_rule_endpoint(rule_id: str):
     if not rule:
         return jsonify({"error": f"Rule {rule_id} not found"}), 404
     
+    # Search for URL where this rule text appears online
+    url = search_url_for_text(rule['content'], rule_id)
+    
     return jsonify({
         "rule_id": rule['id'],
         "content": rule['content'],
-        "document": rule['document']
+        "document": rule['document'],
+        "url": url
     })
 
 
