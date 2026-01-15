@@ -97,6 +97,59 @@ def log_to_sheets(session_id, query, response, tool_uses, iterations, cached):
     except Exception as e:
         logger.error(f"Failed to log to Google Sheets: {e}")
 
+
+def log_feedback_to_sheets(feedback_data):
+    """Log feedback to a separate 'Feedback' sheet in Google Sheets."""
+    if not SHEETS_ENABLED or not sheets_client:
+        logger.warning("Google Sheets logging disabled, skipping feedback log")
+        return
+    
+    try:
+        # Open the spreadsheet and get the 'Feedback' worksheet
+        spreadsheet = sheets_client.open_by_key(SHEET_ID)
+        
+        # Try to get existing 'Feedback' sheet, if it doesn't exist, it will raise exception
+        try:
+            sheet = spreadsheet.worksheet('Feedback')
+        except gspread.exceptions.WorksheetNotFound:
+            # Create the Feedback sheet if it doesn't exist
+            logger.info("Creating 'Feedback' worksheet...")
+            sheet = spreadsheet.add_worksheet(title='Feedback', rows='1000', cols='10')
+            
+            # Add headers
+            sheet.append_row([
+                'Timestamp',
+                'Session ID',
+                'Query',
+                'Response',
+                'Tool Uses',
+                'Iterations',
+                'Cached',
+                'Rating',
+                'Helpfulness Explanation',
+                'Improvement Suggestion'
+            ])
+            logger.info("✓ Created 'Feedback' worksheet with headers")
+        
+        # Append feedback row to sheet
+        sheet.append_row([
+            datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            feedback_data.get('session_id', ''),
+            feedback_data.get('query', ''),
+            feedback_data.get('response', '')[:5000],  # Limit response length
+            feedback_data.get('tool_uses', ''),
+            feedback_data.get('iterations', ''),
+            feedback_data.get('cached', ''),
+            feedback_data.get('rating', ''),
+            feedback_data.get('helpfulness_explanation', ''),
+            feedback_data.get('improvement_suggestion', '')
+        ])
+        
+        logger.info("✓ Logged feedback to Google Sheets 'Feedback' worksheet")
+    except Exception as e:
+        logger.error(f"Failed to log feedback to Google Sheets: {e}")
+        # Don't raise exception - let the response go through even if sheets logging fails
+
 app = Flask(__name__, static_folder='static', static_url_path='')
 
 # Initialize Anthropic client
@@ -898,6 +951,45 @@ def clear_conversation_endpoint():
         })
     
     return jsonify({"error": "session_id required"}), 400
+
+
+@app.route('/api/feedback', methods=['POST'])
+def submit_feedback():
+    """Handle user feedback submission."""
+    try:
+        data = request.json
+        
+        # Validate required fields
+        if not data.get('rating'):
+            return jsonify({"error": "Rating is required"}), 400
+        
+        if not data.get('helpfulness_explanation'):
+            return jsonify({"error": "Helpfulness explanation is required"}), 400
+        
+        # Log to Google Sheets
+        log_feedback_to_sheets({
+            'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            'session_id': data.get('session_id', ''),
+            'query': data.get('query', ''),
+            'response': data.get('response', ''),
+            'tool_uses': data.get('tool_uses', ''),
+            'iterations': data.get('iterations', ''),
+            'cached': data.get('cached', ''),
+            'rating': data.get('rating', ''),
+            'helpfulness_explanation': data.get('helpfulness_explanation', ''),
+            'improvement_suggestion': data.get('improvement_suggestion', '')
+        })
+        
+        logger.info(f"✓ Feedback submitted for session {data.get('session_id')}: Rating {data.get('rating')}/5")
+        
+        return jsonify({
+            "status": "feedback submitted",
+            "message": "Thank you for your feedback!"
+        }), 200
+        
+    except Exception as e:
+        logger.error(f"Error submitting feedback: {e}")
+        return jsonify({"error": str(e)}), 500
 
 
 @app.route('/api/syllabus/compare', methods=['POST'])
