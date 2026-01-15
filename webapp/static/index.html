@@ -1162,14 +1162,7 @@
                     const response = await fetch(`/api/rule/${ruleId}`);
                 if (response.ok) {
                     const data = await response.json();
-                    let html = `<div><strong>Document:</strong> ${data.document}</div><div style="margin-top: 8px;"><strong>Rule Text:</strong></div><div style="margin-top: 8px;">${escapeHtml(data.content)}</div>`;
-                    
-                    // Add URL if available
-                    if (data.url) {
-                        html += `<div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #ddd;"><strong>Source:</strong> <a href="${data.url}" target="_blank" style="color: #012169; text-decoration: underline;">View on web →</a></div>`;
-                    }
-                    
-                    body.innerHTML = html;
+                    body.innerHTML = `<div><strong>Document:</strong> ${data.document}</div><div style="margin-top: 8px;"><strong>Rule Text:</strong></div><div style="margin-top: 8px;">${escapeHtml(data.content)}</div>`;
                 } else {
                     body.innerHTML = '<div class="citation-error">Rule not found</div>';
                 }
