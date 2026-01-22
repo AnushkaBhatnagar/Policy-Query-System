@@ -142,7 +142,18 @@ class PolicySearch:
         if rule_id in RULE_INDEX:
             return RULE_INDEX[rule_id]
         
-        # Fall back to case-insensitive search
+        # Normalize rule_id: add RULE: prefix if missing
+        normalized_id = rule_id if rule_id.startswith('RULE:') else f'RULE:{rule_id}'
+        if normalized_id in RULE_INDEX:
+            return RULE_INDEX[normalized_id]
+        
+        # Fall back to case-insensitive search with normalized ID
+        normalized_id_upper = normalized_id.upper()
+        for stored_id, rule_data in RULE_INDEX.items():
+            if stored_id.upper() == normalized_id_upper:
+                return rule_data
+        
+        # Also try case-insensitive search on original rule_id (in case it has unusual format)
         rule_id_upper = rule_id.upper()
         for stored_id, rule_data in RULE_INDEX.items():
             if stored_id.upper() == rule_id_upper:
