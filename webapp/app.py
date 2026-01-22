@@ -162,6 +162,7 @@ except Exception as e:
 MCP_LOADED = False
 SEARCH_ENGINE = None
 
+
 def init_mcp_server():
     """Initialize MCP server components at startup."""
     global MCP_LOADED, SEARCH_ENGINE

@@ -1,0 +1,1753 @@
+# Columbia GSAS Rules with URLs
+
+## [RULE:GSAS:AUTHORITY-001]
+**Text:** The Graduate School of Arts and Sciences confers the degree for all Columbia PhD programs. The School of Science and Engineering (SEAS) is a Professional School which administers their own PhD programs, including admissions, degree requirements, financial aid, and student affairs.
+
+**URL:** https://www.gsas.columbia.edu/content/phd-programs-professional-schools
+
+---
+
+## [RULE:GSAS:PROSPECTUS-001]
+**Text:** The dissertation prospectus is specific to each discipline, but in its broadest outline it is a document that explains in detail the thesis project, the critical and theoretical instruments used to approach it, the existing scholarship on the subject, and the original contribution that the proposed project entails. The aim of the prospectus is to persuade a panel of scholars in the student's field of the plausibility of the proposed research, rather than to anticipate its potential conclusions.
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-prospectus
+
+---
+
+## [RULE:GSAS:PROSPECTUS-CONTENT-001]
+**Text:** The prospectus should include a tentative plan for the project's development in the form of a research schedule and a section-by-section account (if applicable). The prospectus is prepared in consultation with the advisor(s) who, in turn, determines when the document is ready to proceed to its defense.
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-prospectus
+
+---
+
+## [RULE:GSAS:PROSPECTUS-COMMITTEE-001]
+**Text:** Doctoral dissertation prospectuses shall be approved in writing by a committee of at least three faculty: at least two must be Columbia faculty named on the list of approved dissertation advisors from the student's home department/program; a third can be from within the department, from another department at Columbia, or from outside the university (with GSAS permission). A dissertation advisor from the list of approved dissertation advisors from the student's home department/program must be named at the time of the prospectus defense.
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-prospectus
+
+---
+
+## [RULE:GSAS:PROSPECTUS-SUBMIT-001]
+**Text:** After the defense, the completed Dissertation Prospectus Committee Report, signed and approved by the committee members, must be submitted by the department to the Dissertation Office (gsas-dissertations@columbia.edu).
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-prospectus
+
+---
+
+## [RULE:GSAS:PROSPECTUS-DEADLINE-001]
+**Text:** Students must defend the prospectus by May 31 of their fourth year. Students who do not meet this deadline will lose good academic standing, be placed on probation, and not have their stipend disbursed for the ensuing fall semester. In exceptional circumstances, with a written rationale from the DGS and advisor and the approval of GSAS, students may receive a final opportunity to defend their prospectus before September 30 of the fifth year. Students who do so by September 30 of the fifth year will receive the full Dissertation Fellowship retroactively. Students who do not pass their prospectus by September 30 of their fifth year will lose PhD candidacy. For students who are off-cycle (those whose fifth year of matriculation begins in January), the corresponding deadlines described above will be December 15 and February 28.
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-prospectus
+
+---
+
+## [RULE:GSAS:PROSPECTUS-TIMING-001]
+**Text:** In programs in which the defense of the dissertation prospectus is not one of the requirements for the MPhil degree, students are expected to defend their dissertation prospectus within six months after completion of the last requirement for the MPhil degree (not the MPhil degree conferral date). Students should consult with their director of graduate studies to determine whether their department or program has an earlier deadline. A student must defend the prospectus within four years from initial registration: "The Graduate School considers progress to be minimally satisfactory when progress is such that a student completes the MA degree within two years from initial registration, the MPhil degree and the prospectus defense within four years from initial registration, and the PhD within nine years from initial registration."
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-prospectus
+
+---
+
+## [RULE:GSAS:PROSPECTUS-TRAVEL-001]
+**Text:** Any student traveling internationally to conduct dissertation research must comply with the pre-departure requirements of the University's International Travel Planning Policy. Requirements can include travel approval by the Dean, and in some instances, Dean and Provost. For more information about these requirements, visit Planning Columbia-Related International Travel.
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-prospectus
+
+---
+
+## [RULE:GSAS:ADVISOR-DEF-001]
+**Text:** Dissertation Advisors are faculty members nominated by PhD programs and approved by the dean of the Graduate School of Arts and Sciences to guide dissertation research. Advisors must be involved on a continuing basis in doctoral instruction and research at Columbia. Faculty may supervise dissertations in their own department and in any other department in which they have been designated as approved dissertation advisors. Please see a list of the responsibilities and expectations for dissertation Advisors.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:COADVISOR-001]
+**Text:** Students may arrange to have two Columbia faculty members co-advise the dissertation, as long as both faculty members agree to the arrangement. The department should mark the Third examiner is a dissertation co-advisor checkbox on the Application for the Dissertation Defense prior to submitting to the Dissertation Office (gsas-dissertations@columbia.edu) for review. Departmental policy determines whether non-tenured faculty on the tenure track must co-advise a dissertation with a tenured faculty member. Emeriti professors may not supervise new dissertations but may be nominated to participate in defense committees as Readers (see below). Please consult the Approved Dissertation Advisors page for a list of Advisors by program.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:NO-COTUTELLE-001]
+**Text:** Columbia does not permit co-tutelles, an arrangement whereby a student receives doctoral degrees from two institutions simultaneously. Columbia faculty may serve on dissertation committees for students in other institutions; they may also serve as co-advisors of the dissertation if the internal rules of the other university allow it. In such instances, the single degree would be issued by the other institution.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:ADVISOR-NOMINATION-001]
+**Text:** Nominations for new Advisors are initiated by departments or programs. Full-time tenured and non-tenured faculty who hold an appointment at Columbia are nominated by the chair or DGS of the department or program in which the nominee holds a full-time appointment or where the department or program wishes to grant dissertation Advisor status. The nomination procedures for each faculty category are listed below:
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:ADVISOR-TENURE-001]
+**Text:** Tenured or tenure-track faculty advisors: The department or program chair or DGS nominates tenured or tenure-track faculty by providing the curriculum vitae of the individual to the Office of the Dean (gsas-dean@columbia.edu). If the nomination is approved, GSAS will produce a formal Advisor appointment letter for the nominee.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:ADVISOR-NONTENURE-001]
+**Text:** Non-tenure-track faculty advisors: The department or program chair or DGS may nominate non-tenure-track faculty by providing a letter of nomination and the curriculum vitae of the individual to the Office of the Dean (gsas-dean@columbia.edu). If the nomination is approved, GSAS will produce a formal Advisor appointment letter for the nominee. The nomination letter for non-tenure track faculty should contain the following:
+- A statement about whether approval is requested on a continuing basis or for a given dissertation, in which case the student's name should be noted.
+- Indication of the substantive field(s) in which the faculty member will be expected to supervise dissertations
+- Evidence that the proposed Advisor has the requisite scholarly qualifications and the sustained research production to guide dissertation research in these field(s)
+- Evidence that the nominee is involved on a continuing basis in graduate education and research
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:ADVISOR-ADJUNCT-001]
+**Text:** Adjunct faculty advisors: Adjunct faculty are eligible to serve as Co-Advisors, provided that a full-time Columbia faculty member serves as the primary Advisor. This co-advisorship provision reflects the GSAS Executive Committee's conviction that Columbia University dissertations should be advised or co-advised by approved full-time faculty members. Adjunct faculty are nominated as Advisors using the process outlined above for non-tenure-track faculty.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:READER-DEF-001]
+**Text:** Dissertation Readers are faculty members who have been approved as dissertation Advisors, and who are nominated ad-hoc by PhD programs and approved by the dean of the Graduate School of Arts and Sciences to participate in a given dissertation defense. All members of a dissertation defense committee must be approved dissertation Advisors or Readers. Faculty from outside Columbia may be nominated to serve as Readers in dissertation defenses through the process described below.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:READER-OUTSIDE-001]
+**Text:** Readers from outside the department or program: At least one (but preferably two) of the five members of the defense committee must be an outside Reader, defined as:
+- a faculty member, clinician, or practitioner who holds a position at another university or research institution
+- a full-time faculty member at Columbia University outside the student's own department or program
+- a research scientist at Columbia University outside the student's own department or program
+- an adjunct professor at Columbia University outside the student's own department or program
+- a full-time faculty member whose appointment is at Barnard College, Jewish Theological Seminary, Teachers College, or Union Theological Seminary
+- a full-time faculty member in the student's interdisciplinary program whose field is outside of the student's dissertation field.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:READER-NOMINATION-001]
+**Text:** Readers for a given dissertation defense committee are nominated by the department or program chair in consultation with the Advisor or DGS. When submitting the Application for Dissertation Defense to the Dissertation Office (gsas-dissertations@columbia.edu), the department or program provides the dissertation officer with evidence of the outside Reader's qualifications—usually a curriculum vitae—for review and approval by the Dean's Office. This requirement applies only to Readers from outside Columbia/Barnard.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:READER-APPROVAL-001]
+**Text:** Final approval of the members of a dissertation defense committee rests with the dean of the Graduate School of Arts and Sciences. When proposing defense committee members who: have not been previously approved to serve on a defense committee; who do not have a Columbia affiliation; who do not serve at Columbia in an adjunct capacity, and/or who do not hold a PhD degree, programs must submit to GSAS a copy of their curriculum vitae together with the Application for Dissertation Defense.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:ADVISOR-REMOVAL-001]
+**Text:** Programs may decide to remove a faculty member from their list of approved dissertation Advisors. Such decisions should be communicated to the Office of the Dean, along with the date when the removal should become effective. An Advisor who leaves the university may continue to advise dissertations that were in course at the time of his or her departure and may continue to serve as Reader on committees that were previously arranged.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:ADVISOR-EMERITI-001]
+**Text:** Emeriti faculty may also continue to advise dissertations that were in course at the time of their retirement, and may continue to serve as Readers on committees that were previously arranged.
+
+**URL:** https://www.gsas.columbia.edu/content/faculty-advising-dissertation
+
+---
+
+## [RULE:GSAS:PROGRESS-MEETING-001]
+**Text:** Beginning in the semester following the defense of their prospectus, students will meet once each semester with their advisor and at least one other faculty member, in order to receive timely feedback on their dissertation work and regular support throughout the dissertation-writing process.
+
+**URL:** https://www.gsas.columbia.edu/content/supervision-dissertation-research-and-writing
+
+---
+
+## [RULE:GSAS:PROGRESS-COMMITTEE-001]
+**Text:** Students should consult with their advisor or DGS after the prospectus defense to identify the other faculty who will constitute, along with the advisor, a committee that will meet regularly with them to provide feedback on their work. The reader(s) other than the advisor may be from within the department or from another department, as recommended by the dissertation topic. Dissertation Progress Meetings should be scheduled each semester until the semester before the distribution of the defense to the larger thesis defense committee. Students or faculty who are not physically on campus in a given semester may use their preferred video-conferencing platform to participate.
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-progress-meetings
+
+---
+
+## [RULE:GSAS:DEFENSE-APP-001]
+**Text:** The Application for the Dissertation Defense form should be submitted to GSAS by the department or program office when the five proposed examiners, defense date and location have been finalized. This form must be reviewed and approved by GSAS before the defense may take place. The department or program office should send us the completed form ideally four—but no fewer than two—weeks before a defense takes place. Any forms received within two weeks of a defense will be rejected, and the defense will have to be rescheduled.
+
+**URL:** https://www.gsas.columbia.edu/content/dissertation-dates-and-deadlines
+
+---
+
+## [RULE:GSAS:DEFENSE-COMMITTEE-SELECT-001]
+**Text:** Discuss with your advisor to determine your five-person examining committee. Guidelines for the nomination and appointment of the defense committee are available here. Any questions about committee composition should be directed either to your chair, DGS, DAAF, or to the Dissertation Office. GSAS policy states that students should not be put in the position of approaching faculty members about serving on their committee. This is the responsibility of the advisor and/or department.
+
+**URL:** https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation
+
+---
+
+## [RULE:GSAS:DEFENSE-SUBMIT-001]
+**Text:** Only departmental or program administrators may submit the five names of your proposed committee to GSAS for approval. The Application for Dissertation Defense form is signed by your department or program's chair or director of graduate studies, and is submitted by your program's office to the GSAS Dissertation Office. The form is available online here.
+
+**URL:** https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation
+
+---
+
+## [RULE:GSAS:DEFENSE-DISTRIBUTION-001]
+**Text:** Distribute final copies of your dissertation to your five examiners after your committee is approved. You must be registered for the semester in which your distribution takes place. This is your final semester of registration, even if your defense and deposit take place in a subsequent semester. Click here for more detailed information about final registration requirements. International students with questions about their registration and remaining in visa compliance should contact the International Students and Scholars Office (ISSO). Note: The term in which distribution occurs is the last semester in which a student is permitted to register, even if the defense takes place in a subsequent term. Full-time doctoral students who are supported on faculty grants through twelve-month research appointments in the sciences and related fields should pay particular attention to the special conditions that are noted on the Registration and Application for PhD Defense page.
+
+**URL:** https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation
+
+---
+
+## [RULE:GSAS:DEFENSE-TIMING-001]
+**Text:** Defend your dissertation. GSAS expects that the defense will take place within two months after distribution. During the actual examination, there should be no one present other than the five examiners and the doctoral candidate.
+
+**URL:** https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation
+
+---
+
+## [RULE:GSAS:DEFENSE-REVISIONS-001]
+**Text:** Complete any required revisions. Students who receive a vote of "approved pending revisions" are given a maximum of six months to complete these revisions and deposit their dissertation. For more detailed information, please consult this page.
+
+**URL:** https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation
+
+---
+
+## [RULE:GSAS:DEFENSE-APPROVAL-001]
+**Text:** Obtain approval to deposit your dissertation, and determine if any part of your dissertation includes coauthored material. Approval to deposit is done using the Approval Card, given to you upon passing your defense. After your revisions are approved, the card must be signed by your advisor, as well as your department chair or program director. These signatures allow you to deposit your dissertation.
+
+**URL:** https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation
+
+---
+
+## [RULE:GSAS:COPYRIGHT-001]
+**Text:** Under copyright law, you automatically hold a copyright on your work. This is why we have you include a copyright page in your dissertation. Copyright registration provides important practical and legal benefits beyond those you already enjoy as the creator of an original work. Columbia's Copyright Advisory Office provides extensive information about copyright issues; of particular interest is this page, which explains your rights as the author of a dissertation or of any other original work.
+
+If you are the sole author of your dissertation, you may proceed with single-author copyright registration through ProQuest/UMI. This service costs $75, and can be paid via credit card directly to ProQuest through the upload system.
+
+If your dissertation includes coauthored text or materials, you must register directly with the US Copyright Office via a Standard Application.
+
+**URL:** https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation
+
+# Columbia GSAS Defense and Standing Rules with URLs
+
+## [RULE:GSAS:DEFENSE-REG-001]
+**Text:** Doctoral students must be registered during the term in which they distribute the defense copies of the dissertation (as approved for defense by the sponsor) to the five approved defense committee members (see Distributing Dissertation Copies). Students who are defending while on teaching or research appointments, or who are also completing pre-dissertation degree requirements, must register for Extended Residence; other students should register for Matriculation and Facilities. These rules apply to the fall and spring semesters.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:DEFENSE-LAST-REG-001]
+**Text:** Note: The term in which distribution occurs is the last semester in which a student is permitted to register, even if the defense takes place in a subsequent term.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:GRANT-STUDENTS-001]
+**Text:** The intent of this policy is to manage carefully the retention of funding of such students between distribution and deposit of their dissertations.
+
+Students must be registered to distribute the dissertation to the examination committee.
+
+Students retain their student status and funding until the end of the semester in which they distribute their dissertation, should that be necessary to defend and complete required revisions in order to deposit. Students should be given a reasonable time after the defense to deposit the thesis as determined by the thesis defense committee and advisor and as approved by the DGS/Chair of the student's department and by the Office of the Dean. Once the thesis is deposited, funding may be terminated unless there is a mutually agreed upon arrangement to continue support until the end of the semester. Students should understand the implications of the timing of their dissertation defense on their eligibility for enrollment in the Columbia Student Health Insurance Plan as well as their eligibility to hold a Columbia Residential lease.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:GRANT-STUDENTS-002]
+**Text:** For students who distribute and defend in the same semester, changes in student status and funding between the defense date and either the anticipated deposit date or the end of the semester in which the defense occurs (whichever is earlier) must be approved by the DGS/Chair of the student's department and by the Office of the Dean. Students who are supported by individual grants or other external awards also retain their student status until the end of the semester in which they distribute their dissertation but should consult their funding agency regarding policies specific to their awards.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:GRANT-STUDENTS-003]
+**Text:** Students who distribute but who do not defend in the same semester may register for the last time in the following semester. Such students retain their student status and funding as described above. Any change in student status or funding between the defense date and either the anticipated deposit date or the end of the semester in which the defense occurs (whichever is earlier) must be approved by the DGS/Chair of the student's department and by the Office of the Dean.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:GRANT-STUDENTS-004]
+**Text:** Students who distribute and defend in the same semester may not register again. Students who are not registered may not serve as student officers.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:GRANT-STUDENTS-005]
+**Text:** Students should be mindful that the degree conferrals in October, February, and May terminate student status and therefore eligibility for funding as a student officer.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:DEFENSE-INTL-REG-001]
+**Text:** International students must be registered during the term in which they distribute the defense copies of the dissertation, as stated in the previous section. International students in F-1 or J-1 status must consult with the International Students and Scholars Office to make sure they remain in visa compliance for the dissertation defense.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:DEFENSE-FORMS-001]
+**Text:** Doctoral program offices should ideally submit the Application for the Dissertation Defense four—but no fewer than two—weeks before the scheduled defense date. The application must be typed; handwritten applications will not be accepted. Applications received less than two weeks before the proposed defense date will require that the defense be rescheduled.
+
+**URL:** https://www.gsas.columbia.edu/content/registration-and-application-phd-defense
+
+---
+
+## [RULE:GSAS:COMMITTEE-SELECT-001]
+**Text:** The responsibility for selecting and recommending the final defense committee members rests with the advisor, department or program chair, and the director of graduate studies. Students may not select their own defense committees; furthermore, students should not be placed in the position of having to ask particular faculty members to serve on their defense committees.
+
+**URL:** https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee
+
+---
+
+## [RULE:GSAS:COMMITTEE-FIVE-001]
+**Text:** The doctoral defense will be conducted by a final defense committee that is composed of exactly five members. Three of the members of the final defense committee (Dissertation Defense Moderator, Dissertation Advisor, and Third Examiner) must be inside examiners (holding a formal appointment or approved as a dissertation advisor in the doctoral candidate's home department or program).
+
+**URL:** https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee
+
+---
+
+## [RULE:GSAS:COMMITTEE-MODERATOR-001]
+**Text:** *An Assistant Professor may serve as Dissertation Defense Moderator as long as they have previously participated on a student's dissertation defense committee.
+
+**URL:** https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee
+
+---
+
+## [RULE:GSAS:COMMITTEE-OUTSIDE-001]
+**Text:** At least one (but preferably two) of the five must be an outside examiner, defined as:
+- a faculty member, clinician, or practitioner who holds a position at another university or research institution
+- a full-time faculty member at Columbia University outside the student's own department or program
+- a research scientist at Columbia University outside the student's own department or program
+- an adjunct professor at Columbia University outside the student's own department or program
+- a full-time faculty member whose appointment is at Barnard College, Jewish Theological Seminary, Teachers College, or Union Theological Seminary
+- OR a full-time faculty member in the student's interdisciplinary program whose field is outside of the student's dissertation field
+
+**URL:** https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee
+
+---
+
+## [RULE:GSAS:COMMITTEE-OUTSIDE-EXPLAIN-001]
+**Text:** In cases where the "outside" member satisfies criterion 6 above, the department/program must include with the defense application a brief explanation to clarify how the fifth examiner's primary field differs from the focus of the student's dissertation.
+
+**URL:** https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee
+
+---
+
+## [RULE:GSAS:COMMITTEE-NOMINATION-001]
+**Text:** Examiners from the list above are nominated by the department or program chair in consultation with the advisor or DGS. When submitting the Dissertation Defense Application, the department/program provides the dissertation officer with evidence of the examiner's qualifications, usually a curriculum vitae, for approval by the Dean's Office.
+
+**URL:** https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee
+
+---
+
+## [RULE:GSAS:COMMITTEE-APPROVAL-001]
+**Text:** Final approval of the members of a final defense committee rests with the dean of the Graduate School of Arts and Sciences.
+
+When proposing defense committee members who have not been previously approved to serve on a defense committee and who
+- do not have a Columbia affiliation, and/or
+- do not serve at Columbia in an adjunct capacity, and/or
+- do not hold a PhD
+
+PhD programs must submit to GSAS a copy of their curriculum vitae together with the Application for Dissertation Defense.
+
+**URL:** https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee
+
+---
+
+## [RULE:GSAS:SCHEDULE-001]
+**Text:** No defense shall be scheduled until the dissertation sponsor and department/program chair have signified that, in their judgment, the dissertation warrants a defense by signing the defense application. A determination by the sponsor that a dissertation warrants a defense does not necessarily indicate a passing vote at the dissertation defense.
+
+**URL:** https://www.gsas.columbia.edu/content/scheduling-defense
+
+---
+
+## [RULE:GSAS:SCHEDULE-002]
+**Text:** Defenses are scheduled by the administrative office of the PhD candidate's department or program.
+
+GSAS requires that the Application for Dissertation Defense be submitted to the Dissertation Office at least two weeks prior to the scheduled defense date. For programs in the Arts and Sciences and in Teachers College, the Dissertation Office sends official notifications of defense time, date, and place via email, to students, examiners and departments. Other schools, divisions, and departments/programs arrange their own notifications.
+
+**URL:** https://www.gsas.columbia.edu/content/scheduling-defense
+
+---
+
+## [RULE:GSAS:SCHEDULE-VOTING-001]
+**Text:** After obtaining the defense time, date, and place, the GSAS Dissertation Office prints the Voting Sheet and sends it, along with copyright, formatting, and deposit information to the candidate's department/program (see Formatting Guidelines and Electronic Deposit Gateway). At the conclusion of the defense, committee members indicate their votes on and sign the Voting Sheet, which becomes a formal record of the defense for the Graduate School. The department/program must return the signed Voting Sheet to the Dissertation Office. The Voting Sheet should not be given to the student. The candidate receives the remaining deposit materials at the end of the defense.
+
+**URL:** https://www.gsas.columbia.edu/content/scheduling-defense
+
+---
+
+## [RULE:GSAS:DISTRIBUTION-001]
+**Text:** GSAS strongly advises that students distribute final copies of the dissertation to defense committee members at least four weeks before the anticipated defense date, to allow adequate time for committee members to review the dissertation thoroughly. GSAS expects that the defense will take place within two months after distribution. Students who wish to defend and deposit in time for a particular degree conferral date (February, May, October) should keep this timing in mind when planning their final distribution.
+
+**URL:** https://www.gsas.columbia.edu/content/distributing-dissertation-copies
+
+---
+
+## [RULE:GSAS:DISTRIBUTION-APPROVAL-001]
+**Text:** The department/program approves the dissertation for distribution by submitting an Application for Dissertation Defense to GSAS at least two weeks prior to the planned defense date. Per GSAS policy, students must be continuously registered up to and including the semester in which they distribute. Please review the registration requirements for distribution.
+
+**URL:** https://www.gsas.columbia.edu/content/distributing-dissertation-copies
+
+---
+
+## [RULE:GSAS:DISTRIBUTION-FORMAT-001]
+**Text:** The final dissertation should be distributed to the examiners either in digital format or printed on paper, depending on the preference of the individual examiners. The dissertation must be complete, including bibliography, footnotes, abstract, and table of contents, and should conform to the norms of the student's field. The Dissertation Office does not examine distribution copies for compliance with formatting.
+
+**URL:** https://www.gsas.columbia.edu/content/distributing-dissertation-copies
+
+---
+
+## [RULE:GSAS:DEFENSE-EXAM-001]
+**Text:** The Graduate School of Arts and Sciences requires that all doctoral dissertations undergo a formal examination in which the student has the opportunity to discuss and defend the dissertation with respect to its sources, findings, interpretations, and conclusions before a committee of faculty knowledgeable in the student's field of research. All faculty members of the defense committee are expected to be present at the defense.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:DEFENSE-CLOSED-001]
+**Text:** Only the candidate and the approved members of the dissertation defense committee may be present during the defense. Columbia University policy does not allow spectators or other individuals to attend a defense. Audio or video recording during the defense is strictly prohibited. No exceptions to this rule are permitted unless recommended through the amended Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:DEFENSE-REMOTE-001]
+**Text:** The dissertation defense is a milestone ideally reached with all five members of a student's dissertation committee present. When a committee member can only participate from afar, an accommodation may be made by employing audio or video conferencing during the defense. A maximum of two members of the dissertation defense committee may participate remotely, but the dissertation defense moderator and the advisor must be present at the defense.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:DEFENSE-REMOTE-PROCESS-001]
+**Text:** The dissertation defense moderator will register the need for remote participation on the GSAS Application for the Dissertation Defense, and will sign the voting sheet on the absent member's behalf after the defense. Committee members who must participate remotely are requested to submit comments, questions, and a provisional vote in advance so that the defense exercise may proceed in the event technical difficulties are encountered during the proceedings.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:DEFENSE-ABSENCE-001]
+**Text:** The dissertation defense committee may convene when one member is prevented from participating by extreme circumstances at the time of the defense. Such a last-minute absence will count toward the total of two members allowed to participate remotely. If possible, the absent member should, before the defense, submit a report containing comments, questions, and a provisional vote on the dissertation's approval. The dissertation defense moderator will convey these questions to the candidate at the defense and rule on the quality the responses made. If circumstances prevent the submission of a report before the defense, the absent member's report should be sent as soon as possible after the defense to the dissertation defense committee chair and to the dean of the Graduate School. The committee vote will not be considered final until the report is reviewed and the dissertation defense moderator determines whether any further action is warranted.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:EXAM-DURATION-001]
+**Text:** The examination normally lasts two hours. The candidate is generally asked to begin by summarizing the pertinent background and findings. Such summaries should be limited to no more than fifteen minutes. The dissertation defense moderator is responsible for allotting time, normally allowing each faculty member twenty minutes in which to examine the candidate.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:EXAM-PROCESS-001]
+**Text:** Examiners will have a lists of points they wish to discuss. These points are either substantial or editorial. Unless it is necessary to show that a very poorly written dissertation must be entirely rewritten, examiners should not take up these editorial comments one by one. Examiners should give their sheets of notes on these matters to the candidate, leaving time to examine matters of substance.
+
+When all examiners have finished their questioning, the dissertation defense moderator asks the candidate to step outside the examination room, and wait for an invitation to return.
+
+During the discussion period, the committee makes its decision on the defense and votes on the outcome. Upon the candidate's return to the room, the dissertation defense moderator will inform the candidate of the committee's determination, and provide further instructions.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTING-PROCESS-001]
+**Text:** The dissertation defense moderator must reflect the vote of each member of the committee by clicking on the appropriate vote column of the Final Examination for the Doctoral Degree, and by typing their name into the field titled Signature of Defense Chair. After the vote has been recorded, the dissertation defense moderator will need to save the Voting Sheet as a PDF and email it to the person in the department who typically collects these forms. The dissertation defense moderator should immediately email the Voting Sheet to the department so that the vote may be delivered to and recorded by GSAS as soon as possible. The department is responsible for emailing the Voting Sheet to the Dissertation Office (gsas-dissertations@columbia.edu) on the same day as the defense, or in the case of a late-afternoon defense, no later than the following business day. Under no circumstance should the voting sheet be given to the student.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTING-REMOTE-001]
+**Text:** In in-person defenses, a maximum of two members of the dissertation defense committee may participate remotely; the dissertation defense moderator and the advisor must be present at the defense. The committee chair will register the need for remote participation on the GSAS Application for the Dissertation Defense, and will sign the voting sheet on the absent member's behalf after the defense.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTING-ABSENT-001]
+**Text:** Examiners who, due to an unforeseen emergency, were not able to attend the defense or participate via audio or video conference must provide questions, comments, and their provisional vote to the dissertation defense moderator of the examining committee, either before the defense takes place or as soon as possible after the defense. The chair must then sign the absent examiner's name in the appropriate column, followed by the dissertation defense moderator's initials.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTE-MAJORITY-001]
+**Text:** All dissertation defense outcomes are determined by a minimum of three votes in one category (Approved as Submitted, Approved Pending Revisions, Referred, or Fail). Members of the defense committee should consider themselves independent examiners, and should not feel pressured—or be pressured—to join the majority opinion of the committee. While respecting disciplinary differences, the PhD degree should only be awarded to research that represents an original contribution to the field, no matter the field. If a dissertation receives two votes in the Referred and/or Fail categories, the Voting Sheet and dissertation must be submitted to the Dean of the Graduate School of Arts and Sciences for review. In such instances, the candidate should be informed that the committee's vote was not conclusive, and to await further communication from the Office of the Dean. For more information, please review the defense vote policies.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTE-APPROVED-001]
+**Text:** The committee may ask that minor revisions or corrections be made before the dissertation is deposited. The committee should convey an account of those minor revisions to the candidate at the defense. These minor revisions should be completed to the satisfaction of the advisor within one month after the defense. If for exceptional reasons more time is needed, the candidate may apply for an additional one-month extension by submitting a letter to gsas-dean@columbia.edu with the request.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTE-PENDING-001]
+**Text:** The committee may ask that revisions be made before the dissertation is deposited. The dissertation defense moderator of the defense committee will ensure that a written description of those revisions be provided to the candidate typically by the advisor—at the defense or shortly thereafter. Care should be taken to distinguish between revisions requested and recommendations given for future thought or research beyond the dissertation. These revisions should be completed to the satisfaction of the advisor within six months after the date of the defense. Any member of the committee may ask to review a copy of the revised version of the dissertation.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTE-REFERRED-001]
+**Text:** The committee believes that substantial work must be undertaken on the dissertation by the candidate before it can reach a recommendation to award the degree. A detailed written description of the reservations about the examined dissertation as well as of the revisions required should be provided to the candidate by the advisor at the defense or shortly afterward. At the time of the defense, a subcommittee composed of at least three unanimously agreed upon members of the original committee (and including the advisor) will be formed. The specified revisions should be completed to the satisfaction of the subcommittee within one year after the date of the defense. A statement from the candidate indicating the specific changes made in response to the committee's request for revision must accompany the revised version, and both be sent to the advisor. The advisor will share the statement and the revised version with the members of the defense subcommittee, each of whom must communicate explicitly to the advisor their appraisal of the revisions undertaken. A majority of the subcommittee must approve the revised version for the candidate to be recommended for the degree. The dissertation will then be recommended for award of the degree.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:VOTE-FAIL-001]
+**Text:** The committee believes that the dissertation is not acceptable, and the candidate will not be recommended for the degree. No candidate may have a second defense unless the Dean of GSAS concludes, upon evidence provided either by the candidate or by a member of the committee, that procedural irregularities occurred during the defense.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:DISTINCTION-001]
+**Text:** Dissertations defended after the 2012 Commencement ceremony will only be eligible for departmental distinction, should a department institute such recognition.
+
+**URL:** https://www.gsas.columbia.edu/content/defense-and-evaluation
+
+---
+
+## [RULE:GSAS:TRAVEL-FUND-001]
+**Text:** The Graduate School of Arts and Sciences has a small budget line to cover travel expenses for former faculty of this university who still retain sponsorial ties to PhD candidates at Columbia and for faculty from universities other than Columbia who serve on doctoral defense committees. This fund is only available for committees of students in Arts and Sciences departments.
+
+**URL:** https://www.gsas.columbia.edu/content/travel-defense
+
+---
+
+## [RULE:GSAS:TRAVEL-LIMIT-001]
+**Text:** Departments seeking payments for travel funds must request approval well before the defense committee is proposed. The funds available to the school for this purpose are severely limited; there is a cap of $300 on reimbursement. Departments normally contribute toward the expense. The school cannot normally pay for someone to come from abroad, and it cannot pay honoraria. Payment of travel expenses is limited to cases of real necessity and will not be authorized merely because a faculty member elsewhere is an expert on the topic of the dissertation.
+
+**URL:** https://www.gsas.columbia.edu/content/travel-defense
+
+---
+
+## [RULE:GSAS:TRAVEL-APPROVAL-001]
+**Text:** All requests for reimbursement of travel expenses should be submitted by the department chair or dissertation sponsor in writing to the Dissertation Office. The request should include a statement of the reasons why this particular faculty member must serve on this particular defense, as well as the expected travel costs of economy air or train fare to be incurred. No disbursement for travel expenses will be made unless approval has been granted in advance of the projected dissertation defense.
+
+**URL:** https://www.gsas.columbia.edu/content/travel-defense
+
+---
+
+## [RULE:GSAS:GOOD-STANDING-001]
+**Text:** Students in a PhD program in the Graduate School must maintain good academic standing in the degree program, good administrative standing in the Graduate School, and continued good progress toward the degree each semester.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:ACADEMIC-STANDING-001]
+**Text:** Good academic standing for PhD students includes but is not limited to:
+- Maintaining a cumulative grade point average (GPA) of at least 3.0*
+- Holding no more than one mark of Incomplete at any given time
+- Registering continuously
+- Making consistent academic progress as designated by the department and GSAS
+- Completing degree requirements while maintaining superior quality of work as determined by the department
+- Acquiring an advisor
+- Maintaining consistent contact with the departmental director of graduate studies, advisor, and GSAS
+- Fulfilling pedagogical requirements and responsibilities as designated by the department and GSAS
+- Fulfilling the dissertation prospectus requirement (in the cases in which it applies)
+- Holding Dissertation Progress Meetings regularly with the dissertation advisor and at least one other member of the dissertation committee (beginning in the semester after the prospectus defense)
+- Meeting other criteria specified by the department
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:GPA-CALC-001]
+**Text:** The cumulative grade point average used to determine good standing is calculated beginning with the first semester of enrollment in that degree program, including the summer term, if applicable. No coursework previous to that date — including previous work done for another degree at Columbia — will be factored into the student's current GPA. The cumulative GPA is derived from all courses in which a student has registered and received a grade, except when the student takes a course again after receiving an F. In such cases, the F received for the original iteration does not count toward the GPA.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:ADMIN-STANDING-001]
+**Text:** Students are expected to remain in compliance with all applicable administrative policies and procedures of the Graduate School and the university, including those of the Columbia Libraries, Columbia Residential, and the Center for Student Success and Intervention (CSSI), Student Financial Services, Office of the University Registrar, Rules of University Conduct, Public Safety, and CUIT, as well as the regulations described in University Policies.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:FEDERAL-PROGRESS-001]
+**Text:** The Graduate School of Arts and Sciences adheres to federal regulations requiring that students receiving federal assistance make satisfactory academic progress in accordance with the standards set by the university.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:MPHIL-TIME-001]
+**Text:** To maintain satisfactory academic progress, all work for the MPhil degree—including the dissertation prospectus, if relevant—must be completed within four academic years (eight semesters) of registration, not including official leaves of absence or periods of parental accommodation. In programs in which the defense of the dissertation proposal is not one of the requirements for the MPhil degree, students are expected to defend their dissertation proposal within six months after completion of the MPhil degree, but always within four years from initial registration. Students should consult with their director of graduate studies to determine whether their department or program has an earlier deadline.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:MPHIL-ADVANCED-001]
+**Text:** If the student holds an appropriate master's degree from Columbia or another institution and received two Residence Units of advanced standing, all MPhil degree requirements—including the dissertation prospectus, if relevant—must be completed within three academic years (six semesters) of registration.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:PROSPECTUS-DEADLINE-REPEAT-001]
+**Text:** Students must defend the prospectus by May 31 of their fourth year. Students who do not meet this deadline will lose good academic standing, be placed on probation, and not have their stipend disbursed for the ensuing fall semester.
+
+In exceptional circumstances, with a written rationale from the DGS and sponsor and the approval of GSAS, students may receive a final opportunity to defend their prospectus before September 30 of the fifth year. Students who do so by September 30 of the fifth year will receive the full Dissertation Fellowship retroactively. Students who do not pass their prospectus by September 30 of their fifth year will lose PhD candidacy.
+
+For students who are off-cycle (those whose fifth year of matriculation begins in January), the corresponding deadlines described above will be December 15 and February 28.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:PHD-TIME-001]
+**Text:** Students who entered a PhD program in the Arts and Sciences in Fall 2011 or later are allowed nine years of continuous registration (not including official leaves of absence) to satisfy all requirements for the doctoral degree, during which time they are required to maintain full-time status. After their seventh year of registration in a PhD program, GSAS students in the Arts and Sciences are not eligible for housing or for funding from GSAS or the Arts and Sciences.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:APPEAL-NINTH-001]
+**Text:** Students who wish to appeal to the dean for time beyond the ninth year should review the policy here.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+## [RULE:GSAS:FAILURE-STANDING-001]
+**Text:** Consequences for failing to maintain good academic standing, good administrative standing, or good academic progress may include academic or administrative warning, probation, suspension, or dismissal. Departments and programs advise their students who are not in good standing of corrective steps to take, the deadlines for doing so, and the consequences of failing to remedy the matter. A student who fails to take corrective steps within the specified time limit will be terminated from candidacy for his/her degree. In cases of evident and extreme failure to achieve progress, a student may be dismissed from the degree program without a probationary period. Additionally, each program maintains its own standards of satisfactory academic progress and corrective procedures, and all students must familiarize themselves with them.
+
+**URL:** https://www.gsas.columbia.edu/content/good-standing
+
+---
+
+# Columbia CS PhD (SEAS) Rules with URLs
+
+**JURISDICTION:** PhD_SEAS  
+**AUTHORITY:** SEAS - School of Engineering and Applied Science  
+**PRECEDENCE:** 2-School  
+**APPLIES TO:** PhD, MS/PhD, and DES students in Computer Science Department
+
+---
+
+## [RULE:PhD_SEAS:PROGRAM-TYPE-001]
+**Text:** The PhD is the Computer Science Department's primary doctoral program. PhD students are expected to be full-time on-campus during every fall and spring academic semester from initial enrollment until the dissertation has been distributed to their defense committee, except during leaves of absence approved by the university. PhD students spend at least half of their time on research under the direction of their faculty adviser from their first day in the program and devote themselves full time to research after coursework and other preliminaries have been completed. PhD students are expected to participate in departmental and laboratory activities full time throughout the program, except for summer internships elsewhere, and the department does not consider admission of part-time PhD students.
+
+**POLICY - Outside Activities:** Students who are funded through a graduate research assistantship (GRA) must discuss with their advisor any research activities outside the lab as well as any consulting activities. GRAs should also discuss with their advisor any additional classes they intend to take, or any extra teaching/TAing, beyond those needed to fulfill the doctoral program requirements. In addition to slowing degree progress, such outside activities may imperil progress on the externally-funded project supporting the student and subject the laboratory or advisor to unpleasant consequences from the grant agency or sponsor. Courses taken for the breadth requirement, including any research activities as part of those courses, or teaching/TAing as part of the degree requirements, are not of concern. Faculty who are approached by GRAs from outside their lab regarding additional research, teaching/TAing, classes, consulting, etc. should inform the advisor (both research and departmental advisors, if different).
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/
+
+---
+
+## [RULE:PhD_SEAS:APPLIES-ALL-001]
+**Text:** Unless otherwise stated, all doctoral program requirements apply equally to PhD, MS/PhD (until MS completed, when student becomes PhD) and DES students.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/
+
+---
+
+## [RULE:PhD_SEAS:ALGO-PREREQ-001]
+**Text:** Analysis of Algorithms is the core of Computer Science, which unites the many disparate subfields. All doctoral students are expected to complete an acceptable lecture course (graduate or upper-level undergraduate) in Analysis of Algorithms, with grade B+ or higher, prior to entering the program. Students must submit the prerequisite form by no later than two weeks (14 days) after the first day of classes of their first semester enrolled in the doctoral program. The prerequisite does not count as one of the ten courses for the breadth requirement unless it meets all the requirements for imported electives, in which case students must also submit the Import Forms. Sometimes new doctoral students are admitted without a prior Analysis of Algorithms course. Those students are required to complete CSOR W4231 during their first year in the program. CSOR W4231 is then treated as one of the ten required courses, so can satisfy either the Theory distribution requirement or serve as an elective (not both). CSOR W4231 is the only course offered at Columbia that satisfies the Analysis of Algorithms requirement.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:BREADTH-001]
+**Text:** A total of ten distinct courses are required. All ten courses should be completed by the end of the fifth semester, at the pace of two courses per semester. An undergraduate Analysis of Algorithms course that satisfies the prerequisite does not satisfy the breadth requirement, only graduate lecture courses can be counted towards the breadth requirement. B+ ("PhD pass") is the minimum acceptable grade for doctoral students in all courses. A grade of B or lower is considered failure and does not count towards the course requirement. The same course may be repeated until the minimum B+ grade is obtained or a different course substituted. The average grade across all courses applied to the course requirement must be A- or higher. In the case where a student takes the Analysis of Algorithms prerequisite at Columbia (CSOR 4231) rather than at another institution prior to enrollment, then it satisfies the Theory distribution requirement.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:DISTRIBUTION-001]
+**Text:** Doctoral students must complete at least four graduate lecture courses from the approved distribution course lists, including at least one from each of the Artificial Intelligence and Applications, Systems and Theory lists, and the fourth from any of these three approved lists.
+
+**APPROVED COURSE LISTS:**
+
+**AREA: AI & Applications**
+- All COMS 47xx courses except COMS 4721 and 479x
+- All COMS 416x courses
+- All COMS 417x courses
+- CBMF 4761
+
+**AREA: Systems**
+- All COMS 41xx courses except COMS 4121, 416x, 417x, and 419x
+- All COMS 48xx courses except 489x
+- COMS 4444
+- CSEE 4119, 4823, 4824, 4840, 4868
+- EECS 4340
+
+**AREA: Theory**
+- All COMS 42xx courses except COMS 429x and CSOR 4246
+- CSOR 4231
+
+**APPROVAL PROCESS:** Instructors who are regular CS faculty may request that their course be included in one of the distribution lists, for AI & Applications, Systems, or Theory. The course must be designated COMS (or jointly offered with CS, such as CSEE), 4000 level with a regular number (e.g., not 4295 or 4995), a conventional lecture course suitable for seniors and MS students as well as doctoral students, and already approved by the Academic Committee, full faculty, and relevant COIs (Committee On Instruction) for undergraduate CS majors and MS in CS students. The rationale for requiring a regular number, such as 4123, is that the Academic Committee will not approve a course for a regular number unless the instructor agrees to offer that course on a regular basis such as every year or every other year. An implicit criteria of doctoral distribution is that only regularly-offered courses are included on the list. In contrast, "Topics" course numbers are intended for only-once offerings. Although in practice many "Topics" sections are taught more than once, they are not expected to be offered reliably so that students can plan in advance on taking them.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:ELECTIVES-001]
+**Text:** In addition to the distribution requirement, all doctoral students must pass a total of six (6) elective graduate lecture courses, each three (3) or more points. Courses taken for fewer than three points do not count towards the breadth requirement, neither distribution nor electives. All electives require the advisor's approval. Additional courses from the approved lists, beyond the four needed to satisfy the distribution requirement, may be taken as electives. Most other graduate lecture courses offered by the Computer Science Department (or offered by Computer Science jointly with other departments) may be taken as electives, including 4×95, 4995, 6×95, and 6998 Topics courses. Thus most COMS, CSEE, CSOR, EECS, MECS, CBMF, STCS courses are acceptable as CS electives, provided they are designated as graduate level. For COMS courses, this is 4k and above, but some Columbia departments consider 4k to be strictly undergraduate and only 5k and above are graduate. At most two (2) electives may be outside CS. That is, no more than two of the six electives may be graduate lecture courses offered by another department besides Computer Science, normally another STEM department (e.g., Electrical Engineering, Statistics). At least four of the six electives must be Computer Science courses. Typically all six electives are Computer Science courses. Regardless of the course number or offering department, however, courses labeled "certificate only" or "Data Science only", or named "xxx for Data Science" or similar, may not be applied to the doctoral breadth requirement, neither for distribution nor electives. Project courses, such as COMS 4901, 6901, 9910 and 9911, and analogous courses offered by other departments, do not count towards the breadth requirement. COMS E6910, ENGI 8000 and other fieldwork courses do not count towards the breadth requirement. Summer session and "Vxx" (Columbia Video Network) sections should not be taken while enrolled as MS/PhD, PhD or DES and normally cannot be applied to the doctoral breadth requirement. Such courses taken prior to enrolling in the doctoral program may satisfy parts of the breadth requirement, but the points from prior courses do not count towards the 30 points beyond bachelors required for MS/PhD and the additional thirty points beyond masters required for PhD and DES (these points are university-level requirements). Some other departments at Columbia and elsewhere offer graduate courses on the same subjects as Computer Science courses. Students cannot apply two courses on the same subject to the ten course requirement whether taken in a Computer Science Department or in another department.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:DATA-SCIENCE-SPEC-001]
+**Text:** The Computer Science department and several other Columbia departments jointly offer a "data science specialization" for PhD students that requires additional courses.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:PASSING-GRADES-001]
+**Text:** The minimum passing grade for doctoral students in both distribution and elective courses is B+ ("PhD Pass"). A grade of B or lower is considered failure. The same course may be repeated in a later semester until the minimum B+ grade is obtained or a different course substituted, but repeated courses count only once towards the degree. The average grade across the ten courses applied to the breadth requirement must be A- or higher. If a student has less than average A- across the initial ten courses, additional courses (beyond the baseline ten courses) must be completed until the student attains A- average. All courses for the doctoral program must be taken for a letter grade, no pass/fail or "R" (audit) registration is acceptable.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:COMP-EXAMS-PURPOSE-001]
+**Text:** Comprehensive exams ("comps") are cumulative final exams offered in some COMS courses (or jointly offered courses like CSOR, CSEE) primarily as an alternative to taking the corresponding course, and are intended for students who have already obtained the appropriate background and expertise, while enrolled in a prior Columbia program or at another institution, and/or feel confident in their ability to self-study the requisite material. Exams may also be taken by students who have completed the corresponding course with less than a "doctoral pass" (B+) grade, or are taking the course concurrently. A very small number of courses offer comps. Cumulative means the exam assesses the entire course. But to offer a final exam as a comp, it has to be more than cumulative: it also has to be suitable for students not currently enrolled in the course. Very few instructors are willing to offer such exams.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/
+
+---
+
+## [RULE:PhD_SEAS:COMP-EXAMS-CREDIT-001]
+**Text:** Note that students do not receive Columbia points for passing a comp exam. To get credit, the student must register for the regular course and complete the entire course. It is important to note that passing a comp exam does not count as taking a course and cannot be substituted for taking a course. Most significantly, students are required to complete six graduate lecture courses offered by the Computer Science department and taken for a letter grade to complete the MS/PhD (see MS Leading to PhD).
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/
+
+---
+
+## [RULE:PhD_SEAS:COMP-EXAMS-SCHEDULE-001]
+**Text:** Every semester, the CS department announces which courses, if any, are offering comps about six weeks before the end of the semester. Comps must be identical to and co-timed with the course's regular final exam, usually during the last week of classes or finals week. Signup sheets for exams are normally made available through the PhD Program Administrator approximately six (6) weeks prior to exam administration, and students must normally sign up for all exams they intend to take at least four (4) weeks prior to the exams. Failure to show up for an exam, or leaving the exam without completion, is deemed de facto failure, unless the student presents acceptable evidence of illness or emergency to the Director of Graduate Studies. No "makeups" are offered, but the student may take the course or exam in a later semester.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/
+
+---
+
+## [RULE:PhD_SEAS:COMP-EXAMS-STRUCTURE-001]
+**Text:** The comprehensive exam is the same as the final exam for the course and its administration is co-timed with that final exam. Each individual instructor can decide whether or not to offer a cumulative final exam for doctoral students. Doctoral students who are not enrolled in the course can take the cumulative final and count that toward their course requirements if they pass with a B+ or better. The exam must be a cumulative exam covering material from the entire course, not just the last half of the course since the midterm, and in no case may be less than one hour. Alternative structures such as project, team, oral, take-home, extended duration, etc. must be approved at least six weeks in advance by the full faculty on petition of the relevant area faculty. Other details such as pretesting, blind grading, open vs. closed book, etc., are at the discretion of the area faculty.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/
+
+---
+
+## [RULE:PhD_SEAS:COMP-EXAMS-RESPONSIBILITY-001]
+**Text:** A regular faculty member (in the department or formally affiliated) must be designated as responsible for each comprehensive exam. The designated faculty member may optionally delegate to an adjunct (but not a student) the duties of preparing the syllabus, exam and grading scheme, but retains ultimate responsibility for adhering to the above rules.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/
+
+---
+
+## [RULE:PhD_SEAS:COMP-EXAMS-LIMITS-001]
+**Text:** Sometimes multiple sections of the same course may offer comp exams the same semester, but students may sit for only one comp per course. Passing the exam (B+ or higher) satisfies the corresponding doctoral program requirement. Sitting for an exam without finishing or submitting the exam is treated as de facto failure on the exam. If a student passes both the regular course and that course's comp exam, the course is only counted once towards the required ten courses. Multiple sections of the same course may offer comp exams during the same semester, but students are permitted to sit for only one of the exams and enroll in only one of the course sections; similarly, the course still counts only once for students who repeat the same course and/or exam different semesters.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/
+
+---
+
+## [RULE:PhD_SEAS:PRIOR-COLUMBIA-COURSES-001]
+**Text:** Doctoral students who were previously enrolled in another program at Columbia, such as a different Doctoral program or an MS or BS/BA in Computer Science or a related field, may be able to count some of their previous Columbia courses towards the CS doctoral program. At most two non-CS courses can be included in the CS doctoral program but both electives for the MS/PhD must be CS. To be included: The student's grade in the course must be B+ or higher. The course must be designated graduate-level by the offering department. For COMS courses, this is 4k and above, but some Columbia departments consider 4k to be strictly undergraduate and only 5k and above are graduate. The course must have been completed during the past five (5) academic years. Courses taken at Columbia do not need to be "imported". However, students should check with the PhD Program Administrator to make sure their previous courses have been added to their doctoral program record in mice. It is important to note that no additional Columbia credit ("points") are awarded for previous courses at Columbia and the previous credit does not count towards the points needed for the doctorate.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-DISTRIBUTION-RESTRICTION-001]
+**Text:** Distribution courses must be taken at Columbia and cannot be imported. However, some or all of the six electives may be imported from previous schools for students who enrolled in the doctoral program with a prior masters degree. However, students who enrolled for the PhD program without a prior masters degree should import at most four electives from a previous institution, since six graduate lecture courses offered by the Computer Science department must be taken at Columbia to complete the MS/PhD.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-DEADLINE-001]
+**Text:** Students must submit all Import Forms by no later than two weeks (14 days) prior to the last day of classes of their first semester enrolled in the doctoral program. [The requirement that all imported courses must be approved for an elective during the student's first semester enrolled in the PhD program was approved by full faculty vote on 02/18/1998.] Doctoral students must use the pdf import forms posted on this page and submit the completed form via Mice in place of the "Syllabus". You will then assign this to "Phd-Chair" (not a specific professor or administrator's name).
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-BASIC-REQ-001]
+**Text:** To be acceptable for import: The student's grade in the course must be B+ or higher. The course must be a graduate lecture course accepted for graduate credit towards a graduate degree in Computer Science at the offering institution and listed as a graduate course on the student's transcript from the offering institution. The course must have been completed during the past five (5) academic years. It is important to note that no Columbia credit ("points") is awarded for imported courses.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-DUPLICATE-RESTRICTION-001]
+**Text:** Students cannot import multiple courses on the same subject. Students cannot apply both an imported course and a Columbia course on the same subject to the ten course requirement. If a student takes a Columbia course (or comp exam) equivalent to a course imported by that student, the student forfeits the imported course.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-DETAILED-CONDITIONS-001]
+**Text:** Courses taken outside Columbia cannot be imported unless all of the following conditions are met: The course must fulfill all of the requirements for Doctoral electives. [Revised by full faculty vote 12/17/20 to allow imports of non-CS courses. Effective immediately.] The course must be a graduate lecture course accepted for credit towards a graduate degree in Computer Science at the offering institution and listed as a graduate course on the student's transcript from the offering institution. An undergraduate course offered in the same room at the same time by the same instructor and graded on the same scale as a graduate course does not suffice: the student's prior institution must explicitly recognize the student's completion of the graduate course. The student's grade in the course was B+ or higher. For those institutions that do not record plus and minus grades, a B is acceptable only if the student provides acceptable documentation that his/her grade was in the corresponding percentile of B+ or higher awarded in similar Columbia CS graduate courses. Such documentation is also required to show B+ equivalence for institutions that grade on different scales (e.g., out of 10 points). The course must be approved by the student's advisor (both research advisor and departmental advisor, if different).
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-EVALUATION-001]
+**Text:** In addition to the advisor(s), the CS faculty member responsible for the most closely corresponding Columbia CS graduate course, or if there is no reasonably corresponding Columbia CS graduate course the CS faculty member deemed by his/her peers to demonstrate the most relevant expertise, has evaluated the course and presented a judgment in writing to the Director of Graduate Studies (DGS), and the DGS has concurred, that the imported course is considered of equal or higher quality and scope than the typical Columbia CS three-point graduate course, and the performance of the student is considered of equal or higher quality and scope than that required to obtain at least a B+ grade in a typical Columbia CS three-point graduate lecture course. Note that "summer session", other shorter-than-usual courses, and/or courses awarding less than three points (or equivalent) usually would not meet these quality and scope guidelines and thus would not be importable. All materials requested by the evaluating faculty member and/or the DGS are provided, in English or notarized English translation. The evaluating faculty member and/or DGS may, at their discretion, ask the student to provide oral or written answers to questions regarding the material learned in the course and/or may contact members of the institution at which the course was taken for additional information.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-OLD-COURSES-001]
+**Text:** In the case of courses completed more than 5 years prior to formal enrollment, the evaluating faculty member must judge that the course is sufficiently relevant to the goals of the doctoral breadth requirement, and the DGS must concur. In particular, the subject covered by the course should not have changed significantly since the student took the course and the student evidently still retains mastery of the course material.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:IMPORT-NO-CREDIT-001]
+**Text:** Course imports are not treated as transfers and do not grant degree credit ("points"). The department offers credit in the COMS E9911 research course for the purpose of fulfilling the 30 points required for masters beyond the undergraduate degree, for students who enroll without a prior masters degree, and the additional 30 points required for the doctorate beyond the masters degree.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:OUTSIDE-COURSES-ENROLLED-001]
+**Text:** Normally, any courses taken at another school after enrolling in the doctoral program cannot be counted towards the breadth requirement. In very rare cases, a student may take one graduate lecture course at another institution during his/her enrollment in the doctoral program and, with B+ or higher grade and advisor approval, apply it to the breadth requirement. This is permitted only when the advisor deems the course crucially important for the student's research and no equivalent course is offered by any department at Columbia. Full faculty approval is required in advance for a second or subsequent course. In the case of importing a course taken at another institution after enrolling in the doctoral program, the import procedure must be undertaken within two weeks after grades become available (or within two weeks of the student's return to Columbia, if absent when grades become available).
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:SATISFACTORY-PROGRESS-BREADTH-001]
+**Text:** Satisfactory progress towards fulfilling the breadth requirement is defined as at least 2*N breadth course/exam passes, where N is the number of semesters enrolled thus far in the program, until the breadth requirement has been completed. A doctoral student who has not made satisfactory progress towards the breadth requirement is normally placed on probation at the end of the first and/or subsequent semesters that he/she "falls behind". The student can be immediately dismissed from the program at the end of any such unsatisfactory semester unless the full faculty accepts a petition from the advisor for one semester's grace.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:QUALIFIER-DEFINITION-001]
+**Text:** The doctoral program does not have a qualifier exam. Completion of the Analysis of Algorithms prerequisite together with all four distribution courses constitutes completion of "the qualifier". This definition of "the qualifier" is relevant only when a doctoral student needs to fill out external forms, e.g., for applying as a student volunteer and/or for student travel funds for a conference, or applying to attend a doctoral symposium at a conference, where the form asks whether the student has completed the qualifier. Students normally try to complete "the qualifier" during their first year in the program.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+---
+
+## [RULE:PhD_SEAS:ADVISOR-GENERAL-001]
+**Text:** All DES students and most MS/PhD and PhD students arrange a research advisor during the admissions process prior to enrollment, and work closely with him or her on directed research from their first day in the program. Some doctoral students have two or more co-advisors. All DES research advisors and most MS/PhD and PhD research advisors are tenured or tenure-track faculty members in the Computer Science Department. But in rare cases an MS/PhD or PhD student's research may be advised by a research scientist or an affiliated faculty member from another department, in which case the student must also have a departmental advisor who is a tenured or tenure-track faculty member in Computer Science. The departmental advisor is responsible for tracking the student's progress through doctoral program milestones, but is not responsible for the student's research or funding. Both research and departmental advisors are expected to represent their students at the Semi-Annual Review of all doctoral students held near the end of the fall and spring semesters. Every doctoral student must have an advisor throughout the program.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+---
+
+## [RULE:PhD_SEAS:ADVISOR-DES-001]
+**Text:** DES applicants are admitted only if the applicant was recruited by a tenured or tenure-track member of the Computer Science Department faculty who asked to be the student's research advisor. DES students must be advised by a tenured or tenure-track Computer Science faculty member throughout the program.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+---
+
+## [RULE:PhD_SEAS:ADVISOR-TIMELINE-001]
+**Text:** Most MS/PhD and PhD students arrange a "research advisor" (who will in most cases later become the thesis advisor) during the admissions process prior to enrollment, and work closely with him or her on directed research from their first day in the program. A few MS/PhD and PhD students (those funded by fellowships rather than GRAs) may be assigned only a nominal departmental advisor initially, and then must arrange a research advisor during their first year, normally by the end of their first semester.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+---
+
+## [RULE:PhD_SEAS:ADVISOR-TYPES-001]
+**Text:** In almost all cases, an MS/PhD or PhD student's research advisor is a tenured or tenure-track faculty member appointed in the Computer Science Department at Columbia. In rare cases, an MS/PhD or PhD student's research advisor may be a lecturer or research scientist in the CS department, an officially approved "affiliated" faculty member in another department at Columbia, or a former CS faculty member who has left the department and/or the university, in which case the student must also have a "departmental advisor" who is a tenured or tenure-track faculty member whose primary appointment is in the CS department. The departmental advisor is responsible for reporting to the faculty on the student's progress through doctoral program milestones, but is not responsible for directing the student's research nor the student's funding. Both advisors are expected to represent their students at the Semi-Annual Review of all doctoral students held near the end of the fall and spring semesters and should participate in the same "review group".
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+---
+
+## [RULE:PhD_SEAS:SEMI-ANNUAL-REVIEW-001]
+**Text:** The full faculty holds an all-day meeting near the end of the fall and spring semesters to review the progress of every doctoral student. A draft review letter is composed for each doctoral student during the meeting. A student's letter states whether they are making "satisfactory progress" or "unsatisfactory progress", and specifies overdue or upcoming milestones and activities expected or required of the student. The research advisor, and the departmental advisor if different, may edit the draft review letter and then approve finalizing the letter soon after the Semi-Annual Review (or within a time period determined at the Semi-Annual Review, e.g., when a milestone is scheduled to occur soon after the meeting or the student is taking courses whose final grades are not yet known). The finalized letter is signed by the Department Chair on behalf of the full faculty and sent via email to the student, with the research advisor, the departmental advisor (if different), and the secondary advisor cc'd. In the event that an advisor has not approved a student's review letter in a timely fashion, then the letter may be approved by either the Director of Graduate Studies or the Department Chair.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+---
+
+## [RULE:PhD_SEAS:RESEARCH-ADVISOR-ELIGIBILITY-001]
+**Text:** Each doctoral student must have a mutually agreed upon "research advisor" who supervises the student's research, including but not limited to the candidacy exam, thesis proposal and dissertation, as well as academic progress through the program's other requirements. Co-advisors (two or more research advisors) are permitted and indeed encouraged, where both separately and jointly take full responsibility for the student's progress in the doctoral program. All tenured and tenure-track (ToTT) faculty in the department are eligible to serve as research advisors. Full-time teaching faculty, research scientists, and non-CS faculty members formally affiliated with the department may also serve as research advisors for MS/PhD and PhD students. Former research advisors who have left their position with the department or the university may in rare cases be permitted to continue as research advisor. No one else is eligible to serve as a research advisor or co-advisor for a doctoral student. To ensure that advising relationships are acceptable to the department, all research advisors arranged during the admissions process must be approved by the PhD Admissions Chair. All later advisor arrangements and changes must be approved by the Director of Graduate Studies. The Department Chair reserves ultimate authority for all advisor approvals. In all cases, the PhD Program Administrator is responsible for verifying approvals.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+---
+
+## [RULE:PhD_SEAS:DEPARTMENTAL-ADVISOR-ROLE-001]
+**Text:** Every doctoral student must also have a mutually agreed upon "departmental advisor" who is a current tenured or tenure-track (ToTT) faculty member in the Department of Computer Science at Columbia University. When the research advisor is indeed ToTT faculty, then the research advisor is automatically the departmental advisor. A separate departmental advisor is designated only when the research advisor is not a member of the department's ToTT faculty, e.g., an affiliated faculty member in another department. In these cases, it is preferred that the departmental advisor be tenured. A departmental advisor may optionally serve as a co-advisor with respect to research advising. The departmental advisor is obligated to keep current with the academic and research progress of the student throughout each semester, and represent the student during the Semi-Annual Review. It is expected that the departmental advisor maintains regular personal contact with the student, rather than just relying on email updates or academic records. Further, the departmental advisor is expected to consult with the research advisor both before and after each Semi-Annual Review – although all research advisors are invited to all Semi-Annual Review meetings and are expected to attend. Our main motivation in introducing the notion of a departmental advisor, in addition to the conventional research advisor – again only for those cases where the research advisor is not ToTT faculty – is to ensure that every student has an advisor who satisfies three conditions: The person regularly and routinely participates in the Semi-Annual Review – and not just dropping in for his/her own students or sending in email notes, but is actively aware of the general way things work, what good CS students accomplish, etc. The person is familiar with the CS doctoral program requirements and process and, at least as importantly, with some of the general reasoning as to why we do things in a certain way ("departmental culture"). The person can and does participate in decisions about the program, e.g., by participating in program decisions in faculty meetings, the PhD committee, etc. Further, in the case where the departmental advisor is not the same as the research advisor, the two people shall co-sponsor the thesis proposal and dissertation committees. It is important to note that faculty members who take on the responsibility of serving as departmental advisor, but are not also the student's research advisor, are not incurring any financial responsibility for the student's support.
+
+**URL:** https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+---
+
+[RULE:PhD_SEAS:FIRST-YEAR-ADVISOR-EXCEPTION-001]
+Text: It is desirable in some cases for new MS/PhD and PhD students to choose their research advisor(s) after becoming accustomed to the department and familiar with the research programs of several faculty members and labs. New MS/PhD and PhD students who do not enter with a pre-arranged research advisor shall be assigned a nominal departmental advisor at entrance. The departmental advisor relationship is formalized before or during the first Semi-Annual Review following enrollment. In some cases this may be delayed until (but no later than) the second Semi-Annual Review at the student's and/or prospective departmental advisor's request. A research advisor, if different from the departmental advisor, must also be designated no later than the second Semi-Annual Review. DES students cannot be admitted to or enroll in the doctoral program without a pre-arranged research advisor who is a current tenured or tenure-track (ToTT) faculty member in the Department of Computer Science at Columbia University.
+URL: https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+[RULE:PhD_SEAS:LOST-ADVISOR-PROCESS-001]
+Text: Doctoral students who find themselves without either a research advisor and/or a departmental advisor, for whatever reason, should discuss the situation as soon as possible with either the Director of Graduate Studies or the Department Chair. In most cases, the student will be obliged to find a mutually agreed-upon research advisor and a mutually agreed-upon departmental advisor within a reasonable period of time, usually by the following Semi-Annual Review. A nominal departmental advisor shall be appointed by the Director of Graduate Studies or the Department Chair on a temporary basis.
+URL: https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+[RULE:PhD_SEAS:SECONDARY-ADVISOR-001]
+Text: All doctoral students are assigned a "secondary advisor" during their first semester and thereafter should have a secondary advisor throughout the program. The secondary advisor is independent of the research advisor and/or departmental advisor, and must be a regular tenured or tenure-track faculty member in the department who normally attends the Semi-Annual Review meeting and who agrees to discuss the student's formal notification of progress and status (i.e., the semi-annual review letter) as well as related issues as they arise. The secondary advisor is normally arranged by the research advisor, but doctoral students may optionally select (or change) their own secondary advisor. The secondary advisor serves no other purpose than as a "second opinion", and does not incur any responsibility for the student's financial support or supervision. Important note: The secondary advisor should be in the same "review group" as the student's research advisor and departmental advisor.
+URL: https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+[RULE:PhD_SEAS:ADVISOR-ROLES-DISTINCTION-001]
+Text: The "secondary advisor" is intended to be another person for the student to go to about "what happened at the review meeting" and nothing else. There are multiple situations and purposes where a "departmental advisor" may be assigned. Generally these purposes involve providing academic advice towards fulfilling the program milestones throughout the semester(s), not just immediately following a review meeting.
+URL: https://www.cs.columbia.edu/education/phd/requirements/advising/
+
+[RULE:PhD_SEAS:RESEARCH-001]
+Text: The primary focus of our doctoral program is research, with the philosophy that students learn best by doing – beginning as apprentices and becoming junior colleagues working with faculty on scholarly research projects. All doctoral students are required to conduct productive research under the direction of their advisor throughout the program. For MS/PhD and PhD students, this should be half-time until completion of the coursework, teaching and candidacy exam requirements, and thereafter full-time until distribution of the dissertation. MS/PhD and PhD students are expected to participate in departmental and laboratory activities throughout all fall and spring semesters of the program. The policy on outside activities by MS/PhD and PhD students should be referred.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+[RULE:PhD_SEAS:RESEARCH-MANDATORY-001]
+Text: The directed research requirement is never waived, regardless of funding source, including employer-supported DES students. Insufficient or inadequate research progress is deemed unsatisfactory progress: the doctoral student is normally placed on probation and can be immediately dismissed from the program. However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+[RULE:PhD_SEAS:CANDIDACY-SUMMARY-001]
+Text: The candidacy exam is an oral exam based on a syllabus prepared jointly by the student and his/her candidacy committee. Admission to candidacy (i.e., passing the exam) certifies that the student has demonstrated a depth of scholarship in the literature and the methods of the student's chosen area of research, and has demonstrated a facility with the scholarly skills of critical evaluation and verbal expression. The candidacy exam should be completed by the end of the sixth semester or earlier, typically the semester after completing all courses, and must be completed prior to the thesis proposal. More detailed information, including the permitted composition of the candidacy committee, is here.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-PURPOSE-001]
+Text: Admission to candidacy certifies that the PhD or DES student has demonstrated a depth of scholarship in the literature and the methods of the student's chosen area of research, and has demonstrated a facility with the scholarly skills of critical evaluation and verbal expression. The candidacy exam must be completed prior to the thesis proposal.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-COMMITTEE-001]
+Text: The student is examined by a committee consisting of the student's advisor and two other researchers who hold doctorates or equivalents. The advisor should solicit the prospective committee members, not the student. In cases where the student's research and departmental advisors are different, both must serve on the committee.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-SCOPE-001]
+Text: The committee, after consideration of the student's input, selects a syllabus of the 20-30 most significant documents that encompass the state of the art in the area. The student then studies this syllabus.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-STRUCTURE-001]
+Text: The oral exam begins with the student's 30 minute critical evaluation of the syllabus materials, and is followed by no more than 90 minutes of questioning by the committee on any subject matter related to their contents. The student is judged primarily on the oral evidence, but the content and style of the presentation can account for part of the decision.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-NOTIFICATION-001]
+Text: The entire candidacy exam committee must be informed of the scheduling of the oral exam no later than two weeks (14 days) prior to the exam. The PhD Program Administrator must be informed of the scheduling of the oral exam no later than two weeks (14 days) prior to the exam. Emergency exceptions to either of these deadlines can be granted by the Director of Graduate Studies or the Department Chair on appeal by the advisor and agreement of the committee.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-TIMING-001]
+Text: The student must pass the candidacy exam no later than the end of his/her sixth semester. It is not necessary to complete the breadth requirement before attempting the candidacy exam.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-PROGRESS-001]
+Text: Passing or failing is determined by consensus of the committee, who then sign the candidacy exam form. Failure to pass the candidacy exam by the end of the sixth semester is deemed unsatisfactory progress: the PhD or DES student is normally placed on probation and can be immediately dismissed from the program. However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty. The exam normally cannot be taken more than twice. However, on appeal of the student's advisor, an additional attempt can be permitted by the full faculty.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+[RULE:PhD_SEAS:CANDIDACY-REG-001]
+Text: Doctoral students are required to register at least two weeks in advance for their Candidacy Exam using the department's Doctoral Program Milestones Registration Form. Schedule two hours. Contact the PhD Program Administrator with any questions about the registration form.
+URL: https://www.cs.columbia.edu/education/phd/requirements/candidacy/
+
+THESIS PROPOSAL
+[RULE:PhD_SEAS:PROPOSAL-SUMMARY-001]
+Text: In the thesis proposal, the student lays out his or her intended course of research for the dissertation. If the student passes the written and oral components of the proposal, the thesis proposal committee signs a form to recommend that the candidate proceed. The proposal should be completed by the end of the eighth semester. The university's permitted composition of the dissertation prospectus committee and other requirements for the proposal are specified here. Additional department-specific requirements are here.
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-PURPOSE-001]
+Text: In the thesis proposal, the PhD or DES student lays out an intended course of research for the dissertation. By accepting the thesis proposal, the student's dissertation proposal committee agrees that the proposal is practicable and acceptable, that its plan and prospectus are satisfactory, and that the candidate is competent in the knowledge and techniques required, and formally recommends that the candidate proceed according to the prospectus and under the supervision of the dissertation committee. It is part of the training of the student's research apprenticeship that the form of this proposal must be as concise as those proposals required by major funding agencies.
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-COMMITTEE-001]
+Text: The student proposes to a committee consisting of the student's advisor and two other researchers who meet the requirements for dissertation committee membership. The advisor should solicit the prospective committee members, not the student. In cases where the research and departmental advisors are different, both must serve on the committee. (PhD dissertation committee membership requirements are here. DES dissertation committee membership requirements may be different, contact the PhD Program Administrator.)
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-DOCUMENT-001]
+Text: The student prepares a proposal document that consists of a core, plus any optional appendices. The core is limited to 30 pages (e.g., 12 point font, single spacing, 1 inch margins all around), and should contain sections describing 1- the problem and its background, 2- the innovative claims of the proposed work and its relation to existing work, 3- a description of at least one initial result that is mature enough to be able to be written up for submission to a conference, and 4- a plan for completion of the research. The committee commits to read and respond to the core, but reserves the right to refuse a document whose core exceeds the page limit. The student cannot assume that the committee will read or respond to any additional appendices.
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-DISSEMINATION-001]
+Text: The complete doctoral thesis proposal document must be disseminated to the entire dissertation committee no later than two weeks (14 days) prior to the proposal presentation. The PhD Program Administrator must be informed of the scheduling of the proposal presentation no later than two weeks (14 days) prior to the presentation using the department's Doctoral Program Milestones Registration Form. Emergency exceptions to either of these deadlines can be granted by the Director of Graduate Studies or the Department Chair on appeal by the advisor and agreement of the committee. A latex thesis proposal template is available here.
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-PRESENTATION-001]
+Text: The student presents the proposal in a prepared talk of 45 minutes to the committee, and responds to any questions and feedback by the committee. The student then leaves the room during the committee's deliberations.
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-TIMING-001]
+Text: The student's advisor, upon approval of the full faculty, establishes the target semester by which the thesis proposal must be successfully completed. The target semester must be no later than the eighth semester, and the student must be informed of the target semester no later than the sixth semester. The candidacy exam must be successfully completed before the proposal can be attempted. The proposal must be completed prior to submitting the application for defense. [Instituted by full faculty vote September 16, 2015.]
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-PROGRESS-001]
+Text: Passing or failing is determined by consensus of the committee, who then sign the dissertation proposal form (sent to advisors by the PhD Program Administrator). Failure to pass the thesis proposal by the end of the target semester or the eighth semester, whichever comes first, is deemed unsatisfactory progress: the PhD or DES student is normally placed on probation and can be immediately dismissed from the program. However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty.
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+[RULE:PhD_SEAS:PROPOSAL-REG-001]
+Text: Doctoral students are required to register at least two weeks in advance for their Thesis Proposal using the department's Doctoral Program Milestones Registration Form. Schedule two hours. Contact the PhD Program Administrator with any questions about the registration form.
+URL: https://www.cs.columbia.edu/education/phd/requirements/proposal/
+
+DISSERTATION AND DEFENSE
+[RULE:PhD_SEAS:DEFENSE-001]
+Text: The doctoral dissertation and defense is typically completed during the fifth or sixth year in the program. Some very highly motivated students, particularly in theoretical areas, may finish in less time. Students cannot schedule their defense until after they have completed the en-course MPhil degree.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+[RULE:PhD_SEAS:DEFENSE-INFO-001]
+Text: Various forms and instructions for filling out the forms, composition of the dissertation committee, handling of remote participants in the defense, revision and deposit of the dissertation, and many other topics, are available from the GSAS Dissertation Office. Dissertation formatting requirements, including a latex template, are here. It is important for both the student and the advisor(s) to review the university's detailed requirements here about forming the dissertation committee, distributing the dissertation, and scheduling the defense.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+[RULE:PhD_SEAS:DEFENSE-SEMINAR-001]
+Text: Defenses are typically accompanied by a public seminar. The Computer Science department always holds that public seminar immediately before the defense. When a student schedules their "defense", they should schedule enough time, at least two hours, for both that public seminar and the official (closed) defense. The department's Doctoral Program Milestones Registration Form must be submitted by the student to the department's PhD Program Administrator at least six weeks in advance of the anticipated defense date.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+TEACHING
+[RULE:PhD_SEAS:TEACHING-SUMMARY-001]
+Text: All doctoral students are required to fulfill two "teaching units", ideally approximately the total workload of half-time for one semester, but the actual workload may vary widely. Both teaching units must be for courses approved by the department's Academic Committee as Computer Science courses, where the Computer Science department is responsible for staffing (assigning Instruction Assistants), and occur during a regular academic semester while the student is enrolled in the doctoral program. Most students complete their teaching units during their second or third year, but there are no timing restrictions on which semesters students can do their teaching units. When students complete their teaching units is determined by their advisor. More detailed information is here.
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+[RULE:PhD_SEAS:TEACHING-APPLICABILITY-001]
+Text: The teaching requirement does not apply to grandfathered CVN-DES students. Unless otherwise stated, all doctoral program requirements apply equally to PhD, MS/PhD and other DES students.
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+[RULE:PhD_SEAS:TEACHING-RATIONALE-001]
+Text: Success as a Computer Scientist depends not only on the ability to generate and explore new ideas but also on the ability to communicate those ideas effectively. For this reason, all students are required to develop and exercise presentation and teaching skills as part of their education. Special arrangements may be made for students funded through fellowships within the constraints of their program. However, the teaching requirement is indeed a requirement, never waived, regardless of funding source, including self-supported or employer-supported students.
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+[RULE:PhD_SEAS:TEACHING-UNITS-REQ-001]
+Text: Students are required to complete two (2) teaching units in regular on-campus academic-year courses while formally enrolled in the doctoral program. Teaching or TAing at an unaffiliated institution or unaffiliated Columbia department does not qualify towards satisfying the teaching requirement. Paid (compensated) teaching or TAing does not count towards the teaching requirement.
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+[RULE:PhD_SEAS:TEACHING-UNITS-OPTIONS-001]
+Text: There are several options for accumulating teaching units:
+
+Serving as a teaching assistant. TAs for a given course offering may be granted 1/2, 1 or 2 teaching units depending on course enrollment, workload, and other factors determined by the IA Chair.
+Serving as the instructor for a 1-point or 1.5-point course, which counts as one (1) teaching unit.
+Serving as the instructor for a 3-point or 4-point course, which counts as two (2) teaching units.
+Serving as a teaching assistant is the default. All instructor assignments must be approved by the Academic Committee Chair.
+
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+[RULE:PhD_SEAS:TEACHING-FUNDING-001]
+Text: MS/PhD and PhD students (not DES students) may be funded for one semester by the department, either the last semester in which they complete the final unit(s) of the teaching requirement or during a later semester, even though the student may not be teaching or TAing during that later semester. The timing of the departmental funding is determined by the advisor and cannot be requested by the student. Both teaching units must be completed in courses offered by the department, where the department is responsible for hiring instruction assistants, to qualify for this funding. This departmental funding is offered instead of GRA or fellowship funding, not in addition. The stipend, tuition and fees are identical to GRAs.
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+[RULE:PhD_SEAS:TEACHING-ADDITIONAL-001]
+Text: After completing the mandatory teaching requirement, students making satisfactory progress, and with advisor approval, may apply for paid (compensated) instructor or instruction assistant (IA) positions when available. All instructor assignments must be approved by the Academic Committee Chair. IA assignments are made by the IA Chair.
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+[RULE:PhD_SEAS:TEACHING-SUMMER-001]
+Text: In addition to and independent of the teaching requirement, students may voluntarily elect to serve as instructors or TAs for summer courses offered by the department. The courses offered and payscale vary from year to year. Note that summer teaching or TAing does not count towards satisfying the teaching requirement.
+URL: https://www.cs.columbia.edu/education/phd/requirements/teaching/
+
+COMMUNITY SERVICE
+[RULE:PhD_SEAS:SERVICE-001]
+Text: The Department of Computer Science takes pride in maintaining a well-developed sense of community, and sees as an essential part of its doctoral program the preparation of its students for this important aspect of their future careers. It strongly encourages students to contribute a year of service to the department's professional, operational, or social needs, preferably during their second and/or third year in the program. A list of community service positions normally held by doctoral students is available in mice. The department confers several annual awards recognizing excellence in doctoral student service and teaching; further information and past awardees are here. The "phd reps" represent doctoral student concerns to the faculty, report on faculty meetings to doctoral students, and find volunteers for the community service program. More information about the current phd reps and what they do is here.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+MPHIL FOR PHD STUDENTS
+[RULE:PhD_SEAS:MPHIL-001]
+Text: The en-course degree of Master of Philosophy (MPhil) is conferred upon a PhD student who has satisfactorily fulfilled all milestones except the proposal and dissertation. This includes all courses, teaching, and candidacy exam. The MPhil also requires completion of six Residency Units (RUs) and sixty graduate points beyond the undergraduate degree. Two RUs and thirty points of advanced standing are granted for completing the masters degree. See the university requirements for the MPhil.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+M.S. LEADING TO PH.D.
+[RULE:PhD_SEAS:MSPHD-001]
+Text: This policy applies only to students who enter the PhD program without a Masters degree recognized by Columbia. Every MS/PhD track student (registration status ETCOMS) must apply for MS graduation in order to receive the MS degree from Columbia University and be awarded advanced standing (two RUs) towards the PhD.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+[RULE:PhD_SEAS:MSPHD-APPROVAL-001]
+Text: The faculty will approve the MS degree application following successful completion of six (6) breadth requirement areas completed in the Computer Science Department at Columbia, including all four (4) distribution areas and any two (2) COMS elective areas [departmental requirement]. The student must also satisfactorily complete at least 30 points and at least six graduate lecture courses at Columbia while enrolled for MS/PhD, not including imports or comp exams. Courses taken while an undergraduate at Columbia or Barnard are applicable only if they are eligible for advanced standing [SEAS requirement].
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+MILESTONES & IMPORTS
+[RULE:PhD_SEAS:MILESTONE-TIMING-001]
+Text: Note: All timing requirements ("N") are counted as semesters formally enrolled in the department's doctoral program, whether enrolled as PhD, MS/PhD or DES unless otherwise noted, referring to the end of the "Nth" semester. Semesters of formally approved "leave of absence" are not counted.
+URL: https://www.cs.columbia.edu/education/phd/requirements/
+
+[RULE:PhD_SEAS:IMPORT-001]
+Text: To qualify for Course Import review the course must meet the following minimum requirements: The non-Columbia course being imported was completed within the past 5 years (there are some exceptions, see import policy here); The non-Columbia course appears on the students' transcript and the student received a grade of B+ or better (or the student provides documentation demonstrating equivalence to a B+ grade at Columbia); The non-Columbia course is a full-length course granting degree credit towards a graduate degree (masters and/or doctoral) in Computer Science at the offering institution; In the case of importing a course taken during the student's enrollment in the doctoral program, as opposed to before enrolling, there must be no equivalent course regularly offered at Columbia.
+URL: https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+[RULE:PhD_SEAS:ALGO-IMPORT-001]
+Text: To qualify for PhD Prerequisite review the following minimum requirements must be met: The non-Columbia course was offered by a department named "Computer Science" (or the student provides documentation that the department with another name is the institution's Computer Science department); The non-Columbia course appears on the students' transcript and the student received a grade of B+ or better (or the student provides documentation demonstrating equivalence to a B+ grade at Columbia); The non-Columbia course is a full-length course granting degree credit towards an undergraduate or graduate degree in Computer Science at the offering institution (if undergraduate, the course must be an upper-division course enrolling only juniors and seniors, and possibly graduate students as well, not sophomores or first-year students).
+URL: https://www.cs.columbia.edu/education/phd/requirements/breadth/
+
+REGISTRATION
+[RULE:PhD_SEAS:GSAS-SEAS-001]
+Text: The PhD is awarded by the Graduate School of Arts and Sciences (GSAS). PhD students who have already completed a Master's degree should register as GSAS students, and should normally register following GSAS registration policies (listed below). It is important to understand that SEAS rules override GSAS rules for PhD students whose home department is in SEAS, which includes the CS department.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:MSPHD-REGISTER-001]
+Text: Students who have not yet completed their MS degree are categorized as MS/PhD students and should register as SEAS (School of Engineering & Applied Sciences) students. MS/PhD students should register following SEAS registration policies (listed below) until they have completed the requirements of the MS degree. At that point, they will 'graduate' to GSAS.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DES-REGISTER-001]
+Text: DES students remain in SEAS throughout the program.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:CONTINUOUS-REG-001]
+Text: Both GSAS and SEAS require "continuous registration" every fall and spring semester unless a formal leave of absence is granted. Doctoral students are not required to register for the summer term.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:ADVANCED-STANDING-001]
+Text: GSAS requires all PhD students to complete 60 total points of graduate coursework and 6 Residence Units for the degree. Upon completing the MS degree in SEAS (or at another institution prior to enrolling at Columbia), GSAS will award students with 30 points and 2 Residence Units of advanced standing toward the PhD. Note: The standard 1 RU per semester accumulation (PhD_SEAS:GSAS-RU-001) does not apply during Master's coursework; RU accumulation begins only after completing the Master's degree, starting with the 2 RUs of advanced standing. Students only need to complete 30 additional points of graduate coursework and 4 Residence Units upon entering GSAS.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:REG-001]
+Text: MS/PhD students should register for exactly 15 points every fall and spring semester. This maintains full-time status and will enable you to complete the 30-point requirement for the MS degree in one academic year. Courses graded P/F or taken for R credit (audit) do not count towards the degree, so please keep this in mind when registering. If you want to register for more than 15 points in a semester, please discuss first with your faculty advisor and then, if your advisor agrees, the Doctoral Program Administrator.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:REG-COURSES-001]
+Text: Step 1: Register for the lecture courses that you need to take that semester. MS/PhD students should complete two 3-point graduate lecture courses (6 points) per semester so they can complete the MS degree requirements in three semesters. Imports from other institutions, courses applied to a previous Columbia degree (BS or BA), comp exams, and research courses (9911) do not count towards the minimum six 3-point graduate lecture courses required for the MS degree. Satisfactory progress requires two (2) courses per semester until the breadth requirement has been completed.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:REG-9911-001]
+Text: Step 2: Register for your advisor's section of COMS E9911: Graduate Research II. The number of points of COMS E9911 that you register for depends on how many points of coursework you register for. Your points of coursework + points of COMS E9911 should total 15 points. So if you have registered for 6 points of lecture coursework, you should register for 9 points of COMS E9911. If you register for 4.5 points in lecture courses, you should register for 10.5 points of COMS E9911. If you aren't taking any lecture courses, register for the full (maximum) 15 points of COMS E9911. You must select the letter grade option for COMS E9911, otherwise the points will not count towards your degree.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:REG-NO-9910-001]
+Text: Do not register for COMS E9910: Graduate Research I or any of the other project courses, such as W4901, E6900, E6901, E6902; those are only for undergraduates and MS students and cannot be applied to a doctoral degree.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DES-REG-001]
+Text: DES students need to register for at least three (3) points every fall and spring semester to maintain continuous registration.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DES-REG-COURSES-001]
+Text: Step 1: Register for the lecture courses that you need to take that semester. Courses graded P/F or taken for R credit (audit) do not count towards the degree, so please keep this in mind when registering. Satisfactory progress requires two (2) courses per semester until the breadth requirement has been completed.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DES-REG-9911-001]
+Text: Step 2: After completion of all coursework, or for any other semesters where you will not be taking courses, but have not yet embarked on your thesis research, register for three (3) points of your advisor's section of COMS E9911: Graduate Research II. You must select the letter grade option for COMS E9911. You must complete at least thirty (30) points, with letter grades, in a combination of lecture courses and E9911 beyond the MS (or 60 points beyond the bachelor's degree).
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DES-REG-9800-001]
+Text: Step 3: When you start working on your thesis, you should instead register each semester for three (3) points your advisor's section of COMS E9800: Directed Research in Computer Science. You must complete 12 points in COMS E9800. These 12 points do not count towards the 30 points residence requirement.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DES-NO-PROJECT-001]
+Text: Do not register for COMS E9910: Graduate Research I or any of the other project courses, such as W4901, E6900, E6901, E6902; those are only for undergraduates and MS students.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:GSAS-RU-001]
+Text: PhD students in GSAS should register for one residence unit (RU) every consecutive fall and spring semester until they have accumulated six total RUs (including the two RUs obtained through advanced standing). The Residence Unit will give you full-time status. Make sure to keep track of exactly how many RUs you have completed as over-payment of RU tuition will not be refunded. You can see how many RUs you have completed in Vergil or SSOL. The call number for the RU is 99991.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:GSAS-COURSES-001]
+Text: Step 2: Register for the lecture courses that you need to take that semester. Courses graded P/F or taken for R credit (audit) do not count towards the degree, so please keep this in mind when registering. Satisfactory progress requires two (2) courses per semester until the breadth requirement has been completed.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:GSAS-9911-001]
+Text: In addition to the four RUs, you will need to complete 30 points beyond the MS degree. These can be spread out over multiple semesters, and you may get all 30 points from taking courses. But if you are on your third or fourth RU and it does not look like you will have all 30 points by the time you complete the fourth RU, you should obtain the remaining points from taking COMS E9911: Graduate Research II. In that case, as Step 3: register for your advisor's section of COMS E9911: Graduate Research II. The number of points of COMS E9911 that you will register for will be dependent on how many points of coursework you have registered for. Your points of coursework + points of COMS E9911 should come to no more than 15 points total in a given semester. So if you have registered for 6 points of lecture coursework, you can register for up to 9 points of COMS E9911. You must select the letter grade option for COMS E9911. If you aren't taking any lecture courses, you can register for the maximum 15 points of COMS E9911.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:GSAS-NO-PROJECT-001]
+Text: Do not register for COMS E9910: Graduate Research I or any of the other project courses, such as W4901, E6900, E6901, E6902; those are only for undergraduates and MS students.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:GSAS-POST-RU-001]
+Text: After you have completed your six residence units in GSAS, you should stop registering for RUs. How you register after that depends on several factors. There are two options, Extended Residence (ER) and Matriculation and Facilities (M&F).
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:ER-001]
+Text: Extended Residence: Most students should register for ER after completing six (6) RUs. ER (or RU) registration is required for international students on a student visa to maintain full-time status and for any students to take courses, including COMS E9911, or to complete any degree requirements except the dissertation, defense and deposit. The GSAS rules for registering ER are posted here. Note those rules imply that students could register for M&F instead under various circumstances, e.g., while working on their thesis proposal, but M&F is disallowed by SEAS in most cases, see below.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:ER-COURSES-001]
+Text: You should register for any classes you are taking in addition to the ER unit. If you are done with RUs but have not yet completed 30 points beyond the MS, you should also register for COMS E9911 every semester for 1 to 15 points until you have completed 30 points beyond the MS degree.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:MF-001]
+Text: Matriculation and Facilities: M&F registration maintains the "continuous registration" required by GSAS and is considerably less expensive than ER. While registered M&F, students may not take any courses, including COMS E9911, and must have already completed all degree requirements other than distribution, defense and deposit of the dissertation. M&F is not available to international students on a student visa, students funded by a TA or RA appointment, and students participating in internally or externally sponsored research. Students working solely on writing/revising their dissertation and/or preparing for distribution, defense and deposit, may register M&F during their last two semesters. The SEAS rules for registering M&F are available here. (Note SEAS rules contradict and override the GSAS rules posted here.) The SEAS rules disallow any stipend or compensation of any sort from any university source for students registered M&F.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:MF-APPROVAL-001]
+Text: Faculty advisors of students who want to register for M&F should contact the Doctoral Program Administrator to check their student's academic eligibility. However, the Doctoral Program Administrator cannot handle the financial aspects, so the next step for academically eligible students is for the faculty advisor to contact the department's DFA to make financial arrangements.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DEFENSE-REG-001]
+Text: It is not necessary for US citizens or permanent residents to register during the semester of the thesis defense or deposit. However, all students must be registered during the semester in which the dissertation is distributed to the defense committee. For example, if you distribute in the fall, but defend in the spring, you only need to be registered for the fall semester.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:DEFENSE-INTL-001]
+Text: International students should contact the International Students and Scholars Office (ISSO) to confirm whether they need to be registered for the defense and deposit, if these activities take place in a later semester than the distribution.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+[RULE:PhD_SEAS:SUMMER-DEFENSE-001]
+Text: Important note: While in most cases summer registration is optional, the thesis distribution registration rule includes the summer semester: you must be registered for the summer term if your dissertation is distributed during the summer.
+URL: https://www.cs.columbia.edu/education/phd/registration/
+
+# Columbia ISSO (International Students and Scholars Office) Rules with URLs
+
+## How to Maintain Your Lawful F/J Student Status
+
+### [RULE:ISSO:ARRIVAL-001]
+**Text:** 1 Report your first arrival at Columbia with the SEVIS Report form. Please follow the instructions at Reporting Your Arrival in the first week. This will activate your SEVIS record. It's mandatory!
+
+**URL:** https://isso.columbia.edu/content/reporting-your-arrival-students
+
+---
+
+### [RULE:ISSO:ENROLLMENT-001]
+**Text:** 2 Register for full-time enrollment every fall and spring semester. If the summer term is a required part of your academic program, you must register full-time. If not, it is considered a vacation period and is optional. Use the scheduled registration dates on the Registrar's webpage. Full-time enrollment may differ from school to school, but generally it is: 12 points for Columbia schools and programs that use the credit point system for registration (except for Law and Social Work), OR one residence unit for schools/programs using the RU system.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:ONLINE-001]
+**Text:** Online classes: You can count only ONE online class toward your minimum number of credits required for your full-time enrollment. For example, you can take one online 3-credit course toward the 12-credit minimum. If you want to take an additional online class for a 15-point course load, it is permitted because it's beyond the minimum required for full-time status. If you only need one course to complete your program of study in your final term, the course cannot be online or distance learning.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:RCL-001]
+**Text:** 3 Reduced Course Load (RCL): Exceptions to full-time enrollment. There are limited exceptions that may allow you to be registered for a "Reduced Course Load" (RCL).
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [EXCEPTION:ISSO:RCL-FINAL]
+**Text:** Final Term of a Degree Program. You are allowed to be less than full-time in the final term of your degree program if you do not need a full-time course load to complete degree requirements-- unless your academic program has a minimum registration requirement each term for all its students. This does not require permission or further action.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:RCL-002]
+**Text:** Other eligible exceptions based on academic or medical reasons require you to receive authorization from us before dropping below full-time, withdrawing from classes, or taking a leave of absence. Follow these instructions to Request a Reduced Course Load.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:WORK-001]
+**Text:** 4 Do not work without authorization. The only type of employment that does not require an application and written authorization is on-campus employment, up to 20 hours/week. Working without authorization is considered a serious violation of your immigration status. Learn more about employment options.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:ADDRESS-001]
+**Text:** 5 Update your U.S address every time you move (within 10 days)
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:COE-001]
+**Text:** 6 Keep your I-20 / DS-2019 up-to-date. While in the U.S., you must keep your I-20 / DS-2019 up-to-date by informing us of any pertinent changes. Here are the changes you need to report:
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:EXTENSION-001]
+**Text:** Apply for an extension before the end date if you need more time to complete your degree.
+
+**URL:** https://isso.columbia.edu/content/extending-your-current-program-f-and-j-students
+
+---
+
+### [RULE:ISSO:EARLY-COMPLETE-001]
+**Text:** Inform us if you are finishing earlier than the end date on your I-20 or DS-2019. We need to change the date, and you need to be informed of deadlines associated with the new completion date.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:TRAVEL-SIG-001]
+**Text:** Be sure you have a travel signature on your most recent I-20 or DS-2019 that will be less than 12 months old on the date you return from a trip abroad.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:TRANSFER-001]
+**Text:** Request a transfer of your SEVIS record to another school if you are going to continue your studies elsewhere.
+
+**URL:** https://isso.columbia.edu/content/applying-your-transfer-i-20
+
+---
+
+### [RULE:ISSO:NEW-PROGRAM-001]
+**Text:** Inform us if you are beginning a new program at Columbia. You will need a new COE (I-20/DS-2019) for it.
+
+**URL:** https://isso.columbia.edu/content/extending-begin-new-program-f-j-students
+
+---
+
+### [RULE:ISSO:LEAVE-EARLY-001]
+**Text:** Inform us if you are leaving Columbia program before completing your program.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:STATUS-CHANGE-001]
+**Text:** Inform us if you are changing to another nonimmigrant status or if you become a permanent resident ("green card" holder).
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:PASSPORT-001]
+**Text:** 7 Keep your passport unexpired for at least six months into the future
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:TRAVEL-DOCS-001]
+**Text:** 8 Be sure to have the correct documents with you when you travel. It is important that your travel documents are up-to-date to avoid any problems at your departure airport when you're returning to the U.S. and at a U.S. port of entry when you arrive. Check our Documents Needed to Travel page well in advance of a planned trip. It is also important to access your electronic I-94 arrival record every time you enter the US. to check that your admission was recorded correctly as F or J until "D/S" (duration of status).
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:OPT-REPORT-001]
+**Text:** 9 F-1 only: Be sure you follow OPT reporting requirements in a timely manner. You risk losing your status if you don't report Post-completion OPT and STEM OPT updates as described on our OPT Reporting webpage. The ISSO will send you reminder emails, so be sure to pay attention to them.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:GRACE-001]
+**Text:** 10 Leave the U.S. before your grace period expires. Once you have completed your studies and any authorized post-graduation employment under F-1 or J-1 status, you have an additional grace period that allows you to remain in the U.S. to prepare for departure. F-1 status: 60 days; J-1 status: 30 days
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:TAX-001]
+**Text:** 11 Comply with your U.S. Tax-filing Requirement. IRS Form 8843 is required for F and J students and their dependents even if you had no U.S. income. ISSO provides you free access to Sprintax, a nonresident tax preparation system to complete the 8843 if you had no US income and a nonresident federal tax return in addition to the 8843 if you do have income to report.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+### [RULE:ISSO:BENEFITS-001]
+**Text:** 12 Don't apply for or accept governmental Public Benefits. When applying for a nonimmigrant or immigrant visa, applicants have to document that they have the financial resources to support themselves and any family members with them. Accepting taxpayer-funded public benefits can jeopardize your status and future visa applications. Refer to the USCIS Public Charge Webpage for additional information.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+## Requesting a Reduced Course Load (RCL)
+
+### [RULE:ISSO:RCL-REQUIREMENT-001]
+**Text:** All F-1/J-1 students are required to enroll full-time every semester, with very limited exceptions. A reduced course load (RCL) is permission to be registered below full-time during a semester.
+
+**URL:** https://isso.columbia.edu/content/requesting-reduced-courseload-rcl
+
+---
+
+### [EXCEPTION:ISSO:RCL-FINAL-002]
+**Text:** You are allowed to be less than full-time in the final term of your degree program if you do not need a full-time course load to complete your degree requirements. You do not need to request permission for an RCL and no further action is required.
+
+**URL:** https://isso.columbia.edu/content/requesting-reduced-courseload-rcl
+
+---
+
+### [RULE:ISSO:RCL-ELIGIBLE-001]
+**Text:** You need to request and be granted permission from us for an RCL prior to dropping below full-time enrollment if one of the exceptions below applies to you.
+
+**URL:** https://isso.columbia.edu/content/requesting-reduced-courseload-rcl
+
+---
+
+### [RULE:ISSO:RCL-ACADEMIC-001]
+**Text:** 1) Academic difficulties during your degree program. This exception may be used one time only and you must resume a full course of study at the next available semester. initial difficulty with the English language (first semester); initial difficulty with reading requirements (first semester); unfamiliarity with U.S. teaching methods (first semester); improper course level placement. This means not having the prerequisites or preparation for a course and is not limited to the first semester.
+
+**URL:** https://isso.columbia.edu/content/requesting-reduced-courseload-rcl
+
+---
+
+### [RULE:ISSO:RCL-MEDICAL-001]
+**Text:** 2) Temporary illness or medical/mental health difficulties. You may apply for an RCL on the basis of a temporary health situation for one semester. If additional time is needed, a new application with new documentation is required for any subsequent semester. You are limited by regulation to a total of 12 months of approved RCL time during your degree program.
+
+**URL:** https://isso.columbia.edu/content/requesting-reduced-courseload-rcl
+
+---
+
+## Leave of Absence, Suspension, or Withdrawal
+
+### [RULE:ISSO:LOA-CONSULT-001]
+**Text:** If you are considering a leave of absence (LOA) or withdrawing, please speak with us in advance to see how it will affect your immigration status and employment eligibility when you return.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:SUSPENSION-001]
+**Text:** If you have been suspended from your academic program, please speak with us about the effect on your immigration status.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-TERMINATION-001]
+**Text:** Your current F-1 or J-1 SEVIS record will be terminated after the official notification, and you will have to leave the U.S. in 15 days.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-COE-INVALID-001]
+**Text:** Your current I-20 or DS-2019 form will no longer be valid and may not be used for future travel to the U.S. but should be kept for your records.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-NEW-COE-001]
+**Text:** When to apply for a new I-20/DS-2019. You'll need to apply for a new I-20 or DS-2019 form 2-3 months in advance of returning to resume your full-time studies. This will be created in a new SEVIS record and you will need to pay a new SEVIS fee.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-OPT-IMPACT-001]
+**Text:** Eligibility for Practical Training (F-1 students). An F-1 student returning from a leave must be enrolled for two consecutive full-time semesters before being eligible for Practical Training authorization.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-PROCESS-001]
+**Text:** If a leave of absence, suspension, or withdrawal is necessary, complete the following steps: Have the absence approved by your school, department, or academic advisor. A LOA, suspension or withdrawal must originate or be approved by your school. Notify us for proper and timely advice. We need to know the terms and conditions. If you received your approval of the LOA from your school through an email, letter, or form, please forward it to us. Leave the U.S. Leave within 15 days of your leave being approved.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-RETURN-REPORT-001]
+**Text:** 6. Submit the Online SEVIS Report form within 7 days after your arrival. Submit this form within 7 days after your arrival. Enter the U.S. no more than 30 days in advance of your start date. Although this is not your first time at Columbia, reporting this arrival is necessary to activate your new SEVIS record.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-VISIT-001]
+**Text:** Yes, you may make short, temporary visits but not in F or J status. You would have to come in B-2 visitor status or with a visa waiver (ESTA) if you qualify.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-NO-OPT-001]
+**Text:** No. Optional Practical Training (OPT) or Academic Training (AT) are directly linked to your student status. If you have not yet graduated, you need to be enrolled full-time to be eligible for part-time work on or off-campus. If the purpose of your leave is to pursue employment in the United States you would need to be able to change to a different visa status that supports employment. Speak with one of our advisers before you finalize your plans.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-VISA-001]
+**Text:** If you have an unexpired F-1 or J-1 visa, you may continue to use it with your newly-issued I-20/DS-2019.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:LOA-OPT-RESET-001]
+**Text:** No. The OPT clock is reset. Once you resume your studies with a new SEVIS record and a new I-20, you will not be eligible for practical training until you have completed one academic year (2 semesters) in F-1 status. Be aware that if you only have one semester left to complete your program, you will not be eligible for post-completion OPT.
+
+**URL:** https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal
+
+---
+
+### [RULE:ISSO:OPT-REPORTING-001]
+**Text:** Reporting: Be mindful of your OPT reporting requirements.
+
+**URL:** https://isso.columbia.edu/content/guidelines-maintaining-status-students
+
+---
+
+# Columbia ISSO Rules with URLs (Part 2)
+
+## Travel and Post-Graduation Work
+
+### [RULE:ISSO:OPT-TRAVEL-001]
+**Text:** Travel: Review Travel During OPT for documents you need if you leave and return to the US during OPT. Apply online for a new travel signature, if needed. F-1 OPT I-20 travel signatures are valid for 6 months, not 12, during OPT
+
+**URL:** https://isso.columbia.edu/content/final-term-reminders
+
+---
+
+### [RULE:ISSO:AT-TRAVEL-001]
+**Text:** Travel: Review Documents Needed for Travel if you leave and return to the US during Academic Training. Apply online for a new travel signature. If needed. The Travel Signature on your DS-2019 is valid for 12 months or until the end date of your DS-2019, whichever is sooner.
+
+**URL:** https://isso.columbia.edu/content/final-term-reminders
+
+---
+
+## Extending Your Current Program
+
+### [RULE:ISSO:EXTENSION-GENERAL-001]
+**Text:** F-1 and J-1 student regulations require you to be full-time every term and to make normal progress toward your degree, so it's unusual to need more time. However, there may be extraordinary circumstances. Read on to see if you qualify and how to proceed.
+
+**URL:** https://isso.columbia.edu/content/extending-your-current-program-f-and-j-students
+
+---
+
+### [RULE:ISSO:EXTENSION-TIMING-001]
+**Text:** When to Apply: Apply for your extension at least two weeks before your I-20 or DS-2019 expires. Your Certificate of Eligibility (I-20 or DS-2019) cannot be extended after the program end date.
+
+**URL:** https://isso.columbia.edu/content/extending-your-current-program-f-and-j-students
+
+---
+
+## Extending to Begin a New Program
+
+### [RULE:ISSO:NEW-PROGRAM-002]
+**Text:** If you are moving from one program to another at Columbia University, you must apply for a new Certificate of Eligibility (COE) for the new program. Obtaining a new I-20 (F-1) or DS-2019 (J-1) will update your SEVIS record and extend your F or J "duration of status", which is the time you are permitted to stay in the United States as a student.
+
+**URL:** https://isso.columbia.edu/content/extending-begin-new-program-f-j-students
+
+---
+
+### [RULE:ISSO:NEW-PROGRAM-DEADLINE-001]
+**Text:** Latest date to apply: F-1: No later than 50 days after your current program completion (to allow time for 60-day deadline); J-1 Students: Before your current DS-2019 expires.
+
+**URL:** https://isso.columbia.edu/content/extending-begin-new-program-f-j-students
+
+---
+
+### [RULE:ISSO:NEW-PROGRAM-REENTRY-001]
+**Text:** As long as you have the new I-20/DS-2019 for the new program, you can re-enter the U.S. at any time. This is because: you will keep the same SEVIS number and are considered a continuing student; you are considered legally present in the U.S. in F/J status between the two programs.
+
+**URL:** https://isso.columbia.edu/content/extending-begin-new-program-f-j-students
+
+---
+
+### [RULE:ISSO:NEW-PROGRAM-VISA-001]
+**Text:** You may continue to use an unexpired F/J entry visa. If your visa has expired, the new I-20/DS-2019 establishes the continued validity of your F/J status while you remain in the U.S., but the first time you travel outside the U.S. (except to Canada or Mexico), you will need to apply for a new F/J visa at a U.S. embassy or consulate. You do not need to pay another SEVIS fee because it is the same SEVIS record. Have your SEVIS fee receipt with you when you need to apply for a new visa.
+
+**URL:** https://isso.columbia.edu/content/extending-begin-new-program-f-j-students
+
+---
+
+## On-Campus Work
+
+### [RULE:ISSO:ONCAMPUS-001]
+**Text:** On-campus employment is permitted "incident to your status" as an F-1 or J-1 student. This means you are eligible as soon as you have obtained F-1 or J-1 status and does not require an application. J-1 students, however, must submit a request for authorization of on-campus employment. On-campus work is done for, and paid by, Columbia University, with an exception for work for a commercial firm on the campus if it provides direct services to all Columbia students. On-campus employment authorization ends on the Program End Date found on the I-20 or DS-2019.
+
+**URL:** https://isso.columbia.edu/content/campus-work-f-and-j-students
+
+---
+
+### [RULE:ISSO:ONCAMPUS-HOURS-001]
+**Text:** You may work on-campus up to 20 hours per week during the academic year (fall and spring semester) when classes are in session, and unlimited hours during any recess periods, such as winter break or summer vacation. If your program requires you to be enrolled during the summer term, it is not considered a vacation period and you would be restricted to part-time hours.
+
+**URL:** https://isso.columbia.edu/content/campus-work-f-and-j-students
+
+---
+
+### [RULE:ISSO:ONCAMPUS-NO-DEDUCT-001]
+**Text:** The time you spend working on-campus is not deducted from the amount of time you are allowed for other types of work, such as F-1 Optional Practical Training or J-1 Academic Training, and does not need to be related to your field of study.
+
+**URL:** https://isso.columbia.edu/content/campus-work-f-and-j-students
+
+---
+
+### [RULE:ISSO:ONCAMPUS-NO-WORKSTUDY-001]
+**Text:** You are not eligible for jobs classified as "Work-Study". This is because Work-Study jobs are subsidized by federal financial aid for domestic students.
+
+**URL:** https://isso.columbia.edu/content/campus-work-f-and-j-students
+
+---
+
+### [RULE:ISSO:J1-ONCAMPUS-AUTH-001]
+**Text:** Mandatory request for ISSO authorization. J-1 exchange visitor regulations require sponsor authorization of on-campus employment. If your Form DS-2019 was issued by Columbia University, make this request to the ISSO /ISSO-CUIMC by clicking on the appropriate link below.
+
+**URL:** https://isso.columbia.edu/content/campus-work-f-and-j-students
+
+---
+
+## F-1 CPT (Curricular Practical Training)
+
+### [RULE:ISSO:CPT-PROGRAM-001]
+**Text:** Per F-1 regulations, your program must meet one of the following criteria:
+
+**URL:** https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training
+
+---
+
+### [RULE:ISSO:CPT-ELIGIBILITY-001]
+**Text:** You must:
+
+**URL:** https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training
+
+---
+
+### [RULE:ISSO:CPT-HOURS-001]
+**Text:** Part-Time is 20 hours or fewer per week. You are limited to part-time hours during the fall and/or spring term. You are also limited to part-time during the summer if: your program has a required summer term OR summer is your final term. Full-Time is more than 20 hours per week. You may be full-time during the summer vacation period only if you will be continuing in the fall.
+
+**URL:** https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training
+
+---
+
+### [RULE:ISSO:CPT-DATES-001]
+**Text:** CPT is always authorized for dates that are within the semester, whether it is granted for an internship or practicum degree requirement or for an elective internship or practicum course. In the final term, CPT must end with the official last day of the Spring or Fall semester. Final summer term CPT end dates may vary, consult your academic advisor and the ISSO.
+
+**URL:** https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training
+
+---
+
+### [RULE:ISSO:CPT-LOCATION-001]
+**Text:** You are expected to be attending in-person classes during the required terms in the academic year. If your employer is located elsewhere in the U.S., you may engage in CPT only if it is remote.
+
+**URL:** https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training
+
+---
+
+### [RULE:ISSO:CPT-APPLICATION-001]
+**Text:** When to Submit an Application: Apply at least 10 business days before your requested start date. CPT cannot be authorized retroactively, so plan ahead!
+
+**URL:** https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training
+
+---
+
+### [RULE:ISSO:CPT-OPT-IMPACT-001]
+**Text:** Effect of CPT on OPT duration: Time authorized for CPT is not deducted from the amount of OPT you are allowed after graduation. If you have been authorized for 12 months or more of full-time CPT, you are no longer eligible for OPT. This is a rare occurrence at Columbia because most students are not eligible for full-time CPT for 12 months.
+
+**URL:** https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training
+
+---
+
+## F-1 OPT (Optional Practical Training) - General
+
+### [RULE:ISSO:OPT-DEF-001]
+**Text:** OPT (Optional Practical Training) is a benefit of F-1 student status that allows you to work off-campus in your field of study to gain practical experience.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-WHEN-001]
+**Text:** You may use OPT during and/or after your degree program if it is longer than one academic year (2 semesters). OPT during your program is referred to as Pre-Completion OPT.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-TWOPART-001]
+**Text:** Obtaining OPT employment authorization is a two-part application: Part 1. Submit an online application to the ISSO to obtain a new I-20 with the OPT recommendation printed on it. Part 2. Submit your OPT application with fee to USCIS (Citizenship and Immigration Services). It may take USCIS three months (or maybe more) to process your EAD (Employment Authorization Document), so you need to plan ahead--and apply as soon as possible.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-APPLY-TIMING-001]
+**Text:** When to apply: By regulation, the earliest you may apply for pre-completion OPT is 90 days before your requested OPT start date. We recommend requesting a start date a few weeks earlier than the actual date you want to begin employment because of the unpredictable processing time of the EAD by USCIS. An earlier submission and an earlier approved start date builds in more time for any delay. We encourage you to apply to the ISSO as early as possible for the OPT I-20 because you need it for the OPT application you will submit to USCIS.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-IN-US-001]
+**Text:** You must be in the U.S. at the time you submit your OPT application to USCIS. F-1 regulations require you to be in the U.S. in F-1 status at the time you apply for OPT. Your most recent I-94 admission record is among the required documentation.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-DURATION-001]
+**Text:** You have a maximum amount of OPT time for each degree level. You get 12 months of OPT for each higher degree level you complete (Bachelor's, Master's, and PhD Degree). If you're a student in certain STEM fields (Science, Technology, Engineering, and Math), you may be eligible for an extension of OPT for an additional 24 months.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-PRECOMP-DEDUCT-001]
+**Text:** OPT time used during your program is deducted from post-graduation OPT. Pre-Completion OPT is deducted from the 12 month total at graduation.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-ONCAMPUS-001]
+**Text:** On-Campus Employment. You are allowed to work on-campus through the program end date listed on your I-20. Any employment following the completion of the degree, including work for and paid by Columbia University, must meet OPT employment guidelines.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-ONCAMPUS-NO-DEDUCT-002]
+**Text:** On-campus employment does not get deducted from OPT after graduation. If you find on-campus employment, you don't need to apply for OPT. Your F1 status allows you to work on-campus, regardless of whether it's related to your field of study, and is not deducted from the time you're allowed to work under OPT. Review our information on On-Campus Employment.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-NO-OFFER-001]
+**Text:** You do not need an offer of employment to apply. You do not need a job offer to apply for OPT but if you don't work you forfeit the authorized OPT time.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-PRECOMP-HOURS-001]
+**Text:** Part-Time is 20 hours or fewer per week. You are limited to part-time hours during the fall and/or spring term. You are also limited to part-time during the summer if: your program has a required summer term OR summer is your final term. Full-Time is more than 20 hours per week. You may be full-time during the summer vacation period only if you will be continuing in the fall and summer is not a required term.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-REMOTE-001]
+**Text:** OPT is work authorization in the U.S. for a U.S. based employer. That being said, we have seen U.S. employers allow or require for F-1 OPT students to work remotely. If traveling internationally while working remotely, entry into the US is always up to Customs and Border Protection. As such, ensure you consider that the longer you are outside the U.S., the more scrutinized your entry may potentially be.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program
+
+---
+
+## F-1 OPT After Your Degree Program
+
+### [RULE:ISSO:OPT-POST-DEF-001]
+**Text:** OPT (Optional Practical Training) is a benefit and extension of F-1 student status that permits you to remain in the U.S. after you complete your academic program with permission to work in your field of study. Post-Completion OPT extends your F-1 status although you are no longer an enrolled student, and also extends the F-2 status of any dependents who are with you.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-POST-IN-US-001]
+**Text:** You must be in the U.S. at the time you submit your OPT application to USCIS. F-1 regulations require you to be in the U.S. in F-1 status at the time you apply for OPT. Your most recent I-94 arrival record is among the required documentation.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-POST-EMPLOYMENT-001]
+**Text:** Employment on Post-completion OPT is paid or unpaid work in your field of study for at least 20 hours per week.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-POST-NO-OFFER-001]
+**Text:** You can apply for OPT without a job offer. A job offer is not required in advance of submitting an application which allows you more time to job hunt. However, you need to begin OPT employment within 90 days of the start date on your EAD.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-POST-UNEMPLOYMENT-001]
+**Text:** You are allowed a total of 90 days without employment on OPT. The "clock" to count unemployment days begins on the start date of OPT on your EAD card. Employment must begin within 90 days from the start date on your EAD. If USCIS processes your OPT application after your requested start date, it may adjust the start date to the date your OPT was approved. The end date, however, will not be extended beyond 14 months from your I-20 completion date. The 90 days of unemployment is an aggregate of all days without employment, including weekends and time between jobs. (This does not include vacations or sick days taken while employed.) SEVIS keeps track of your unemployment days, based on the information you submit via OPT Reporting. Be careful! If you accrue more than 90 days of unemployment, or if you forget to report and update your OPT to the ISSO, your F-1 SEVIS record may automatically terminate. A terminated SEVIS record cancels OPT authorization and requires you to leave the United States.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program
+
+---
+
+### [RULE:ISSO:OPT-POST-MAXIMUM-001]
+**Text:** You have a maximum amount of OPT time. Your maximum amount of Post-Completion OPT is 12 months. If you had OPT previously authorized at the same degree level it will be deducted from the 12 month total. This includes: Any OPT authorized during your current program (Pre-Completion OPT); Any OPT authorized for another program at the same degree level. Use your previously-issued EAD cards to calculate the number of days to be deducted. Plan ahead for your application timeline. The earliest you can apply is 90 days before your program end date on your I-20. For more detail on the application timeline, go to Application Process Step 1. Keep records of all your employment. We recommend that you maintain evidence — for each job — of the position held, the job title, contact information for your supervisor or manager, a description of the work, and proof of the duration. If possible, obtain a signed letter from your hiring official, supervisor, or manager stating how your degree is related to the work performed. These records and letters are not part of your applications. It is useful to have them available in your personal files in case questions ever arise during OPT or in a future employment-based application. Do not travel if you plan to re-enter the US after your program end date. You must be in the US when submitting your I-765 application to USCIS and you cannot travel after the program end date until you have submitted your application to USCIS. Please review our travel information.
+
+**URL:** https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program
+
+---

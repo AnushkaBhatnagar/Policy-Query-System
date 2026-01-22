@@ -690,7 +690,7 @@ Students who wish to appeal to the dean for time beyond the ninth year should re
 Failure to Maintain Good Standing
 
 [RULE:GSAS:FAILURE-STANDING-001]
-Consequences for failing to maintain good academic standing, good administrative standing, or good academic progress may include academic or administrative warning, probation, suspension, or dismissal. Departments and programs advise their students who
+Consequences for failing to maintain good academic standing, good administrative standing, or good academic progress may include academic or administrative warning, probation, suspension, or dismissal. Departments and programs advise their students who are not in good standing of corrective steps to take, the deadlines for doing so, and the consequences of failing to remedy the matter. A student who fails to take corrective steps within the specified time limit will be terminated from candidacy for his/her degree. In cases of evident and extreme failure to achieve progress, a student may be dismissed from the degree program without a probationary period. Additionally, each program maintains its own standards of satisfactory academic progress and corrective procedures, and all students must familiarize themselves with them.
 [/RULE]
 
 [END:JURISDICTION:GSAS]

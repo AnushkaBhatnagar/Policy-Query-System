@@ -1,0 +1,1050 @@
+[
+  {
+    "rule_id": "RULE:GSAS:AUTHORITY-001",
+    "url": "https://www.gsas.columbia.edu/content/phd-programs-professional-schools"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-prospectus"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-CONTENT-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-prospectus"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-COMMITTEE-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-prospectus"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-SUBMIT-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-prospectus"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-DEADLINE-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-prospectus"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-TIMING-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-prospectus"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-TRAVEL-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-prospectus"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADVISOR-DEF-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:COADVISOR-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:NO-COTUTELLE-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADVISOR-NOMINATION-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADVISOR-TENURE-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADVISOR-NONTENURE-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADVISOR-ADJUNCT-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:READER-DEF-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:READER-OUTSIDE-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:READER-NOMINATION-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:READER-APPROVAL-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADVISOR-REMOVAL-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADVISOR-EMERITI-001",
+    "url": "https://www.gsas.columbia.edu/content/faculty-advising-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROGRESS-MEETING-001",
+    "url": "https://www.gsas.columbia.edu/content/supervision-dissertation-research-and-writing"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROGRESS-COMMITTEE-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-progress-meetings"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-APP-001",
+    "url": "https://www.gsas.columbia.edu/content/dissertation-dates-and-deadlines"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-COMMITTEE-SELECT-001",
+    "url": "https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-SUBMIT-001",
+    "url": "https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-DISTRIBUTION-001",
+    "url": "https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-TIMING-001",
+    "url": "https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-REVISIONS-001",
+    "url": "https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-APPROVAL-001",
+    "url": "https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:COPYRIGHT-001",
+    "url": "https://www.gsas.columbia.edu/content/distribution-defense-and-deposit-dissertation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-REG-001",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-LAST-REG-001",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:GRANT-STUDENTS-001",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:GRANT-STUDENTS-002",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:GRANT-STUDENTS-003",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:GRANT-STUDENTS-004",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:GRANT-STUDENTS-005",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-INTL-REG-001",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-FORMS-001",
+    "url": "https://www.gsas.columbia.edu/content/registration-and-application-phd-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:COMMITTEE-SELECT-001",
+    "url": "https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee"
+  },
+  {
+    "rule_id": "RULE:GSAS:COMMITTEE-FIVE-001",
+    "url": "https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee"
+  },
+  {
+    "rule_id": "RULE:GSAS:COMMITTEE-MODERATOR-001",
+    "url": "https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee"
+  },
+  {
+    "rule_id": "RULE:GSAS:COMMITTEE-OUTSIDE-001",
+    "url": "https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee"
+  },
+  {
+    "rule_id": "RULE:GSAS:COMMITTEE-OUTSIDE-EXPLAIN-001",
+    "url": "https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee"
+  },
+  {
+    "rule_id": "RULE:GSAS:COMMITTEE-NOMINATION-001",
+    "url": "https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee"
+  },
+  {
+    "rule_id": "RULE:GSAS:COMMITTEE-APPROVAL-001",
+    "url": "https://www.gsas.columbia.edu/content/nomination-and-appointment-defense-committee"
+  },
+  {
+    "rule_id": "RULE:GSAS:SCHEDULE-001",
+    "url": "https://www.gsas.columbia.edu/content/scheduling-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:SCHEDULE-002",
+    "url": "https://www.gsas.columbia.edu/content/scheduling-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:SCHEDULE-VOTING-001",
+    "url": "https://www.gsas.columbia.edu/content/scheduling-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:DISTRIBUTION-001",
+    "url": "https://www.gsas.columbia.edu/content/distributing-dissertation-copies"
+  },
+  {
+    "rule_id": "RULE:GSAS:DISTRIBUTION-APPROVAL-001",
+    "url": "https://www.gsas.columbia.edu/content/distributing-dissertation-copies"
+  },
+  {
+    "rule_id": "RULE:GSAS:DISTRIBUTION-FORMAT-001",
+    "url": "https://www.gsas.columbia.edu/content/distributing-dissertation-copies"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-EXAM-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-CLOSED-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-REMOTE-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-REMOTE-PROCESS-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DEFENSE-ABSENCE-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:EXAM-DURATION-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:EXAM-PROCESS-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTING-PROCESS-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTING-REMOTE-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTING-ABSENT-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTE-MAJORITY-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTE-APPROVED-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTE-PENDING-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTE-REFERRED-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:VOTE-FAIL-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:DISTINCTION-001",
+    "url": "https://www.gsas.columbia.edu/content/defense-and-evaluation"
+  },
+  {
+    "rule_id": "RULE:GSAS:TRAVEL-FUND-001",
+    "url": "https://www.gsas.columbia.edu/content/travel-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:TRAVEL-LIMIT-001",
+    "url": "https://www.gsas.columbia.edu/content/travel-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:TRAVEL-APPROVAL-001",
+    "url": "https://www.gsas.columbia.edu/content/travel-defense"
+  },
+  {
+    "rule_id": "RULE:GSAS:GOOD-STANDING-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:ACADEMIC-STANDING-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:GPA-CALC-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:ADMIN-STANDING-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:FEDERAL-PROGRESS-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:MPHIL-TIME-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:MPHIL-ADVANCED-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:PROSPECTUS-DEADLINE-REPEAT-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:PHD-TIME-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:APPEAL-NINTH-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:GSAS:FAILURE-STANDING-001",
+    "url": "https://www.gsas.columbia.edu/content/good-standing"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROGRAM-TYPE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:APPLIES-ALL-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ALGO-PREREQ-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:BREADTH-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DISTRIBUTION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ELECTIVES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DATA-SCIENCE-SPEC-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PASSING-GRADES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:COMP-EXAMS-PURPOSE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:COMP-EXAMS-CREDIT-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:COMP-EXAMS-SCHEDULE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:COMP-EXAMS-STRUCTURE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:COMP-EXAMS-RESPONSIBILITY-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:COMP-EXAMS-LIMITS-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/comp-exams/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PRIOR-COLUMBIA-COURSES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-DISTRIBUTION-RESTRICTION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-DEADLINE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-BASIC-REQ-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-DUPLICATE-RESTRICTION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-DETAILED-CONDITIONS-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-EVALUATION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-OLD-COURSES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-NO-CREDIT-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:OUTSIDE-COURSES-ENROLLED-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:SATISFACTORY-PROGRESS-BREADTH-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:QUALIFIER-DEFINITION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ADVISOR-GENERAL-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ADVISOR-DES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ADVISOR-TIMELINE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ADVISOR-TYPES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:SEMI-ANNUAL-REVIEW-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:RESEARCH-ADVISOR-ELIGIBILITY-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DEPARTMENTAL-ADVISOR-ROLE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:FIRST-YEAR-ADVISOR-EXCEPTION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:LOST-ADVISOR-PROCESS-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:SECONDARY-ADVISOR-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ADVISOR-ROLES-DISTINCTION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/advising/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:RESEARCH-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:RESEARCH-MANDATORY-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-SUMMARY-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-PURPOSE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-COMMITTEE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-SCOPE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-STRUCTURE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-NOTIFICATION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-TIMING-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-PROGRESS-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CANDIDACY-REG-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/candidacy/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-SUMMARY-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-PURPOSE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-COMMITTEE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-DOCUMENT-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-DISSEMINATION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-PRESENTATION-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-TIMING-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-PROGRESS-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:PROPOSAL-REG-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/proposal/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DEFENSE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DEFENSE-INFO-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DEFENSE-SEMINAR-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-SUMMARY-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-APPLICABILITY-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-RATIONALE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-UNITS-REQ-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-UNITS-OPTIONS-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-FUNDING-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-ADDITIONAL-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:TEACHING-SUMMER-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/teaching/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:SERVICE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:MPHIL-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:MSPHD-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:MSPHD-APPROVAL-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:MILESTONE-TIMING-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:IMPORT-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ALGO-IMPORT-001",
+    "url": "https://www.cs.columbia.edu/education/phd/requirements/breadth/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:GSAS-SEAS-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:MSPHD-REGISTER-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DES-REGISTER-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:CONTINUOUS-REG-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ADVANCED-STANDING-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:REG-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:REG-COURSES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:REG-9911-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:REG-NO-9910-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DES-REG-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DES-REG-COURSES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DES-REG-9911-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DES-REG-9800-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DES-NO-PROJECT-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:GSAS-RU-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:GSAS-COURSES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:GSAS-9911-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:GSAS-NO-PROJECT-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:GSAS-POST-RU-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ER-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:ER-COURSES-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:MF-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:MF-APPROVAL-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DEFENSE-REG-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:DEFENSE-INTL-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:PhD_SEAS:SUMMER-DEFENSE-001",
+    "url": "https://www.cs.columbia.edu/education/phd/registration/"
+  },
+  {
+    "rule_id": "RULE:ISSO:ARRIVAL-001",
+    "url": "https://isso.columbia.edu/content/reporting-your-arrival-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:ENROLLMENT-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:ONLINE-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:RCL-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "EXCEPTION:ISSO:RCL-FINAL",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:RCL-002",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:WORK-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:ADDRESS-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:COE-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:EXTENSION-001",
+    "url": "https://isso.columbia.edu/content/extending-your-current-program-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:EARLY-COMPLETE-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:TRAVEL-SIG-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:TRANSFER-001",
+    "url": "https://isso.columbia.edu/content/applying-your-transfer-i-20"
+  },
+  {
+    "rule_id": "RULE:ISSO:NEW-PROGRAM-001",
+    "url": "https://isso.columbia.edu/content/extending-begin-new-program-f-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:LEAVE-EARLY-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:STATUS-CHANGE-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:PASSPORT-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:TRAVEL-DOCS-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-REPORT-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:GRACE-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:TAX-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:BENEFITS-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:RCL-REQUIREMENT-001",
+    "url": "https://isso.columbia.edu/content/requesting-reduced-courseload-rcl"
+  },
+  {
+    "rule_id": "EXCEPTION:ISSO:RCL-FINAL-002",
+    "url": "https://isso.columbia.edu/content/requesting-reduced-courseload-rcl"
+  },
+  {
+    "rule_id": "RULE:ISSO:RCL-ELIGIBLE-001",
+    "url": "https://isso.columbia.edu/content/requesting-reduced-courseload-rcl"
+  },
+  {
+    "rule_id": "RULE:ISSO:RCL-ACADEMIC-001",
+    "url": "https://isso.columbia.edu/content/requesting-reduced-courseload-rcl"
+  },
+  {
+    "rule_id": "RULE:ISSO:RCL-MEDICAL-001",
+    "url": "https://isso.columbia.edu/content/requesting-reduced-courseload-rcl"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-CONSULT-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:SUSPENSION-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-TERMINATION-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-COE-INVALID-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-NEW-COE-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-OPT-IMPACT-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-PROCESS-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-RETURN-REPORT-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-VISIT-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-NO-OPT-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-VISA-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:LOA-OPT-RESET-001",
+    "url": "https://isso.columbia.edu/content/leave-absence-suspension-or-withdrawal"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-REPORTING-001",
+    "url": "https://isso.columbia.edu/content/guidelines-maintaining-status-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-TRAVEL-001",
+    "url": "https://isso.columbia.edu/content/final-term-reminders"
+  },
+  {
+    "rule_id": "RULE:ISSO:AT-TRAVEL-001",
+    "url": "https://isso.columbia.edu/content/final-term-reminders"
+  },
+  {
+    "rule_id": "RULE:ISSO:EXTENSION-GENERAL-001",
+    "url": "https://isso.columbia.edu/content/extending-your-current-program-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:EXTENSION-TIMING-001",
+    "url": "https://isso.columbia.edu/content/extending-your-current-program-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:NEW-PROGRAM-002",
+    "url": "https://isso.columbia.edu/content/extending-begin-new-program-f-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:NEW-PROGRAM-DEADLINE-001",
+    "url": "https://isso.columbia.edu/content/extending-begin-new-program-f-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:NEW-PROGRAM-REENTRY-001",
+    "url": "https://isso.columbia.edu/content/extending-begin-new-program-f-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:NEW-PROGRAM-VISA-001",
+    "url": "https://isso.columbia.edu/content/extending-begin-new-program-f-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:ONCAMPUS-001",
+    "url": "https://isso.columbia.edu/content/campus-work-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:ONCAMPUS-HOURS-001",
+    "url": "https://isso.columbia.edu/content/campus-work-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:ONCAMPUS-NO-DEDUCT-001",
+    "url": "https://isso.columbia.edu/content/campus-work-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:ONCAMPUS-NO-WORKSTUDY-001",
+    "url": "https://isso.columbia.edu/content/campus-work-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:J1-ONCAMPUS-AUTH-001",
+    "url": "https://isso.columbia.edu/content/campus-work-f-and-j-students"
+  },
+  {
+    "rule_id": "RULE:ISSO:CPT-PROGRAM-001",
+    "url": "https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training"
+  },
+  {
+    "rule_id": "RULE:ISSO:CPT-ELIGIBILITY-001",
+    "url": "https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training"
+  },
+  {
+    "rule_id": "RULE:ISSO:CPT-HOURS-001",
+    "url": "https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training"
+  },
+  {
+    "rule_id": "RULE:ISSO:CPT-DATES-001",
+    "url": "https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training"
+  },
+  {
+    "rule_id": "RULE:ISSO:CPT-LOCATION-001",
+    "url": "https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training"
+  },
+  {
+    "rule_id": "RULE:ISSO:CPT-APPLICATION-001",
+    "url": "https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training"
+  },
+  {
+    "rule_id": "RULE:ISSO:CPT-OPT-IMPACT-001",
+    "url": "https://isso.columbia.edu/content/f-1-cpt-curricular-practical-training"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-DEF-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-WHEN-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-TWOPART-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-APPLY-TIMING-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-IN-US-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-DURATION-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-PRECOMP-DEDUCT-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-ONCAMPUS-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-ONCAMPUS-NO-DEDUCT-002",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-NO-OFFER-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-PRECOMP-HOURS-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-REMOTE-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-during-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-POST-DEF-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-POST-IN-US-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-POST-EMPLOYMENT-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-POST-NO-OFFER-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-POST-UNEMPLOYMENT-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program"
+  },
+  {
+    "rule_id": "RULE:ISSO:OPT-POST-MAXIMUM-001",
+    "url": "https://isso.columbia.edu/content/f-1-opt-optional-practical-training-after-your-degree-program"
+  }
+]

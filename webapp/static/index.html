@@ -846,6 +846,32 @@
     </div>
 
     <script>
+        // URL lookup map - will be populated from JSON
+        let RULE_URL_MAP = {};
+
+        // Load rule URLs from JSON file
+        async function loadRuleUrls() {
+            try {
+                const response = await fetch('/allrulesurls.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    // Build map: rule_id -> url
+                    RULE_URL_MAP = {};
+                    data.forEach(item => {
+                        RULE_URL_MAP[item.rule_id] = item.url;
+                    });
+                    console.log(`✓ Loaded ${Object.keys(RULE_URL_MAP).length} rule URLs`);
+                } else {
+                    console.warn('Could not load rule URLs');
+                }
+            } catch (error) {
+                console.warn('Error loading rule URLs:', error);
+            }
+        }
+
+        // Load URLs immediately
+        loadRuleUrls();
+
         // Normal Mode Elements
         const queryInput = document.getElementById('queryInput');
         const submitBtn = document.getElementById('submitBtn');
@@ -968,6 +994,19 @@
             const tools = result.tool_uses?.map(t => t.name).join(', ') || 'None';
             const cached = result.cached ? 'Cached' : 'New';
             
+            // Parse markdown response if marked is available, otherwise use plain text
+            let parsedResponse = result.response;
+            if (typeof marked !== 'undefined' && marked.parse) {
+                try {
+                    parsedResponse = marked.parse(result.response);
+                } catch (e) {
+                    console.warn('Error parsing markdown:', e);
+                    parsedResponse = `<pre>${escapeHtml(result.response)}</pre>`;
+                }
+            } else {
+                parsedResponse = `<pre>${escapeHtml(result.response)}</pre>`;
+            }
+            
             resultItem.innerHTML = `
                 <div class="result-header" onclick="toggleResult(${index})">
                     <div class="result-query">
@@ -977,7 +1016,7 @@
                     <span class="result-toggle" id="toggle-${index}">▼</span>
                 </div>
                 <div class="result-content" id="content-${index}">
-                    <div class="result-response">${marked.parse(result.response)}</div>
+                    <div class="result-response">${parsedResponse}</div>
                     <div class="meta-info">
                         Tools: ${tools} | Iterations: ${result.iterations || 1} | Cached: ${result.cached ? 'Yes' : 'No'}
                     </div>
@@ -1160,15 +1199,33 @@
                 const body = citationItem.querySelector('.citation-body');
                 try {
                     const response = await fetch(`/api/rule/${ruleId}`);
-                if (response.ok) {
-                    const data = await response.json();
-                    body.innerHTML = `<div><strong>Document:</strong> ${data.document}</div><div style="margin-top: 8px;"><strong>Rule Text:</strong></div><div style="margin-top: 8px;">${escapeHtml(data.content)}</div>`;
-                } else {
-                    body.innerHTML = '<div class="citation-error">Rule not found</div>';
+                    if (response.ok) {
+                        const data = await response.json();
+                        let bodyHTML = `<div><strong>Document:</strong> ${data.document}</div><div style="margin-top: 8px;"><strong>Rule Text:</strong></div><div style="margin-top: 8px;">${escapeHtml(data.content)}</div>`;
+                        
+                        // Look up URL from in-memory map (try both with and without RULE: prefix)
+                        let url = RULE_URL_MAP[ruleId];
+                        if (!url && !ruleId.startsWith('RULE:')) {
+                            url = RULE_URL_MAP[`RULE:${ruleId}`];
+                        }
+                        
+                        // Add URL if available
+                        if (url) {
+                            bodyHTML += `<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #ddd;">
+                                <a href="${url}" target="_blank" rel="noopener noreferrer" style="color: #012169; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
+                                    📎 View Full Policy on Columbia
+                                    <span style="font-size: 12px;">↗</span>
+                                </a>
+                            </div>`;
+                        }
+                        
+                        body.innerHTML = bodyHTML;
+                    } else {
+                        body.innerHTML = '<div class="citation-error">Rule not found</div>';
+                    }
+                } catch (error) {
+                    body.innerHTML = `<div class="citation-error">Error loading rule: ${error.message}</div>`;
                 }
-            } catch (error) {
-                body.innerHTML = `<div class="citation-error">Error loading rule: ${error.message}</div>`;
-            }
             }
             
             citationsDiv.appendChild(citationsContainer);
@@ -1298,84 +1355,81 @@
         }
         
         // Feedback form handlers
-        submitFeedbackBtn.addEventListener('click', async () => {
-            const rating = document.querySelector('input[name="rating"]:checked')?.value;
-            const helpfulness = document.getElementById('helpfulnessText').value.trim();
-            const improvement = document.getElementById('improvementText').value.trim();
-            
-            if (!rating) {
-                alert('Please select a rating');
-                return;
-            }
-            
-            if (!helpfulness) {
-                alert('Please provide an explanation for your rating');
-                return;
-            }
-            
-            if (!currentQueryData) {
-                alert('No query data available for feedback');
-                return;
-            }
-            
-            // Disable button during submission
-            submitFeedbackBtn.disabled = true;
-            submitFeedbackBtn.textContent = 'Submitting...';
-            
-            try {
-                const feedbackPayload = {
-                    query: currentQueryData.query,
-                    response: currentQueryData.response,
-                    tool_uses: currentQueryData.tool_uses.map(t => t.name).join(', '),
-                    iterations: currentQueryData.iterations,
-                    cached: currentQueryData.cached ? 'Yes' : 'No',
-                    session_id: currentQueryData.session_id,
-                    rating: parseInt(rating),
-                    helpfulness_explanation: helpfulness,
-                    improvement_suggestion: improvement
-                };
+        if (submitFeedbackBtn) {
+            submitFeedbackBtn.addEventListener('click', async () => {
+                const rating = document.querySelector('input[name="rating"]:checked')?.value;
+                const helpfulness = document.getElementById('helpfulnessText').value.trim();
+                const improvement = document.getElementById('improvementText').value.trim();
                 
-                const response = await fetch('/api/feedback', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(feedbackPayload)
-                });
-                
-                const data = await response.json();
-                
-                if (!response.ok) {
-                    throw new Error(data.error || 'Failed to submit feedback');
+                if (!rating) {
+                    alert('Please select a rating');
+                    return;
                 }
                 
-                // Clear form and hide
-                clearFeedbackForm();
+                if (!helpfulness) {
+                    alert('Please provide an explanation for your rating');
+                    return;
+                }
                 
-                // Show success message
-                const successMsg = document.createElement('div');
-                successMsg.style.cssText = 'background: #e8f5e9; color: #2e7d32; padding: 12px; border-radius: 6px; margin-top: 10px; border-left: 4px solid #2e7d32;';
-                successMsg.textContent = '✓ Thank you for your feedback! It helps us improve.';
-                feedbackSection.parentNode.insertBefore(successMsg, feedbackSection.nextSibling);
+                if (!currentQueryData) {
+                    alert('No query data available for feedback');
+                    return;
+                }
                 
-                // Remove success message after 5 seconds
-                setTimeout(() => {
-                    successMsg.remove();
-                }, 5000);
+                // Disable button during submission
+                submitFeedbackBtn.disabled = true;
+                submitFeedbackBtn.textContent = 'Submitting...';
                 
-            } catch (error) {
-                alert('Error submitting feedback: ' + error.message);
-                console.error('Feedback submission error:', error);
-            } finally {
-                submitFeedbackBtn.disabled = false;
-                submitFeedbackBtn.textContent = 'Submit Feedback';
-            }
-        });
-        
-        skipFeedbackBtn.addEventListener('click', () => {
-            clearFeedbackForm();
-            currentQueryData = null;
-        });
+                try {
+                    const feedbackPayload = {
+                        query: currentQueryData.query,
+                        response: currentQueryData.response,
+                        tool_uses: currentQueryData.tool_uses.map(t => t.name).join(', '),
+                        iterations: currentQueryData.iterations,
+                        cached: currentQueryData.cached ? 'Yes' : 'No',
+                        session_id: currentQueryData.session_id,
+                        rating: parseInt(rating),
+                        helpfulness_explanation: helpfulness,
+                        improvement_suggestion: improvement
+                    };
+                    
+                    const response = await fetch('/api/feedback', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(feedbackPayload)
+                    });
+                    
+                    const data = await response.json();
+                    
+                    if (!response.ok) {
+                        throw new Error(data.error || 'Failed to submit feedback');
+                    }
+                    
+                    // Clear form and hide
+                    clearFeedbackForm();
+                    
+                    // Show success message
+                    const successMsg = document.createElement('div');
+                    successMsg.style.cssText = 'background: #e8f5e9; color: #2e7d32; padding: 12px; border-radius: 6px; margin-top: 10px; border-left: 4px solid #2e7d32;';
+                    successMsg.textContent = '✓ Thank you for your feedback! It helps us improve.';
+                    feedbackSection.parentNode.insertBefore(successMsg, feedbackSection.nextSibling);
+                    
+                    // Remove success message after 5 seconds
+                    setTimeout(() => {
+                        successMsg.remove();
+                    }, 5000);
+                    
+                } catch (error) {
+                    alert('Error submitting feedback: ' + error.message);
+                    console.error('Feedback submission error:', error);
+                } finally {
+                    submitFeedbackBtn.disabled = false;
+                    submitFeedbackBtn.textContent = 'Submit Feedback';
+                }
+            });
+        }
         
         function clearFeedbackForm() {
             // Reset form fields
