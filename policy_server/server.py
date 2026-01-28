@@ -37,7 +37,10 @@ class PolicySearch:
                 
                 # Clean content - remove metadata tags like [TIMING:...], [REQUIREMENT:...], etc.
                 # but preserve the actual rule text
-                clean_content = re.sub(r'\[/?[A-Z_-]+[^\]]*\]', '', rule_content)
+                # Only remove known metadata tag patterns to avoid accidentally removing bracket content
+                metadata_tags = 'REQUIREMENT|EXCEPTION|TIMING|GRADE|APPLIES_TO|RESTRICTION|CONSEQUENCE|OPTION|PROCESS|APPROVAL|AUTHORITY|RESPONSIBILITY|WORKLOAD|TYPICAL|LIMITATION|PREREQUISITE|SEQUENCE|PURPOSE|COMPONENTS|DOCUMENT-STRUCTURE|PAGE-LIMIT|FORMAT|REQUIRED-SECTIONS|COMMITMENT|NOTIFICATION|CONTENT|FUNDING|ELIGIBILITY|APPROVALS|TYPE|DURATION|OUTCOME|EXCLUSION|RATIONALE|CONDITION|CONFLICT-RESOLUTION|OVERRIDE|APPROVAL_PROCESS|AUTO-APPROVED|AVAILABILITY|RESOURCE|CONFLICT-NOTE|EXCEPTION_STATUS|PREFERENCE|EXPECTATION|OBLIGATION|INFORMATION|CONFLICT_RESOLUTION|POLICY-DATE|DETERMINES|AUTHORITY_DELEGATION|RATIONALE_SPECIFIC|TIMING_NOTE|PURPOSE_SPECIFIC|EXCEPTION_CONDITION|NOTE|SEE-ALSO|APPLIES_TO_SPECIFIC|JURISDICTION|PRECEDENCE'
+                metadata_pattern = r'\[(' + metadata_tags + r')[^\]]*\]'
+                clean_content = re.sub(metadata_pattern, '', rule_content)
                 clean_content = clean_content.strip()
                 
                 RULE_INDEX[rule_id] = {

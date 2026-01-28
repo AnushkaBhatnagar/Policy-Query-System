@@ -8,16 +8,28 @@ Doctoral Program Requirements
 The primary focus of the doctoral program is research, with the philosophy that students learn best by doing—beginning as apprentices and becoming junior colleagues working with faculty on scholarly research projects. The faculty in the department conduct research in all areas of computer science. The doctoral degree requires a dissertation based on the candidate's original research, which is supervised by a faculty member, and all students in the doctoral program are actively engaged in research throughout the program.
 
 [RULE:PhD_SEAS:PROGRAM-TYPE-001]
-The PhD is the Computer Science Department's primary doctoral program. PhD students are expected to be full-time on-campus during every fall and spring academic semester from initial enrollment until the dissertation has been distributed to their defense committee, except during leaves of absence approved by the university. PhD students spend at least half of their time on research under the direction of their faculty adviser from their first day in the program and devote themselves full time to research after coursework and other preliminaries have been completed. PhD students are expected to participate in departmental and laboratory activities full time throughout the program, except for summer internships elsewhere, and the department does not consider admission of part-time PhD students. 
-[POLICY:Outside Activities]
-Students who are funded through a graduate research assistantship (GRA) must discuss with their advisor any research activities outside the lab as well as any consulting activities. [REQUIREMENT:GRA must discuss outside research with advisor] [REQUIREMENT:GRA must discuss consulting with advisor] GRAs should also discuss with their advisor any additional classes they intend to take, or any extra teaching/TAing, beyond those needed to fulfill the doctoral program requirements. [REQUIREMENT:GRA must discuss additional classes with advisor] [REQUIREMENT:GRA must discuss extra teaching/TAing with advisor] In addition to slowing degree progress, such outside activities may imperil progress on the externally-funded project supporting the student and subject the laboratory or advisor to unpleasant consequences from the grant agency or sponsor. [CONSEQUENCE:may slow degree progress] [CONSEQUENCE:may imperil funded project] [CONSEQUENCE:may cause grant agency issues] Courses taken for the breadth requirement, including any research activities as part of those courses, or teaching/TAing as part of the degree requirements, are not of concern. [EXCEPTION:breadth requirement courses exempt] [EXCEPTION:degree requirement teaching exempt]
-Faculty who are approached by GRAs from outside their lab regarding additional research, teaching/TAing, classes, consulting, etc. should inform the advisor (both research and departmental advisors, if different). [REQUIREMENT:faculty must inform student's advisor when approached]
+The PhD is the Computer Science Department's primary doctoral program. PhD students are expected to be full-time on-campus during every fall and spring academic semester from initial enrollment until the dissertation has been distributed to their defense committee, except during leaves of absence approved by the university. PhD students spend at least half of their time on research under the direction of their faculty adviser from their first day in the program and devote themselves full time to research after coursework and other preliminaries have been completed. PhD students are expected to participate in departmental and laboratory activities full time throughout the program, except for summer internships elsewhere, and the department does not consider admission of part-time PhD students.
 [/RULE]
 [REQUIREMENT:full-time on-campus every fall/spring]
 [EXCEPTION:approved leaves of absence]
 [EXCEPTION:summer internships]
 [REQUIREMENT:half-time research minimum until coursework complete]
 [REQUIREMENT:full-time research after coursework]
+
+[POLICY:Outside Activities]
+Students who are funded through a graduate research assistantship (GRA) must discuss with their advisor any research activities outside the lab as well as any consulting activities. GRAs should also discuss with their advisor any additional classes they intend to take, or any extra teaching/TAing, beyond those needed to fulfill the doctoral program requirements. In addition to slowing degree progress, such outside activities may imperil progress on the externally-funded project supporting the student and subject the laboratory or advisor to unpleasant consequences from the grant agency or sponsor. Courses taken for the breadth requirement, including any research activities as part of those courses, or teaching/TAing as part of the degree requirements, are not of concern.
+[REQUIREMENT:GRA must discuss outside research with advisor]
+[REQUIREMENT:GRA must discuss consulting with advisor]
+[REQUIREMENT:GRA must discuss additional classes with advisor]
+[REQUIREMENT:GRA must discuss extra teaching/TAing with advisor]
+[CONSEQUENCE:may slow degree progress]
+[CONSEQUENCE:may imperil funded project]
+[CONSEQUENCE:may cause grant agency issues]
+[EXCEPTION:breadth requirement courses exempt]
+[EXCEPTION:degree requirement teaching exempt]
+
+Faculty who are approached by GRAs from outside their lab regarding additional research, teaching/TAing, classes, consulting, etc. should inform the advisor (both research and departmental advisors, if different).
+[REQUIREMENT:faculty must inform student's advisor when approached]
 
 [RULE:PhD_SEAS:APPLIES-ALL-001]
 Unless otherwise stated, all doctoral program requirements apply equally to PhD, MS/PhD (until MS completed, when student becomes PhD) and DES students.
@@ -29,12 +41,21 @@ COURSES:
 ALGORITHMS PREREQUISITE
 
 [RULE:PhD_SEAS:ALGO-PREREQ-001]
-Analysis of Algorithms is the core of Computer Science, which unites the many disparate subfields. All doctoral students are expected to complete an acceptable lecture course (graduate or upper-level undergraduate) in Analysis of Algorithms, with grade B+ or higher, prior to entering the program. 
-Students must submit the prerequisite form by no later than two weeks (14 days) after the first day of classes of their first semester enrolled in the doctoral program. [TIMING:14 days after first day of classes] [REQUIREMENT:prerequisite form submission] The prerequisite does not count as one of the ten courses for the breadth requirement unless it meets all the requirements for imported electives, in which case students must also submit the Import Forms. [RESTRICTION:doesn't count toward 10 courses unless importable] [REQUIREMENT:Import Forms if counting toward breadth]
-Sometimes new doctoral students are admitted without a prior Analysis of Algorithms course. Those students are required to complete CSOR W4231 during their first year in the program. [TIMING:first year] [REQUIREMENT:CSOR W4231 if no prior algo course] CSOR W4231 is then treated as one of the ten required courses, so can satisfy either the Theory distribution requirement or serve as an elective (not both). [OPTION:Theory distribution OR elective, not both] [RESTRICTION:cannot count for both distribution and elective] CSOR W4231 is the only course offered at Columbia that satisfies the Analysis of Algorithms requirement. [REQUIREMENT:only CSOR W4231 at Columbia]
+Analysis of Algorithms is the core of Computer Science, which unites the many disparate subfields. All doctoral students are expected to complete an acceptable lecture course (graduate or upper-level undergraduate) in Analysis of Algorithms, with grade B+ or higher, prior to entering the program.
+Students must submit the prerequisite form by no later than two weeks (14 days) after the first day of classes of their first semester enrolled in the doctoral program. The prerequisite does not count as one of the ten courses for the breadth requirement unless it meets all the requirements for imported electives, in which case students must also submit the Import Forms.
+Sometimes new doctoral students are admitted without a prior Analysis of Algorithms course. Those students are required to complete CSOR W4231 during their first year in the program. CSOR W4231 is then treated as one of the ten required courses, so can satisfy either the Theory distribution requirement or serve as an elective (not both). CSOR W4231 is the only course offered at Columbia that satisfies the Analysis of Algorithms requirement.
 [/RULE]
 [REQUIREMENT:grade B+ or higher]
 [TIMING:prior to program OR first year]
+[TIMING:14 days after first day of classes]
+[REQUIREMENT:prerequisite form submission]
+[RESTRICTION:doesn't count toward 10 courses unless importable]
+[REQUIREMENT:Import Forms if counting toward breadth]
+[TIMING:first year]
+[REQUIREMENT:CSOR W4231 if no prior algo course]
+[OPTION:Theory distribution OR elective, not both]
+[RESTRICTION:cannot count for both distribution and elective]
+[REQUIREMENT:only CSOR W4231 at Columbia]
 
 BREADTH REQUIREMENT
 
@@ -53,7 +74,14 @@ In the case where a student takes the Analysis of Algorithms prerequisite at Col
 DISTRIBUTION COURSES
 
 [RULE:PhD_SEAS:DISTRIBUTION-001]
-Doctoral students must complete at least four graduate lecture courses from the approved distribution course lists, including at least one from each of the Artificial Intelligence and Applications, Systems and Theory lists, and the fourth from any of these three approved lists. 
+Doctoral students must complete at least four graduate lecture courses from the approved distribution course lists, including at least one from each of the Artificial Intelligence and Applications, Systems and Theory lists, and the fourth from any of these three approved lists.
+[/RULE]
+[REQUIREMENT:4 courses from approved lists]
+[REQUIREMENT:1 from AI & Applications]
+[REQUIREMENT:1 from Systems]
+[REQUIREMENT:1 from Theory]
+[REQUIREMENT:4th from any of the three]
+
 [APPROVED COURSE LISTS]
 AREA: AI & Applications
 APPROVED COURSES:
@@ -61,7 +89,8 @@ APPROVED COURSES:
 - All COMS 416x courses
 - All COMS 417x courses
 - CBMF 4761
-[AREA:AI & Applications] [COURSES:COMS 47xx except 4721/479x, 416x, 417x, CBMF 4761]
+[AREA:AI & Applications]
+[COURSES:COMS 47xx except 4721/479x, 416x, 417x, CBMF 4761]
 
 AREA: Systems
 APPROVED COURSES:
@@ -70,36 +99,48 @@ APPROVED COURSES:
 - COMS 4444
 - CSEE 4119, 4823, 4824, 4840, 4868
 - EECS 4340
-[AREA:Systems] [COURSES:COMS 41xx except 4121/416x/417x/419x, 48xx except 489x, 4444, CSEE 4119/4823/4824/4840/4868, EECS 4340]
+[AREA:Systems]
+[COURSES:COMS 41xx except 4121/416x/417x/419x, 48xx except 489x, 4444, CSEE 4119/4823/4824/4840/4868, EECS 4340]
 
 AREA: Theory
 APPROVED COURSES:
 - All COMS 42xx courses except COMS 429x and CSOR 4246
 - CSOR 4231
-[AREA:Theory] [COURSES:COMS 42xx except 429x/CSOR 4246, CSOR 4231]
+[AREA:Theory]
+[COURSES:COMS 42xx except 429x/CSOR 4246, CSOR 4231]
 
-[RESTRICTION:4000-level only] [RESTRICTION:must be regular number, not Topics] [RESTRICTION:no seminars/project/reading/fieldwork courses] [RESTRICTION:no courses from other depts except specified joint-CS] [RESTRICTION:no summer session or Vxx sections] [RESTRICTION:no 5000-level or above] [RESTRICTION:no certificate-only or Data Science-only courses]
+[RESTRICTION:4000-level only]
+[RESTRICTION:must be regular number, not Topics]
+[RESTRICTION:no seminars/project/reading/fieldwork courses]
+[RESTRICTION:no courses from other depts except specified joint-CS]
+[RESTRICTION:no summer session or Vxx sections]
+[RESTRICTION:no 5000-level or above]
+[RESTRICTION:no certificate-only or Data Science-only courses]
 
 [APPROVAL PROCESS]
-Instructors who are regular CS faculty may request that their course be included in one of the distribution lists, for AI & Applications, Systems, or Theory. [REQUIREMENT:instructor must be regular CS faculty] The course must be designated COMS (or jointly offered with CS, such as CSEE), 4000 level with a regular number (e.g., not 4295 or 4995), a conventional lecture course suitable for seniors and MS students as well as doctoral students, and already approved by the Academic Committee, full faculty, and relevant COIs (Committee On Instruction) for undergraduate CS majors and MS in CS students. [REQUIREMENT:COMS or joint-CS] [REQUIREMENT:4000-level with regular number] [REQUIREMENT:conventional lecture course] [REQUIREMENT:Academic Committee approval] [REQUIREMENT:full faculty approval] [REQUIREMENT:COI approval] The rationale for requiring a regular number, such as 4123, is that the Academic Committee will not approve a course for a regular number unless the instructor agrees to offer that course on a regular basis such as every year or every other year. [REQUIREMENT:must be regularly offered] An implicit criteria of doctoral distribution is that only regularly-offered courses are included on the list. In contrast, "Topics" course numbers are intended for only-once offerings. Although in practice many "Topics" sections are taught more than once, they are not expected to be offered reliably so that students can plan in advance on taking them.
-The instructor, who must be regular CS faculty, should contact the Chair of the Academic Committee for information about applying for a regular course number and obtaining the various approvals. [PROCESS:contact Academic Committee Chair] Regular graduate lecture courses following the standard COMS numbering scheme, i.e., 41xx, 42xx, 47xx, 48xx, are then automatically included in the doctoral distribution requirement. [AUTO-APPROVED:standard COMS numbering] COMS and jointly offered courses not following the standard numbering scheme are considered by the Doctoral Committee on a case by case basis, normally only after they have already been added to the MS breadth requirement. [PROCESS:case-by-case for non-standard] Contact the Director of Graduate Studies (PhD Chair) for further information after the course has already been approved by the Academic Committee and the MS Chair. In rare cases, a "Topics" course may be listed temporarily because it has already been approved with a regular number at the 4k level but there is a delay before the bulletin and registrar course listings are updated. [EXCEPTION:temporary Topics listing during update delay]
-[/RULE]
-[REQUIREMENT:4 courses from approved lists]
-[REQUIREMENT:1 from AI & Applications]
-[REQUIREMENT:1 from Systems]
-[REQUIREMENT:1 from Theory]
-[REQUIREMENT:4th from any of the three]
-
-
+Instructors who are regular CS faculty may request that their course be included in one of the distribution lists, for AI & Applications, Systems, or Theory. The course must be designated COMS (or jointly offered with CS, such as CSEE), 4000 level with a regular number (e.g., not 4295 or 4995), a conventional lecture course suitable for seniors and MS students as well as doctoral students, and already approved by the Academic Committee, full faculty, and relevant COIs (Committee On Instruction) for undergraduate CS majors and MS in CS students. The rationale for requiring a regular number, such as 4123, is that the Academic Committee will not approve a course for a regular number unless the instructor agrees to offer that course on a regular basis such as every year or every other year. An implicit criteria of doctoral distribution is that only regularly-offered courses are included on the list. In contrast, "Topics" course numbers are intended for only-once offerings. Although in practice many "Topics" sections are taught more than once, they are not expected to be offered reliably so that students can plan in advance on taking them.
+The instructor, who must be regular CS faculty, should contact the Chair of the Academic Committee for information about applying for a regular course number and obtaining the various approvals. Regular graduate lecture courses following the standard COMS numbering scheme, i.e., 41xx, 42xx, 47xx, 48xx, are then automatically included in the doctoral distribution requirement. COMS and jointly offered courses not following the standard numbering scheme are considered by the Doctoral Committee on a case by case basis, normally only after they have already been added to the MS breadth requirement. Contact the Director of Graduate Studies (PhD Chair) for further information after the course has already been approved by the Academic Committee and the MS Chair. In rare cases, a "Topics" course may be listed temporarily because it has already been approved with a regular number at the 4k level but there is a delay before the bulletin and registrar course listings are updated.
+[REQUIREMENT:instructor must be regular CS faculty]
+[REQUIREMENT:COMS or joint-CS]
+[REQUIREMENT:4000-level with regular number]
+[REQUIREMENT:conventional lecture course]
+[REQUIREMENT:Academic Committee approval]
+[REQUIREMENT:full faculty approval]
+[REQUIREMENT:COI approval]
+[REQUIREMENT:must be regularly offered]
+[PROCESS:contact Academic Committee Chair]
+[AUTO-APPROVED:standard COMS numbering]
+[PROCESS:case-by-case for non-standard]
+[EXCEPTION:temporary Topics listing during update delay]
 
 ELECTIVE COURSES
 
 [RULE:PhD_SEAS:ELECTIVES-001]
 In addition to the distribution requirement, all doctoral students must pass a total of six (6) elective graduate lecture courses, each three (3) or more points. Courses taken for fewer than three points do not count towards the breadth requirement, neither distribution nor electives. All electives require the advisor's approval.
 Additional courses from the approved lists, beyond the four needed to satisfy the distribution requirement, may be taken as electives. Most other graduate lecture courses offered by the Computer Science Department (or offered by Computer Science jointly with other departments) may be taken as electives, including 4×95, 4995, 6×95, and 6998 Topics courses. Thus most COMS, CSEE, CSOR, EECS, MECS, CBMF, STCS courses are acceptable as CS electives, provided they are designated as graduate level. For COMS courses, this is 4k and above, but some Columbia departments consider 4k to be strictly undergraduate and only 5k and above are graduate.
-At most two (2) electives may be outside CS.  That is, no more than two of the six electives may be graduate lecture courses offered by another department besides Computer Science, normally another STEM department (e.g., Electrical Engineering, Statistics).  At least four of the six electives must be Computer Science courses. Typically all six electives are Computer Science courses.
+At most two (2) electives may be outside CS. That is, no more than two of the six electives may be graduate lecture courses offered by another department besides Computer Science, normally another STEM department (e.g., Electrical Engineering, Statistics). At least four of the six electives must be Computer Science courses. Typically all six electives are Computer Science courses.
 Regardless of the course number or offering department, however, courses labeled "certificate only" or "Data Science only", or named "xxx for Data Science" or similar, may not be applied to the doctoral breadth requirement, neither for distribution nor electives.
-Project courses, such as COMS 4901, 6901, 9910 and 9911, and analogous courses offered by other departments, do not count towards the breadth requirement.  COMS E6910, ENGI 8000 and other fieldwork courses do not count towards the breadth requirement. 
+Project courses, such as COMS 4901, 6901, 9910 and 9911, and analogous courses offered by other departments, do not count towards the breadth requirement. COMS E6910, ENGI 8000 and other fieldwork courses do not count towards the breadth requirement.
 Summer session and "Vxx" (Columbia Video Network) sections should not be taken while enrolled as MS/PhD, PhD or DES and normally cannot be applied to the doctoral breadth requirement. Such courses taken prior to enrolling in the doctoral program may satisfy parts of the breadth requirement, but the points from prior courses do not count towards the 30 points beyond bachelors required for MS/PhD and the additional thirty points beyond masters required for PhD and DES (these points are university-level requirements).
 Some other departments at Columbia and elsewhere offer graduate courses on the same subjects as Computer Science courses. Students cannot apply two courses on the same subject to the ten course requirement whether taken in a Computer Science Department or in another department.
 [/RULE]
@@ -110,170 +151,351 @@ Some other departments at Columbia and elsewhere offer graduate courses on the s
 [RESTRICTION:must be graduate-level]
 
 [RULE:PhD_SEAS:DATA-SCIENCE-SPEC-001]
-The Computer Science department and several other Columbia departments jointly offer a "data science specialization" for PhD students that requires additional courses. [PROGRAM:data science specialization] [REQUIREMENT:additional courses] [TYPE:optional specialization]
+The Computer Science department and several other Columbia departments jointly offer a "data science specialization" for PhD students that requires additional courses.
 [/RULE]
+[PROGRAM:data science specialization]
+[REQUIREMENT:additional courses]
+[TYPE:optional specialization]
 
 [RULE:PhD_SEAS:PASSING-GRADES-001]
-The minimum passing grade for doctoral students in both distribution and elective courses is B+ ("PhD Pass"). [GRADE:minimum B+] [APPLIES_TO:distribution and elective courses] A grade of B or lower is considered failure. [CONSEQUENCE:B or lower = failure] The same course may be repeated in a later semester until the minimum B+ grade is obtained or a different course substituted, but repeated courses count only once towards the degree. [OPTION:repeat course] [RESTRICTION:counts only once] The average grade across the ten courses applied to the breadth requirement must be A- or higher. [GRADE:average A- or higher across 10 courses] If a student has less than average A- across the initial ten courses, additional courses (beyond the baseline ten courses) must be completed until the student attains A- average. [REQUIREMENT:additional courses if below A- average] All courses for the doctoral program must be taken for a letter grade, no pass/fail or "R" (audit) registration is acceptable. [RESTRICTION:letter grade only] [RESTRICTION:no P/F or audit]
+The minimum passing grade for doctoral students in both distribution and elective courses is B+ ("PhD Pass"). A grade of B or lower is considered failure. The same course may be repeated in a later semester until the minimum B+ grade is obtained or a different course substituted, but repeated courses count only once towards the degree. The average grade across the ten courses applied to the breadth requirement must be A- or higher. If a student has less than average A- across the initial ten courses, additional courses (beyond the baseline ten courses) must be completed until the student attains A- average. All courses for the doctoral program must be taken for a letter grade, no pass/fail or "R" (audit) registration is acceptable.
 [/RULE]
+[GRADE:minimum B+]
+[APPLIES_TO:distribution and elective courses]
+[CONSEQUENCE:B or lower = failure]
+[OPTION:repeat course]
+[RESTRICTION:counts only once]
+[GRADE:average A- or higher across 10 courses]
+[REQUIREMENT:additional courses if below A- average]
+[RESTRICTION:letter grade only]
+[RESTRICTION:no P/F or audit]
 
 [RULE:PhD_SEAS:COMP-EXAMS-PURPOSE-001]
-Comprehensive exams ("comps") are cumulative final exams offered in some COMS courses (or jointly offered courses like CSOR, CSEE) primarily as an alternative to taking the corresponding course, and are intended for students who have already obtained the appropriate background and expertise, while enrolled in a prior Columbia program or at another institution, and/or feel confident in their ability to self-study the requisite material. [PURPOSE:alternative to taking course] [TARGET:students with prior background or self-study ability] Exams may also be taken by students who have completed the corresponding course with less than a "doctoral pass" (B+) grade, or are taking the course concurrently. [PURPOSE:retake for better grade OR concurrent]
-A very small number of courses offer comps. [AVAILABILITY:very limited] Cumulative means the exam assesses the entire course. But to offer a final exam as a comp, it has to be more than cumulative: it also has to be suitable for students not currently enrolled in the course. [REQUIREMENT:suitable for non-enrolled students] Very few instructors are willing to offer such exams. [AVAILABILITY:very few instructors]
+Comprehensive exams ("comps") are cumulative final exams offered in some COMS courses (or jointly offered courses like CSOR, CSEE) primarily as an alternative to taking the corresponding course, and are intended for students who have already obtained the appropriate background and expertise, while enrolled in a prior Columbia program or at another institution, and/or feel confident in their ability to self-study the requisite material. Exams may also be taken by students who have completed the corresponding course with less than a "doctoral pass" (B+) grade, or are taking the course concurrently.
+A very small number of courses offer comps. Cumulative means the exam assesses the entire course. But to offer a final exam as a comp, it has to be more than cumulative: it also has to be suitable for students not currently enrolled in the course. Very few instructors are willing to offer such exams.
 [/RULE]
+[PURPOSE:alternative to taking course]
+[TARGET:students with prior background or self-study ability]
+[PURPOSE:retake for better grade OR concurrent]
+[AVAILABILITY:very limited]
+[REQUIREMENT:suitable for non-enrolled students]
+[AVAILABILITY:very few instructors]
 
 [RULE:PhD_SEAS:COMP-EXAMS-CREDIT-001]
-Note that students do not receive Columbia points for passing a comp exam. [RESTRICTION:no Columbia points] To get credit, the student must register for the regular course and complete the entire course. [REQUIREMENT:must take course for credit]
-It is important to note that passing a comp exam does not count as taking a course and cannot be substituted for taking a course. [RESTRICTION:doesn't count as course] Most significantly, students are required to complete six graduate lecture courses offered by the Computer Science department and taken for a letter grade to complete the MS/PhD (see MS Leading to PhD). [REQUIREMENT:6 CS lecture courses for MS/PhD] [SEE-ALSO:PhD_SEAS:MSPHD-APPROVAL-001]
+Note that students do not receive Columbia points for passing a comp exam. To get credit, the student must register for the regular course and complete the entire course.
+It is important to note that passing a comp exam does not count as taking a course and cannot be substituted for taking a course. Most significantly, students are required to complete six graduate lecture courses offered by the Computer Science department and taken for a letter grade to complete the MS/PhD.
 [/RULE]
+[RESTRICTION:no Columbia points]
+[REQUIREMENT:must take course for credit]
+[RESTRICTION:doesn't count as course]
+[REQUIREMENT:6 CS lecture courses for MS/PhD]
+[SEE-ALSO:PhD_SEAS:MSPHD-APPROVAL-001]
 
 [RULE:PhD_SEAS:COMP-EXAMS-SCHEDULE-001]
-Every semester, the CS department announces which courses, if any, are offering comps about six weeks before the end of the semester. [TIMING:announced 6 weeks before semester end] Comps must be identical to and co-timed with the course's regular final exam, usually during the last week of classes or finals week. [TIMING:last week or finals week] [REQUIREMENT:identical to regular final]
-Signup sheets for exams are normally made available through the PhD Program Administrator approximately six (6) weeks prior to exam administration, and students must normally sign up for all exams they intend to take at least four (4) weeks prior to the exams. [TIMING:signup 6 weeks before] [REQUIREMENT:commit 4 weeks before] Failure to show up for an exam, or leaving the exam without completion, is deemed de facto failure, unless the student presents acceptable evidence of illness or emergency to the Director of Graduate Studies. [CONSEQUENCE:no-show = failure] [EXCEPTION:illness/emergency with evidence] No "makeups" are offered, but the student may take the course or exam in a later semester. [OPTION:retake later semester]
+Every semester, the CS department announces which courses, if any, are offering comps about six weeks before the end of the semester. Comps must be identical to and co-timed with the course's regular final exam, usually during the last week of classes or finals week.
+Signup sheets for exams are normally made available through the PhD Program Administrator approximately six (6) weeks prior to exam administration, and students must normally sign up for all exams they intend to take at least four (4) weeks prior to the exams. Failure to show up for an exam, or leaving the exam without completion, is deemed de facto failure, unless the student presents acceptable evidence of illness or emergency to the Director of Graduate Studies. No "makeups" are offered, but the student may take the course or exam in a later semester.
 [/RULE]
+[TIMING:announced 6 weeks before semester end]
+[TIMING:last week or finals week]
+[REQUIREMENT:identical to regular final]
+[TIMING:signup 6 weeks before]
+[REQUIREMENT:commit 4 weeks before]
+[CONSEQUENCE:no-show = failure]
+[EXCEPTION:illness/emergency with evidence]
+[OPTION:retake later semester]
 
 [RULE:PhD_SEAS:COMP-EXAMS-STRUCTURE-001]
-The comprehensive exam is the same as the final exam for the course and its administration is co-timed with that final exam. [REQUIREMENT:same as final exam] Each individual instructor can decide whether or not to offer a cumulative final exam for doctoral students. [AUTHORITY:instructor decides] Doctoral students who are not enrolled in the course can take the cumulative final and count that toward their course requirements if they pass with a B+ or better. [GRADE:B+ minimum to count] The exam must be a cumulative exam covering material from the entire course, not just the last half of the course since the midterm, and in no case may be less than one hour. [REQUIREMENT:entire course coverage] [TIMING:minimum 1 hour] Alternative structures such as project, team, oral, take-home, extended duration, etc. must be approved at least six weeks in advance by the full faculty on petition of the relevant area faculty. [EXCEPTION:alternative structures require faculty approval] [TIMING:6 weeks advance approval]
-Other details such as pretesting, blind grading, open vs. closed book, etc., are at the discretion of the area faculty. [AUTHORITY:area faculty discretion]
+The comprehensive exam is the same as the final exam for the course and its administration is co-timed with that final exam. Each individual instructor can decide whether or not to offer a cumulative final exam for doctoral students. Doctoral students who are not enrolled in the course can take the cumulative final and count that toward their course requirements if they pass with a B+ or better. The exam must be a cumulative exam covering material from the entire course, not just the last half of the course since the midterm, and in no case may be less than one hour. Alternative structures such as project, team, oral, take-home, extended duration, etc. must be approved at least six weeks in advance by the full faculty on petition of the relevant area faculty.
+Other details such as pretesting, blind grading, open vs. closed book, etc., are at the discretion of the area faculty.
 [/RULE]
+[REQUIREMENT:same as final exam]
+[AUTHORITY:instructor decides]
+[GRADE:B+ minimum to count]
+[REQUIREMENT:entire course coverage]
+[TIMING:minimum 1 hour]
+[EXCEPTION:alternative structures require faculty approval]
+[TIMING:6 weeks advance approval]
+[AUTHORITY:area faculty discretion]
 
 [RULE:PhD_SEAS:COMP-EXAMS-RESPONSIBILITY-001]
-A regular faculty member (in the department or formally affiliated) must be designated as responsible for each comprehensive exam. [REQUIREMENT:regular faculty responsible] The designated faculty member may optionally delegate to an adjunct (but not a student) the duties of preparing the syllabus, exam and grading scheme, but retains ultimate responsibility for adhering to the above rules. [OPTION:delegate to adjunct] [RESTRICTION:cannot delegate to student] [RESPONSIBILITY:faculty retains ultimate responsibility]
+A regular faculty member (in the department or formally affiliated) must be designated as responsible for each comprehensive exam. The designated faculty member may optionally delegate to an adjunct (but not a student) the duties of preparing the syllabus, exam and grading scheme, but retains ultimate responsibility for adhering to the above rules.
 [/RULE]
+[REQUIREMENT:regular faculty responsible]
+[OPTION:delegate to adjunct]
+[RESTRICTION:cannot delegate to student]
+[RESPONSIBILITY:faculty retains ultimate responsibility]
 
 [RULE:PhD_SEAS:COMP-EXAMS-LIMITS-001]
-Sometimes multiple sections of the same course may offer comp exams the same semester, but students may sit for only one comp per course. [RESTRICTION:one comp per course] Passing the exam (B+ or higher) satisfies the corresponding doctoral program requirement. [GRADE:B+ satisfies requirement] Sitting for an exam without finishing or submitting the exam is treated as de facto failure on the exam. [CONSEQUENCE:not finishing = failure]
-If a student passes both the regular course and that course's comp exam, the course is only counted once towards the required ten courses. [RESTRICTION:course+comp = counts once] Multiple sections of the same course may offer comp exams during the same semester, but students are permitted to sit for only one of the exams and enroll in only one of the course sections; similarly, the course still counts only once for students who repeat the same course and/or exam different semesters. [RESTRICTION:only one section] [RESTRICTION:repeats count once]
+Sometimes multiple sections of the same course may offer comp exams the same semester, but students may sit for only one comp per course. Passing the exam (B+ or higher) satisfies the corresponding doctoral program requirement. Sitting for an exam without finishing or submitting the exam is treated as de facto failure on the exam.
+If a student passes both the regular course and that course's comp exam, the course is only counted once towards the required ten courses. Multiple sections of the same course may offer comp exams during the same semester, but students are permitted to sit for only one of the exams and enroll in only one of the course sections; similarly, the course still counts only once for students who repeat the same course and/or exam different semesters.
 [/RULE]
+[RESTRICTION:one comp per course]
+[GRADE:B+ satisfies requirement]
+[CONSEQUENCE:not finishing = failure]
+[RESTRICTION:course+comp = counts once]
+[RESTRICTION:only one section]
+[RESTRICTION:repeats count once]
 
 [RULE:PhD_SEAS:PRIOR-COLUMBIA-COURSES-001]
-Doctoral students who were previously enrolled in another program at Columbia, such as a different Doctoral program or an MS or BS/BA in Computer Science or a related field, may be able to count some of their previous Columbia courses towards the CS doctoral program. [APPLIES_TO:previous Columbia students] At most two non-CS courses can be included in the CS doctoral program but both electives for the MS/PhD must be CS. [LIMITATION:max 2 non-CS courses] [REQUIREMENT:MS/PhD electives must be CS] To be included:
-The student's grade in the course must be B+ or higher. [GRADE:B+ or higher]
-The course must be designated graduate-level by the offering department. For COMS courses, this is 4k and above, but some Columbia departments consider 4k to be strictly undergraduate and only 5k and above are graduate. [REQUIREMENT:graduate-level] [LEVEL:4k+ for COMS, varies by department]
-The course must have been completed during the past five (5) academic years. [TIMING:within past 5 years]
-Courses taken at Columbia do not need to be "imported". However, students should check with the PhD Program Administrator to make sure their previous courses have been added to their doctoral program record in mice. [PROCESS:no import needed] [PROCESS:check with PhD Program Administrator]
-It is important to note that no additional Columbia credit ("points") are awarded for previous courses at Columbia and the previous credit does not count towards the points needed for the doctorate. [NOTE:no additional points] See the registration instructions for information about registering for credit towards the MS/PhD, PhD or DES.
+Doctoral students who were previously enrolled in another program at Columbia, such as a different Doctoral program or an MS or BS/BA in Computer Science or a related field, may be able to count some of their previous Columbia courses towards the CS doctoral program. At most two non-CS courses can be included in the CS doctoral program but both electives for the MS/PhD must be CS. To be included:
+The student's grade in the course must be B+ or higher.
+The course must be designated graduate-level by the offering department. For COMS courses, this is 4k and above, but some Columbia departments consider 4k to be strictly undergraduate and only 5k and above are graduate.
+The course must have been completed during the past five (5) academic years.
+Courses taken at Columbia do not need to be "imported". However, students should check with the PhD Program Administrator to make sure their previous courses have been added to their doctoral program record in mice.
+It is important to note that no additional Columbia credit ("points") are awarded for previous courses at Columbia and the previous credit does not count towards the points needed for the doctorate. See the registration instructions for information about registering for credit towards the MS/PhD, PhD or DES.
 [/RULE]
+[APPLIES_TO:previous Columbia students]
+[LIMITATION:max 2 non-CS courses]
+[REQUIREMENT:MS/PhD electives must be CS]
+[GRADE:B+ or higher]
+[REQUIREMENT:graduate-level]
+[LEVEL:4k+ for COMS, varies by department]
+[TIMING:within past 5 years]
+[PROCESS:no import needed]
+[PROCESS:check with PhD Program Administrator]
+[NOTE:no additional points]
 
 [RULE:PhD_SEAS:IMPORT-DISTRIBUTION-RESTRICTION-001]
-Distribution courses must be taken at Columbia and cannot be imported. [RESTRICTION:distribution must be at Columbia] However, some or all of the six electives may be imported from previous schools for students who enrolled in the doctoral program with a prior masters degree. [OPTION:electives can be imported with prior MS] However, students who enrolled for the PhD program without a prior masters degree should import at most four electives from a previous institution, since six graduate lecture courses offered by the Computer Science department must be taken at Columbia to complete the MS/PhD. [LIMITATION:max 4 imports without prior MS] [REQUIREMENT:6 CS courses at Columbia for MS/PhD]
+Distribution courses must be taken at Columbia and cannot be imported. However, some or all of the six electives may be imported from previous schools for students who enrolled in the doctoral program with a prior masters degree. However, students who enrolled for the PhD program without a prior masters degree should import at most four electives from a previous institution, since six graduate lecture courses offered by the Computer Science department must be taken at Columbia to complete the MS/PhD.
 [/RULE]
+[RESTRICTION:distribution must be at Columbia]
+[OPTION:electives can be imported with prior MS]
+[LIMITATION:max 4 imports without prior MS]
+[REQUIREMENT:6 CS courses at Columbia for MS/PhD]
 
 [RULE:PhD_SEAS:IMPORT-DEADLINE-001]
-Students must submit all Import Forms by no later than two weeks (14 days) prior to the last day of classes of their first semester enrolled in the doctoral program. [TIMING:14 days before last day of first semester] [The requirement that all imported courses must be approved for an elective during the student's first semester enrolled in the PhD program was approved by full faculty vote on 02/18/1998.] Doctoral students must use the pdf import forms posted on this page and submit the completed form via Mice in place of the "Syllabus". [PROCESS:use pdf forms via Mice] You will then assign this to "Phd-Chair" (not a specific professor or administrator's name). [PROCESS:assign to Phd-Chair]
+Students must submit all Import Forms by no later than two weeks (14 days) prior to the last day of classes of their first semester enrolled in the doctoral program. [The requirement that all imported courses must be approved for an elective during the student's first semester enrolled in the PhD program was approved by full faculty vote on 02/18/1998.] Doctoral students must use the pdf import forms posted on this page and submit the completed form via Mice in place of the "Syllabus". You will then assign this to "Phd-Chair" (not a specific professor or administrator's name).
 [/RULE]
+[TIMING:14 days before last day of first semester]
+[PROCESS:use pdf forms via Mice]
+[PROCESS:assign to Phd-Chair]
 
 [RULE:PhD_SEAS:IMPORT-BASIC-REQ-001]
 To be acceptable for import:
-The student's grade in the course must be B+ or higher. [GRADE:B+ or higher]
-The course must be a graduate lecture course accepted for graduate credit towards a graduate degree in Computer Science at the offering institution and listed as a graduate course on the student's transcript from the offering institution. [REQUIREMENT:graduate CS course on transcript]
-The course must have been completed during the past five (5) academic years. [TIMING:within past 5 years]
-It is important to note that no Columbia credit ("points") is awarded for imported courses. [NOTE:no Columbia points] See the registration instructions for information about registering for credit towards the MS/PhD, PhD or DES.
+The student's grade in the course must be B+ or higher.
+The course must be a graduate lecture course accepted for graduate credit towards a graduate degree in Computer Science at the offering institution and listed as a graduate course on the student's transcript from the offering institution.
+The course must have been completed during the past five (5) academic years.
+It is important to note that no Columbia credit ("points") is awarded for imported courses. See the registration instructions for information about registering for credit towards the MS/PhD, PhD or DES.
 [/RULE]
+[GRADE:B+ or higher]
+[REQUIREMENT:graduate CS course on transcript]
+[TIMING:within past 5 years]
+[NOTE:no Columbia points]
 
 [RULE:PhD_SEAS:IMPORT-DUPLICATE-RESTRICTION-001]
-Students cannot import multiple courses on the same subject. [RESTRICTION:no duplicate subjects] Students cannot apply both an imported course and a Columbia course on the same subject to the ten course requirement. [RESTRICTION:import OR Columbia course, not both] If a student takes a Columbia course (or comp exam) equivalent to a course imported by that student, the student forfeits the imported course. [CONSEQUENCE:forfeit import if take Columbia equivalent]
+Students cannot import multiple courses on the same subject. Students cannot apply both an imported course and a Columbia course on the same subject to the ten course requirement. If a student takes a Columbia course (or comp exam) equivalent to a course imported by that student, the student forfeits the imported course.
 [/RULE]
+[RESTRICTION:no duplicate subjects]
+[RESTRICTION:import OR Columbia course, not both]
+[CONSEQUENCE:forfeit import if take Columbia equivalent]
 
 [RULE:PhD_SEAS:IMPORT-DETAILED-CONDITIONS-001]
 Courses taken outside Columbia cannot be imported unless all of the following conditions are met:
-The course must fulfill all of the requirements for Doctoral electives. [REQUIREMENT:must meet elective requirements] [Revised by full faculty vote 12/17/20 to allow imports of non-CS courses. Effective immediately.] [REVISION:non-CS courses allowed as of 12/17/20]
-The course must be a graduate lecture course accepted for credit towards a graduate degree in Computer Science at the offering institution and listed as a graduate course on the student's transcript from the offering institution. [REQUIREMENT:graduate CS course on transcript] An undergraduate course offered in the same room at the same time by the same instructor and graded on the same scale as a graduate course does not suffice: the student's prior institution must explicitly recognize the student's completion of the graduate course. [RESTRICTION:must be explicitly recognized as graduate]
-The student's grade in the course was B+ or higher. [GRADE:B+ or higher] For those institutions that do not record plus and minus grades, a B is acceptable only if the student provides acceptable documentation that his/her grade was in the corresponding percentile of B+ or higher awarded in similar Columbia CS graduate courses. [EXCEPTION:B acceptable with documentation] Such documentation is also required to show B+ equivalence for institutions that grade on different scales (e.g., out of 10 points). [REQUIREMENT:documentation for different grading scales]
-The course must be approved by the student's advisor (both research advisor and departmental advisor, if different). [APPROVAL:advisor approval required]
+The course must fulfill all of the requirements for Doctoral electives. [Revised by full faculty vote 12/17/20 to allow imports of non-CS courses. Effective immediately.]
+The course must be a graduate lecture course accepted for credit towards a graduate degree in Computer Science at the offering institution and listed as a graduate course on the student's transcript from the offering institution. An undergraduate course offered in the same room at the same time by the same instructor and graded on the same scale as a graduate course does not suffice: the student's prior institution must explicitly recognize the student's completion of the graduate course.
+The student's grade in the course was B+ or higher. For those institutions that do not record plus and minus grades, a B is acceptable only if the student provides acceptable documentation that his/her grade was in the corresponding percentile of B+ or higher awarded in similar Columbia CS graduate courses. Such documentation is also required to show B+ equivalence for institutions that grade on different scales (e.g., out of 10 points).
+The course must be approved by the student's advisor (both research advisor and departmental advisor, if different).
 [/RULE]
+[REQUIREMENT:must meet elective requirements]
+[REVISION:non-CS courses allowed as of 12/17/20]
+[REQUIREMENT:graduate CS course on transcript]
+[RESTRICTION:must be explicitly recognized as graduate]
+[GRADE:B+ or higher]
+[EXCEPTION:B acceptable with documentation]
+[REQUIREMENT:documentation for different grading scales]
+[APPROVAL:advisor approval required]
 
 [RULE:PhD_SEAS:IMPORT-EVALUATION-001]
-In addition to the advisor(s), the CS faculty member responsible for the most closely corresponding Columbia CS graduate course, or if there is no reasonably corresponding Columbia CS graduate course the CS faculty member deemed by his/her peers to demonstrate the most relevant expertise, has evaluated the course and presented a judgment in writing to the Director of Graduate Studies (DGS), and the DGS has concurred, that the imported course is considered of equal or higher quality and scope than the typical Columbia CS three-point graduate course, and the performance of the student is considered of equal or higher quality and scope than that required to obtain at least a B+ grade in a typical Columbia CS three-point graduate lecture course. [REQUIREMENT:CS faculty evaluation] [REQUIREMENT:DGS concurrence] [STANDARD:equal or higher quality than Columbia CS course] Note that "summer session", other shorter-than-usual courses, and/or courses awarding less than three points (or equivalent) usually would not meet these quality and scope guidelines and thus would not be importable. [RESTRICTION:summer/short courses usually not importable]
-All materials requested by the evaluating faculty member and/or the DGS are provided, in English or notarized English translation. [REQUIREMENT:materials in English or notarized translation] The evaluating faculty member and/or DGS may, at their discretion, ask the student to provide oral or written answers to questions regarding the material learned in the course and/or may contact members of the institution at which the course was taken for additional information. [AUTHORITY:faculty/DGS may request additional info]
+In addition to the advisor(s), the CS faculty member responsible for the most closely corresponding Columbia CS graduate course, or if there is no reasonably corresponding Columbia CS graduate course the CS faculty member deemed by his/her peers to demonstrate the most relevant expertise, has evaluated the course and presented a judgment in writing to the Director of Graduate Studies (DGS), and the DGS has concurred, that the imported course is considered of equal or higher quality and scope than the typical Columbia CS three-point graduate course, and the performance of the student is considered of equal or higher quality and scope than that required to obtain at least a B+ grade in a typical Columbia CS three-point graduate lecture course. Note that "summer session", other shorter-than-usual courses, and/or courses awarding less than three points (or equivalent) usually would not meet these quality and scope guidelines and thus would not be importable.
+All materials requested by the evaluating faculty member and/or the DGS are provided, in English or notarized English translation. The evaluating faculty member and/or DGS may, at their discretion, ask the student to provide oral or written answers to questions regarding the material learned in the course and/or may contact members of the institution at which the course was taken for additional information.
 [/RULE]
+[REQUIREMENT:CS faculty evaluation]
+[REQUIREMENT:DGS concurrence]
+[STANDARD:equal or higher quality than Columbia CS course]
+[RESTRICTION:summer/short courses usually not importable]
+[REQUIREMENT:materials in English or notarized translation]
+[AUTHORITY:faculty/DGS may request additional info]
 
 [RULE:PhD_SEAS:IMPORT-OLD-COURSES-001]
-In the case of courses completed more than 5 years prior to formal enrollment, the evaluating faculty member must judge that the course is sufficiently relevant to the goals of the doctoral breadth requirement, and the DGS must concur. [TIMING:>5 years requires relevance judgment] [REQUIREMENT:faculty and DGS must concur on relevance] In particular, the subject covered by the course should not have changed significantly since the student took the course and the student evidently still retains mastery of the course material. [REQUIREMENT:subject hasn't changed significantly] [REQUIREMENT:student retains mastery]
+In the case of courses completed more than 5 years prior to formal enrollment, the evaluating faculty member must judge that the course is sufficiently relevant to the goals of the doctoral breadth requirement, and the DGS must concur. In particular, the subject covered by the course should not have changed significantly since the student took the course and the student evidently still retains mastery of the course material.
 [/RULE]
+[TIMING:>5 years requires relevance judgment]
+[REQUIREMENT:faculty and DGS must concur on relevance]
+[REQUIREMENT:subject hasn't changed significantly]
+[REQUIREMENT:student retains mastery]
 
 [RULE:PhD_SEAS:IMPORT-NO-CREDIT-001]
-Course imports are not treated as transfers and do not grant degree credit ("points"). [NOTE:no points awarded] The department offers credit in the COMS E9911 research course for the purpose of fulfilling the 30 points required for masters beyond the undergraduate degree, for students who enroll without a prior masters degree, and the additional 30 points required for the doctorate beyond the masters degree. [OPTION:E9911 for points requirement]
+Course imports are not treated as transfers and do not grant degree credit ("points"). The department offers credit in the COMS E9911 research course for the purpose of fulfilling the 30 points required for masters beyond the undergraduate degree, for students who enroll without a prior masters degree, and the additional 30 points required for the doctorate beyond the masters degree.
 [/RULE]
+[NOTE:no points awarded]
+[OPTION:E9911 for points requirement]
 
 [RULE:PhD_SEAS:OUTSIDE-COURSES-ENROLLED-001]
-Normally, any courses taken at another school after enrolling in the doctoral program cannot be counted towards the breadth requirement. [RESTRICTION:normally no courses after enrollment] In very rare cases, a student may take one graduate lecture course at another institution during his/her enrollment in the doctoral program and, with B+ or higher grade and advisor approval, apply it to the breadth requirement. [EXCEPTION:very rare, 1 course allowed] [REQUIREMENT:B+ or higher] [REQUIREMENT:advisor approval] This is permitted only when the advisor deems the course crucially important for the student's research and no equivalent course is offered by any department at Columbia. [CONDITION:crucially important and no Columbia equivalent] Full faculty approval is required in advance for a second or subsequent course. [REQUIREMENT:full faculty approval for 2nd+ course]
-In the case of importing a course taken at another institution after enrolling in the doctoral program, the import procedure must be undertaken within two weeks after grades become available (or within two weeks of the student's return to Columbia, if absent when grades become available). [TIMING:within 2 weeks of grades]
+Normally, any courses taken at another school after enrolling in the doctoral program cannot be counted towards the breadth requirement. In very rare cases, a student may take one graduate lecture course at another institution during his/her enrollment in the doctoral program and, with B+ or higher grade and advisor approval, apply it to the breadth requirement. This is permitted only when the advisor deems the course crucially important for the student's research and no equivalent course is offered by any department at Columbia. Full faculty approval is required in advance for a second or subsequent course.
+In the case of importing a course taken at another institution after enrolling in the doctoral program, the import procedure must be undertaken within two weeks after grades become available (or within two weeks of the student's return to Columbia, if absent when grades become available).
 [/RULE]
+[RESTRICTION:normally no courses after enrollment]
+[EXCEPTION:very rare, 1 course allowed]
+[REQUIREMENT:B+ or higher]
+[REQUIREMENT:advisor approval]
+[CONDITION:crucially important and no Columbia equivalent]
+[REQUIREMENT:full faculty approval for 2nd+ course]
+[TIMING:within 2 weeks of grades]
 
 [RULE:PhD_SEAS:SATISFACTORY-PROGRESS-BREADTH-001]
-Satisfactory progress towards fulfilling the breadth requirement is defined as at least 2*N breadth course/exam passes, where N is the number of semesters enrolled thus far in the program, until the breadth requirement has been completed. [FORMULA:2*N courses by semester N] A doctoral student who has not made satisfactory progress towards the breadth requirement is normally placed on probation at the end of the first and/or subsequent semesters that he/she "falls behind". [CONSEQUENCE:probation if behind] The student can be immediately dismissed from the program at the end of any such unsatisfactory semester unless the full faculty accepts a petition from the advisor for one semester's grace. [CONSEQUENCE:dismissal possible] [EXCEPTION:one semester grace with faculty petition]
+Satisfactory progress towards fulfilling the breadth requirement is defined as at least 2*N breadth course/exam passes, where N is the number of semesters enrolled thus far in the program, until the breadth requirement has been completed. A doctoral student who has not made satisfactory progress towards the breadth requirement is normally placed on probation at the end of the first and/or subsequent semesters that he/she "falls behind". The student can be immediately dismissed from the program at the end of any such unsatisfactory semester unless the full faculty accepts a petition from the advisor for one semester's grace.
 [/RULE]
+[FORMULA:2*N courses by semester N]
+[CONSEQUENCE:probation if behind]
+[CONSEQUENCE:dismissal possible]
+[EXCEPTION:one semester grace with faculty petition]
 
 [RULE:PhD_SEAS:QUALIFIER-DEFINITION-001]
-The doctoral program does not have a qualifier exam. [NOTE:no qualifier exam] Completion of the Analysis of Algorithms prerequisite together with all four distribution courses constitutes completion of "the qualifier". [DEFINITION:algo prereq + 4 distribution courses = qualifier] This definition of "the qualifier" is relevant only when a doctoral student needs to fill out external forms, e.g., for applying as a student volunteer and/or for student travel funds for a conference, or applying to attend a doctoral symposium at a conference, where the form asks whether the student has completed the qualifier. [PURPOSE:for external forms only] Students normally try to complete "the qualifier" during their first year in the program. [TIMING:typically first year]
+The doctoral program does not have a qualifier exam. Completion of the Analysis of Algorithms prerequisite together with all four distribution courses constitutes completion of "the qualifier". This definition of "the qualifier" is relevant only when a doctoral student needs to fill out external forms, e.g., for applying as a student volunteer and/or for student travel funds for a conference, or applying to attend a doctoral symposium at a conference, where the form asks whether the student has completed the qualifier. Students normally try to complete "the qualifier" during their first year in the program.
 [/RULE]
+[NOTE:no qualifier exam]
+[DEFINITION:algo prereq + 4 distribution courses = qualifier]
+[PURPOSE:for external forms only]
+[TIMING:typically first year]
 
 RESEARCH:
 
 ADVISOR
 
 [RULE:PhD_SEAS:ADVISOR-GENERAL-001]
-All DES students and most MS/PhD and PhD students arrange a research advisor during the admissions process prior to enrollment, and work closely with him or her on directed research from their first day in the program. [TIMING:typically arranged before enrollment] Some doctoral students have two or more co-advisors. [REQUIREMENT:co-advisors allowed] All DES research advisors and most MS/PhD and PhD research advisors are tenured or tenure-track faculty members in the Computer Science Department. [TYPICAL:ToTT faculty as advisors] But in rare cases an MS/PhD or PhD student's research may be advised by a research scientist or an affiliated faculty member from another department, in which case the student must also have a departmental advisor who is a tenured or tenure-track faculty member in Computer Science. [EXCEPTION:non-ToTT requires departmental advisor] The departmental advisor is responsible for tracking the student's progress through doctoral program milestones, but is not responsible for the student's research or funding. [RESPONSIBILITY:track milestones not research/funding] Both research and departmental advisors are expected to represent their students at the Semi-Annual Review of all doctoral students held near the end of the fall and spring semesters. [REQUIREMENT:represent at Semi-Annual Review] [TIMING:end of fall/spring semesters]
-Every doctoral student must have an advisor throughout the program. [REQUIREMENT:advisor throughout program]
+All DES students and most MS/PhD and PhD students arrange a research advisor during the admissions process prior to enrollment, and work closely with him or her on directed research from their first day in the program. Some doctoral students have two or more co-advisors. All DES research advisors and most MS/PhD and PhD research advisors are tenured or tenure-track faculty members in the Computer Science Department. But in rare cases an MS/PhD or PhD student's research may be advised by a research scientist or an affiliated faculty member from another department, in which case the student must also have a departmental advisor who is a tenured or tenure-track faculty member in Computer Science. The departmental advisor is responsible for tracking the student's progress through doctoral program milestones, but is not responsible for the student's research or funding. Both research and departmental advisors are expected to represent their students at the Semi-Annual Review of all doctoral students held near the end of the fall and spring semesters.
+Every doctoral student must have an advisor throughout the program.
 [/RULE]
+[TIMING:typically arranged before enrollment]
+[REQUIREMENT:co-advisors allowed]
+[TYPICAL:ToTT faculty as advisors]
+[EXCEPTION:non-ToTT requires departmental advisor]
+[RESPONSIBILITY:track milestones not research/funding]
+[REQUIREMENT:represent at Semi-Annual Review]
+[TIMING:end of fall/spring semesters]
+[REQUIREMENT:advisor throughout program]
 
 [RULE:PhD_SEAS:ADVISOR-DES-001]
-DES applicants are admitted only if the applicant was recruited by a tenured or tenure-track member of the Computer Science Department faculty who asked to be the student's research advisor. [REQUIREMENT:DES recruited by ToTT faculty] DES students must be advised by a tenured or tenure-track Computer Science faculty member throughout the program. [REQUIREMENT:DES ToTT advisor throughout]
+DES applicants are admitted only if the applicant was recruited by a tenured or tenure-track member of the Computer Science Department faculty who asked to be the student's research advisor. DES students must be advised by a tenured or tenure-track Computer Science faculty member throughout the program.
 [/RULE]
 [APPLIES_TO:DES students only]
+[REQUIREMENT:DES recruited by ToTT faculty]
+[REQUIREMENT:DES ToTT advisor throughout]
 
 [RULE:PhD_SEAS:ADVISOR-TIMELINE-001]
-Most MS/PhD and PhD students arrange a "research advisor" (who will in most cases later become the thesis advisor) during the admissions process prior to enrollment, and work closely with him or her on directed research from their first day in the program. [TIMING:typically before enrollment] A few MS/PhD and PhD students (those funded by fellowships rather than GRAs) may be assigned only a nominal departmental advisor initially, and then must arrange a research advisor during their first year, normally by the end of their first semester. [TIMING:first year for fellowship students] [TIMING:by end of first semester preferred]
+Most MS/PhD and PhD students arrange a "research advisor" (who will in most cases later become the thesis advisor) during the admissions process prior to enrollment, and work closely with him or her on directed research from their first day in the program. A few MS/PhD and PhD students (those funded by fellowships rather than GRAs) may be assigned only a nominal departmental advisor initially, and then must arrange a research advisor during their first year, normally by the end of their first semester.
 [/RULE]
 [APPLIES_TO:MS/PhD and PhD students]
+[TIMING:typically before enrollment]
+[TIMING:first year for fellowship students]
+[TIMING:by end of first semester preferred]
 
 [RULE:PhD_SEAS:ADVISOR-TYPES-001]
-In almost all cases, an MS/PhD or PhD student's research advisor is a tenured or tenure-track faculty member appointed in the Computer Science Department at Columbia. [TYPICAL:ToTT CS faculty] In rare cases, an MS/PhD or PhD student's research advisor may be a lecturer or research scientist in the CS department, an officially approved "affiliated" faculty member in another department at Columbia, or a former CS faculty member who has left the department and/or the university, in which case the student must also have a "departmental advisor" who is a tenured or tenure-track faculty member whose primary appointment is in the CS department. [EXCEPTION:lecturer/research scientist/affiliated/former requires departmental advisor] [REQUIREMENT:departmental advisor must be ToTT CS faculty] The departmental advisor is responsible for reporting to the faculty on the student's progress through doctoral program milestones, but is not responsible for directing the student's research nor the student's funding. [RESPONSIBILITY:departmental advisor tracks milestones only] Both advisors are expected to represent their students at the Semi-Annual Review of all doctoral students held near the end of the fall and spring semesters and should participate in the same "review group". [REQUIREMENT:both advisors at Semi-Annual Review] [REQUIREMENT:same review group]
+In almost all cases, an MS/PhD or PhD student's research advisor is a tenured or tenure-track faculty member appointed in the Computer Science Department at Columbia. In rare cases, an MS/PhD or PhD student's research advisor may be a lecturer or research scientist in the CS department, an officially approved "affiliated" faculty member in another department at Columbia, or a former CS faculty member who has left the department and/or the university, in which case the student must also have a "departmental advisor" who is a tenured or tenure-track faculty member whose primary appointment is in the CS department. The departmental advisor is responsible for reporting to the faculty on the student's progress through doctoral program milestones, but is not responsible for directing the student's research nor the student's funding. Both advisors are expected to represent their students at the Semi-Annual Review of all doctoral students held near the end of the fall and spring semesters and should participate in the same "review group".
 [/RULE]
 [APPLIES_TO:MS/PhD and PhD students]
+[TYPICAL:ToTT CS faculty]
+[EXCEPTION:lecturer/research scientist/affiliated/former requires departmental advisor]
+[REQUIREMENT:departmental advisor must be ToTT CS faculty]
+[RESPONSIBILITY:departmental advisor tracks milestones only]
+[REQUIREMENT:both advisors at Semi-Annual Review]
+[REQUIREMENT:same review group]
 
 [RULE:PhD_SEAS:SEMI-ANNUAL-REVIEW-001]
-The full faculty holds an all-day meeting near the end of the fall and spring semesters to review the progress of every doctoral student. [TIMING:end of fall/spring semesters] [PROCESS:all-day faculty meeting] A draft review letter is composed for each doctoral student during the meeting. [PROCESS:draft letter during meeting] A student's letter states whether they are making "satisfactory progress" or "unsatisfactory progress", and specifies overdue or upcoming milestones and activities expected or required of the student. [CONTENT:progress status and milestones] The research advisor, and the departmental advisor if different, may edit the draft review letter and then approve finalizing the letter soon after the Semi-Annual Review (or within a time period determined at the Semi-Annual Review, e.g., when a milestone is scheduled to occur soon after the meeting or the student is taking courses whose final grades are not yet known). [PROCESS:advisor edits and approves] The finalized letter is signed by the Department Chair on behalf of the full faculty and sent via email to the student, with the research advisor, the departmental advisor (if different), and the secondary advisor cc'd. [PROCESS:Chair signs and emails] [RECIPIENTS:student, advisors cc'd] In the event that an advisor has not approved a student's review letter in a timely fashion, then the letter may be approved by either the Director of Graduate Studies or the Department Chair. [PROCESS:alternate approval by DGS or Chair]
+The full faculty holds an all-day meeting near the end of the fall and spring semesters to review the progress of every doctoral student. A draft review letter is composed for each doctoral student during the meeting. A student's letter states whether they are making "satisfactory progress" or "unsatisfactory progress", and specifies overdue or upcoming milestones and activities expected or required of the student. The research advisor, and the departmental advisor if different, may edit the draft review letter and then approve finalizing the letter soon after the Semi-Annual Review (or within a time period determined at the Semi-Annual Review, e.g., when a milestone is scheduled to occur soon after the meeting or the student is taking courses whose final grades are not yet known). The finalized letter is signed by the Department Chair on behalf of the full faculty and sent via email to the student, with the research advisor, the departmental advisor (if different), and the secondary advisor cc'd. In the event that an advisor has not approved a student's review letter in a timely fashion, then the letter may be approved by either the Director of Graduate Studies or the Department Chair.
 [/RULE]
+[TIMING:end of fall/spring semesters]
+[PROCESS:all-day faculty meeting]
+[PROCESS:draft letter during meeting]
+[CONTENT:progress status and milestones]
+[PROCESS:advisor edits and approves]
+[PROCESS:Chair signs and emails]
+[RECIPIENTS:student, advisors cc'd]
+[PROCESS:alternate approval by DGS or Chair]
 
 [RULE:PhD_SEAS:RESEARCH-ADVISOR-ELIGIBILITY-001]
-Each doctoral student must have a mutually agreed upon "research advisor" who supervises the student's research, including but not limited to the candidacy exam, thesis proposal and dissertation, as well as academic progress through the program's other requirements. [REQUIREMENT:research advisor supervises research] [SCOPE:candidacy, proposal, dissertation, academic progress] Co-advisors (two or more research advisors) are permitted and indeed encouraged, where both separately and jointly take full responsibility for the student's progress in the doctoral program. [REQUIREMENT:co-advisors allowed and encouraged] [RESPONSIBILITY:full responsibility for student progress]
-All tenured and tenure-track (ToTT) faculty in the department are eligible to serve as research advisors. [ELIGIBLE:all ToTT faculty] Full-time teaching faculty, research scientists, and non-CS faculty members formally affiliated with the department may also serve as research advisors for MS/PhD and PhD students. [ELIGIBLE:teaching faculty, research scientists, affiliated faculty for MS/PhD and PhD] Former research advisors who have left their position with the department or the university may in rare cases be permitted to continue as research advisor. [ELIGIBLE:former advisors in rare cases] No one else is eligible to serve as a research advisor or co-advisor for a doctoral student. [RESTRICTION:only listed categories eligible]
-To ensure that advising relationships are acceptable to the department, all research advisors arranged during the admissions process must be approved by the PhD Admissions Chair. [APPROVAL:PhD Admissions Chair for admissions process] All later advisor arrangements and changes must be approved by the Director of Graduate Studies. [APPROVAL:DGS for later arrangements] The Department Chair reserves ultimate authority for all advisor approvals. [AUTHORITY:Department Chair ultimate authority] In all cases, the PhD Program Administrator is responsible for verifying approvals. [PROCESS:PhD Program Administrator verifies]
+Each doctoral student must have a mutually agreed upon "research advisor" who supervises the student's research, including but not limited to the candidacy exam, thesis proposal and dissertation, as well as academic progress through the program's other requirements. Co-advisors (two or more research advisors) are permitted and indeed encouraged, where both separately and jointly take full responsibility for the student's progress in the doctoral program.
+All tenured and tenure-track (ToTT) faculty in the department are eligible to serve as research advisors. Full-time teaching faculty, research scientists, and non-CS faculty members formally affiliated with the department may also serve as research advisors for MS/PhD and PhD students. Former research advisors who have left their position with the department or the university may in rare cases be permitted to continue as research advisor. No one else is eligible to serve as a research advisor or co-advisor for a doctoral student.
+To ensure that advising relationships are acceptable to the department, all research advisors arranged during the admissions process must be approved by the PhD Admissions Chair. All later advisor arrangements and changes must be approved by the Director of Graduate Studies. The Department Chair reserves ultimate authority for all advisor approvals. In all cases, the PhD Program Administrator is responsible for verifying approvals.
 [/RULE]
+[REQUIREMENT:research advisor supervises research]
+[SCOPE:candidacy, proposal, dissertation, academic progress]
+[REQUIREMENT:co-advisors allowed and encouraged]
+[RESPONSIBILITY:full responsibility for student progress]
+[ELIGIBLE:all ToTT faculty]
+[ELIGIBLE:teaching faculty, research scientists, affiliated faculty for MS/PhD and PhD]
+[ELIGIBLE:former advisors in rare cases]
+[RESTRICTION:only listed categories eligible]
+[APPROVAL:PhD Admissions Chair for admissions process]
+[APPROVAL:DGS for later arrangements]
+[AUTHORITY:Department Chair ultimate authority]
+[PROCESS:PhD Program Administrator verifies]
 
 [RULE:PhD_SEAS:DEPARTMENTAL-ADVISOR-ROLE-001]
-Every doctoral student must also have a mutually agreed upon "departmental advisor" who is a current tenured or tenure-track (ToTT) faculty member in the Department of Computer Science at Columbia University. [REQUIREMENT:departmental advisor must be current ToTT CS faculty] When the research advisor is indeed ToTT faculty, then the research advisor is automatically the departmental advisor. [AUTOMATIC:ToTT research advisor = departmental advisor]
-A separate departmental advisor is designated only when the research advisor is not a member of the department's ToTT faculty, e.g., an affiliated faculty member in another department. [CONDITION:separate only when research advisor not ToTT] In these cases, it is preferred that the departmental advisor be tenured. [PREFERENCE:tenured preferred] A departmental advisor may optionally serve as a co-advisor with respect to research advising. [OPTION:can serve as co-advisor]
-The departmental advisor is obligated to keep current with the academic and research progress of the student throughout each semester, and represent the student during the Semi-Annual Review. [OBLIGATION:track progress and represent at review] It is expected that the departmental advisor maintains regular personal contact with the student, rather than just relying on email updates or academic records. [EXPECTATION:regular personal contact] Further, the departmental advisor is expected to consult with the research advisor both before and after each Semi-Annual Review – although all research advisors are invited to all Semi-Annual Review meetings and are expected to attend. [EXPECTATION:consult with research advisor before/after review]
-Our main motivation in introducing the notion of a departmental advisor, in addition to the conventional research advisor – again only for those cases where the research advisor is not ToTT faculty – is to ensure that every student has an advisor who satisfies three conditions: [RATIONALE:ensures advisor meets three conditions]
-The person regularly and routinely participates in the Semi-Annual Review – and not just dropping in for his/her own students or sending in email notes, but is actively aware of the general way things work, what good CS students accomplish, etc. [CONDITION:regular Semi-Annual Review participation]
-The person is familiar with the CS doctoral program requirements and process and, at least as importantly, with some of the general reasoning as to why we do things in a certain way ("departmental culture"). [CONDITION:familiar with requirements and culture]
-The person can and does participate in decisions about the program, e.g., by participating in program decisions in faculty meetings, the PhD committee, etc. [CONDITION:participates in program decisions]
-Further, in the case where the departmental advisor is not the same as the research advisor, the two people shall co-sponsor the thesis proposal and dissertation committees. [REQUIREMENT:co-sponsor when separate from research advisor]
-It is important to note that faculty members who take on the responsibility of serving as departmental advisor, but are not also the student's research advisor, are not incurring any financial responsibility for the student's support. [NOTE:no financial responsibility]
+Every doctoral student must also have a mutually agreed upon "departmental advisor" who is a current tenured or tenure-track (ToTT) faculty member in the Department of Computer Science at Columbia University. When the research advisor is indeed ToTT faculty, then the research advisor is automatically the departmental advisor.
+A separate departmental advisor is designated only when the research advisor is not a member of the department's ToTT faculty, e.g., an affiliated faculty member in another department. In these cases, it is preferred that the departmental advisor be tenured. A departmental advisor may optionally serve as a co-advisor with respect to research advising.
+The departmental advisor is obligated to keep current with the academic and research progress of the student throughout each semester, and represent the student during the Semi-Annual Review. It is expected that the departmental advisor maintains regular personal contact with the student, rather than just relying on email updates or academic records. Further, the departmental advisor is expected to consult with the research advisor both before and after each Semi-Annual Review – although all research advisors are invited to all Semi-Annual Review meetings and are expected to attend.
+Our main motivation in introducing the notion of a departmental advisor, in addition to the conventional research advisor – again only for those cases where the research advisor is not ToTT faculty – is to ensure that every student has an advisor who satisfies three conditions:
+The person regularly and routinely participates in the Semi-Annual Review – and not just dropping in for his/her own students or sending in email notes, but is actively aware of the general way things work, what good CS students accomplish, etc.
+The person is familiar with the CS doctoral program requirements and process and, at least as importantly, with some of the general reasoning as to why we do things in a certain way ("departmental culture").
+The person can and does participate in decisions about the program, e.g., by participating in program decisions in faculty meetings, the PhD committee, etc.
+Further, in the case where the departmental advisor is not the same as the research advisor, the two people shall co-sponsor the thesis proposal and dissertation committees.
+It is important to note that faculty members who take on the responsibility of serving as departmental advisor, but are not also the student's research advisor, are not incurring any financial responsibility for the student's support.
 [/RULE]
+[REQUIREMENT:departmental advisor must be current ToTT CS faculty]
+[AUTOMATIC:ToTT research advisor = departmental advisor]
+[CONDITION:separate only when research advisor not ToTT]
+[PREFERENCE:tenured preferred]
+[OPTION:can serve as co-advisor]
+[OBLIGATION:track progress and represent at review]
+[EXPECTATION:regular personal contact]
+[EXPECTATION:consult with research advisor before/after review]
+[RATIONALE:ensures advisor meets three conditions]
+[CONDITION:regular Semi-Annual Review participation]
+[CONDITION:familiar with requirements and culture]
+[CONDITION:participates in program decisions]
+[REQUIREMENT:co-sponsor when separate from research advisor]
+[NOTE:no financial responsibility]
 
 [RULE:PhD_SEAS:FIRST-YEAR-ADVISOR-EXCEPTION-001]
-It is desirable in some cases for new MS/PhD and PhD students to choose their research advisor(s) after becoming accustomed to the department and familiar with the research programs of several faculty members and labs. [RATIONALE:allow time to explore labs] New MS/PhD and PhD students who do not enter with a pre-arranged research advisor shall be assigned a nominal departmental advisor at entrance. [PROCESS:nominal departmental advisor at entrance] The departmental advisor relationship is formalized before or during the first Semi-Annual Review following enrollment. [TIMING:formalized by first Semi-Annual Review] In some cases this may be delayed until (but no later than) the second Semi-Annual Review at the student's and/or prospective departmental advisor's request. [TIMING:may delay to second Semi-Annual Review] A research advisor, if different from the departmental advisor, must also be designated no later than the second Semi-Annual Review. [TIMING:research advisor by second Semi-Annual Review]
-DES students cannot be admitted to or enroll in the doctoral program without a pre-arranged research advisor who is a current tenured or tenure-track (ToTT) faculty member in the Department of Computer Science at Columbia University. [REQUIREMENT:DES must have pre-arranged ToTT research advisor]
+It is desirable in some cases for new MS/PhD and PhD students to choose their research advisor(s) after becoming accustomed to the department and familiar with the research programs of several faculty members and labs. New MS/PhD and PhD students who do not enter with a pre-arranged research advisor shall be assigned a nominal departmental advisor at entrance. The departmental advisor relationship is formalized before or during the first Semi-Annual Review following enrollment. In some cases this may be delayed until (but no later than) the second Semi-Annual Review at the student's and/or prospective departmental advisor's request. A research advisor, if different from the departmental advisor, must also be designated no later than the second Semi-Annual Review.
+DES students cannot be admitted to or enroll in the doctoral program without a pre-arranged research advisor who is a current tenured or tenure-track (ToTT) faculty member in the Department of Computer Science at Columbia University.
 [/RULE]
 [APPLIES_TO:MS/PhD and PhD students]
 [EXCEPTION:DES must have pre-arranged advisor]
+[RATIONALE:allow time to explore labs]
+[PROCESS:nominal departmental advisor at entrance]
+[TIMING:formalized by first Semi-Annual Review]
+[TIMING:may delay to second Semi-Annual Review]
+[TIMING:research advisor by second Semi-Annual Review]
+[REQUIREMENT:DES must have pre-arranged ToTT research advisor]
 
 [RULE:PhD_SEAS:LOST-ADVISOR-PROCESS-001]
-Doctoral students who find themselves without either a research advisor and/or a departmental advisor, for whatever reason, should discuss the situation as soon as possible with either the Director of Graduate Studies or the Department Chair. [PROCESS:discuss with DGS or Chair ASAP] In most cases, the student will be obliged to find a mutually agreed-upon research advisor and a mutually agreed-upon departmental advisor within a reasonable period of time, usually by the following Semi-Annual Review. [TIMING:usually by next Semi-Annual Review] A nominal departmental advisor shall be appointed by the Director of Graduate Studies or the Department Chair on a temporary basis. [PROCESS:temporary nominal advisor appointed]
+Doctoral students who find themselves without either a research advisor and/or a departmental advisor, for whatever reason, should discuss the situation as soon as possible with either the Director of Graduate Studies or the Department Chair. In most cases, the student will be obliged to find a mutually agreed-upon research advisor and a mutually agreed-upon departmental advisor within a reasonable period of time, usually by the following Semi-Annual Review. A nominal departmental advisor shall be appointed by the Director of Graduate Studies or the Department Chair on a temporary basis.
 [/RULE]
+[PROCESS:discuss with DGS or Chair ASAP]
+[TIMING:usually by next Semi-Annual Review]
+[PROCESS:temporary nominal advisor appointed]
 
 [RULE:PhD_SEAS:SECONDARY-ADVISOR-001]
-All doctoral students are assigned a "secondary advisor" during their first semester and thereafter should have a secondary advisor throughout the program. [TIMING:assigned first semester] [REQUIREMENT:throughout program] The secondary advisor is independent of the research advisor and/or departmental advisor, and must be a regular tenured or tenure-track faculty member in the department who normally attends the Semi-Annual Review meeting and who agrees to discuss the student's formal notification of progress and status (i.e., the semi-annual review letter) as well as related issues as they arise. [REQUIREMENT:ToTT faculty who attends Semi-Annual Review] [PURPOSE:discuss review letter and related issues] The secondary advisor is normally arranged by the research advisor, but doctoral students may optionally select (or change) their own secondary advisor. [PROCESS:normally arranged by research advisor] [OPTION:student may select or change] The secondary advisor serves no other purpose than as a "second opinion", and does not incur any responsibility for the student's financial support or supervision. [PURPOSE:second opinion only] [NOTE:no financial responsibility]
-Important note: The secondary advisor should be in the same "review group" as the student's research advisor and departmental advisor. [REQUIREMENT:same review group]
+All doctoral students are assigned a "secondary advisor" during their first semester and thereafter should have a secondary advisor throughout the program. The secondary advisor is independent of the research advisor and/or departmental advisor, and must be a regular tenured or tenure-track faculty member in the department who normally attends the Semi-Annual Review meeting and who agrees to discuss the student's formal notification of progress and status (i.e., the semi-annual review letter) as well as related issues as they arise. The secondary advisor is normally arranged by the research advisor, but doctoral students may optionally select (or change) their own secondary advisor. The secondary advisor serves no other purpose than as a "second opinion", and does not incur any responsibility for the student's financial support or supervision.
+Important note: The secondary advisor should be in the same "review group" as the student's research advisor and departmental advisor.
 [/RULE]
+[TIMING:assigned first semester]
+[REQUIREMENT:throughout program]
+[REQUIREMENT:ToTT faculty who attends Semi-Annual Review]
+[PURPOSE:discuss review letter and related issues]
+[PROCESS:normally arranged by research advisor]
+[OPTION:student may select or change]
+[PURPOSE:second opinion only]
+[NOTE:no financial responsibility]
+[REQUIREMENT:same review group]
 
 [RULE:PhD_SEAS:ADVISOR-ROLES-DISTINCTION-001]
-The "secondary advisor" is intended to be another person for the student to go to about "what happened at the review meeting" and nothing else. [PURPOSE:discuss review meeting only] There are multiple situations and purposes where a "departmental advisor" may be assigned. Generally these purposes involve providing academic advice towards fulfilling the program milestones throughout the semester(s), not just immediately following a review meeting. [PURPOSE:ongoing academic advice on milestones]
+The "secondary advisor" is intended to be another person for the student to go to about "what happened at the review meeting" and nothing else. There are multiple situations and purposes where a "departmental advisor" may be assigned. Generally these purposes involve providing academic advice towards fulfilling the program milestones throughout the semester(s), not just immediately following a review meeting.
 [/RULE]
+[PURPOSE:discuss review meeting only]
+[PURPOSE:ongoing academic advice on milestones]
 
 DIRECTED RESEARCH
 
@@ -295,35 +517,82 @@ The directed research requirement is never waived, regardless of funding source,
 CANDIDACY EXAM
 
 [RULE:PhD_SEAS:CANDIDACY-SUMMARY-001]
-The candidacy exam is an oral exam based on a syllabus prepared jointly by the student and his/her candidacy committee. [EXAM-TYPE:oral exam] [SYLLABUS-PREP:student + committee jointly] Admission to candidacy (i.e., passing the exam) certifies that the student has demonstrated a depth of scholarship in the literature and the methods of the student's chosen area of research, and has demonstrated a facility with the scholarly skills of critical evaluation and verbal expression. [CERTIFIES:depth of scholarship] [CERTIFIES:critical evaluation skills] [CERTIFIES:verbal expression skills] The candidacy exam should be completed by the end of the sixth semester or earlier, typically the semester after completing all courses, and must be completed prior to the thesis proposal. [TIMING:by end of sixth semester] [TIMING:typically after courses complete] [REQUIREMENT:must be before thesis proposal] More detailed information, including the permitted composition of the candidacy committee, is here.
+The candidacy exam is an oral exam based on a syllabus prepared jointly by the student and his/her candidacy committee. Admission to candidacy (i.e., passing the exam) certifies that the student has demonstrated a depth of scholarship in the literature and the methods of the student's chosen area of research, and has demonstrated a facility with the scholarly skills of critical evaluation and verbal expression. The candidacy exam should be completed by the end of the sixth semester or earlier, typically the semester after completing all courses, and must be completed prior to the thesis proposal. More detailed information, including the permitted composition of the candidacy committee, is here.
 [/RULE]
+[EXAM-TYPE:oral exam]
+[SYLLABUS-PREP:student + committee jointly]
+[CERTIFIES:depth of scholarship]
+[CERTIFIES:critical evaluation skills]
+[CERTIFIES:verbal expression skills]
+[TIMING:by end of sixth semester]
+[TIMING:typically after courses complete]
+[REQUIREMENT:must be before thesis proposal]
+
 [RULE:PhD_SEAS:CANDIDACY-PURPOSE-001]
-Admission to candidacy certifies that the PhD or DES student has demonstrated a depth of scholarship in the literature and the methods of the student's chosen area of research, and has demonstrated a facility with the scholarly skills of critical evaluation and verbal expression. [CERTIFIES:depth of scholarship in literature] [CERTIFIES:depth of scholarship in research methods] [CERTIFIES:critical evaluation skills] [CERTIFIES:verbal expression skills] The candidacy exam must be completed prior to the thesis proposal. [SEQUENCE:must be before thesis proposal]
+Admission to candidacy certifies that the PhD or DES student has demonstrated a depth of scholarship in the literature and the methods of the student's chosen area of research, and has demonstrated a facility with the scholarly skills of critical evaluation and verbal expression. The candidacy exam must be completed prior to the thesis proposal.
 [/RULE]
 [APPLIES_TO:PhD and DES students]
+[CERTIFIES:depth of scholarship in literature]
+[CERTIFIES:depth of scholarship in research methods]
+[CERTIFIES:critical evaluation skills]
+[CERTIFIES:verbal expression skills]
+[SEQUENCE:must be before thesis proposal]
 
 [RULE:PhD_SEAS:CANDIDACY-COMMITTEE-001]
-The student is examined by a committee consisting of the student's advisor and two other researchers who hold doctorates or equivalents. [COMMITTEE-SIZE:advisor + 2 researchers] [COMMITTEE-QUALIFICATION:doctorates or equivalents] The advisor should solicit the prospective committee members, not the student. [PROCESS:advisor solicits members] [RESTRICTION:student does not solicit] In cases where the student's research and departmental advisors are different, both must serve on the committee. [REQUIREMENT:both advisors if different]
+The student is examined by a committee consisting of the student's advisor and two other researchers who hold doctorates or equivalents. The advisor should solicit the prospective committee members, not the student. In cases where the student's research and departmental advisors are different, both must serve on the committee.
 [/RULE]
+[COMMITTEE-SIZE:advisor + 2 researchers]
+[COMMITTEE-QUALIFICATION:doctorates or equivalents]
+[PROCESS:advisor solicits members]
+[RESTRICTION:student does not solicit]
+[REQUIREMENT:both advisors if different]
+
 [RULE:PhD_SEAS:CANDIDACY-SCOPE-001]
-The committee, after consideration of the student's input, selects a syllabus of the 20-30 most significant documents that encompass the state of the art in the area. [SYLLABUS-SIZE:20-30 documents] [SYLLABUS-CONTENT:state of the art documents] [PROCESS:committee selects with student input] The student then studies this syllabus. [PROCESS:student studies syllabus]
+The committee, after consideration of the student's input, selects a syllabus of the 20-30 most significant documents that encompass the state of the art in the area. The student then studies this syllabus.
 [/RULE]
+[SYLLABUS-SIZE:20-30 documents]
+[SYLLABUS-CONTENT:state of the art documents]
+[PROCESS:committee selects with student input]
+[PROCESS:student studies syllabus]
 
 [RULE:PhD_SEAS:CANDIDACY-STRUCTURE-001]
-The oral exam begins with the student's 30 minute critical evaluation of the syllabus materials, and is followed by no more than 90 minutes of questioning by the committee on any subject matter related to their contents. [EXAM-STRUCTURE:30 min presentation + 90 min questioning] [DURATION:30 minutes student presentation] [DURATION:max 90 minutes committee questions] [CONTENT:critical evaluation of syllabus] The student is judged primarily on the oral evidence, but the content and style of the presentation can account for part of the decision. [JUDGING:primarily oral evidence] [JUDGING:presentation content and style also count]
+The oral exam begins with the student's 30 minute critical evaluation of the syllabus materials, and is followed by no more than 90 minutes of questioning by the committee on any subject matter related to their contents. The student is judged primarily on the oral evidence, but the content and style of the presentation can account for part of the decision.
 [/RULE]
+[EXAM-STRUCTURE:30 min presentation + 90 min questioning]
+[DURATION:30 minutes student presentation]
+[DURATION:max 90 minutes committee questions]
+[CONTENT:critical evaluation of syllabus]
+[JUDGING:primarily oral evidence]
+[JUDGING:presentation content and style also count]
 
 [RULE:PhD_SEAS:CANDIDACY-NOTIFICATION-001]
-The entire candidacy exam committee must be informed of the scheduling of the oral exam no later than two weeks (14 days) prior to the exam. [NOTIFICATION:committee informed 2 weeks before] [TIMING:14 days before exam] The PhD Program Administrator must be informed of the scheduling of the oral exam no later than two weeks (14 days) prior to the exam. [NOTIFICATION:PhD Program Administrator informed 2 weeks before] Emergency exceptions to either of these deadlines can be granted by the Director of Graduate Studies or the Department Chair on appeal by the advisor and agreement of the committee. [EXCEPTION:emergency exceptions by DGS or Chair] [REQUIREMENT:advisor appeal and committee agreement]
+The entire candidacy exam committee must be informed of the scheduling of the oral exam no later than two weeks (14 days) prior to the exam. The PhD Program Administrator must be informed of the scheduling of the oral exam no later than two weeks (14 days) prior to the exam. Emergency exceptions to either of these deadlines can be granted by the Director of Graduate Studies or the Department Chair on appeal by the advisor and agreement of the committee.
 [/RULE]
+[NOTIFICATION:committee informed 2 weeks before]
+[TIMING:14 days before exam]
+[NOTIFICATION:PhD Program Administrator informed 2 weeks before]
+[EXCEPTION:emergency exceptions by DGS or Chair]
+[REQUIREMENT:advisor appeal and committee agreement]
 
 [RULE:PhD_SEAS:CANDIDACY-TIMING-001]
-The student must pass the candidacy exam no later than the end of his/her sixth semester. [DEADLINE:end of sixth semester] [TIMING:no later than semester 6] It is not necessary to complete the breadth requirement before attempting the candidacy exam. [NOTE:breadth requirement not prerequisite]
+The student must pass the candidacy exam no later than the end of his/her sixth semester. It is not necessary to complete the breadth requirement before attempting the candidacy exam.
 [/RULE]
+[DEADLINE:end of sixth semester]
+[TIMING:no later than semester 6]
+[NOTE:breadth requirement not prerequisite]
 
 [RULE:PhD_SEAS:CANDIDACY-PROGRESS-001]
-Passing or failing is determined by consensus of the committee, who then sign the candidacy exam form. [DECISION:committee consensus] [PROCESS:committee signs form] Failure to pass the candidacy exam by the end of the sixth semester is deemed unsatisfactory progress: the PhD or DES student is normally placed on probation and can be immediately dismissed from the program. [CONSEQUENCE:failure = unsatisfactory progress] [CONSEQUENCE:probation] [CONSEQUENCE:possible dismissal] However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty. [EXCEPTION:one semester grace with advisor appeal] [APPROVAL:full faculty] The exam normally cannot be taken more than twice. [LIMITATION:max 2 attempts normally] However, on appeal of the student's advisor, an additional attempt can be permitted by the full faculty. [EXCEPTION:additional attempt with advisor appeal and faculty approval]
+Passing or failing is determined by consensus of the committee, who then sign the candidacy exam form. Failure to pass the candidacy exam by the end of the sixth semester is deemed unsatisfactory progress: the PhD or DES student is normally placed on probation and can be immediately dismissed from the program. However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty. The exam normally cannot be taken more than twice. However, on appeal of the student's advisor, an additional attempt can be permitted by the full faculty.
 [/RULE]
+[DECISION:committee consensus]
+[PROCESS:committee signs form]
+[CONSEQUENCE:failure = unsatisfactory progress]
+[CONSEQUENCE:probation]
+[CONSEQUENCE:possible dismissal]
+[EXCEPTION:one semester grace with advisor appeal]
+[APPROVAL:full faculty]
+[LIMITATION:max 2 attempts normally]
+[EXCEPTION:additional attempt with advisor appeal and faculty approval]
 
 [RULE:PhD_SEAS:CANDIDACY-REG-001]
 Doctoral students are required to register at least two weeks in advance for their Candidacy Exam using the department's Doctoral Program Milestones Registration Form. Schedule two hours. Contact the PhD Program Administrator with any questions about the registration form.
@@ -334,38 +603,89 @@ Doctoral students are required to register at least two weeks in advance for the
 THESIS PROPOSAL
 
 [RULE:PhD_SEAS:PROPOSAL-SUMMARY-001]
-In the thesis proposal, the student lays out his or her intended course of research for the dissertation. [PURPOSE:lay out research plan] If the student passes the written and oral components of the proposal, the thesis proposal committee signs a form to recommend that the candidate proceed. [COMPONENTS:written + oral] [PROCESS:committee signs form to recommend proceeding] The proposal should be completed by the end of the eighth semester. [TIMING:by end of eighth semester] The university's permitted composition of the dissertation prospectus committee and other requirements for the proposal are specified here. Additional department-specific requirements are here. [SEE-ALSO:GSAS:PROSPECTUS-001]
+In the thesis proposal, the student lays out his or her intended course of research for the dissertation. If the student passes the written and oral components of the proposal, the thesis proposal committee signs a form to recommend that the candidate proceed. The proposal should be completed by the end of the eighth semester. The university's permitted composition of the dissertation prospectus committee and other requirements for the proposal are specified here. Additional department-specific requirements are here.
 [/RULE]
+[PURPOSE:lay out research plan]
+[COMPONENTS:written + oral]
+[PROCESS:committee signs form to recommend proceeding]
+[TIMING:by end of eighth semester]
+[SEE-ALSO:GSAS:PROSPECTUS-001]
 
 [RULE:PhD_SEAS:PROPOSAL-PURPOSE-001]
-In the thesis proposal, the PhD or DES student lays out an intended course of research for the dissertation. [PURPOSE:lay out intended research] By accepting the thesis proposal, the student's dissertation proposal committee agrees that the proposal is practicable and acceptable, that its plan and prospectus are satisfactory, and that the candidate is competent in the knowledge and techniques required, and formally recommends that the candidate proceed according to the prospectus and under the supervision of the dissertation committee. [COMMITTEE-AGREEMENT:proposal is practicable and acceptable] [COMMITTEE-AGREEMENT:plan and prospectus satisfactory] [COMMITTEE-AGREEMENT:candidate competent in knowledge and techniques] [OUTCOME:formal recommendation to proceed] It is part of the training of the student's research apprenticeship that the form of this proposal must be as concise as those proposals required by major funding agencies. [REQUIREMENT:concise format like funding proposals] [RATIONALE:research apprenticeship training]
+In the thesis proposal, the PhD or DES student lays out an intended course of research for the dissertation. By accepting the thesis proposal, the student's dissertation proposal committee agrees that the proposal is practicable and acceptable, that its plan and prospectus are satisfactory, and that the candidate is competent in the knowledge and techniques required, and formally recommends that the candidate proceed according to the prospectus and under the supervision of the dissertation committee. It is part of the training of the student's research apprenticeship that the form of this proposal must be as concise as those proposals required by major funding agencies.
 [/RULE]
 [APPLIES_TO:PhD and DES students]
+[PURPOSE:lay out intended research]
+[COMMITTEE-AGREEMENT:proposal is practicable and acceptable]
+[COMMITTEE-AGREEMENT:plan and prospectus satisfactory]
+[COMMITTEE-AGREEMENT:candidate competent in knowledge and techniques]
+[OUTCOME:formal recommendation to proceed]
+[REQUIREMENT:concise format like funding proposals]
+[RATIONALE:research apprenticeship training]
 
 [RULE:PhD_SEAS:PROPOSAL-COMMITTEE-001]
-The student proposes to a committee consisting of the student's advisor and two other researchers who meet the requirements for dissertation committee membership. [COMMITTEE-SIZE:advisor + 2 researchers] [REQUIREMENT:must meet dissertation committee membership requirements] The advisor should solicit the prospective committee members, not the student. [PROCESS:advisor solicits members] [RESTRICTION:student does not solicit] In cases where the research and departmental advisors are different, both must serve on the committee. [REQUIREMENT:both advisors if different] (PhD dissertation committee membership requirements are here. DES dissertation committee membership requirements may be different, contact the PhD Program Administrator.) [NOTE:different requirements for PhD vs DES]
+The student proposes to a committee consisting of the student's advisor and two other researchers who meet the requirements for dissertation committee membership. The advisor should solicit the prospective committee members, not the student. In cases where the research and departmental advisors are different, both must serve on the committee. (PhD dissertation committee membership requirements are here. DES dissertation committee membership requirements may be different, contact the PhD Program Administrator.)
 [/RULE]
+[COMMITTEE-SIZE:advisor + 2 researchers]
+[REQUIREMENT:must meet dissertation committee membership requirements]
+[PROCESS:advisor solicits members]
+[RESTRICTION:student does not solicit]
+[REQUIREMENT:both advisors if different]
+[NOTE:different requirements for PhD vs DES]
+
 [RULE:PhD_SEAS:PROPOSAL-DOCUMENT-001]
-The student prepares a proposal document that consists of a core, plus any optional appendices. [DOCUMENT-STRUCTURE:core + optional appendices] The core is limited to 30 pages (e.g., 12 point font, single spacing, 1 inch margins all around), and should contain sections describing 1- the problem and its background, 2- the innovative claims of the proposed work and its relation to existing work, 3- a description of at least one initial result that is mature enough to be able to be written up for submission to a conference, and 4- a plan for completion of the research. [PAGE-LIMIT:30 pages maximum for core] [FORMAT:12 point font, single spacing, 1 inch margins] [REQUIRED-SECTIONS:1-problem/background, 2-innovative claims/relation to existing work, 3-initial result ready for conference, 4-completion plan] The committee commits to read and respond to the core, but reserves the right to refuse a document whose core exceeds the page limit. [COMMITMENT:committee reads core] [RESTRICTION:may refuse if exceeds page limit] The student cannot assume that the committee will read or respond to any additional appendices. [NOTE:appendices not guaranteed to be read]
+The student prepares a proposal document that consists of a core, plus any optional appendices. The core is limited to 30 pages (e.g., 12 point font, single spacing, 1 inch margins all around), and should contain sections describing 1- the problem and its background, 2- the innovative claims of the proposed work and its relation to existing work, 3- a description of at least one initial result that is mature enough to be able to be written up for submission to a conference, and 4- a plan for completion of the research. The committee commits to read and respond to the core, but reserves the right to refuse a document whose core exceeds the page limit. The student cannot assume that the committee will read or respond to any additional appendices.
 [/RULE]
+[DOCUMENT-STRUCTURE:core + optional appendices]
+[PAGE-LIMIT:30 pages maximum for core]
+[FORMAT:12 point font, single spacing, 1 inch margins]
+[REQUIRED-SECTIONS:1-problem/background, 2-innovative claims/relation to existing work, 3-initial result ready for conference, 4-completion plan]
+[COMMITMENT:committee reads core]
+[RESTRICTION:may refuse if exceeds page limit]
+[NOTE:appendices not guaranteed to be read]
 
 [RULE:PhD_SEAS:PROPOSAL-DISSEMINATION-001]
-The complete doctoral thesis proposal document must be disseminated to the entire dissertation committee no later than two weeks (14 days) prior to the proposal presentation. [TIMING:disseminate 2 weeks before presentation] [RECIPIENT:entire dissertation committee] The PhD Program Administrator must be informed of the scheduling of the proposal presentation no later than two weeks (14 days) prior to the presentation using the department's Doctoral Program Milestones Registration Form. [NOTIFICATION:PhD Program Administrator 2 weeks before] [PROCESS:use Doctoral Program Milestones Registration Form] Emergency exceptions to either of these deadlines can be granted by the Director of Graduate Studies or the Department Chair on appeal by the advisor and agreement of the committee. [EXCEPTION:emergency exceptions by DGS or Chair] [REQUIREMENT:advisor appeal and committee agreement]
-A latex thesis proposal template is available here. [RESOURCE:latex template available]
+The complete doctoral thesis proposal document must be disseminated to the entire dissertation committee no later than two weeks (14 days) prior to the proposal presentation. The PhD Program Administrator must be informed of the scheduling of the proposal presentation no later than two weeks (14 days) prior to the presentation using the department's Doctoral Program Milestones Registration Form. Emergency exceptions to either of these deadlines can be granted by the Director of Graduate Studies or the Department Chair on appeal by the advisor and agreement of the committee.
+A latex thesis proposal template is available here.
 [/RULE]
+[TIMING:disseminate 2 weeks before presentation]
+[RECIPIENT:entire dissertation committee]
+[NOTIFICATION:PhD Program Administrator 2 weeks before]
+[PROCESS:use Doctoral Program Milestones Registration Form]
+[EXCEPTION:emergency exceptions by DGS or Chair]
+[REQUIREMENT:advisor appeal and committee agreement]
+[RESOURCE:latex template available]
 
 [RULE:PhD_SEAS:PROPOSAL-PRESENTATION-001]
-The student presents the proposal in a prepared talk of 45 minutes to the committee, and responds to any questions and feedback by the committee. [PRESENTATION:45 minutes] [PROCESS:student presents then answers questions] The student then leaves the room during the committee's deliberations. [PROCESS:student leaves during deliberations]
+The student presents the proposal in a prepared talk of 45 minutes to the committee, and responds to any questions and feedback by the committee. The student then leaves the room during the committee's deliberations.
 [/RULE]
+[PRESENTATION:45 minutes]
+[PROCESS:student presents then answers questions]
+[PROCESS:student leaves during deliberations]
 
 [RULE:PhD_SEAS:PROPOSAL-TIMING-001]
-The student's advisor, upon approval of the full faculty, establishes the target semester by which the thesis proposal must be successfully completed. [AUTHORITY:advisor establishes target with faculty approval] The target semester must be no later than the eighth semester, and the student must be informed of the target semester no later than the sixth semester. [DEADLINE:target no later than semester 8] [NOTIFICATION:student informed by semester 6]
-The candidacy exam must be successfully completed before the proposal can be attempted. [PREREQUISITE:candidacy exam must be completed first] The proposal must be completed prior to submitting the application for defense. [SEQUENCE:proposal before defense application] [Instituted by full faculty vote September 16, 2015.] [POLICY-DATE:instituted 09/16/2015]
+The student's advisor, upon approval of the full faculty, establishes the target semester by which the thesis proposal must be successfully completed. The target semester must be no later than the eighth semester, and the student must be informed of the target semester no later than the sixth semester.
+The candidacy exam must be successfully completed before the proposal can be attempted. The proposal must be completed prior to submitting the application for defense. [Instituted by full faculty vote September 16, 2015.]
 [/RULE]
+[AUTHORITY:advisor establishes target with faculty approval]
+[DEADLINE:target no later than semester 8]
+[NOTIFICATION:student informed by semester 6]
+[PREREQUISITE:candidacy exam must be completed first]
+[SEQUENCE:proposal before defense application]
+[POLICY-DATE:instituted 09/16/2015]
 
 [RULE:PhD_SEAS:PROPOSAL-PROGRESS-001]
-Passing or failing is determined by consensus of the committee, who then sign the dissertation proposal form (sent to advisors by the PhD Program Administrator). [DECISION:committee consensus] [PROCESS:committee signs form] [PROCESS:form sent by PhD Program Administrator] Failure to pass the thesis proposal by the end of the target semester or the eighth semester, whichever comes first, is deemed unsatisfactory progress: the PhD or DES student is normally placed on probation and can be immediately dismissed from the program. [CONSEQUENCE:failure = unsatisfactory progress] [CONSEQUENCE:probation] [CONSEQUENCE:possible dismissal] [DEADLINE:target semester OR semester 8, whichever comes first] However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty. [EXCEPTION:one semester grace with advisor appeal] [APPROVAL:full faculty]
+Passing or failing is determined by consensus of the committee, who then sign the dissertation proposal form (sent to advisors by the PhD Program Administrator). Failure to pass the thesis proposal by the end of the target semester or the eighth semester, whichever comes first, is deemed unsatisfactory progress: the PhD or DES student is normally placed on probation and can be immediately dismissed from the program. However, on appeal of the student's advisor, one semester's grace can be granted by the full faculty.
 [/RULE]
+[DECISION:committee consensus]
+[PROCESS:committee signs form]
+[PROCESS:form sent by PhD Program Administrator]
+[CONSEQUENCE:failure = unsatisfactory progress]
+[CONSEQUENCE:probation]
+[CONSEQUENCE:possible dismissal]
+[DEADLINE:target semester OR semester 8, whichever comes first]
+[EXCEPTION:one semester grace with advisor appeal]
+[APPROVAL:full faculty]
 
 [RULE:PhD_SEAS:PROPOSAL-REG-001]
 Doctoral students are required to register at least two weeks in advance for their Thesis Proposal using the department's Doctoral Program Milestones Registration Form. Schedule two hours. Contact the PhD Program Administrator with any questions about the registration form.
@@ -399,40 +719,101 @@ OTHER REQUIREMENTS:
 TEACHING
 
 [RULE:PhD_SEAS:TEACHING-SUMMARY-001]
-All doctoral students are required to fulfill two "teaching units", ideally approximately the total workload of half-time for one semester, but the actual workload may vary widely. [REQUIREMENT:2 teaching units] [WORKLOAD:ideally half-time for one semester] [NOTE:actual workload may vary] Both teaching units must be for courses approved by the department's Academic Committee as Computer Science courses, where the Computer Science department is responsible for staffing (assigning Instruction Assistants), and occur during a regular academic semester while the student is enrolled in the doctoral program. [REQUIREMENT:Academic Committee approved CS courses] [REQUIREMENT:CS department responsible for staffing] [TIMING:regular academic semester] [REQUIREMENT:while enrolled in doctoral program] Most students complete their teaching units during their second or third year, but there are no timing restrictions on which semesters students can do their teaching units. [TYPICAL:year 2 or 3] [NOTE:no timing restrictions] When students complete their teaching units is determined by their advisor. [AUTHORITY:advisor determines timing] More detailed information is here.
+All doctoral students are required to fulfill two "teaching units", ideally approximately the total workload of half-time for one semester, but the actual workload may vary widely. Both teaching units must be for courses approved by the department's Academic Committee as Computer Science courses, where the Computer Science department is responsible for staffing (assigning Instruction Assistants), and occur during a regular academic semester while the student is enrolled in the doctoral program. Most students complete their teaching units during their second or third year, but there are no timing restrictions on which semesters students can do their teaching units. When students complete their teaching units is determined by their advisor. More detailed information is here.
 [/RULE]
+[REQUIREMENT:2 teaching units]
+[WORKLOAD:ideally half-time for one semester]
+[NOTE:actual workload may vary]
+[REQUIREMENT:Academic Committee approved CS courses]
+[REQUIREMENT:CS department responsible for staffing]
+[TIMING:regular academic semester]
+[REQUIREMENT:while enrolled in doctoral program]
+[TYPICAL:year 2 or 3]
+[NOTE:no timing restrictions]
+[AUTHORITY:advisor determines timing]
 
 [RULE:PhD_SEAS:TEACHING-APPLICABILITY-001]
-The teaching requirement does not apply to grandfathered CVN-DES students. [EXCEPTION:grandfathered CVN-DES exempt] Unless otherwise stated, all doctoral program requirements apply equally to PhD, MS/PhD and other DES students. [APPLIES_TO:PhD, MS/PhD, DES (except grandfathered CVN-DES)]
+The teaching requirement does not apply to grandfathered CVN-DES students. Unless otherwise stated, all doctoral program requirements apply equally to PhD, MS/PhD and other DES students.
 [/RULE]
+[EXCEPTION:grandfathered CVN-DES exempt]
+[APPLIES_TO:PhD, MS/PhD, DES (except grandfathered CVN-DES)]
 
 [RULE:PhD_SEAS:TEACHING-RATIONALE-001]
-Success as a Computer Scientist depends not only on the ability to generate and explore new ideas but also on the ability to communicate those ideas effectively. [RATIONALE:develop communication skills] For this reason, all students are required to develop and exercise presentation and teaching skills as part of their education. [PURPOSE:develop presentation and teaching skills] Special arrangements may be made for students funded through fellowships within the constraints of their program. [FLEXIBILITY:special arrangements for fellowship students] [CONDITION:within fellowship program constraints] However, the teaching requirement is indeed a requirement, never waived, regardless of funding source, including self-supported or employer-supported students. [MANDATE:never waived] [APPLIES_TO:all funding sources] [APPLIES_TO:self-supported students] [APPLIES_TO:employer-supported students]
+Success as a Computer Scientist depends not only on the ability to generate and explore new ideas but also on the ability to communicate those ideas effectively. For this reason, all students are required to develop and exercise presentation and teaching skills as part of their education. Special arrangements may be made for students funded through fellowships within the constraints of their program. However, the teaching requirement is indeed a requirement, never waived, regardless of funding source, including self-supported or employer-supported students.
 [/RULE]
+[RATIONALE:develop communication skills]
+[PURPOSE:develop presentation and teaching skills]
+[FLEXIBILITY:special arrangements for fellowship students]
+[CONDITION:within fellowship program constraints]
+[MANDATE:never waived]
+[APPLIES_TO:all funding sources]
+[APPLIES_TO:self-supported students]
+[APPLIES_TO:employer-supported students]
 
 [RULE:PhD_SEAS:TEACHING-UNITS-REQ-001]
-Students are required to complete two (2) teaching units in regular on-campus academic-year courses while formally enrolled in the doctoral program. [REQUIREMENT:2 teaching units] [REQUIREMENT:on-campus courses] [REQUIREMENT:academic-year courses] [REQUIREMENT:while enrolled] Teaching or TAing at an unaffiliated institution or unaffiliated Columbia department does not qualify towards satisfying the teaching requirement. [RESTRICTION:must be affiliated institution] [RESTRICTION:must be Columbia department] Paid (compensated) teaching or TAing does not count towards the teaching requirement. [RESTRICTION:paid teaching/TAing doesn't count]
+Students are required to complete two (2) teaching units in regular on-campus academic-year courses while formally enrolled in the doctoral program. Teaching or TAing at an unaffiliated institution or unaffiliated Columbia department does not qualify towards satisfying the teaching requirement. Paid (compensated) teaching or TAing does not count towards the teaching requirement.
 [/RULE]
+[REQUIREMENT:2 teaching units]
+[REQUIREMENT:on-campus courses]
+[REQUIREMENT:academic-year courses]
+[REQUIREMENT:while enrolled]
+[RESTRICTION:must be affiliated institution]
+[RESTRICTION:must be Columbia department]
+[RESTRICTION:paid teaching/TAing doesn't count]
 
 [RULE:PhD_SEAS:TEACHING-UNITS-OPTIONS-001]
 There are several options for accumulating teaching units:
-Serving as a teaching assistant. TAs for a given course offering may be granted 1/2, 1 or 2 teaching units depending on course enrollment, workload, and other factors determined by the IA Chair. [OPTION:TA position] [UNITS:1/2, 1, or 2 units] [DETERMINATION:IA Chair decides based on enrollment/workload]
-Serving as the instructor for a 1-point or 1.5-point course, which counts as one (1) teaching unit. [OPTION:instructor for 1-1.5 point course] [UNITS:1 teaching unit]
-Serving as the instructor for a 3-point or 4-point course, which counts as two (2) teaching units. [OPTION:instructor for 3-4 point course] [UNITS:2 teaching units]
-Serving as a teaching assistant is the default. [DEFAULT:TA position] All instructor assignments must be approved by the Academic Committee Chair. [APPROVAL:Academic Committee Chair for instructor assignments] [AUTHORITY:Academic Committee Chair]
+Serving as a teaching assistant. TAs for a given course offering may be granted 1/2, 1 or 2 teaching units depending on course enrollment, workload, and other factors determined by the IA Chair.
+Serving as the instructor for a 1-point or 1.5-point course, which counts as one (1) teaching unit.
+Serving as the instructor for a 3-point or 4-point course, which counts as two (2) teaching units.
+Serving as a teaching assistant is the default. All instructor assignments must be approved by the Academic Committee Chair.
 [/RULE]
+[OPTION:TA position]
+[UNITS:1/2, 1, or 2 units]
+[DETERMINATION:IA Chair decides based on enrollment/workload]
+[OPTION:instructor for 1-1.5 point course]
+[UNITS:1 teaching unit]
+[OPTION:instructor for 3-4 point course]
+[UNITS:2 teaching units]
+[DEFAULT:TA position]
+[APPROVAL:Academic Committee Chair for instructor assignments]
+[AUTHORITY:Academic Committee Chair]
 
 [RULE:PhD_SEAS:TEACHING-FUNDING-001]
-MS/PhD and PhD students (not DES students) may be funded for one semester by the department, either the last semester in which they complete the final unit(s) of the teaching requirement or during a later semester, even though the student may not be teaching or TAing during that later semester. [FUNDING:one semester departmental funding] [APPLIES_TO:MS/PhD and PhD only] [EXCLUSION:not DES students] [TIMING:last semester completing requirement OR later semester] [NOTE:may not be teaching/TAing during funded semester] The timing of the departmental funding is determined by the advisor and cannot be requested by the student. [AUTHORITY:advisor determines timing] [RESTRICTION:student cannot request] Both teaching units must be completed in courses offered by the department, where the department is responsible for hiring instruction assistants, to qualify for this funding. [REQUIREMENT:both units in dept courses to qualify] [REQUIREMENT:dept responsible for hiring IAs] This departmental funding is offered instead of GRA or fellowship funding, not in addition. [NOTE:replaces GRA/fellowship funding] [RESTRICTION:not in addition to other funding] The stipend, tuition and fees are identical to GRAs [COMPENSATION:same as GRA stipend/tuition/fees]
+MS/PhD and PhD students (not DES students) may be funded for one semester by the department, either the last semester in which they complete the final unit(s) of the teaching requirement or during a later semester, even though the student may not be teaching or TAing during that later semester. The timing of the departmental funding is determined by the advisor and cannot be requested by the student. Both teaching units must be completed in courses offered by the department, where the department is responsible for hiring instruction assistants, to qualify for this funding. This departmental funding is offered instead of GRA or fellowship funding, not in addition. The stipend, tuition and fees are identical to GRAs
 [/RULE]
+[FUNDING:one semester departmental funding]
+[APPLIES_TO:MS/PhD and PhD only]
+[EXCLUSION:not DES students]
+[TIMING:last semester completing requirement OR later semester]
+[NOTE:may not be teaching/TAing during funded semester]
+[AUTHORITY:advisor determines timing]
+[RESTRICTION:student cannot request]
+[REQUIREMENT:both units in dept courses to qualify]
+[REQUIREMENT:dept responsible for hiring IAs]
+[NOTE:replaces GRA/fellowship funding]
+[RESTRICTION:not in addition to other funding]
+[COMPENSATION:same as GRA stipend/tuition/fees]
 
 [RULE:PhD_SEAS:TEACHING-ADDITIONAL-001]
-After completing the mandatory teaching requirement, students making satisfactory progress, and with advisor approval, may apply for paid (compensated) instructor or instruction assistant (IA) positions when available. [ELIGIBILITY:after completing requirement] [REQUIREMENT:satisfactory progress] [REQUIREMENT:advisor approval] [TYPE:paid positions] [AVAILABILITY:when available] All instructor assignments must be approved by the Academic Committee Chair. [APPROVAL:Academic Committee Chair for instructor] IA assignments are made by the IA Chair. [AUTHORITY:IA Chair makes IA assignments]
+After completing the mandatory teaching requirement, students making satisfactory progress, and with advisor approval, may apply for paid (compensated) instructor or instruction assistant (IA) positions when available. All instructor assignments must be approved by the Academic Committee Chair. IA assignments are made by the IA Chair.
 [/RULE]
+[ELIGIBILITY:after completing requirement]
+[REQUIREMENT:satisfactory progress]
+[REQUIREMENT:advisor approval]
+[TYPE:paid positions]
+[AVAILABILITY:when available]
+[APPROVAL:Academic Committee Chair for instructor]
+[AUTHORITY:IA Chair makes IA assignments]
 
 [RULE:PhD_SEAS:TEACHING-SUMMER-001]
-In addition to and independent of the teaching requirement, students may voluntarily elect to serve as instructors or TAs for summer courses offered by the department. [OPTION:voluntary summer teaching/TAing] [NOTE:independent of teaching requirement] [TIMING:summer courses] The courses offered and payscale vary from year to year. [NOTE:variable courses and payscale] Note that summer teaching or TAing does not count towards satisfying the teaching requirement. [RESTRICTION:doesn't count toward teaching requirement]
+In addition to and independent of the teaching requirement, students may voluntarily elect to serve as instructors or TAs for summer courses offered by the department. The courses offered and payscale vary from year to year. Note that summer teaching or TAing does not count towards satisfying the teaching requirement.
 [/RULE]
+[OPTION:voluntary summer teaching/TAing]
+[NOTE:independent of teaching requirement]
+[TIMING:summer courses]
+[NOTE:variable courses and payscale]
+[RESTRICTION:doesn't count toward teaching requirement]
 
 COMMUNITY SERVICE
 

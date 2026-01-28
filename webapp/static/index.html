@@ -19,6 +19,7 @@
             background: linear-gradient(90deg, #6ba5eb 0%, #1a3a7f 100%);
             min-height: 100vh;
             padding: 20px;
+            zoom: 0.9;
         }
 
         .container {
@@ -1153,7 +1154,8 @@
 
         function extractCitationIds(text) {
             // Extract citations like "[1] RULE-ID" or "Citations: [1] RULE-ID, [2] RULE-ID"
-            const citationPattern = /\[(\d+)\]\s+([A-Z_]+:[A-Z_\-\d]+)/g;
+            // Support mixed-case prefixes like PhD_SEAS, GSAS, ISSO
+            const citationPattern = /\[(\d+)\]\s+([A-Za-z_]+:[A-Z_\-\d]+)/g;
             const citations = new Map(); // Map to avoid duplicates
             
             let match;
